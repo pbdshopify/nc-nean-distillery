@@ -1,0 +1,28 @@
+{% comment %}
+
+  This snippet renders a list sub pages and search functionality.
+  It is used in page.organic-single-malt.liquid.
+
+{% endcomment %}
+
+<div class="grid--full index-featured-text batch-search-container">
+  {% comment %} {% render 'searchform' %}
+  {% section 'main-search' %}
+  {% section 'predictive-search' %} {% endcomment %}
+  <div class="batch-search">
+    <select class="btn batch-nav" onchange="location = this.value;">
+      {% assign subpages = page.metafields.custom.sub_pages.value %}
+      {% assign subpageText = page.metafields.custom.subpage_text.value %}
+      <option value="">{{ subpageText }}</option>
+      {%- for subpage in subpages -%}
+      <option value="{{ subpage.url }}">{{ subpage.title }}</option>
+      {%- endfor -%}  
+    </select>
+    <script type="text/javascript">
+      $(".batch-na").change(function() {
+        window.location.href = $(".batch-na").value;
+        window.location = $(".batch-na").val;
+      });
+    </script>
+  </div>
+</div>

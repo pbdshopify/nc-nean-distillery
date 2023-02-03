@@ -1,0 +1,72 @@
+<li {% if link.links != blank %}aria-haspopup="true"{% endif %} class="{% if link.links != blank %}has-dropdown{% endif %}">
+  <a href="{{ link.url }}" {% if topLevel == true %}data-navigation-top-level{% endif %}>
+    {{ link.title }}
+  </a>
+
+  {% if link.links != blank %}
+    <button type="button" class="icon-container">
+      <svg class="icon"><use xlink:href="#icon-dropdown"></use></svg>
+      <svg class="icon-active"><use xlink:href="#icon-dropdown-active"></use></svg>
+    </button>
+
+    {% assign count = 0 %}
+    {% assign topLevel = false %}
+
+    {% assign catalogDropdown = false %}
+
+    {% if section.settings.catalog_dropdowns and link.links != blank and topLevel == false %}
+      {% for link in link.links %}
+        {% if link.type == "collection_link" or link.type == "collections_link" %}
+          {% assign catalogDropdown = true %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    <div class="dropdown {% if catalogDropdown %}catalog-menu{% endif %}">
+      <ul>
+        {% for link in link.links %}
+          {% assign dropdown = link.links | default: false %}
+
+          <li class="animation-sequence-{{ count }}" data-index="{{ forloop.index0 }}">
+            <a href="{{ link.url }}">
+              {{ link.title }}
+            </a>
+
+            {% if dropdown %}
+              <ul class="dropdown-third-level">
+                {% for link in link.links %}
+                  <li>
+                    <a href="{{ link.url }}">
+                      {{ link.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+
+          {% assign count = count | plus: 1 %}
+        {% endfor %}
+      </ul>
+
+      {% if catalogDropdown %}
+        <div class="catalog-menu-image-container">
+          {% if section.settings.catalog_menu_image != blank %}
+            <img src="{{ section.settings.catalog_menu_image | img_url: '400x', scale: 2 }}" class="catalog-menu-default-image" />
+          {% endif %}
+
+          {% for link in link.links %}
+            {% if link.type == "collection_link" %}
+              {% assign collection = link.object %}
+              {% assign image = collection.image | default: collection.products.first.featured_media %}
+
+              {% if image != blank %}
+                <img src="{{ image | img_url: '400x', scale: 2 }}" class="catalog-menu-collection-image" data-index="{{ forloop.index0 }}" />
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+</li>

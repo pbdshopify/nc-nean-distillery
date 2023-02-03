@@ -1,0 +1,11 @@
+{% assign product_media_box_ratio_max = 0 %}
+
+{% for media in product.media %}
+  {% assign media_box_ratio = media.preview_image.height | append: ".0" | times: 1 | divided_by: media.preview_image.width | times: 100 %}
+
+  {% if media_box_ratio > product_media_box_ratio_max %}
+    {% assign product_media_box_ratio_max = media_box_ratio %}
+  {% endif %}
+{% endfor %}
+
+{% assign product_media_box_ratio_max = product_media_box_ratio_max | append: "%" %}

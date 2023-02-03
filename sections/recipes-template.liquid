@@ -1,0 +1,175 @@
+<!-- /templates/article.liquid -->
+{% comment %}
+
+  Comments will not appear right after they are submitted, either to be checked for spam
+  or to await moderation. When a comment is submitted, the browser is redirected to a page
+  that includes the new comment id in its URL.
+    Example: http://shopname.myshopify.com/blogs/news/2022072-my-post?comment=3721372
+
+  More information:
+    - http://docs.shopify.com/themes/liquid-variables/comment
+
+{% endcomment %}
+
+{% assign number_of_comments = article.comments_count %}
+
+{% comment %}
+  If a comment was just submitted and it has no blank fields, we have an extra comment to count.
+{% endcomment %}
+{% if comment and comment.created_at %}
+  {% assign number_of_comments = article.comments_count | plus: 1 %}
+{% endif %}
+
+<div class="container-fluid">
+  <div class="row cocktail-recipes">
+    <div class="col-12 col-md-6 cocktail-recipes--copy">
+      <article class="text-max-width article" itemscope itemtype="http://schema.org/Article">
+        <div class="rte article--inner" itemprop="articleBody">
+          <h1> {{ article.title }}</h1>
+          {{ article.content }}
+          {% comment %}       
+            <ul class="inline-list">
+              {% include 'article-tags' %}
+            </ul>
+
+            {% if blog.next_article or blog.previous_article %}
+              <hr class="hr--center hr--default-bottom">
+              <p class="clearfix">
+                {% if blog.previous_article %}
+                  <span class="left">
+                    {{ 'blogs.article.older_post' | t | link_to: blog.previous_article }}
+                  </span>
+                {% endif %}
+                {% if blog.next_article %}
+                  <span class="right">
+                    {{ 'blogs.article.newer_post' | t | link_to: blog.next_article }}
+                  </span>
+                {% endif %}
+              </p>
+            {% endif %} 
+          {% endcomment %}
+        </div>
+      </article>
+    </div>
+     {% if article.image %}
+    {% assign image = article.image %}
+    
+   {% include "filter-rias-img-url" input: image %}
+    {% assign image_url = output %}
+      <div class="col-12 col-md-6 cocktail-recipes--image">
+            <div class="image-placeholder-cover box-ratio article-feature-image" style="padding-bottom: {{ media_box_ratio }};">
+      <img
+        data-src="{{ image_url }}"
+        data-ratio="{{ image.aspect_ratio }}"
+        data-sizes="auto"
+        alt="{{ image.alt | escape }}"
+        data-parent-fit="cover"
+        class="lazyload lazyload-fade"> 
+
+ <noscript>
+        <img src="{{ image | img_url: '1200x' }}" alt="{{ image.alt | escape }}">
+      </noscript>     
+    </div>
+      </div>
+     {% endif %}
+  </div>
+</div> 
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 cocktail-recipes--recommendations">
+          <h3>Other Recipes you might like</h3>
+        </div>
+      </div>
+      <div class="row custom-cocktails recommendations" >
+                  {% comment %} <article class="col col-md-3 js-filterable index-grid-item has-hover" data-grid-item="" data-cocktail="{%- if article.tags.size > 0 -%}{%- for tag in article.tags -%}{{ tag | handle }}{%- endfor -%}{%- endif -%}"> 
+              <div class="index-grid-item-content">
+                <div class="image-wrapper">
+                  {%- if article.image -%}
+                    <img alt="" src="{{ article.image | img_url: 'master' }}" class="image-cover lazyload-fade lazyautosizes lazyloaded" data-srcset="{{ article.image | img_url: 'master' }}" srcset="{{ article.image | img_url: 'master' }}" data-parent-fit="cover" data-ratio="1.4996825396825397" data-sizes="auto" /><noscript class="image-cover"><img src="//cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_800x.jpg?v=1587992342"></noscript>
+                  {%- else -%}
+                    <img alt="NC'NEAN SPRITZ" class="image-cover lazyload-fade lazyautosizes lazyloaded" data-parent-fit="cover" data-ratio="1.4996825396825397" data-sizes="auto" data-srcset="//cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_270x180.jpg?v=1587992342 180w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_540x360.jpg?v=1587992342 360w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_810x540.jpg?v=1587992342 540w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1080x720.jpg?v=1587992342 720w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1350x900.jpg?v=1587992342 900w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1620x1080.jpg?v=1587992342 1080w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1944x1296.jpg?v=1587992342 1296w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2268x1512.jpg?v=1587992342 1512w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2591x1728.jpg?v=1587992342 1728w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2915x1944.jpg?v=1587992342 1944w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3239x2160.jpg?v=1587992342 2160w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3563x2376.jpg?v=1587992342 2376w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3887x2592.jpg?v=1587992342 2592w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_4211x2808.jpg?v=1587992342 2808w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_4535x3024.jpg?v=1587992342 3024w" sizes="402px" srcset="//cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_270x180.jpg?v=1587992342 180w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_540x360.jpg?v=1587992342 360w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_810x540.jpg?v=1587992342 540w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1080x720.jpg?v=1587992342 720w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1350x900.jpg?v=1587992342 900w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1620x1080.jpg?v=1587992342 1080w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1944x1296.jpg?v=1587992342 1296w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2268x1512.jpg?v=1587992342 1512w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2591x1728.jpg?v=1587992342 1728w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2915x1944.jpg?v=1587992342 1944w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3239x2160.jpg?v=1587992342 2160w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3563x2376.jpg?v=1587992342 2376w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3887x2592.jpg?v=1587992342 2592w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_4211x2808.jpg?v=1587992342 2808w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_4535x3024.jpg?v=1587992342 3024w"> <noscript class="image-cover"><img src="//cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_800x.jpg?v=1587992342"></noscript>
+                  {%- endif -%}
+                </div><span class="index-grid-item-overlay" data-hover-opacity="0.35" data-opacity="0.2" style="background-color: #000000; opacity: 0.2;"></span>
+                <figcaption class="bottom left animation-sequence-0 can-animate">
+                  <h1 style="color: #ffffff"><span>{{ article.title }}</span></h1>
+                  <div class="index-grid-item-text" style="color: #ffffff">
+                    <div>
+                      <p>{%- if article.tags.size > 0 -%}{%- for tag in article.tags -%}{{ tag }}{%- endfor -%}{%- endif -%}</p>
+                    </div>
+                  </div>
+                </figcaption><a class="index-grid-item-link-overlay" href="{{ article.url }}"></a>
+              </div>
+            </article> {% endcomment %}
+        {% assign blogarticletitle = article.handle %}
+        {% for article in blog.articles limit: 5 %}  
+          {% if article.handle == blogarticletitle %}
+          {% else %}
+            <div class="col-12 col-sm-6 col-lg-3 rep has-hover js-filterable " data-grid-item="" data-cocktail="{%- if article.tags.size > 0 -%}{%- for tag in article.tags -%}{{ tag | handle }}{%- endfor -%}{%- endif -%}">
+              <div class="index-grid-item-content">
+                <div class="image-wrapper">
+                  {%- if article.image -%}
+                    <img alt="" src="{{ article.image | img_url: 'master' }}" class="image-cover lazyload-fade lazyautosizes lazyloaded" data-srcset="{{ article.image | img_url: 'master' }}" srcset="{{ article.image | img_url: 'master' }}" data-parent-fit="cover" data-ratio="1.4996825396825397" data-sizes="auto" /><noscript class="image-cover"><img src="//cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_800x.jpg?v=1587992342"></noscript>
+                  {%- else -%}
+                    <img alt="NC'NEAN SPRITZ" class="image-cover lazyload-fade lazyautosizes lazyloaded" data-parent-fit="cover" data-ratio="1.4996825396825397" data-sizes="auto" data-srcset="//cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_270x180.jpg?v=1587992342 180w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_540x360.jpg?v=1587992342 360w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_810x540.jpg?v=1587992342 540w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1080x720.jpg?v=1587992342 720w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1350x900.jpg?v=1587992342 900w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1620x1080.jpg?v=1587992342 1080w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1944x1296.jpg?v=1587992342 1296w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2268x1512.jpg?v=1587992342 1512w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2591x1728.jpg?v=1587992342 1728w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2915x1944.jpg?v=1587992342 1944w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3239x2160.jpg?v=1587992342 2160w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3563x2376.jpg?v=1587992342 2376w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3887x2592.jpg?v=1587992342 2592w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_4211x2808.jpg?v=1587992342 2808w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_4535x3024.jpg?v=1587992342 3024w" sizes="402px" srcset="//cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_270x180.jpg?v=1587992342 180w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_540x360.jpg?v=1587992342 360w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_810x540.jpg?v=1587992342 540w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1080x720.jpg?v=1587992342 720w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1350x900.jpg?v=1587992342 900w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1620x1080.jpg?v=1587992342 1080w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1944x1296.jpg?v=1587992342 1296w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2268x1512.jpg?v=1587992342 1512w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2591x1728.jpg?v=1587992342 1728w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2915x1944.jpg?v=1587992342 1944w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3239x2160.jpg?v=1587992342 2160w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3563x2376.jpg?v=1587992342 2376w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3887x2592.jpg?v=1587992342 2592w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_4211x2808.jpg?v=1587992342 2808w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_4535x3024.jpg?v=1587992342 3024w"> <noscript class="image-cover"><img src="//cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_800x.jpg?v=1587992342"></noscript>
+                  {%- endif -%}
+                </div><span class="index-grid-item-overlay" data-hover-opacity="0.35" data-opacity="0.2" style="background-color: #000000; opacity: 0.2;"></span>
+                <figcaption class="bottom left animation-sequence-0 can-animate">
+                  <h5 style="color: #ffffff"><span>{{ article.title }}</span></h5>
+                  <div class="index-grid-item-text" style="color: #ffffff">
+                    <div>
+                    <p>{% if article.excerpt.size > 0 %}
+                        <p>{{ article.excerpt }}</p>
+                      {%- endif -%}    
+                    </p>
+                      {% comment %} <p>{%- if article.tags.size > 0 -%}{%- for tag in article.tags -%}{{ tag }}{%- endfor -%}{%- endif -%}</p> {% endcomment %}
+                    </div>
+                  </div>
+                </figcaption><a class="index-grid-item-link-overlay" href="{{ article.url }}"></a>
+              </div>
+            </div>
+
+          {% endif %}  
+        {% endfor %}
+      </div>
+      <div class="row">
+        <div class="col-12">
+          {% if paginate.pages > 1 %}
+            <hr>
+            <div class="pagination">
+              {{ paginate | default_pagination | replace: '&laquo; Previous', '&larr;' | replace: 'Next &raquo;', '&rarr;' }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+
+
+{% schema %}
+  {
+    "name": "Recipe Template",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Disqus"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_disqus_comments",
+        "default": false,
+        "label": "Enable"
+      },
+      {
+        "type": "paragraph",
+        "content": "Use Disqus for blog comments instead of Shopify's built-in comments."
+      },
+      {
+        "type": "text",
+        "id": "disqus_shortname",
+        "label": "Disqus shortname",
+        "info": "[Learn more](https://help.disqus.com/installation/whats-a-shortname)"
+      }
+    ]
+  }
+{% endschema %}

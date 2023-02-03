@@ -1,0 +1,69 @@
+<!-- /templates/page.liquid -->
+<div class="parallax-container js-transparent-header-fadein js-after-primary-carousel">
+    {% comment %} {% render 'batch-breadcrumbs' %}   {% endcomment %}
+    <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
+      <a href="/" title="Home">Home</a>
+      <span aria-hidden="true">›</span>
+      <a href="/pages/organic-single-malt-scotch" title="Organic Single Malt Scotch">Organic Single Malt Scotch</a>
+      <span aria-hidden="true">›</span>
+      <span>{{ page.title }}</span>
+    </nav>
+    <div class="batch-information--wrapper">
+    
+      <div class="batch-information--item image" style="background-image:url('{{ page.metafields.custom.batch_image | img_url: 'master' }}');background-position:center;">
+      </div>
+      <div class="batch-information--item">
+
+        <div class="content">
+          
+          <h1 class="batch-information--title">{{ page.title }}</h1>
+          {% comment %} <span class="batch-information--subtitle"><strong>{{ page.metafields.custom.batch_number.value }}</strong></span> {% endcomment %}
+          <div class="batch-information--maininfo">
+            {{ page.content }}
+          {% if section.settings.batch-tastingnotes != blank %}
+            <h3>Tasting notes</h3>
+            <div>{{ section.settings.batch-tastingnotes }}</div>
+            <br/>
+          {% endif %}  
+          {% if section.settings.batch-techdetailes != blank %}  
+            <h3>Technical Details</h3>
+            <div>{{ section.settings.batch-techdetailes }}</div>
+            <br/>
+          {% endif %}  
+          {% if section.settings.batch-serve != blank %}  
+            <h3>Suggested Serve</h3>
+            <div>{{ section.settings.batch-serve }}</div>
+          {% endif %}  
+          </div>
+          
+        </div>
+
+        <div class="batch-information--add-info">
+          <ul>
+            <li>{{ page.metafields.custom.batch_abv.value }} ABV</li>
+            <li>{{ page.metafields.custom.total_batch_bottles.value }} BOTTLES</li>
+            <li>{{ page.metafields.custom.batch_alcohol_volume.value }} Vol</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="batch-information--footer">
+      <div class="batch-information--credits">
+      <ul class="icons">
+        {% assign icons = page.metafields.custom.batch_accreditations.value %}
+        {% if icons %}
+          {% for icon in icons %}
+            <li class="icon"><img src="{{ icon | image_url }}"></li>
+          {% endfor %}
+        {% endif %}
+      </ul>
+      </div>
+      <div class="batch-information--caskmix">
+      {% assign caskmixtitle = page.metafields.custom.batch_cask_mix_title.value %}
+        <h3>{% if caskmixtitle != blank %} {{ caskmixtitle }} {% else %}Cask Mix{% endif %}</h3>
+        <img src="{{ page.metafields.custom.batch_cask_mix | img_url: 'master' }}" alt="cask mix" />
+      </div>
+    </div>
+</div>

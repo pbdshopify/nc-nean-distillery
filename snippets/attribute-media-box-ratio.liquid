@@ -1,0 +1,5 @@
+{% if media %}
+  {% assign media_box_ratio = media.preview_image.height | append: ".0" | times: 1 | divided_by: media.preview_image.width | times: 100 | append: "%" %}
+{% else %}
+  {% assign media_box_ratio = "100%" %}
+{% endif %}

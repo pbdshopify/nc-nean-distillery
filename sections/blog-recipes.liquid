@@ -1,0 +1,121 @@
+<!-- /templates/blog.liquid -->
+{% paginate blog.articles by 46 %}
+{% comment %}
+  This template is also used for listing out articles of a specific tag.
+  You can change layouts or styles by checking if current_tags is true.
+{% endcomment %}
+<div class="custom-cocktail-filter-wrapper">
+  <h1 class="custom-page-title">{{ blog.title }}</h1>
+  <ul class="custom-cocktail-filter filter-button-group">
+    <li class="active"><button class="js-filter" data-filter="*">All</button></li>
+    <li><button class="js-filter" data-filter=".whisky">Whisky</button></li>
+    <li><button class="js-filter" data-filter=".aged-botanical-spirit">Aged Botanical Spirit</button></li>
+    <li><button class="js-filter" data-filter=".botanical-spirit">Botanical Spirit</button></li>
+    <li><button class="js-filter" data-filter=".summer">Summer</button></li>
+    <li><button class="js-filter" data-filter=".winter">Winter</button></li>
+    {% comment %} 
+      {% for article in blog.articles %}
+          {%- if article.tags.size > 0 -%}
+              {%- for tag in article.tags -%}
+                <li>
+                    <a class="js-filter" data-cocktail="{{ tag | handle }}">{{ tag }}</a>
+                </li>
+            {%- endfor -%}
+          {%- endif -%}
+      {% endfor %} 
+    {% endcomment %}
+  <ul>
+</div>
+
+<div class="parallax-container js-transparent-header-fadein js-after-primary-carousel">
+	<div class="shopify-section" id="shopify-section-cocktail-grid-2">
+    <div class="container-fluid">
+      <div class="row custom-cocktails custom-cocktailz d-md-flex justify-content-start" >
+        {% for article in blog.articles %}
+          <!--index-grid-item-->
+          <article class="rep col-12 col-sm-6 col-lg-3 js-filterable has-hover element-item  {%- if article.tags.size > 0 -%} {%- for tag in article.tags -%}{% unless forloop.first %} {% endunless %} {{ tag | handle }}{% unless forloop.last %} {% endunless %} {%- endfor -%} {%- endif -%}" data-grid-item="" data-cocktail="{%- if article.tags.size > 0 -%}{%- for tag in article.tags -%}{{ tag | handle }}{% unless forloop.last %} {% endunless %} {%- endfor -%}{%- endif -%}">
+            <div class="index-grid-item-content">
+              <div class="image-wrapper">
+                {%- if article.image -%}
+                  <img alt="" src="{{ article.image | img_url: 'master' }}" class="image-cover lazyload-fade lazyautosizes lazyloaded" data-srcset="{{ article.image | img_url: 'master' }}" srcset="{{ article.image | img_url: 'master' }}" data-parent-fit="cover" data-ratio="1.4996825396825397" data-sizes="auto" /><noscript class="image-cover"><img src="//cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_800x.jpg?v=1587992342"></noscript>
+                {%- else -%}
+                  <img alt="NC'NEAN SPRITZ" class="image-cover lazyload-fade lazyautosizes lazyloaded" data-parent-fit="cover" data-ratio="1.4996825396825397" data-sizes="auto" data-srcset="//cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_270x180.jpg?v=1587992342 180w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_540x360.jpg?v=1587992342 360w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_810x540.jpg?v=1587992342 540w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1080x720.jpg?v=1587992342 720w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1350x900.jpg?v=1587992342 900w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1620x1080.jpg?v=1587992342 1080w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1944x1296.jpg?v=1587992342 1296w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2268x1512.jpg?v=1587992342 1512w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2591x1728.jpg?v=1587992342 1728w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2915x1944.jpg?v=1587992342 1944w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3239x2160.jpg?v=1587992342 2160w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3563x2376.jpg?v=1587992342 2376w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3887x2592.jpg?v=1587992342 2592w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_4211x2808.jpg?v=1587992342 2808w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_4535x3024.jpg?v=1587992342 3024w" sizes="402px" srcset="//cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_270x180.jpg?v=1587992342 180w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_540x360.jpg?v=1587992342 360w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_810x540.jpg?v=1587992342 540w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1080x720.jpg?v=1587992342 720w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1350x900.jpg?v=1587992342 900w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1620x1080.jpg?v=1587992342 1080w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_1944x1296.jpg?v=1587992342 1296w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2268x1512.jpg?v=1587992342 1512w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2591x1728.jpg?v=1587992342 1728w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_2915x1944.jpg?v=1587992342 1944w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3239x2160.jpg?v=1587992342 2160w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3563x2376.jpg?v=1587992342 2376w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_3887x2592.jpg?v=1587992342 2592w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_4211x2808.jpg?v=1587992342 2808w, //cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_4535x3024.jpg?v=1587992342 3024w"> <noscript class="image-cover"><img src="//cdn.shopify.com/s/files/1/0268/4089/1435/files/Ncnean_spritz_800x.jpg?v=1587992342"></noscript>
+                {%- endif -%}
+              </div>
+              <span class="index-grid-item-overlay" data-hover-opacity="0.35" data-opacity="0" style="background-color: #000000; opacity: 0.2;"></span>
+              <figcaption class="bottom left animation-sequence-0 can-animate">
+                <h1 style="color: #ffffff"><span>{{ article.title }}</span></h1>
+                <div class="index-grid-item-text" style="color: #ffffff">
+                  <div>
+                    
+                      {% if article.excerpt.size > 0 %}
+                        <p>{{ article.excerpt }}</p>
+                      {%- endif -%}    
+                    
+                    {% comment %} {%- if article.tags.size > 0 -%}<p>{%- for tag in article.tags -%}{{ tag }}{% unless forloop.last %}, {% endunless %} {%- endfor -%}</p>{%- endif -%}      {% endcomment %}
+                  </div>
+                </div>
+              </figcaption><a class="index-grid-item-link-overlay" href="{{ article.url }}"></a>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+      <div class="row">
+        <div class="col-12">
+          {% if paginate.pages > 1 %}
+            <hr>
+            <div class="pagination">
+              {{ paginate | default_pagination | replace: '&laquo; Previous', '&larr;' | replace: 'Next &raquo;', '&rarr;' }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+	</div>
+</div>
+
+{% endpaginate %}
+
+
+{% schema %}
+  {
+    "name": "Recipes",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_blog_author",
+        "default": false,
+        "label": "Show author"
+      }
+    ]
+  }
+{% endschema %}
+
+    
+<style>
+  
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+h4 {
+  font-size: 0.9;
+}
+
+h5 {
+  font-size: 0.8em;
+}
+
+h6 {
+  font-size: 0.7em;
+}
+  
+</style>

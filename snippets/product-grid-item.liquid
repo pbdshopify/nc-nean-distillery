@@ -1,0 +1,137 @@
+
+{% comment %}
+
+  This snippet is used to showcase each product during the loop,
+  'for product in collection.products' in collection.liquid.
+
+  A liquid variable (grid_item_width) is set just before the this
+  snippet is included to change the size of the container.
+  Once the variable is set on a page, all future instances of this
+  snippet will use that width. Overwrite the variable to adjust this.
+
+  Example
+    - assign grid_item_width = 'large--one-quarter medium--one-half'
+
+{% endcomment %}
+
+{% comment %}
+  Set the default grid_item_width if no variable is set
+{% endcomment %}
+{% unless grid_item_width %}
+  {% assign grid_item_width = 'large--one-third medium--one-third' %}
+{% endunless %}
+
+{% comment %}
+  Check if the product is on sale and set a variable to be used below.
+{% endcomment %}
+{% assign on_sale = false %}
+
+{% if product.compare_at_price > product.price %}
+  {% unless hide_on_sale_badge %}
+    {% assign on_sale = true %}
+  {% endunless %}
+{% endif %}
+
+{% comment %}
+  Check if the product is sold out and set a variable to be used below.
+{% endcomment %}
+{% assign sold_out = true %}
+
+{% if product.available %}
+  {% assign sold_out = false %}
+{% endif %}
+
+{% unless hover_class %}
+  {% assign hover_class = 'product_image focus_image' %}
+{% endunless %}
+
+{% unless fit_image_class %}
+  {% assign fit_image_class = 'grid__image' %}
+{% endunless %}
+
+{% assign variant_image = product.media[1] | default: false %}
+
+{% assign media = product.featured_media %}
+{% include "attribute-media-box-ratio" %}
+
+<div class="grid__item {{ fit_image_class }} {{ hover_class }} {{ grid_item_width }} {{ product_class }} animation-sequence-{{ forloop.index0 }}">
+  <a href="{{ product.url | within: collection }}" class="block" tabindex='0'>
+
+    {% if on_sale %}
+      <div class="sale-badge">{{ 'products.product.on_sale' | t }}</div>
+    {% endif %}
+
+    <div class="box-ratio image-crossfade" style="padding-bottom: {{ media_box_ratio }};">
+      {% if product.media.size == 0 %}
+        <img src="//cdn.shopify.com/s/images/themes/product-1.png">
+      {% endif %}
+
+      {% if variant_image %}
+        {% include "filter-rias-img-url" input: variant_image %}
+        {% assign image_url = output %}
+
+        <span>
+          <img
+            data-src="{{ image_url }}"
+            data-sizes="auto"
+            alt="{{ product.media[1].alt | escape }}"
+            class="lazyload lazyload-fade">
+        </span>
+      {% endif %}
+
+      {% if product.featured_media %}
+        {% include "filter-rias-img-url" input: product.featured_media %}
+        {% assign image_url = output %}
+
+        <span>
+          <img
+            data-src="{{ image_url }}"
+            data-sizes="auto"
+            alt="{{ product.featured_media.alt | escape }}"
+            class="lazyload lazyload-fade">
+        </span>
+
+        <noscript>
+          <img src="{{ product.featured_media | img_url: '800x' }}" alt="{{ product.featured_media.alt }}" />
+        </noscript>
+      {% endif %}
+    </div>
+
+    <span class="product_image_caption">
+      <h6>{{ product.title }}</h6>
+
+      {% capture price %}
+        <span class="money">
+          {% if settings.currency_format == "money_format" %}
+            {{ product.price | money }}
+          {% else %}
+            {{ product.price | money_with_currency }}
+          {% endif %}
+        </span>
+      {% endcapture %}
+
+      {% if sold_out %}
+        <strong>
+          {{ 'products.product.sold_out' | t }}
+        </strong>
+      {% else %}
+        {% if on_sale and product.price_varies %}
+          {{ 'products.product.on_sale_from_html' | t: price: price }}
+        {% elsif product.price_varies %}
+          {{ 'products.general.from_text_html' | t: price: price }}
+        {% else %}
+          {{ price }}
+        {% endif %}
+      {% endif %}
+
+      {% if on_sale %}
+        <s><span class="price money">{{ product.compare_at_price | money }}</span></s>
+      {% endif %}
+
+      <!-- tiny little stars //-->
+      <span class="hide-caption">
+        <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+      </span>
+    </span>
+  </a>
+</div>

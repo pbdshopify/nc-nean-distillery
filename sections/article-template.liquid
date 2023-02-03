@@ -1,0 +1,170 @@
+<!-- /templates/article.liquid -->
+{% comment %}
+
+  Comments will not appear right after they are submitted, either to be checked for spam
+  or to await moderation. When a comment is submitted, the browser is redirected to a page
+  that includes the new comment id in its URL.
+    Example: http://shopname.myshopify.com/blogs/news/2022072-my-post?comment=3721372
+
+  More information:
+    - http://docs.shopify.com/themes/liquid-variables/comment
+
+{% endcomment %}
+
+{% assign number_of_comments = article.comments_count %}
+
+{% comment %}
+  If a comment was just submitted and it has no blank fields, we have an extra comment to count.
+{% endcomment %}
+{% if comment and comment.created_at %}
+  {% assign number_of_comments = article.comments_count | plus: 1 %}
+{% endif %}
+
+ {% if article.image %}
+    {% assign image = article.image %}
+    
+
+    {% include "filter-rias-img-url" input: image %}
+    {% assign image_url = output %}
+
+    <div class="image-placeholder-cover box-ratio article-feature-image" style="padding-bottom: {{ media_box_ratio }};">
+      <img
+        data-src="{{ image_url }}"
+        data-ratio="{{ image.aspect_ratio }}"
+        data-sizes="auto"
+        alt="{{ image.alt | escape }}"
+        data-parent-fit="cover"
+        class="lazyload lazyload-fade">
+
+      <noscript>
+        <img src="{{ image | img_url: '1200x' }}" alt="{{ image.alt | escape }}">
+      </noscript>
+    </div>
+  {% endif %}
+
+
+<div class="grid--full">
+  <div class="grid__item large--two-thirds push--large--one-sixth">
+        <div class="text-center content-wrapper--horizontal section-header">
+              <div class="display-table-cell">
+
+        <h1>
+          {{ article.title }}
+        </h1>
+
+        {% capture author %}
+          <strong>{{ article.author }}</strong>
+        {% endcapture %}
+
+        {% capture date %}
+          <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">
+            {{ article.published_at | date: format: 'month_day_year' }}
+          </time>
+        {% endcapture %}
+
+        <p class="p">
+          {{ "blogs.article.author_on_date_html" | t: author: author, date: date }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+ {% unless article.image %}
+    <hr  class="text-max-width hr--center">
+  {% endunless %}
+   
+  <article class="text-max-width" itemscope itemtype="http://schema.org/Article">
+    <div class="rte" itemprop="articleBody">
+      {{ article.content }}
+    </div>
+
+    {% comment %}
+      Show off meta information like comments and tags.
+    {% endcomment %}
+    <ul class="inline-list">
+      {% include 'article-tags' %}
+    </ul>
+
+    {% comment %}
+      Create links to the next and previous articles, if available.
+    {% endcomment %}
+    {% if blog.next_article or blog.previous_article %}
+      <hr class="hr--center hr--default-bottom">
+      <p class="clearfix">
+        {% if blog.previous_article %}
+          <span class="left">
+            {{ 'blogs.article.older_post' | t | link_to: blog.previous_article }}
+          </span>
+        {% endif %}
+        {% if blog.next_article %}
+          <span class="right">
+            {{ 'blogs.article.newer_post' | t | link_to: blog.next_article }}
+          </span>
+        {% endif %}
+      </p>
+    {% endif %}
+
+    {% if section.settings.enable_disqus_comments %}
+      {% include "article-comments-disqus" %}
+    {% else %}
+      {% include "article-comments" %}
+    {% endif %}
+  </article>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Article",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Disqus"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_disqus_comments",
+        "default": false,
+        "label": "Enable"
+      },
+      {
+        "type": "paragraph",
+        "content": "Use Disqus for blog comments instead of Shopify's built-in comments."
+      },
+      {
+        "type": "text",
+        "id": "disqus_shortname",
+        "label": "Disqus shortname",
+        "info": "[Learn more](https://help.disqus.com/installation/whats-a-shortname)"
+      }
+    ]
+  }
+{% endschema %}
+
+<style>
+  
+h1 {
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+h4 {
+  font-size: 0.9;
+}
+
+h5 {
+  font-size: 0.8em;
+}
+
+h6 {
+  font-size: 0.7em;
+}
+  
+</style>

@@ -1,0 +1,152 @@
+<div class="batch-information--wrapper">
+ {% assign batchimage = section.settings.batch-image %}
+  <div class="batch-information--item image" style="background-image:url('{{ batchimage | img_url: 'x895' }}');background-position:center;">
+  </div>
+  <div class="batch-information--item">
+
+    <div class="content">
+      {% if section.settings.heading != blank %}
+        <h5 class="batch-information--title">{{ section.settings.heading | escape }}</h5>
+      {% endif %}
+      {% if section.settings.subheading != blank %}
+        <span class="batch-information--subtitle"><strong>{{ section.settings.subheading | escape }}</strong></span>
+      {% endif %}
+      <div class="batch-information--maininfo">
+      {% if section.settings.batch-tastingnotes != blank %}
+        <h3>Tasting notes</h3>
+        <div>{{ section.settings.batch-tastingnotes }}</div>
+        <br/>
+      {% endif %}  
+      {% if section.settings.batch-techdetailes != blank %}  
+        <h3>Technical Details</h3>
+        <div>{{ section.settings.batch-techdetailes }}</div>
+        <br/>
+      {% endif %}  
+      {% if section.settings.batch-serve != blank %}  
+        <h3>Suggested Serve</h3>
+        <div>{{ section.settings.batch-serve }}</div>
+      {% endif %}  
+      </div>
+      
+    </div>
+
+    <div class="batch-information--add-info">
+      <ul>
+        <li>{{ section.settings.batch_abv | escape }} ABV</li>
+        <li>{{ section.settings.batch_bottles| escape }} Bottles</li>
+        <li>{{ section.settings.batch_volume | escape }} Vol</li>
+      </ul>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="batch-information--footer">
+  <div class="batch-information--credits">
+  <ul class="icons">
+  {% for block in section.blocks %}
+    {% assign icon = block.settings.accreditation-icon %}
+    {% assign icontitle = block.settings.accreditation-title %}
+    <li class="icon"><img src="{{ icon | img_url: 'master' }}" alt="{{ icontitle }}" /></li>
+  {% endfor %}  
+  </ul>
+  </div>
+  <div class="batch-information--caskmix">
+    <p>Cask Mix</p>
+    {% assign caskmix = section.settings.batch-cask-mix %}
+    <img src="{{ caskmix | img_url: 'x500' }}" alt="cask mix" />
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Batch Information",
+    "class": "batch-information",
+    "max_blocks": 7,
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "batch-image",
+        "label": "Batch main Image"
+      },
+      {
+        "id": "heading",
+        "type": "text",
+        "label": "Heading"
+      },
+      {
+        "id": "subheading",
+        "type": "text",
+        "label": "Subheading"
+      },
+      {
+        "type": "richtext",
+        "id": "batch-tastingnotes",
+        "label": "Tasting Notes"
+      }, 
+      {
+        "type": "richtext",
+        "id": "batch-techdetailes",
+        "label": "Technical Details"
+      }, 
+      {
+        "type": "richtext",
+        "id": "batch-serve",
+        "label": "Suggested Serve"
+      },                 
+      {
+        "id": "batch_abv",
+        "type": "text",
+        "label": "Batch ABV"
+      },
+      {
+        "id": "batch_bottles",
+        "type": "text",
+        "label": "Batch number of bottles"
+      },
+      {
+        "id": "batch_volume",
+        "type": "text",
+        "label": "Batch alcohol volume"
+      },
+      {
+        "type": "image_picker",
+        "id": "batch-cask-mix",
+        "label": "Batch cask mix"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "accreditation",
+        "name": "accreditation",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "accreditation-icon",
+            "label": "Icon"
+          },
+          {
+            "type": "text",
+            "id": "accreditation-title",
+            "label": "Accreditation Title",
+            "default": "accreditation"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Batch Information",
+        "category": "Text",
+        "blocks": [
+          {
+            "type": "accreditation",
+            "settings": {
+              "accreditation-title": "Accreditation Title"
+            }
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,379 @@
+{% if section.settings.collectionlist_title != blank %}
+  <h1 class="featured-title">
+    {{ section.settings.collectionlist_title }}
+  </h1>
+{% endif %}
+
+<div class="index-grid image-gutters--{{ settings.image_gutter }}">
+  {% assign count = section.settings.homepage_collection_block_perrow | times: 1 %}
+
+  {% case count %}
+    {% when 1 %}
+      {% assign columnWidth = "large--one-whole medium-down--one-whole" %}
+    {% when 2 %}
+      {% assign columnWidth = "large--one-half medium--one-half small--one-whole" %}
+    {% else %}
+      {% assign columnWidth = "large--one-third medium--one-third small--one-whole" %}
+  {% endcase %}
+
+  {% capture openRow %}
+    <div class="index-grid-row">
+    <div class="index-grid-column {{ columnWidth }}">
+  {% endcapture %}
+
+  {% capture open %}
+    <div class="index-grid-column {{ columnWidth }}">
+  {% endcapture %}
+
+  {% capture closeRow %}
+    </div>
+    </div>
+  {% endcapture %}
+
+  {% capture close %}
+    </div>
+  {% endcapture %}
+
+  <div class="index-grid-items count-{{ count }}">
+    {% for block in section.blocks %}
+  {% assign last_block = false %}
+      {% if forloop.last %}
+       {% assign last_block = true %}
+      {% endif %}
+
+    {% case count %}
+        {% when 1 %}
+          {% cycle openRow %}
+        {% when 2 %}
+          {% cycle openRow, open %}
+        {% when 3 %}
+          {% cycle openRow, open, open %}
+      {% endcase %}
+
+
+      {% assign collection = false %}
+      {% assign image = false %}
+      {% assign url = false %}
+
+      {% if block.settings.collection != blank %}
+        {% assign collection = collections[block.settings.collection] %}
+        {% assign image = collection.image | default: collection.products.first.featured_media %}
+
+        {% include "filter-rias-img-url-with-height" input: image %}
+        {% assign image_url = output %}
+
+        {% assign url = collection.url %}
+      {% endif %}
+
+
+      {% assign hasHeading = false %}
+
+      {% if collection.title != blank %}
+        {% assign hasHeading = true %}
+      {% endif %}
+
+
+      {% assign hasSubheading = false %}
+
+      {% if block.settings.subheading != blank %}
+        {% assign hasSubheading = true %}
+      {% endif %}
+
+
+      {% assign isDefault = true %}
+
+      {% if collection %}
+        {% assign isDefault = false %}
+      {% endif %}
+
+
+      {% assign isTranslucent = false %}
+
+      {% if block.settings.overlayOpacity != 0 and block.settings.overlayOpacity != 1 %}
+        {% assign isTranslucent = true %}
+      {% endif %}
+
+
+      {% assign hover = false %}
+
+      {% if url and image and isTranslucent %}
+        {% assign hover = true %}
+      {% endif %}
+
+      <article class="index-grid-item landscape small--one-whole {% unless image %}no-image{% endunless %} {% if hover %}has-hover{% endif %}" {% if image %}data-grid-item{% endif %} {{ block.shopify_attributes }}>
+        <figure class="image-wrapper">
+          {% if image %}
+            <img
+              data-src="{{ image_url }}"
+              data-ratio="{{ image.aspect_ratio }}"
+              data-parent-fit="cover"
+              data-sizes="auto"
+              class="image-cover lazyload lazyload-fade"
+              alt="{{ block.settings.heading | escape }}">
+
+            <noscript>
+              <img src="{{ image | img_url: '800x' }}" alt="{{ image.title }}" class="image-cover" />
+            </noscript>
+          {% elsif isDefault %}
+            {% capture index %}{% cycle '1', '2', '3', '4' %}{% endcapture %}
+            {{ 'collection-' | append: index | placeholder_svg_tag }}
+          {% endif %}
+        </figure>
+
+        {% if block.settings.overlayOpacity != "0" %}
+          <span class="index-grid-item-overlay"
+                style="
+                  background-color: {{ block.settings.overlayColor }};
+                  opacity: {{ block.settings.overlayOpacity }};"
+                data-opacity="{{ block.settings.overlayOpacity }}"
+                data-hover-opacity="{{ block.settings.overlayOpacity | plus: 0.15 }}">
+          </span>
+        {% endif %}
+
+        {% if collection %}
+          <figcaption class="{{ block.settings.textAlignment }} animation-sequence-{{ forloop.index0 }} {% if section.settings.enable_animation %}can-animate{% endif %}">
+            {% if hasHeading %}
+              <h3 style="color: {{ block.settings.textColor }}">{{ collection.title }}</h3>
+            {% endif %}
+            {% if hasSubheading %}
+              <div class="index-grid-item-text" style="color: {{ block.settings.textColor }}">
+                <div>{{ block.settings.subheading }}</div>
+              </div>
+            {% endif %}
+            {% assign buttonStyle = block.settings.buttonStyle %}
+            {% unless buttonStyle == "0" %}
+              <a class="btn {% if buttonStyle == '1' %}btn-normal{% else %}btn-alt{% endif %}" href="{{ url }}" style="color: {{ block.settings.textColor }}; border-color: {{ block.settings.textColor }}">{{ "home.collection_list.shop_the_collection" | t }}</a>
+            {% endunless %}
+          </figcaption>
+        {% endif %}
+
+        {% if url %}
+          <a class="index-grid-item-link-overlay" href="{{ url }}"></a>
+        {% endif %}
+      </article>
+      {% if last_block %}
+    {{ closeRow }}
+     {% else %}
+      {% case count %}
+        {% when 1 %}
+          {% cycle closeRow %}
+        {% when 2 %}
+          {% cycle close, closeRow %}
+        {% when 3 %}
+          {% cycle close, close, closeRow %}
+      {% endcase %}
+    {% endif %}
+    {% endfor %}
+
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Collection list",
+    "class": "featured-collections",
+    "max_blocks": 9,
+    "settings": [
+      {
+       "type": "text",
+       "id": "collectionlist_title",
+       "label": "Heading"
+      },
+      {
+        "type": "select",
+        "id": "homepage_collection_block_perrow",
+        "label": "Collections per row",
+        "default": "3",
+        "options": [
+          {
+            "value": "1",
+            "label": "One"
+          },
+          {
+            "value": "2",
+            "label": "Two"
+          },
+          {
+            "value": "3",
+            "label": "Three"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_animation",
+        "label": "Enable fade-in animation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "featured_collection",
+        "name": "Collection",
+        "settings": [
+          {
+            "label": "Collection",
+            "id": "collection",
+            "type": "collection"
+          },
+          {
+            "id": "overlayOpacity",
+            "type": "select",
+            "label": "Overlay opacity",
+            "default": "0.3",
+            "options": [
+              {
+                "value": "0",
+                "label": "No overlay"
+              },
+              {
+                "value": "0.1",
+                "label": "10%"
+              },
+              {
+                "value": "0.2",
+                "label": "20%"
+              },
+              {
+                "value": "0.3",
+                "label": "30%"
+              },
+              {
+                "value": "0.4",
+                "label": "40%"
+              },
+              {
+                "value": "0.5",
+                "label": "50%"
+              },
+              {
+                "value": "0.6",
+                "label": "60%"
+              },
+              {
+                "value": "0.7",
+                "label": "70%"
+              },
+              {
+                "value": "0.8",
+                "label": "80%"
+              },
+              {
+                "value": "0.9",
+                "label": "90%"
+              },
+              {
+                "value": "1",
+                "label": "100%"
+              }
+            ]
+          },
+          {
+            "type": "color",
+            "id": "overlayColor",
+            "label": "Overlay color",
+            "default": "#000000"
+          },
+          {
+            "type": "color",
+            "id": "textColor",
+            "label": "Text color",
+            "default": "#ffffff"
+          },
+          {
+            "type": "richtext",
+            "id": "subheading",
+            "label": "Subheading"
+          },
+          {
+            "id": "buttonStyle",
+            "type": "select",
+            "label": "Choose button style",
+            "default": "2",
+            "options": [
+              {
+                "value": "0",
+                "label": "No button"
+              },
+              {
+                "value": "1",
+                "label": "Standard button"
+              },
+              {
+                "value": "2",
+                "label": "Transparent button"
+              }
+            ]
+          },
+          {
+            "id": "textAlignment",
+            "type": "select",
+            "label": "Text alignment",
+            "default": "center",
+            "options": [
+              {
+                "value": "top left",
+                "label": "Top left"
+              },
+              {
+                "value": "top right",
+                "label": "Top right"
+              },
+              {
+                "value": "center left",
+                "label": "Center left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              },
+              {
+                "value": "center right",
+                "label": "Center right"
+              },
+              {
+                "value": "bottom left",
+                "label": "Bottom left"
+              },
+              {
+                "value": "bottom right",
+                "label": "Bottom right"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Collection list",
+        "category": "Collection",
+        "settings": {
+          "homepage_collection_block_perrow": "3"
+        },
+        "blocks": [
+          {
+            "type": "featured_collection",
+            "settings": {
+              "textAlignment": "center",
+              "buttonStyle": "2"
+            }
+          },
+          {
+            "type": "featured_collection",
+            "settings": {
+              "textAlignment": "center",
+              "buttonStyle": "2"
+            }
+          },
+          {
+            "type": "featured_collection",
+            "settings": {
+              "textAlignment": "center",
+              "buttonStyle": "2"
+            }
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,51 @@
+{% assign heading = section.settings.homepage_newsletter_title | default: false %}
+
+{% assign subheading = section.settings.homepage_newsletter_body | default: false %}
+
+<section class='newsletter-block inline-subscribe table'>
+  <div class='display-table-cell'>
+    <div class="cell-wrapper text-center">
+      {% if heading %}
+        <h1>{{ heading }}</h1>
+      {% endif %}
+
+      {% if subheading %}
+        <div>
+          {{ subheading }}
+        </div>
+      {% endif %}
+
+      {% include 'email-signup' %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Newsletter",
+    "class": "newsletter",
+    "settings": [
+      {
+        "type": "text",
+        "id": "homepage_newsletter_title",
+        "label": "Heading",
+        "placeholder": "Join our newsletter"
+      },
+      {
+        "type": "richtext",
+        "id": "homepage_newsletter_body",
+        "label": "Subheading"
+      },
+      {
+        "type": "paragraph",
+        "content": "Customers who subscribe will have their email address added to the \"accepts marketing\" [customer list](/admin/customers?query=&accepts_marketing=1)."
+      }
+    ],
+    "presets": [
+      {
+        "name": "Newsletter",
+        "category": "Promotional"
+      }
+    ]
+  }
+{% endschema %}

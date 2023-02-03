@@ -1,0 +1,174 @@
+<!doctype html>
+
+{% include 'theme-info' %}
+
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
+  {{ 'raf.js' | asset_url | script_tag }}
+  <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+
+  <!-- Basic page needs ================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  {% if settings.favicon_image != blank %}
+    <link rel="shortcut icon" href="{{ settings.favicon_image | img_url: '32x' }}" type="image/png" />
+  {% endif %}
+
+  <!-- Title and description ================================================== -->
+  <title>
+  {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+  </title>
+
+  {% if page_description %}
+  <meta name="description" content="{{ page_description | escape }}">
+  {% endif %}
+
+  <!-- Helpers ================================================== -->
+  {% include 'social-meta-tags' %}
+  <link rel="canonical" href="{{ canonical_url }}">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <meta name="theme-color" content="{{ settings.color_primary }}">
+
+  <!-- CSS PBD STYLES - MAY 2020 ================================================== -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+  <!-- CSS ================================================== -->
+  {{ 'slick.css' | asset_url | stylesheet_tag }}
+  {{ 'style.scss.css' | asset_url | stylesheet_tag }}
+  {{ '//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i' | stylesheet_tag }}
+  
+  <!-- CSS PBD STYLES - MAY 2020 ================================================== -->
+  {{ 'pbd-custom.scss.css' | asset_url | stylesheet_tag }}
+
+  <!-- Header hook for plugins ================================================== -->
+  {{ content_for_header }}
+  {% include 'tipo.booking.script' %}
+
+  {{ '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js' | script_tag }}
+  {{ '//www.youtube.com/iframe_api' | script_tag }}
+  {{ 'modernizr.min.js' | asset_url | script_tag }}
+
+  {% comment %} Component Scripts {% endcomment %}
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+
+
+
+  {{ 'libraries.min.js' | asset_url | script_tag }}
+
+
+  {% comment %}
+    If you store has customer accounts disabled, you can remove the following JS file
+  {% endcomment %}
+  {% if template contains 'customers' %}
+    {{ 'shopify_common.js' | shopify_asset_url | script_tag }}
+  {% endif %}
+
+  {{ "//cdn.shopify.com/shopifycloud/shopify-plyr/v1.0/shopify-plyr.css" | stylesheet_tag }}
+  
+  <meta name="google-site-verification" content="v3e1BO6HmuM2KBKVlc-ZT7BBZPBF8vRvzr1KZZKY_BU" /> 
+
+{{ 'ndnapps-contactform-styles.css' | asset_url | stylesheet_tag }}
+</head>
+
+{% comment %}
+  Add the page template as a class for easy page or template specific styling.
+{% endcomment %}
+<body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
+  {% include 'icons.svg' %}
+  <div class="fadeout-overlay"></div>
+  {% section 'header' %}
+  {% section 'popup' %}
+  
+  <div id="PageContainer" class="is-moved-by-drawer">
+    <main class="main-content {% if settings.enable_max_width_container %}max-width-container{% endif %}" role="main">
+      {{ content_for_layout }}
+    </main>
+
+    {% section 'footer' %}
+  </div>
+
+  {% include 'currencies' %}
+  {{ 'pbd-custom.js' | asset_url | script_tag }}
+  {{ 'option_selection.js' | shopify_asset_url | script_tag }}
+  {{ 'ira.js' | asset_url | script_tag }}
+
+  {% comment %}
+    PBD Custom js/Bootstrap/jQuery
+  {% endcomment %}
+  <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" crossorigin="anonymous"></script> 
+  {% comment %}
+    Template-specific js
+  {% endcomment %}
+
+  {% if resetPassword %}
+    <script>
+      $(function() {
+        ira.resetPasswordSuccess();
+      });
+    </script>
+  {% endif %}
+
+  {{ 'handlebars.min.js' | asset_url | script_tag }}
+  {% include 'ajax-cart-template' %}
+  {{ 'ajax-cart.js' | asset_url | script_tag }}
+
+  <script>
+    jQuery(function($) {
+      ajaxCart.init({
+        formContainerSelector: '#AddToCartForm',
+        cartContainer: '#CartContainer',
+        addToCartSelector: '#AddToCart',
+        cartCountSelector: '#CartCount',
+        cartCostSelector: '#CartCost',
+        moneyFormat: {{ shop.money_format | json }}
+      });
+    });
+
+    jQuery('body').on('ajaxCart.afterCartLoad', function(evt, cart) {
+      // Bind to 'ajaxCart.afterCartLoad' to run any javascript after the cart has loaded in the DOM
+      ira.CartDrawer.open();
+    });
+  </script>
+
+  <script>
+    window.lazySizesConfig = window.lazySizesConfig || {};
+
+    lazySizesConfig.expand = 1000;
+    lazySizesConfig.customMedia = {
+      '--small': '(max-width: 700px)',
+      '--medium': '(max-width: 840px)',
+      '--xlarge': '(max-width: 1000px)',
+      '--xxlarge': '(max-width: 1200px)'
+    };
+  </script>
+
+  {{ "//cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.1/plugins/rias/ls.rias.min.js" | script_tag }}
+  {{ "//cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.1/plugins/parent-fit/ls.parent-fit.min.js" | script_tag }}
+  {{ "//cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.1/plugins/bgset/ls.bgset.min.js" | script_tag }}
+  {{ "//cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.1/plugins/object-fit/ls.object-fit.min.js" | script_tag }}
+  {{ "//cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.1/lazysizes.min.js" | script_tag }}
+
+  <script>
+    lazySizes.init();
+  </script>
+
+{% include 'agechecker' %}
+  
+   <script>
+    jQuery('a[href^="http"]').not('a[href^="{{ shop.url }}"]').attr('target', '_blank');
+</script>
+     
+
+
+{{ 'ndnapps-contactform-script.js' | asset_url | script_tag }}
+</body>
+</html>
