@@ -2119,12 +2119,12 @@
           "1592237739361-0": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/B1_low-res.jpg",
-              "overlayOpacity": "0",
+              "image": "shopify:\/\/shop_images\/Whisky_and_Botanical_Spirit.jpg",
+              "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "WHISKY FOR YOUR VALENTINE?",
-              "subheading": "<p>A bottle of our single malt has a 71% lower carbon footprint than a bunch of red roses. And you can drink it too.<\/p>",
+              "heading": "BUY OUR SPIRITS",
+              "subheading": "<p>Organic, light and wild<\/p>",
               "link": "shopify:\/\/collections\/all-spirits",
               "linkText": "",
               "buttonStyle": "2",
@@ -3903,6 +3903,7 @@
       },
       "d327603b-f3a7-48e3-a6e8-951ddba60fe7": {
         "type": "homepage-banner-video",
+        "disabled": true,
         "settings": {
           "video_url": "https:\/\/www.dropbox.com\/s\/qdaajwmhhvoa4ul\/221123%20Website%20Banner.mp4?dl=0",
           "enable_animation": false,
@@ -3948,6 +3949,7 @@
       }
     },
     "content_for_index": [
+      "eed0827b-db9f-4f13-8542-b488fcb7e9e3",
       "d327603b-f3a7-48e3-a6e8-951ddba60fe7",
       "1592237739361",
       "1592237980075",
@@ -3957,8 +3959,7 @@
       "1592234630216",
       "1587736476426",
       "1589807917203",
-      "1600333982979",
-      "eed0827b-db9f-4f13-8542-b488fcb7e9e3"
+      "1600333982979"
     ]
   },
   "presets": {
