@@ -3917,6 +3917,45 @@
           "button_link": "shopify:\/\/collections\/all-spirits",
           "fallback_image": "shopify:\/\/shop_images\/Pattern_wolf_WEBSITE.jpg"
         }
+      },
+      "eed0827b-db9f-4f13-8542-b488fcb7e9e3": {
+        "type": "sustainability-slideshow",
+        "blocks": {
+          "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0": {
+            "type": "slide",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/B1_low-res.jpg",
+              "text_position": "align-center-bottom",
+              "heading_text": "WHISKY FOR YOUR VALENTINE?",
+              "page_text": "Yes, you heard us. A bottle of our single malt has a 71% lower carbon footprint than a bunch of red roses. And you can drink it too.",
+              "button_cta": "SHOP NOW FOR VALENTINE'S",
+              "button_link": "shopify:\/\/collections\/all-spirits"
+            }
+          },
+          "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-1": {
+            "type": "slide",
+            "settings": {
+              "text_position": "align-center-bottom",
+              "heading_text": "Welcome to your new store!",
+              "page_text": "This is your new slideshow. There are many like it, but this one is yours. It's perfect for product promotions or announcements.",
+              "button_cta": "Setup your store",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0",
+          "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-1"
+        ],
+        "settings": {
+          "enable_ken_burns": false,
+          "enable_progress_bar": true,
+          "enable_dropshadow": false,
+          "color_overlay_opacity": "0.2",
+          "color_overlay_color": "#031207",
+          "progress_bar_color": "#FFFFFF",
+          "controls_color": "#FFFFFF"
+        }
       }
     },
     "content_for_index": [
@@ -3929,7 +3968,8 @@
       "1592234630216",
       "1587736476426",
       "1589807917203",
-      "1600333982979"
+      "1600333982979",
+      "eed0827b-db9f-4f13-8542-b488fcb7e9e3"
     ]
   },
   "presets": {
