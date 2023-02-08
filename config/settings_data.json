@@ -3925,27 +3925,16 @@
             "type": "slide",
             "settings": {
               "slide_image": "shopify:\/\/shop_images\/B1_low-res.jpg",
-              "text_position": "align-center-bottom",
+              "text_position": "align-center-middle",
               "heading_text": "WHISKY FOR YOUR VALENTINE?",
               "page_text": "Yes, you heard us. A bottle of our single malt has a 71% lower carbon footprint than a bunch of red roses. And you can drink it too.",
               "button_cta": "SHOP NOW FOR VALENTINE'S",
               "button_link": "shopify:\/\/collections\/all-spirits"
             }
-          },
-          "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-1": {
-            "type": "slide",
-            "settings": {
-              "text_position": "align-center-bottom",
-              "heading_text": "Welcome to your new store!",
-              "page_text": "This is your new slideshow. There are many like it, but this one is yours. It's perfect for product promotions or announcements.",
-              "button_cta": "Setup your store",
-              "button_link": ""
-            }
           }
         },
         "block_order": [
-          "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0",
-          "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-1"
+          "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0"
         ],
         "settings": {
           "enable_ken_burns": false,
