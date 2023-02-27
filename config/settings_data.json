@@ -3628,12 +3628,28 @@
               "buttonStyle": "2",
               "textAlignment": "top left"
             }
+          },
+          "a658afcf-dbcb-41d0-9586-a8bdd934bfff": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Aon_Germany_23_copy.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "AON 18-294",
+              "subheading": "<p>Bottled exclusively for Kirsch Import<\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
           }
         },
         "block_order": [
           "8b31cf10-0dbb-4931-91e2-9f5376e38321",
           "38b864f2-edc9-45de-a10b-35e2d98077d2",
-          "46f048a9-4eba-4549-a028-ecf5ca5fa1f2"
+          "46f048a9-4eba-4549-a028-ecf5ca5fa1f2",
+          "a658afcf-dbcb-41d0-9586-a8bdd934bfff"
         ],
         "settings": {
           "enable_animation": true
