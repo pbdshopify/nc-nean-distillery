@@ -3962,6 +3962,47 @@
           "progress_bar_color": "#ffffff",
           "controls_color": "#ffffff"
         }
+      },
+      "aon-grid-2": {
+        "type": "aon-grid-2",
+        "blocks": {
+          "77574e50-3d9b-4670-ad2d-354e6bd44d1b": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Aon_Elena_copy_desat.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "AON 17-342",
+              "subheading": "<p>Bottled exclusively for our website and distillery shop<\/p>",
+              "link": "shopify:\/\/pages\/aon-17-342",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "f7cb9776-f724-44ec-9f3b-5cb1ed99f13d": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "77574e50-3d9b-4670-ad2d-354e6bd44d1b",
+          "f7cb9776-f724-44ec-9f3b-5cb1ed99f13d"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
