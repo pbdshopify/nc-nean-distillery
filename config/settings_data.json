@@ -3909,12 +3909,12 @@
           "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0": {
             "type": "slide",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/B1_low-res.jpg",
+              "slide_image": "shopify:\/\/shop_images\/2022.03_Nc_nean_Charity_Lot_Photography_PRW.jpg",
               "text_position": "align-center-middle",
-              "heading_text": "WHISKY FOR YOUR VALENTINE?",
-              "page_text": "Yes, you heard us. A bottle of our single malt has a 71% lower carbon footprint than a bunch of red roses. And you can drink it too.",
-              "button_cta": "SHOP NOW FOR VALENTINE'S",
-              "button_link": "shopify:\/\/collections\/all-spirits"
+              "heading_text": "WIN FIRST EDITION WHISKIES AND GIVE TO CHARITY",
+              "page_text": "Enter our charity draw for just £10",
+              "button_cta": "CLICK HERE TO ENTER",
+              "button_link": "https:\/\/www.crowdfunder.co.uk\/p\/ncnean"
             }
           }
         },
