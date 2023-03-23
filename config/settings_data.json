@@ -3887,7 +3887,6 @@
       },
       "d327603b-f3a7-48e3-a6e8-951ddba60fe7": {
         "type": "homepage-banner-video",
-        "disabled": true,
         "settings": {
           "video_url": "https:\/\/www.dropbox.com\/s\/qdaajwmhhvoa4ul\/221123%20Website%20Banner.mp4?dl=0",
           "enable_animation": false,
@@ -3905,6 +3904,7 @@
       },
       "eed0827b-db9f-4f13-8542-b488fcb7e9e3": {
         "type": "sustainability-slideshow",
+        "disabled": true,
         "blocks": {
           "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0": {
             "type": "slide",
