@@ -2524,6 +2524,7 @@
               "heading": "MAKE A WHISKY SIX",
               "subheading": "<p>Delicious, light and refreshing. Find out how to make the perfect one.<\/p>",
               "videoText": "<p><em>Click here to watch<\/em><\/p>",
+              "link": "",
               "linkText": "",
               "buttonStyle": "1",
               "textAlignment": "top left"
@@ -2572,8 +2573,9 @@
           "controls_color": "#ffffff",
           "text_position": "center-middle",
           "title": "WHISKY SIX",
-          "page_text": "Delicious, light and refreshing. Our favourite way to drink our Organic Single Malt. Have a little scroll to find out how to make one and what else we’re up to this November.",
+          "page_text": "Delicious, light and refreshing. Our favourite way to drink our Organic Single Malt. Have a little scroll for the recipe, videos and more.",
           "button_cta": "",
+          "button_link": "",
           "fallback_image": "shopify:\/\/shop_images\/highball_whisky.jpg"
         }
       },
