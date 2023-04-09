@@ -1373,7 +1373,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Visit_Nc_nean_Distillery_5_2.jpg",
-              "overlayOpacity": "0.4",
+              "overlayOpacity": "0.6",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "GETTING HERE",
@@ -1388,7 +1388,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Visit_Nc_nean_Distillery_8.jpg",
-              "overlayOpacity": "0.5",
+              "overlayOpacity": "0.7",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "WHERE TO STAY",
