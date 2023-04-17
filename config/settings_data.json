@@ -3586,6 +3586,21 @@
       "aon-grid": {
         "type": "aon-grid",
         "blocks": {
+          "72b015da-108a-479d-b78c-87a397cda075": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Aon_Benelux_23.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "AON 17-170",
+              "subheading": "<p>Bottled exclusively for Benelux<\/p>",
+              "link": "shopify:\/\/pages\/aon-17-170",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
           "8b31cf10-0dbb-4931-91e2-9f5376e38321": {
             "type": "grid-item",
             "settings": {
@@ -3618,6 +3633,7 @@
           }
         },
         "block_order": [
+          "72b015da-108a-479d-b78c-87a397cda075",
           "8b31cf10-0dbb-4931-91e2-9f5376e38321",
           "38b864f2-edc9-45de-a10b-35e2d98077d2"
         ],
