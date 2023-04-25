@@ -3653,6 +3653,21 @@
       "huntress-grid": {
         "type": "huntress-grid",
         "blocks": {
+          "4d70faa7-fa11-4455-b228-0fedc8d29c66": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Huntress_2023.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "HUNTRESS 2023",
+              "subheading": "<p>Woodland Candy<\/p>",
+              "link": "shopify:\/\/pages\/huntress-2023",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
           "b87ca82c-a21f-4833-8812-2c7fef836bc5": {
             "type": "grid-item",
             "settings": {
@@ -3667,26 +3682,11 @@
               "buttonStyle": "2",
               "textAlignment": "top left"
             }
-          },
-          "4d70faa7-fa11-4455-b228-0fedc8d29c66": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Sustainable_organic_whisky.jpg",
-              "overlayOpacity": "0.1",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "top left"
-            }
           }
         },
         "block_order": [
-          "b87ca82c-a21f-4833-8812-2c7fef836bc5",
-          "4d70faa7-fa11-4455-b228-0fedc8d29c66"
+          "4d70faa7-fa11-4455-b228-0fedc8d29c66",
+          "b87ca82c-a21f-4833-8812-2c7fef836bc5"
         ],
         "settings": {
           "enable_animation": true
