@@ -3927,7 +3927,7 @@
           "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0": {
             "type": "slide",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/IMG_8736.jpg",
+              "slide_image": "shopify:\/\/shop_images\/Huntress_2022_Woods_1.jpg",
               "text_position": "align-center-middle",
               "heading_text": "HUNTRESS 2023 WOODLAND CANDY",
               "page_text": "The eagerly anticipated second limited release in our Huntress series is here. Flavours of buttery toffee, forest fruits and a touch of herbal spice.",
@@ -3940,8 +3940,8 @@
           "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0"
         ],
         "settings": {
-          "enable_ken_burns": false,
-          "enable_progress_bar": true,
+          "enable_ken_burns": true,
+          "enable_progress_bar": false,
           "enable_dropshadow": false,
           "color_overlay_opacity": "0.2",
           "color_overlay_color": "#031207",
