@@ -4053,8 +4053,8 @@
       "whattodo-rich-text-2": {
         "type": "whattodo-rich-text-2",
         "settings": {
-          "title": "",
-          "text": "",
+          "title": "SHORT STAYS NEARBY",
+          "text": "<p><a href=\"https:\/\/www.highlandbasecamp.com\/\" target=\"_blank\" title=\"https:\/\/www.highlandbasecamp.com\/\">The Highland Basecamp<\/a><br\/>Castleview B&B<br\/>Lochaline Hotel<br\/>Ardtornish bunkhouse<\/p><p>For all other self catering and hotel accommodation options here, and on Mull please visit online booking sites.<\/p>",
           "link": "",
           "linkText": ""
         }
