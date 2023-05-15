@@ -4119,6 +4119,49 @@
           "link": "",
           "linkText": ""
         }
+      },
+      "travel-slideshow": {
+        "type": "travel-slideshow",
+        "blocks": {
+          "23132a25-618e-4316-bfe8-e91a5220ddf7": {
+            "type": "slide",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/Visit_Nc_nean_Distillery_2_3b2ae7fa-f5b8-4dd2-ba06-4646e601d920.jpg",
+              "text_position": "align-center-middle",
+              "heading_text": "GETTING TO NC'NEAN",
+              "page_text": "How to get to us and other travel updates",
+              "button_cta": "Setup your store",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "23132a25-618e-4316-bfe8-e91a5220ddf7"
+        ],
+        "settings": {
+          "enable_ken_burns": false,
+          "enable_progress_bar": true,
+          "enable_dropshadow": false,
+          "color_overlay_opacity": "0.3",
+          "color_overlay_color": "#031207",
+          "progress_bar_color": "#FFFFFF",
+          "controls_color": "#FFFFFF"
+        }
+      },
+      "travel-rich-text": {
+        "type": "travel-rich-text",
+        "settings": {
+          "title": "",
+          "text": "",
+          "link": "",
+          "linkText": ""
+        }
+      },
+      "travel-grid": {
+        "type": "travel-grid",
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
