@@ -4020,21 +4020,10 @@
               "button_cta": "",
               "button_link": ""
             }
-          },
-          "6cbb407a-715e-4c3f-8ef9-c91465e17fb8": {
-            "type": "slide",
-            "settings": {
-              "text_position": "align-center-middle",
-              "heading_text": "Welcome to your new store!",
-              "page_text": "This is your new slideshow. There are many like it, but this one is yours. It's perfect for product promotions or announcements.",
-              "button_cta": "Setup your store",
-              "button_link": ""
-            }
           }
         },
         "block_order": [
-          "7b3c2269-9e77-49eb-af9c-fc1e4c23be69",
-          "6cbb407a-715e-4c3f-8ef9-c91465e17fb8"
+          "7b3c2269-9e77-49eb-af9c-fc1e4c23be69"
         ],
         "settings": {
           "enable_ken_burns": false,
@@ -4049,7 +4038,7 @@
       "whattodo-rich-text": {
         "type": "whattodo-rich-text",
         "settings": {
-          "title": "",
+          "title": "MADE BY NATURE NOT BY RULES",
           "text": "<p>Lochaline, our closest village, has a small selection of great eateries offering a verity of food options. <\/p><p>The Whitehouse: open Tuesday - Saturday for lunch and dinner (£££)<br\/>Cafe LA: open Tuesday - Saturday 10.30 - 16:00 for light lunches & coffee (£)<br\/>The Snackbar at the ferry: open Monday - Saturday 09.00 - 17.00 for snacks, burgers and coffee (£)<\/p><p>Further afield, and heading north there is....<\/p><p>Strontian Hotel: open daily for evening meals - booking advisable (££)<br\/>Kilcamb Lodge: open all day (£££)<br\/>Salen licensed cafe: open daily offering breakfast and lunch menu (££)<br\/>The Shiel Hotel, the Glenuig Inn and the Ardgour inn: all open daily within an 1.5 hr drive (££)<\/p>",
           "link": "",
           "linkText": ""
