@@ -4152,7 +4152,7 @@
         "type": "travel-rich-text",
         "settings": {
           "title": "TRAVEL UPDATES",
-          "text": "<p><\/p><p>CORRAN FERRY CLOSURE<br\/>Please note that the Corran ferry is temporality out of action until further notice. <a href=\"https:\/\/www.highland.gov.uk\/corranferry\" target=\"_blank\" title=\"https:\/\/www.highland.gov.uk\/corranferry\">For more information click here<\/a>. <\/p><p>DRIMNIN ROAD CLOSURE<br\/>The B849 Lochaline to Drimnin (the only access to the distillery) will be closed with minimal passing times between 22nd May for two weeks. For information on when you can travel in for tours please view <a href=\"http:\/\/www.morvern.org\/2023\/05\/road-closure-drimnin-road-may-15-june-1-2023\/\">here.<\/a><\/p><p>MULL FERRY CLOSURE<br\/><\/p>",
+          "text": "<p><\/p><p>CORRAN FERRY CLOSURE<br\/>Please note that the Corran ferry is temporality out of action until further notice. <a href=\"https:\/\/www.highland.gov.uk\/corranferry\" target=\"_blank\" title=\"https:\/\/www.highland.gov.uk\/corranferry\">For more information click here<\/a>. Please seek alternative routes.<\/p><p>DRIMNIN ROAD CLOSURE<br\/>The B849 Lochaline to Drimnin (the only access to the distillery) will be closed with minimal passing times between 22nd May for two weeks. For information on when you can travel in for tours please view <a href=\"http:\/\/www.morvern.org\/2023\/05\/road-closure-drimnin-road-may-15-june-1-2023\/\">here.<\/a><\/p><p>MULL FERRY CLOSURE<br\/><\/p>",
           "link": "",
           "linkText": ""
         }
@@ -4161,6 +4161,15 @@
         "type": "travel-grid",
         "settings": {
           "enable_animation": false
+        }
+      },
+      "travel-rich-text-2": {
+        "type": "travel-rich-text-2",
+        "settings": {
+          "title": "GETTING HERE",
+          "text": "<p>You can reach us by land or by sea. If you fancy taking a slow adventure on land, there are instructions on <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0268\/4089\/1435\/files\/Nc_nean_directions.pdf?v=1591972070\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0268\/4089\/1435\/files\/Nc_nean_directions.pdf?v=1591972070\">how to reach us here<\/a>, including via public transport. If you are planning to visit us by sea, you can get to us via the <a href=\"http:\/\/www.calmac.co.uk\/\" target=\"_blank\">Calmac Ferry <\/a>from Oban and Mull, or if you are coming on your own boat we have two moorings in a beautiful bay below the distillery. They are suitable for boats up to 45ft, and can be used for day visits and at your own risk. There are also pontoons in Lochaline (a 30 minute drive away), which we may be able to offer transport to and from. If you’d like to use the mooring, or want more info on transport please <a href=\"https:\/\/ncnean.com\/pages\/contact-us\" title=\"Contact us\">get in touch<\/a>.<\/p>",
+          "link": "",
+          "linkText": ""
         }
       }
     },
