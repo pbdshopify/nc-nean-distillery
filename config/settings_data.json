@@ -4144,15 +4144,15 @@
           "enable_dropshadow": false,
           "color_overlay_opacity": "0.3",
           "color_overlay_color": "#031207",
-          "progress_bar_color": "#FFFFFF",
-          "controls_color": "#FFFFFF"
+          "progress_bar_color": "#ffffff",
+          "controls_color": "#ffffff"
         }
       },
       "travel-rich-text": {
         "type": "travel-rich-text",
         "settings": {
-          "title": "",
-          "text": "",
+          "title": "TRAVEL UPDATES",
+          "text": "<p><\/p><p>CORRAN FERRY CLOSURE<br\/>Please note that the Corran ferry is temporality out of action until further notice. <a href=\"https:\/\/www.highland.gov.uk\/corranferry\" target=\"_blank\" title=\"https:\/\/www.highland.gov.uk\/corranferry\">For more information click here<\/a>. <\/p><p>DRIMNIN ROAD CLOSURE<br\/>The B849 Lochaline to Drimnin (the only access to the distillery) will be closed with minimal passing times between 22nd May for two weeks. For information on when you can travel in for tours please view <a href=\"http:\/\/www.morvern.org\/2023\/05\/road-closure-drimnin-road-may-15-june-1-2023\/\">here.<\/a><\/p><p>MULL FERRY CLOSURE<br\/><\/p>",
           "link": "",
           "linkText": ""
         }
