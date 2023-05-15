@@ -1,4 +1,9 @@
 <!-- /templates/page.liquid -->
 <div class="parallax-container js-transparent-header-fadein js-after-primary-carousel">
-  {{ page.content }}
+        {% render 'breadcrumbs' %}  
+  {% section 'travel-slideshow' %}
+  {% section 'travel-rich-text' %}
+    {% section 'travel-rich-text-2' %}
+    {% section 'travel-rich-text-3' %}
+      {% section 'travel-grid' %}  
 </div>
