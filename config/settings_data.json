@@ -4031,14 +4031,14 @@
           "enable_dropshadow": false,
           "color_overlay_opacity": "0.2",
           "color_overlay_color": "#031207",
-          "progress_bar_color": "#FFFFFF",
-          "controls_color": "#FFFFFF"
+          "progress_bar_color": "#ffffff",
+          "controls_color": "#ffffff"
         }
       },
       "whattodo-rich-text": {
         "type": "whattodo-rich-text",
         "settings": {
-          "title": "MADE BY NATURE NOT BY RULES",
+          "title": "WHERE TO EAT AND DRINK",
           "text": "<p>Lochaline, our closest village, has a small selection of great eateries offering a verity of food options. <\/p><p>The Whitehouse: open Tuesday - Saturday for lunch and dinner (£££)<br\/>Cafe LA: open Tuesday - Saturday 10.30 - 16:00 for light lunches & coffee (£)<br\/>The Snackbar at the ferry: open Monday - Saturday 09.00 - 17.00 for snacks, burgers and coffee (£)<\/p><p>Further afield, and heading north there is....<\/p><p>Strontian Hotel: open daily for evening meals - booking advisable (££)<br\/>Kilcamb Lodge: open all day (£££)<br\/>Salen licensed cafe: open daily offering breakfast and lunch menu (££)<br\/>The Shiel Hotel, the Glenuig Inn and the Ardgour inn: all open daily within an 1.5 hr drive (££)<\/p>",
           "link": "",
           "linkText": ""
@@ -4048,6 +4048,24 @@
         "type": "whattodo-grid",
         "settings": {
           "enable_animation": false
+        }
+      },
+      "whattodo-rich-text-2": {
+        "type": "whattodo-rich-text-2",
+        "settings": {
+          "title": "",
+          "text": "",
+          "link": "",
+          "linkText": ""
+        }
+      },
+      "whattodo-rich-text-3": {
+        "type": "whattodo-rich-text-3",
+        "settings": {
+          "title": "",
+          "text": "",
+          "link": "",
+          "linkText": ""
         }
       }
     },
