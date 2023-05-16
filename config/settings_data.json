@@ -1387,12 +1387,12 @@
           "1cd54b01-1789-4e2f-90ce-aae3035517aa": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Visit_Nc_nean_Distillery_8.jpg",
-              "overlayOpacity": "0.7",
+              "image": "shopify:\/\/shop_images\/IMG_7682.jpg",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "WHERE TO STAY",
-              "subheading": "<p>If you want to take full advantage of being as local as possible to the distillery, there’s a B&B and a selection of self-catering cottages on <a href=\"https:\/\/www.drimninestate.co.uk\/accommodation\" target=\"_blank\" title=\"https:\/\/www.drimninestate.co.uk\/accommodation\">Drimnin Estate<\/a>. In the village of Drimnin there are also a number of other self-catering facilities - we recommend <a href=\"https:\/\/www.instagram.com\/thesteading.millhouse\/?hl=en\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/thesteading.millhouse\/?hl=en\">The Mill Steadings<\/a>. The main village on the Morvern peninsular is Lochaline, just 12 miles away, where you can find a hotel which serves evening meals, self-catering cottages, a restaurant and B&B’s. For those people wanting a highland adventure that doesn’t cost the earth we recommend <a href=\"https:\/\/www.highlandbasecamp.com\/\" target=\"_blank\" title=\"https:\/\/www.highlandbasecamp.com\/\">Highland Basecamp<\/a>, an eco-conscious hostel with private en-suite bunk rooms and a self catering kitchen. <\/p><p>Some more information about the area and accommodation<br\/>options can be found via <a href=\"https:\/\/www.westhighlandpeninsulas.com\/\" target=\"_blank\" title=\"https:\/\/www.westhighlandpeninsulas.com\/\">West Highland Peninsulas<\/a> and <a href=\"https:\/\/fortwilliam.co.uk\/\" target=\"_blank\" title=\"https:\/\/fortwilliam.co.uk\/\">Fort William Accommodation<\/a> websites.<\/p>",
+              "subheading": "<p>If you want to take full advantage of being as local as possible to the distillery, there’s a lovely little B&B just a 10 minute walk from the distillery. <a href=\"https:\/\/www.drimninestate.co.uk\/bed-and-breakfast\" target=\"_blank\" title=\"https:\/\/www.drimninestate.co.uk\/bed-and-breakfast\">Click here for more<\/a> info and <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0268\/4089\/1435\/files\/Spring_Summer_23_Promotion.pdf?v=1684164682\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0268\/4089\/1435\/files\/Spring_Summer_23_Promotion.pdf?v=1684164682\">here for their two-night summer offering<\/a>. For other accommodation options, <a href=\"https:\/\/ncnean.com\/pages\/what-to-do-locally\" title=\"https:\/\/ncnean.com\/pages\/what-to-do-locally\">click here<\/a>.<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -1427,8 +1427,8 @@
       "rich-text-visitor": {
         "type": "rich-text-visitor",
         "settings": {
-          "title": "OUR HOME: THE MORVERN PENINSULA",
-          "text": "<p><\/p><p>The distillery is located on the beautiful and wild Drimnin Estate which offers long stretches of coastline, well sign-posted walks and plenty of wildlife spotting opportunities (including White Tailed and Golden Eagles, Scottish Wildcat, Pine Martens and Otters). <br\/>There is also the <a href=\"https:\/\/www.alanbhayman.com\/galleryandstudio\">Hayman gallery<\/a> which is a must see if you are visiting the distillery.<\/p><p>The Morvern peninsular offers a wonderful array of walks and outdoor adventure opportunities. Here is a <a href=\"https:\/\/www.dropbox.com\/s\/pr24y79o07h9qdz\/Whisky.%20Walks.%20West%20Highlands.jpg?dl=0\">map<\/a> of our favourite walks in the area - when you book in for a tour you can ask our visitor manager Amy for more details. Bikes, canoes, kayaks and paddleboards can be hired from <a href=\"https:\/\/www.highlandbasecamp.com\/\">Highland Basecamp<\/a> for people wanting to get off the beaten track.<br\/><br\/>Visitors can also arrange for bespoke, guided tour experiences that include plant identification walks, skippered boat hire, diving, hill walking or wild camping in conjunction with local outdoor activity providers. Please contact Amy at <a href=\"mailto:tours@ncnean.com\" title=\"mailto:tours@ncnean.com\">tours@ncnean.com<\/a> for<br\/>more details.<\/p>",
+          "title": "",
+          "text": "",
           "link": "",
           "linkText": ""
         }
