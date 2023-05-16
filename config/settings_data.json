@@ -1373,11 +1373,11 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Visit_Nc_nean_Distillery_5_2.jpg",
-              "overlayOpacity": "0.6",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "GETTING HERE",
-              "subheading": "<p>Please note that the Corran ferry is currently out of action, please seek alternative routes. You can reach us by land or by sea. If you fancy taking a slow adventure on land, there are instructions on <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0268\/4089\/1435\/files\/Nc_nean_directions.pdf?v=1591972070\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0268\/4089\/1435\/files\/Nc_nean_directions.pdf?v=1591972070\">how to reach us here<\/a>, including via public transport. If you are planning to visit us by sea, you can get to us via the <a href=\"http:\/\/www.calmac.co.uk\/\">Calmac Ferry<\/a> from Oban and Mull, or if you are coming on your own boat we have two moorings in a beautiful bay below the distillery. They are suitable for boats up to 45ft, and can be used for day visits and at your own risk. There are also pontoons in Lochaline (a 30 minute drive away), which we may be able to offer transport to and from. If you’d like to use the mooring, or want more info on transport please <a href=\"\/pages\/contact-us\" title=\"Contact us\">get in touch<\/a>.<\/p>",
+              "subheading": "<p>You can reach us by land or by sea. For more information on how, and for regular travel updates <a href=\"https:\/\/ncnean.com\/pages\/travel-information\/\" title=\"https:\/\/ncnean.com\/pages\/travel-information\/\">click here<\/a>.<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -1398,11 +1398,27 @@
               "buttonStyle": "2",
               "textAlignment": "center"
             }
+          },
+          "bac39057-48a1-491a-b7d7-32dbd724d5c2": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/UNADJUSTEDNONRAW_thumb_3abd.jpg",
+              "overlayOpacity": "0.4",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "WHAT ELSE TO DO",
+              "subheading": "<p>The distillery is located on the beautiful and wild Morvern Peninsula, which offers long stretches of coastline, plenty of wildlife spotting opportunities (including White Tailed and Golden Eagles, Scottish Wildcat, Pine Martens and Otters), and some lovely eateries. <a href=\"https:\/\/ncnean.com\/pages\/what-to-do-locally\" target=\"_blank\" title=\"https:\/\/ncnean.com\/pages\/what-to-do-locally\">Click here for more info on what to do locally<\/a>.<\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
           }
         },
         "block_order": [
           "18c66c11-656c-4500-9f4b-1b4585ac6967",
-          "1cd54b01-1789-4e2f-90ce-aae3035517aa"
+          "1cd54b01-1789-4e2f-90ce-aae3035517aa",
+          "bac39057-48a1-491a-b7d7-32dbd724d5c2"
         ],
         "settings": {
           "enable_animation": true
