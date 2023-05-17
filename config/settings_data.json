@@ -313,9 +313,9 @@
               "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "READ OUR BLOG",
-              "subheading": "<p>Keep up to date with our news and thoughts on sustainability, spirits and innovation.<\/p>",
-              "link": "shopify:\/\/blogs\/blog",
+              "heading": "LEARN ABOUT B CORP",
+              "subheading": "<p>We are a certified B Corp, putting people and our planet on equal footing with profit.<\/p>",
+              "link": "shopify:\/\/pages\/b-corp",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "bottom left"
