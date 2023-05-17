@@ -252,17 +252,17 @@
       "1587396917680": {
         "type": "video",
         "settings": {
-          "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0268\/4089\/1435\/files\/Sustainable_whisky_Nc_nean.mp4?v=1592839462",
+          "video_url": "https:\/\/www.dropbox.com\/home\/Sasha%20Holt\/1a.%20Brand%20and%20photos\/c.%20photos%20and%20videos\/2.%20New%20Video%20Bank%20NOT%20PUBLIC\/4.%20Brand%20Vids?preview=221123+Website+Banner.mp4",
           "enable_animation": false,
           "enable_dropshadow": false,
           "color_overlay_opacity": "0",
           "color_overlay_color": "#000000",
           "controls_color": "#ffffff",
           "text_position": "center-middle",
-          "title": "",
-          "page_text": "",
-          "button_cta": "",
-          "button_link": "",
+          "title": "A NEW PATH FOR SCOTCH",
+          "page_text": "A documentary by Arte",
+          "button_cta": "WATCH NOW",
+          "button_link": "https:\/\/ncnean.com\/pages\/arte-documentary-video?_kx=",
           "fallback_image": "shopify:\/\/shop_images\/IMG_4258.jpg"
         }
       },
