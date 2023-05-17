@@ -310,7 +310,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/B_corp_7.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "LEARN ABOUT B CORP",
