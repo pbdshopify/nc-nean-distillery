@@ -3353,7 +3353,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Phil_1.jpg",
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "PHIL NICKSON",
