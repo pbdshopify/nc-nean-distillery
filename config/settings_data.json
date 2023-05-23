@@ -3352,12 +3352,12 @@
           "23b122d8-7283-4c07-babf-064e9f8819cd": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
-              "overlayOpacity": "0.2",
+              "image": "shopify:\/\/shop_images\/Phil_1.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "WORK WITH US",
-              "subheading": "<p>Our small team is growing quickly, so we are always on the lookout for new talent. Any formal job vacancies will be posted on our jobs page <em>here<\/em>.<\/p>",
+              "heading": "PHIL NICKSON",
+              "subheading": "<p>Head of Commercial <\/p><p>A whisky lover with a third of his life spent in the industry. But his real first love? The bass guitar. Even dreamt of being a rockstar at one time. Loves being outdoors, especially a substandard round of golf. <\/p>",
               "link": "shopify:\/\/pages\/careers",
               "linkText": "",
               "buttonStyle": "2",
