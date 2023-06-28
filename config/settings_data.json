@@ -3925,19 +3925,20 @@
           "video_url": "https:\/\/www.dropbox.com\/s\/qa94myctlzb0m4e\/Brand%20Vid.mp4?dl=0",
           "enable_animation": false,
           "enable_dropshadow": false,
-          "color_overlay_opacity": "0.3",
+          "color_overlay_opacity": "0.1",
           "color_overlay_color": "#000000",
           "controls_color": "#ffffff",
           "text_position": "center-middle",
-          "title": "HUNTRESS 2023 WOODLAND CANDY",
-          "page_text": "BUTTERY TOFFEE, FOREST FRUITS, HERBAL SPICE",
+          "title": "ORGANIC WHISKY DISTILLERY",
+          "page_text": "MADE BY NATURE, NOT BY RULES",
           "button_cta": "SHOP NOW",
-          "button_link": "shopify:\/\/products\/huntress-woodland-candy",
-          "fallback_image": "shopify:\/\/shop_images\/IMG_8683_copy.jpg"
+          "button_link": "shopify:\/\/collections\/all-spirits",
+          "fallback_image": "shopify:\/\/shop_images\/Pattern_wolf_website_82731987-ae11-4f4b-a8c9-009676be60c5.jpg"
         }
       },
       "eed0827b-db9f-4f13-8542-b488fcb7e9e3": {
         "type": "sustainability-slideshow",
+        "disabled": true,
         "blocks": {
           "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0": {
             "type": "slide",
