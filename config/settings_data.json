@@ -4191,6 +4191,21 @@
               "textAlignment": "top left"
             }
           },
+          "bde5a519-d841-4078-9067-cbf8eada7a0a": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/230707_Tobermoray_timetable_water_taxi_for_web_cda994df-3631-470c-86e1-23e344a2364e.jpg",
+              "overlayOpacity": "0",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
           "c3b56a74-aa20-4d50-9b9f-0462caf30412": {
             "type": "grid-item",
             "settings": {
@@ -4205,27 +4220,12 @@
               "buttonStyle": "2",
               "textAlignment": "top left"
             }
-          },
-          "bde5a519-d841-4078-9067-cbf8eada7a0a": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/230707_Tobermoray_timetable_water_taxi_for_web.jpg",
-              "overlayOpacity": "0",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "top left"
-            }
           }
         },
         "block_order": [
           "dc680936-7243-4dcb-b2d6-46617f3a078c",
-          "c3b56a74-aa20-4d50-9b9f-0462caf30412",
-          "bde5a519-d841-4078-9067-cbf8eada7a0a"
+          "bde5a519-d841-4078-9067-cbf8eada7a0a",
+          "c3b56a74-aa20-4d50-9b9f-0462caf30412"
         ],
         "settings": {
           "enable_animation": false
