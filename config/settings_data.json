@@ -644,12 +644,12 @@
           "1588087608924": {
             "type": "content_block",
             "settings": {
-              "block_image": "shopify:\/\/shop_images\/Experimental_spirits_whisky.jpg",
-              "layout": "two-one",
+              "block_image": "shopify:\/\/shop_images\/NcNean_0050lowres.jpg",
+              "layout": "half-half",
               "image_position": "right",
               "text_alignment": "left",
               "text_header": "EXPERIMENTAL IN NATURE",
-              "text_body": "<p>A philosophy, a way of looking at the world, a curiosity, a willingness to try. Out of this approach, our first two products were born - our&nbsp;<a href=\"\/products\/botanical-spirit\" title=\"BOTANICAL SPIRIT\">Botanical Spirit<\/a> and our even more adventurous&nbsp;<a href=\"\/products\/aged-botanical-set\" title=\"AGED BOTANICAL SPIRIT SET\">Aged Botanical<\/a>. Simply asking &lsquo;why&rsquo; or &lsquo;what if&rsquo; was also the start of our yeast experiments at the distillery: the realisation that most distilleries in Scotland use the same yeast because it produces the highest yield of alcohol.&nbsp;<\/p>",
+              "text_body": "<p>A philosophy, a way of looking at the world, a curiosity, a willingness to try. Out of this approach, our first two products were born - our <a href=\"\/products\/botanical-spirit\" title=\"BOTANICAL SPIRIT\">Botanical Spirit<\/a> and our even more adventurous <a href=\"\/products\/aged-botanical-set\" title=\"AGED BOTANICAL SPIRIT SET\">Aged Botanical<\/a>. Simply asking ‘why’ or ‘what if’ was also the start of our yeast experiments at the distillery: the realisation that most distilleries in Scotland use the same yeast because it produces the highest yield of alcohol. <\/p>",
               "button_cta": "",
               "button_link": "",
               "border_override": false
