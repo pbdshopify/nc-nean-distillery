@@ -2456,21 +2456,6 @@
       "team-grid-4": {
         "type": "team-grid-4",
         "blocks": {
-          "1602498623783": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Keth_bw_93256eb8-ebf4-4c14-9255-c3a4caeebc39.jpg",
-              "overlayOpacity": "0.1",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "KETH MCLELLAND",
-              "subheading": "<p>Head of Finance <\/p><p>Loves the great outdoors, exploring and Scotland so much that she’s named one of her children after one of the Hebridean Islands! Also has a reassuring love for numbers. <\/p>",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "bottom left"
-            }
-          },
           "1602499014025": {
             "type": "grid-item",
             "settings": {
@@ -2503,7 +2488,6 @@
           }
         },
         "block_order": [
-          "1602498623783",
           "1602499014025",
           "1602498630490"
         ],
