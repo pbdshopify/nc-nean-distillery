@@ -2485,11 +2485,27 @@
               "buttonStyle": "2",
               "textAlignment": "bottom left"
             }
+          },
+          "357e1518-d174-4f55-aa1c-31c47d6bd79e": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Phil_1.jpg",
+              "overlayOpacity": "0",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "PHIL NICKSON",
+              "subheading": "<p>Head of Commercial <\/p><p>A whisky lover with a third of his life spent in the industry. But his real first love? The bass guitar. Even dreamt of being a rockstar at one time. Loves being outdoors, especially a substandard round of golf. <\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "bottom left"
+            }
           }
         },
         "block_order": [
           "1602499014025",
-          "1602498630490"
+          "1602498630490",
+          "357e1518-d174-4f55-aa1c-31c47d6bd79e"
         ],
         "settings": {
           "enable_animation": false
