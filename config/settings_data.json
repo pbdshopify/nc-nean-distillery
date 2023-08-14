@@ -67,8 +67,8 @@
           "show_announcement_bar": true,
           "notification_bar_enable_currency": false,
           "notification_bar_enable_social": false,
-          "notification_bar_text": "UK DELIVERY ONLY. FREE SHIPPING ON ALL ORDERS.",
-          "notification_bar_link": "shopify:\/\/collections\/all-spirits"
+          "notification_bar_text": "TOUR VISITORS: PLEASE NOTE THE CORRAN FERRY IS OUT OF ACTION, CLICK HERE FOR UPDATES.",
+          "notification_bar_link": "https:\/\/twitter.com\/CorranFerry"
         }
       },
       "footer": {
@@ -130,7 +130,6 @@
       },
       "features": {
         "type": "features",
-        "disabled": true,
         "blocks": {
           "1": {
             "type": "feature",
@@ -166,6 +165,7 @@
           "2",
           "3"
         ],
+        "disabled": true,
         "settings": {
           "title": "AN INDEPENDENT SCOTTISH DISTILLERY",
           "subheading": "<p><\/p><p><\/p><p><\/p>",
@@ -3938,7 +3938,6 @@
       },
       "eed0827b-db9f-4f13-8542-b488fcb7e9e3": {
         "type": "sustainability-slideshow",
-        "disabled": true,
         "blocks": {
           "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0": {
             "type": "slide",
@@ -3955,6 +3954,7 @@
         "block_order": [
           "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0"
         ],
+        "disabled": true,
         "settings": {
           "enable_ken_burns": true,
           "enable_progress_bar": false,
