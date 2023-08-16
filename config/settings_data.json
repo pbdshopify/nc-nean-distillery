@@ -1205,7 +1205,7 @@
             "type": "content_block",
             "settings": {
               "block_image": "shopify:\/\/shop_images\/Barley_Nc_nean_Organic.jpg",
-              "layout": "one-two",
+              "layout": "half-half",
               "image_position": "right",
               "text_alignment": "left",
               "text_header": "INGREDIENTS",
