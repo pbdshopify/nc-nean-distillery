@@ -2460,7 +2460,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Nc_neanPresseEvent_HQ-28.jpg",
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AMBER MORRISON",
