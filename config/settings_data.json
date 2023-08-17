@@ -2856,7 +2856,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Douglas_bw.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "DOUGLAS TAYLOR",
@@ -3323,7 +3323,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/DSC7365_bw.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "LORNE ROBB",
@@ -3338,7 +3338,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/DSC60962.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "ROBERTO NICCHITTA",
