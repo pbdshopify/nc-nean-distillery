@@ -338,7 +338,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Annabel_bw.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "ANNABEL THOMAS",
@@ -353,7 +353,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/DSC5684_copy.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "GORDON WOOD",
@@ -368,7 +368,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Lorna_bw.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "LORNA DAVIDSON",
@@ -1780,7 +1780,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Simon_bw.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "SIMON HEWITT",
@@ -1795,11 +1795,11 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Amy_bw_34326dee-28ff-445a-981c-ac3a0ab1a582.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AMY STAMMERS",
-              "subheading": "<p>Visitor Manager<\/p><p>Free spirited Norfolk girl with a passion for all things environmental. Made a beeline to work with us. Likes trying to get lost, and finding her way to a local pub for refuge. <\/p>",
+              "subheading": "<p>Visitor Manager & Head of Sustainability<\/p><p>Free spirited Norfolk girl with a passion for all things environmental. Made a beeline to work with us. Likes trying to get lost, and finding her way to a local pub for refuge. <\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -1810,7 +1810,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Kat_bw_785dc3e8-da65-42d7-9d4b-8cf0848b0ab5.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "KAT PRESLEY",
@@ -1838,7 +1838,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Sasha_bw_d744b3b4-54f0-4a6c-8a65-c003e18cda20.jpg",
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "SASHA SMYTH-OSBOURNE",
@@ -1857,7 +1857,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "MATT HASTINGS",
-              "subheading": "<p>Brand Ambassador and Blender<\/p><p>Descended from a line of publicans. Loves running, can fly drones, makes awesome videos. Via running one of London’s great whisky bars, is now our first ever Brand Ambassador.<\/p>",
+              "subheading": "<p>Brand Ambassador and Blender<\/p><p>Descended from a line of publicans. Loves running, can fly drones, makes awesome videos. Via running one of London’s great whisky bars, is now our brand ambassador and blender.<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -1868,7 +1868,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Sarah_bw.jpg",
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "SARAH HEWITT",
