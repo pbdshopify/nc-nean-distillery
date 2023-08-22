@@ -4297,6 +4297,63 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "visitor-opening-grid": {
+        "type": "visitor-opening-grid",
+        "blocks": {
+          "d6bc85d8-9014-427a-b841-4568cb3c7608": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Nc_nean_green.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "6627e607-e7bf-4b9f-b565-49c2ff1a1925": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Nc_nean_green.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "39f82b7d-8ed4-4998-8745-671f0517571d": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "d6bc85d8-9014-427a-b841-4568cb3c7608",
+          "6627e607-e7bf-4b9f-b565-49c2ff1a1925",
+          "39f82b7d-8ed4-4998-8745-671f0517571d"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
