@@ -4304,7 +4304,7 @@
           "d6bc85d8-9014-427a-b841-4568cb3c7608": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Nc_nean_green.jpg",
+              "image": "shopify:\/\/shop_images\/Sustainable_organic_whisky.jpg",
               "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -4319,7 +4319,7 @@
           "6627e607-e7bf-4b9f-b565-49c2ff1a1925": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Nc_nean_green.jpg",
+              "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
               "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -4334,7 +4334,7 @@
           "39f82b7d-8ed4-4998-8745-671f0517571d": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Nc_nean_green.jpg",
+              "image": "shopify:\/\/shop_images\/Sustainable_organic_whisky.jpg",
               "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -4345,28 +4345,12 @@
               "buttonStyle": "2",
               "textAlignment": "center"
             }
-          },
-          "de2e6d3a-753b-4d8e-9b09-4d2dce2a5a64": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Organic_whisky.jpg",
-              "overlayOpacity": "0.2",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "WATER TAXI",
-              "subheading": "<p>Once a week there is a return water taxi from Tobermory to Drimnin. See below for the timetable and <a href=\"https:\/\/tobermoryboattrips.co.uk\/tour\/drimnin-tobermory-water-taxi\/\" target=\"_blank\" title=\"https:\/\/tobermoryboattrips.co.uk\/tour\/drimnin-tobermory-water-taxi\/\">click here<\/a> to book.<\/p>",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "center"
-            }
           }
         },
         "block_order": [
           "d6bc85d8-9014-427a-b841-4568cb3c7608",
           "6627e607-e7bf-4b9f-b565-49c2ff1a1925",
-          "39f82b7d-8ed4-4998-8745-671f0517571d",
-          "de2e6d3a-753b-4d8e-9b09-4d2dce2a5a64"
+          "39f82b7d-8ed4-4998-8745-671f0517571d"
         ],
         "settings": {
           "enable_animation": false
