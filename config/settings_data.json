@@ -4305,15 +4305,15 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Nc_nean_green.jpg",
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "OPENING TIMES",
+              "subheading": "<p>Our distillery shop is open every weekday 10am – 5pm<br\/>All distillery and shop visits are by appointment only.<\/p><p>The distillery is not open on weekends, but you can buy our spirits locally at Lochaline Stores, The Whisky Shop or Highland Liquor Company in Fort William, Hebridean lodge on Mull, Keystores and the Post Office in Strontian, and The Green Welly Stop in Glencoe.<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           },
           "6627e607-e7bf-4b9f-b565-49c2ff1a1925": {
@@ -4334,7 +4334,8 @@
           "39f82b7d-8ed4-4998-8745-671f0517571d": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/Nc_nean_green.jpg",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "",
