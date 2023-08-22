@@ -4305,7 +4305,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Sustainable_organic_whisky.jpg",
-              "overlayOpacity": "0.2",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "OPENING TIMES",
@@ -4320,7 +4320,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
-              "overlayOpacity": "0.2",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "CLASSIC TOURS",
@@ -4335,7 +4335,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Sustainable_organic_whisky.jpg",
-              "overlayOpacity": "0.2",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "PRIVATE TOURS",
