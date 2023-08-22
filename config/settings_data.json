@@ -4320,30 +4320,30 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Nc_nean_green.jpg",
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "CLASSIC TOURS",
+              "subheading": "<p>Adult distillery tour: £18 per person (drivers drams available)<br\/>-<br\/>Alcohol free tour: £12 per person<br\/>-<br\/>Children under 12: £6 per person<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           },
           "39f82b7d-8ed4-4998-8745-671f0517571d": {
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Nc_nean_green.jpg",
-              "overlayOpacity": "0",
+              "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "PRIVATE TOURS",
+              "subheading": "<p>Private tours £50 pp (min £100 booking) available until April 30th 2024<br\/><\/p><p>Private tours £50pp (min £200 booking) May 1st – October 31st 2024<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           }
         },
