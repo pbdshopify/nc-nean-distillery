@@ -1369,21 +1369,6 @@
       "visitor-grid": {
         "type": "visitor-grid",
         "blocks": {
-          "18c66c11-656c-4500-9f4b-1b4585ac6967": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Visit_Nc_nean_Distillery_5_2.jpg",
-              "overlayOpacity": "0.4",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "GETTING HERE",
-              "subheading": "<p>You can reach us by land or by sea. For more information on how, and for regular travel updates <a href=\"https:\/\/ncnean.com\/pages\/travel-information\/\" title=\"https:\/\/ncnean.com\/pages\/travel-information\/\">click here<\/a>.<\/p>",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "center"
-            }
-          },
           "1cd54b01-1789-4e2f-90ce-aae3035517aa": {
             "type": "grid-item",
             "settings": {
@@ -1399,6 +1384,21 @@
               "textAlignment": "center"
             }
           },
+          "18c66c11-656c-4500-9f4b-1b4585ac6967": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Visit_Nc_nean_Distillery_5_2.jpg",
+              "overlayOpacity": "0.4",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "GETTING HERE",
+              "subheading": "<p>You can reach us by land or by sea. For more information on how, <a href=\"https:\/\/ncnean.com\/pages\/travel-information\/\" title=\"https:\/\/ncnean.com\/pages\/travel-information\/\">click here<\/a>.<\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
           "bac39057-48a1-491a-b7d7-32dbd724d5c2": {
             "type": "grid-item",
             "settings": {
@@ -1406,8 +1406,8 @@
               "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "WHAT TO DO AND WHERE TO STAY",
-              "subheading": "<p>The distillery is located on the beautiful and wild Morvern Peninsula, which offers long stretches of coastline, plenty of wildlife spotting opportunities, and some lovely eateries. <a href=\"https:\/\/ncnean.com\/pages\/what-to-do-locally\" target=\"_blank\" title=\"https:\/\/ncnean.com\/pages\/what-to-do-locally\">Click here for more info on what to do locally<\/a>. If you want to take full advantage of being as local as possible to the distillery, there’s a lovely little B&B just a 10 minute walk from the distillery. <a href=\"https:\/\/www.drimninestate.co.uk\/bed-and-breakfast\" target=\"_blank\" title=\"https:\/\/www.drimninestate.co.uk\/bed-and-breakfast\">Click here for more<\/a> info and for other accommodation options, <a href=\"https:\/\/ncnean.com\/pages\/what-to-do-locally\" title=\"https:\/\/ncnean.com\/pages\/what-to-do-locally\">click here<\/a>.<\/p>",
+              "heading": "DO, STAY, EAT",
+              "subheading": "<p>There are plenty of places to stay, but if you want to take full advantage of being as local as possible to the distillery, there’s a lovely little B&B just a 10 minute walk from the distillery. <a href=\"https:\/\/www.drimninestate.co.uk\/bed-and-breakfast\" target=\"_blank\" title=\"https:\/\/www.drimninestate.co.uk\/bed-and-breakfast\">Click here for more<\/a> info, and for other accommodation options and what else to do locally, <a href=\"https:\/\/ncnean.com\/pages\/what-to-do-locally\" title=\"https:\/\/ncnean.com\/pages\/what-to-do-locally\">click here<\/a>.<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -1416,8 +1416,8 @@
           }
         },
         "block_order": [
-          "18c66c11-656c-4500-9f4b-1b4585ac6967",
           "1cd54b01-1789-4e2f-90ce-aae3035517aa",
+          "18c66c11-656c-4500-9f4b-1b4585ac6967",
           "bac39057-48a1-491a-b7d7-32dbd724d5c2"
         ],
         "settings": {
