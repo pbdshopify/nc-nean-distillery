@@ -4258,21 +4258,6 @@
               "textAlignment": "top left"
             }
           },
-          "46728e8e-1e32-41a2-b6c8-603e3542d826": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Aon_TWE_23.jpg",
-              "overlayOpacity": "0.1",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "AON 17-408",
-              "subheading": "<p>Bottled exclusively for The Whisky Exchange<\/p>",
-              "link": "shopify:\/\/pages\/aon-17-408",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "top left"
-            }
-          },
           "6ea391d7-8216-49a1-be61-0102ccc147c2": {
             "type": "grid-item",
             "settings": {
@@ -4287,12 +4272,27 @@
               "buttonStyle": "2",
               "textAlignment": "top left"
             }
+          },
+          "2c9e0985-90fe-4f29-a22c-6b891cc6b09d": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Whisky_cask_sale.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
           }
         },
         "block_order": [
           "86d4d2fe-9e57-4469-b064-1014ff3d141f",
-          "46728e8e-1e32-41a2-b6c8-603e3542d826",
-          "6ea391d7-8216-49a1-be61-0102ccc147c2"
+          "6ea391d7-8216-49a1-be61-0102ccc147c2",
+          "2c9e0985-90fe-4f29-a22c-6b891cc6b09d"
         ],
         "settings": {
           "enable_animation": false
