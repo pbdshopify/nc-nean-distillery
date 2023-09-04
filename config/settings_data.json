@@ -1369,21 +1369,6 @@
       "visitor-grid": {
         "type": "visitor-grid",
         "blocks": {
-          "1cd54b01-1789-4e2f-90ce-aae3035517aa": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/230707_Tobermoray_timetable_water_taxi_for_web_47b9b9da-4877-4051-a95b-039778aa67b8.jpg",
-              "overlayOpacity": "0",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "center"
-            }
-          },
           "18c66c11-656c-4500-9f4b-1b4585ac6967": {
             "type": "grid-item",
             "settings": {
@@ -1393,6 +1378,21 @@
               "textColor": "#ffffff",
               "heading": "GETTING HERE",
               "subheading": "<p>You can reach us by land or by sea. For more information on how, <a href=\"https:\/\/ncnean.com\/pages\/travel-information\/\" title=\"https:\/\/ncnean.com\/pages\/travel-information\/\">click here<\/a>.<\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "1cd54b01-1789-4e2f-90ce-aae3035517aa": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Visit_Nc_nean_Distillery_2_3b2ae7fa-f5b8-4dd2-ba06-4646e601d920.jpg",
+              "overlayOpacity": "0.4",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -1416,8 +1416,8 @@
           }
         },
         "block_order": [
-          "1cd54b01-1789-4e2f-90ce-aae3035517aa",
           "18c66c11-656c-4500-9f4b-1b4585ac6967",
+          "1cd54b01-1789-4e2f-90ce-aae3035517aa",
           "bac39057-48a1-491a-b7d7-32dbd724d5c2"
         ],
         "settings": {
