@@ -4386,29 +4386,31 @@
           "cf024c28-f2b0-4ac6-a6a9-93f3fe813d7d": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
+              "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
+              "overlayOpacity": "0.8",
+              "overlayColor": "#ffffff",
+              "textColor": "#27372c",
+              "heading": "WHERE TO FIND US IN CANADA",
+              "subheading": "<p>We are currently stocked in retail outlets in Alberta. To find your nearest retailer please email <a href=\"mailto:info@craftworkspirits.com\" target=\"_blank\" title=\"mailto:info@craftworkspirits.com\">info@craftworkspirits.com.<\/a><\/p>",
+              "link": "mailto:info@craftworkspirits.com",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           },
           "dc9a7997-675d-4a66-a636-42d03d9f46ab": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
+              "image": "shopify:\/\/shop_images\/Organic_whisky.jpg",
+              "overlayOpacity": "0.8",
+              "overlayColor": "#ffffff",
+              "textColor": "#27372c",
+              "heading": "SIGN UP TO OUR NORTH AMERICA NEWSLETTER",
+              "subheading": "<p>Join us on our journey. <a href=\"https:\/\/ncnean.com\/pages\/us-canada-newsletter-landing-page\" target=\"_blank\" title=\"https:\/\/ncnean.com\/pages\/us-canada-newsletter-landing-page\">Click here to sign up<\/a> to our US and Canada newsletter.<\/p>",
+              "link": "https:\/\/ncnean.com\/pages\/us-canada-newsletter-landing-page",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           }
         },
