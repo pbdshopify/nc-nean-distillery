@@ -3580,11 +3580,27 @@
               "buttonStyle": "2",
               "textAlignment": "top left"
             }
+          },
+          "bcd91be6-e75c-4545-b224-1946fcdf754f": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Quiet_Rebels_Gordon.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "GORDON",
+              "subheading": "",
+              "link": "shopify:\/\/pages\/quiet-rebels-gordon",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
           }
         },
         "block_order": [
           "8f75f6df-37cc-490e-9f8f-f21a1b4c2f71",
-          "01f2ded0-0599-4912-ba98-0f75918a9c64"
+          "01f2ded0-0599-4912-ba98-0f75918a9c64",
+          "bcd91be6-e75c-4545-b224-1946fcdf754f"
         ],
         "settings": {
           "enable_animation": true
