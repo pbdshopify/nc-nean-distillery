@@ -4426,8 +4426,8 @@
       "north-america-richtext-2": {
         "type": "north-america-richtext-2",
         "settings": {
-          "title": "SPIRITS AVAILABLE",
-          "text": "",
+          "title": "ORGANIC, LIGHT AND WILD SPIRITS",
+          "text": "<p>Below are the spirits you will be able to find in North America in the coming months. <\/p>",
           "link": "",
           "linkText": ""
         }
