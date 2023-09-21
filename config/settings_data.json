@@ -68,7 +68,7 @@
           "notification_bar_enable_currency": false,
           "notification_bar_enable_social": false,
           "notification_bar_text": "ORGANIC SEPTEMBER: £1 FROM EVERY BOTTLE OF BOTANICAL SPIRIT SOLD WILL BE DONATED TO CLIENT EARTH",
-          "notification_bar_link": "https:\/\/twitter.com\/CorranFerry"
+          "notification_bar_link": "shopify:\/\/products\/botanical-spirit"
         }
       },
       "footer": {
