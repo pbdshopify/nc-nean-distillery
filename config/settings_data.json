@@ -4372,7 +4372,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Distillery_Shoot-2104.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#27372c",
               "textColor": "#ffffff",
               "heading": "WHERE TO FIND US IN THE USA",
@@ -4387,7 +4387,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Visit_Nc_nean_Distillery_5_2.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#27372c",
               "textColor": "#ffffff",
               "heading": "WHERE TO FIND US IN CANADA",
@@ -4401,10 +4401,10 @@
           "dc9a7997-675d-4a66-a636-42d03d9f46ab": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Organic_whisky.jpg",
-              "overlayOpacity": "0.8",
-              "overlayColor": "#ffffff",
-              "textColor": "#27372c",
+              "image": "shopify:\/\/shop_images\/IMG_5377.jpg",
+              "overlayOpacity": "0.4",
+              "overlayColor": "#27372c",
+              "textColor": "#ffffff",
               "heading": "SIGN UP TO OUR NORTH AMERICA NEWSLETTER",
               "subheading": "<p>Join us on our journey. <a href=\"https:\/\/ncnean.com\/pages\/us-canada-newsletter-landing-page\" target=\"_blank\" title=\"https:\/\/ncnean.com\/pages\/us-canada-newsletter-landing-page\">Click here to sign up<\/a> to our US and Canada newsletter.<\/p>",
               "link": "https:\/\/ncnean.com\/pages\/us-canada-newsletter-landing-page",
