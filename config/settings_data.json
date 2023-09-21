@@ -4422,6 +4422,21 @@
         "settings": {
           "enable_animation": true
         }
+      },
+      "north-america-richtext-2": {
+        "type": "north-america-richtext-2",
+        "settings": {
+          "title": "SPIRITS AVAILABLE",
+          "text": "",
+          "link": "",
+          "linkText": ""
+        }
+      },
+      "north-america-product-grid": {
+        "type": "north-america-product-grid",
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
