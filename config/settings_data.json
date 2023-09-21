@@ -4434,6 +4434,41 @@
       },
       "north-america-product-grid": {
         "type": "north-america-product-grid",
+        "blocks": {
+          "1795d749-65d7-435f-a9e3-34301fc64855": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Nc_nean_Organic_Single_Malt.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "ORGANIC SINGLE MALT SCOTCH",
+              "subheading": "<p>Our signature recipe, with flavours of citrus, peach, apricot and spice. Click to find out more about each batch we make.<\/p>",
+              "link": "https:\/\/ncnean.com\/pages\/organic-single-malt-scotch",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "fd13e82c-ad9e-4ab0-b631-6cb45b5180f2": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "1795d749-65d7-435f-a9e3-34301fc64855",
+          "fd13e82c-ad9e-4ab0-b631-6cb45b5180f2"
+        ],
         "settings": {
           "enable_animation": false
         }
