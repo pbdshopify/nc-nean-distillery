@@ -4473,6 +4473,15 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "north-america-richtext-3": {
+        "type": "north-america-richtext-3",
+        "settings": {
+          "title": "WHERE TO TRY US",
+          "text": "<p>Whisky and Barrel Nite \/ Chicago \/ 25th October: <a href=\"https:\/\/whiskeyandbarrelnite.com\/product\/2023-chicago-vip-admission\/\" target=\"_blank\" title=\"https:\/\/whiskeyandbarrelnite.com\/product\/2023-chicago-vip-admission\/\">Buy Tickets<\/a><\/p>",
+          "link": "",
+          "linkText": ""
+        }
       }
     },
     "content_for_index": [
