@@ -4355,6 +4355,21 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "north-america-richtext": {
+        "type": "north-america-richtext",
+        "settings": {
+          "title": "HELLO NORTH AMERICA",
+          "text": "<p>Excitingly, our whisky has now landed in North America, and is making its way across multiple states in both the US and Canada. We can't wait for all of you across the pond to try our spirits. Scroll to find out where you can buy us, to sign up to our North America Newsletter and to find out what we're up to in the coming months.<\/p>",
+          "link": "",
+          "linkText": ""
+        }
+      },
+      "north-america-grid": {
+        "type": "north-america-grid",
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
