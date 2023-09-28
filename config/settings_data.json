@@ -4360,7 +4360,7 @@
         "type": "north-america-richtext",
         "settings": {
           "title": "HELLO NORTH AMERICA",
-          "text": "<p>Excitingly, our whisky has now landed in across the pond, and is making its way across multiple states in both the US and Canada. We can’t wait for those of you in North America to try our spirits. Scroll to find out where you can buy us, to sign up to our North America Newsletter and to find out what we’re up to in the coming months.<\/p>",
+          "text": "<p>Excitingly, our whisky has now landed in across the pond, and is making its way across multiple states in both the US and Canada. We can’t wait for those of you in North America to try our spirits. Scroll to find out where you can buy us, to sign up to our North America Newsletter and to find out what we’re up to and where you can try us in the coming months.<\/p>",
           "link": "",
           "linkText": ""
         }
@@ -4391,7 +4391,7 @@
               "overlayColor": "#27372c",
               "textColor": "#ffffff",
               "heading": "WHERE TO FIND US IN CANADA",
-              "subheading": "<p>We are currently stocked in retail outlets in Alberta. To find your nearest retailer please email <a href=\"mailto:info@craftworkspirits.com\" target=\"_blank\" title=\"mailto:info@craftworkspirits.com\">info@craftworkspirits.com.<\/a><\/p>",
+              "subheading": "<p>We are currently stocked in retail outlets in Alberta. To find your nearest retailer please email <a href=\"mailto:info@craftworkspirits.com\" target=\"_blank\" title=\"mailto:info@craftworkspirits.com\">info@craftworkspirits.com.<\/a> We are also launching in Quebec in early 2024, keep an eye out for more info! <\/p>",
               "link": "mailto:info@craftworkspirits.com",
               "linkText": "",
               "buttonStyle": "2",
