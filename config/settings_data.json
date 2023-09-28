@@ -3922,7 +3922,7 @@
       "d327603b-f3a7-48e3-a6e8-951ddba60fe7": {
         "type": "homepage-banner-video",
         "settings": {
-          "video_url": "https:\/\/www.dropbox.com\/scl\/fi\/nzx4basry88twvg09ygw5\/00219.MTS?rlkey=ytpz026btwsmx4wq50iw74m6t&dl=0",
+          "video_url": "https:\/\/www.dropbox.com\/scl\/fi\/vugu9is8g78n3we7d02k5\/Quiet-Rebels-Gordon-website.mp4?rlkey=ggplqr34ky2g4pdoi7btsrk87&dl=0",
           "enable_animation": false,
           "enable_dropshadow": false,
           "color_overlay_opacity": "0.2",
@@ -3941,6 +3941,7 @@
         "blocks": {
           "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "slide_image": "shopify:\/\/shop_images\/DSC7542_copy.jpg",
               "text_position": "align-center-middle",
@@ -3954,12 +3955,11 @@
         "block_order": [
           "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0"
         ],
-        "disabled": true,
         "settings": {
           "enable_ken_burns": true,
           "enable_progress_bar": false,
           "enable_dropshadow": false,
-          "color_overlay_opacity": "0.2",
+          "color_overlay_opacity": "0.4",
           "color_overlay_color": "#031207",
           "progress_bar_color": "#ffffff",
           "controls_color": "#ffffff"
