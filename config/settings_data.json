@@ -259,10 +259,10 @@
           "color_overlay_color": "#000000",
           "controls_color": "#ffffff",
           "text_position": "center-middle",
-          "title": "A NEW PATH FOR SCOTCH",
-          "page_text": "A documentary by Arte",
-          "button_cta": "WATCH NOW",
-          "button_link": "https:\/\/ncnean.com\/pages\/arte-documentary-video?_kx=",
+          "title": "",
+          "page_text": "",
+          "button_cta": "",
+          "button_link": "",
           "fallback_image": "shopify:\/\/shop_images\/Visit_Nc_nean_Distillery_5_2.jpg"
         }
       },
