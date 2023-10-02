@@ -3580,11 +3580,27 @@
               "buttonStyle": "2",
               "textAlignment": "top left"
             }
+          },
+          "ea14d53d-551b-4e98-a64e-3de7753a013a": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Quiet_Rebels_Gordon.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "GORDON",
+              "subheading": "",
+              "link": "https:\/\/ncnean.com\/pages\/quiet-rebels-gordon",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
           }
         },
         "block_order": [
           "8f75f6df-37cc-490e-9f8f-f21a1b4c2f71",
-          "01f2ded0-0599-4912-ba98-0f75918a9c64"
+          "01f2ded0-0599-4912-ba98-0f75918a9c64",
+          "ea14d53d-551b-4e98-a64e-3de7753a013a"
         ],
         "settings": {
           "enable_animation": true
