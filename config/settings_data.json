@@ -3946,10 +3946,10 @@
           "controls_color": "#ffffff",
           "text_position": "center-middle",
           "title": "QUIET REBELS GORDON",
-          "page_text": "COMING SOON. FLAVOURS OF CRÈME BRÛLÉE, SPICED PLUM JAM, AND CANDIED ORANGE.",
-          "button_cta": "",
-          "button_link": "",
-          "fallback_image": "shopify:\/\/shop_images\/Pattern_wolf_WEBSITE.jpg"
+          "page_text": "FLAVOURS OF CRÈME BRÛLÉE, SPICED PLUM JAM, AND CANDIED ORANGE",
+          "button_cta": "SHOP NOW",
+          "button_link": "shopify:\/\/products\/quiet-rebels-gordon",
+          "fallback_image": "shopify:\/\/shop_images\/QRGproductlowres2.jpg"
         }
       },
       "eed0827b-db9f-4f13-8542-b488fcb7e9e3": {
