@@ -4375,8 +4375,8 @@
       "north-america-richtext": {
         "type": "north-america-richtext",
         "settings": {
-          "title": "HELLO US AND CANADA",
-          "text": "<p>Excitingly, our whisky has now landed across the pond, and is making its way across multiple states in both the US and Canada. We can’t wait for those of you there to try our spirits. Scroll to find out where you can buy us, to sign up to our North America Newsletter and to find out what we’re up to and where you can try us in the coming months.<\/p>",
+          "title": "HELLO USA AND CANADA",
+          "text": "<p>Excitingly, our whisky has now landed across the pond, and is making its way across multiple states in both the USA and Canada. We can’t wait for those of you there to try our spirits. Scroll to find out where you can buy us and to sign up to our USA\/Canada Newsletter to find out what we’re up to and where you can try us in the coming months.<\/p>",
           "link": "",
           "linkText": ""
         }
@@ -4421,8 +4421,8 @@
               "overlayOpacity": "0.4",
               "overlayColor": "#27372c",
               "textColor": "#ffffff",
-              "heading": "SIGN UP TO OUR NORTH AMERICA NEWSLETTER",
-              "subheading": "<p>Join us on our journey. <a href=\"https:\/\/ncnean.com\/pages\/us-canada-newsletter-landing-page\" target=\"_blank\" title=\"https:\/\/ncnean.com\/pages\/us-canada-newsletter-landing-page\">Click here to sign up<\/a> to our US and Canada newsletter.<\/p>",
+              "heading": "SIGN UP TO OUR USA AND CANADA NEWSLETTER",
+              "subheading": "<p>Join us on our journey. <a href=\"https:\/\/ncnean.com\/pages\/us-canada-newsletter-landing-page\" target=\"_blank\" title=\"https:\/\/ncnean.com\/pages\/us-canada-newsletter-landing-page\">Click here to sign up<\/a> to our USA and Canada newsletter.<\/p>",
               "link": "https:\/\/ncnean.com\/pages\/us-canada-newsletter-landing-page",
               "linkText": "",
               "buttonStyle": "2",
