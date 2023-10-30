@@ -4518,7 +4518,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "GERMANY",
-              "subheading": "<p>Click here to shop online in Germany<\/p>",
+              "subheading": "<p>Ask your local retailer, or click here to shop online.<\/p>",
               "link": "https:\/\/whic.de\/ncnean",
               "linkText": "",
               "buttonStyle": "2",
@@ -4531,12 +4531,12 @@
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
+              "heading": "FRANCE",
+              "subheading": "<p>Ask your local caviste or click here to shop online.<\/p>",
+              "link": "https:\/\/www.vandb.fr\/searchresult?query=nc%27nean",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           },
           "8371faad-2111-4d4d-83c4-52efc5d57e4f": {
