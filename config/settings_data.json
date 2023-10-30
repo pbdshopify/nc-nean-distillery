@@ -4755,7 +4755,8 @@
           "a9a181cb-7d9c-452f-83d6-9ea0c8c5a4db": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/NewHotToddy5.jpg",
+              "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "UK",
