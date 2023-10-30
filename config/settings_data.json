@@ -4823,9 +4823,9 @@
         "type": "stockists-richtext-2",
         "settings": {
           "title": "REST OF WORLD",
-          "text": "<p>Aside from the above, our whisky and our Botanical Spirit are both available in New Zealand - click here to shop now.<\/p>",
-          "link": "",
-          "linkText": ""
+          "text": "<p>Aside from the above, our whisky and our Botanical Spirit are both available in New Zealand - click below to shop now.<\/p>",
+          "link": "https:\/\/ncnean.com\/pages\/where-to-find-us",
+          "linkText": "SHOP NOW IN NZ"
         }
       }
     },
