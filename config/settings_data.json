@@ -4498,6 +4498,21 @@
           "link": "",
           "linkText": ""
         }
+      },
+      "europe-richtext": {
+        "type": "europe-richtext",
+        "settings": {
+          "title": "HELLO EUROPE",
+          "text": "<p>You can find our spirits in multiple countries across Europe, including in many bars, restaurants, specialist spirits shops and online. Scroll on below to find out where to buy us in your country, and also where to try us at events coming up in the next few months.<\/p>",
+          "link": "",
+          "linkText": ""
+        }
+      },
+      "europe-grid": {
+        "type": "europe-grid",
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
