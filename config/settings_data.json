@@ -4555,27 +4555,12 @@
               "buttonStyle": "2",
               "textAlignment": "center"
             }
-          },
-          "b6bf9d2e-e1b4-42b1-9224-43769c5c51d1": {
-            "type": "grid-item",
-            "settings": {
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "top left"
-            }
           }
         },
         "block_order": [
           "30803a21-d8a8-4e5f-96ff-7247ddfe8cdf",
           "f699ddf1-0dd8-46f7-9ad8-b3407f7f3cfd",
-          "8371faad-2111-4d4d-83c4-52efc5d57e4f",
-          "b6bf9d2e-e1b4-42b1-9224-43769c5c51d1"
+          "8371faad-2111-4d4d-83c4-52efc5d57e4f"
         ],
         "settings": {
           "enable_animation": false
