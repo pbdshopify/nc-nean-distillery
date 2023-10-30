@@ -4818,6 +4818,15 @@
           "link": "",
           "linkText": ""
         }
+      },
+      "stockists-richtext-2": {
+        "type": "stockists-richtext-2",
+        "settings": {
+          "title": "REST OF WORLD",
+          "text": "<p>Aside from the above, we are also now available in New Zealand - click here to shop now.<\/p>",
+          "link": "",
+          "linkText": ""
+        }
       }
     },
     "content_for_index": [
