@@ -4518,7 +4518,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "GERMANY",
-              "subheading": "<p>Ask your local retailer, or click here to shop online.<\/p>",
+              "subheading": "<p>Ask your local retailer or click here to shop online.<\/p>",
               "link": "https:\/\/whic.de\/ncnean",
               "linkText": "",
               "buttonStyle": "2",
@@ -4546,7 +4546,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "ITALY",
-              "subheading": "<p>Ask your local retailer of click here to shop online.<\/p>",
+              "subheading": "<p>Ask your local retailer or click here to shop online.<\/p>",
               "link": "https:\/\/www.tannico.it\/catalogsearch\/result\/?q=nc%27nean&_gl=1*1nkcu5v*_up*MQ..&gclid=CjwKCAjw44mlBhAQEiwAqP3eVr0MA0v1HoK0MbS6kNw_1E-O9EwldeqyTmOkfelCyC_OJuOhA5OwaRoCNPUQAvD_BwE",
               "linkText": "",
               "buttonStyle": "2",
@@ -4558,6 +4558,61 @@
           "30803a21-d8a8-4e5f-96ff-7247ddfe8cdf",
           "f699ddf1-0dd8-46f7-9ad8-b3407f7f3cfd",
           "8371faad-2111-4d4d-83c4-52efc5d57e4f"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
+      },
+      "europe-grid-2": {
+        "type": "europe-grid-2",
+        "blocks": {
+          "1550cd89-c9df-4a46-baec-bfd2e58b7d0a": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "THE NETHERLANDS",
+              "subheading": "<p>Ask your local retailer or click here to shop online.<\/p>",
+              "link": "https:\/\/drankdozijn.nl\/zoeken?zoekterm=nc%27nea",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "1e0595ec-18b1-4ae9-a67d-e4181dacbac5": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "49d6761c-f507-45e1-99cd-6e7a788a574e": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "1550cd89-c9df-4a46-baec-bfd2e58b7d0a",
+          "1e0595ec-18b1-4ae9-a67d-e4181dacbac5",
+          "49d6761c-f507-45e1-99cd-6e7a788a574e"
         ],
         "settings": {
           "enable_animation": false
