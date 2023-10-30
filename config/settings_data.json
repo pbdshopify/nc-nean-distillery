@@ -4809,6 +4809,15 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "stockists-richtext": {
+        "type": "stockists-richtext",
+        "settings": {
+          "title": "WHERE TO FIND US",
+          "text": "<p>Click below to find out if we’re available to buy near you.<\/p>",
+          "link": "",
+          "linkText": ""
+        }
       }
     },
     "content_for_index": [
