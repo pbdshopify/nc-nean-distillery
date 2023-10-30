@@ -4672,6 +4672,70 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "europe-grid-4": {
+        "type": "europe-grid-4",
+        "blocks": {
+          "31f59437-f6c5-4707-80ef-e391a16e6e57": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "LUXEMBOURG",
+              "subheading": "<p>Ask your local retailer or click here to shop online.<\/p>",
+              "link": "https:\/\/www.whisky.lu\/?s=nc%27nean&post_type=product&lang=en",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "55410e09-6c6f-407d-8a15-d5b5f3d67ecf": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "NORWAY",
+              "subheading": "<p>Find us in most Vinmonopolet stores or click here to shop online.<\/p>",
+              "link": "https:\/\/www.vinmonopolet.no\/Land\/Skottland\/Highland\/Nc%27nean-Organic-Single-Malt\/p\/13849001",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "49be7fef-ee72-4b5b-95ec-b6a3877f1d3e": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "31f59437-f6c5-4707-80ef-e391a16e6e57",
+          "55410e09-6c6f-407d-8a15-d5b5f3d67ecf",
+          "49be7fef-ee72-4b5b-95ec-b6a3877f1d3e"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
+      },
+      "europe-richtext-3": {
+        "type": "europe-richtext-3",
+        "settings": {
+          "title": "",
+          "text": "",
+          "link": "",
+          "linkText": ""
+        }
       }
     },
     "content_for_index": [
