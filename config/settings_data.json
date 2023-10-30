@@ -4514,7 +4514,7 @@
           "30803a21-d8a8-4e5f-96ff-7247ddfe8cdf": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/comp8_90b3d044-9b9b-4f23-9ad4-a62a5253fbfb.png",
+              "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#0a091b",
               "textColor": "#ffffff",
@@ -4529,7 +4529,7 @@
           "f699ddf1-0dd8-46f7-9ad8-b3407f7f3cfd": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/comp9_ed31f8a9-cd66-4f54-b8fe-fcd024ddad04.png",
+              "image": "shopify:\/\/shop_images\/Organic_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -4544,6 +4544,7 @@
           "8371faad-2111-4d4d-83c4-52efc5d57e4f": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
