@@ -4586,12 +4586,12 @@
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
+              "heading": "AUSTRIA",
+              "subheading": "<p>Ask your local retailer or click here to shop online.<\/p>",
+              "link": "https:\/\/www.weisshaus.at\/search?sSearch=nc%27nean&sc=shopware",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           },
           "49d6761c-f507-45e1-99cd-6e7a788a574e": {
