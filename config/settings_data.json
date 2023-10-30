@@ -4510,6 +4510,55 @@
       },
       "europe-grid": {
         "type": "europe-grid",
+        "blocks": {
+          "30803a21-d8a8-4e5f-96ff-7247ddfe8cdf": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "GERMANY",
+              "subheading": "<p>Click here to shop online in Germany<\/p>",
+              "link": "https:\/\/whic.de\/ncnean",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "f699ddf1-0dd8-46f7-9ad8-b3407f7f3cfd": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "8371faad-2111-4d4d-83c4-52efc5d57e4f": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "30803a21-d8a8-4e5f-96ff-7247ddfe8cdf",
+          "f699ddf1-0dd8-46f7-9ad8-b3407f7f3cfd",
+          "8371faad-2111-4d4d-83c4-52efc5d57e4f"
+        ],
         "settings": {
           "enable_animation": false
         }
