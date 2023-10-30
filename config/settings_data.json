@@ -4514,8 +4514,9 @@
           "30803a21-d8a8-4e5f-96ff-7247ddfe8cdf": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/comp8_90b3d044-9b9b-4f23-9ad4-a62a5253fbfb.png",
               "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
+              "overlayColor": "#0a091b",
               "textColor": "#ffffff",
               "heading": "GERMANY",
               "subheading": "<p>Ask your local retailer or click here to shop online.<\/p>",
