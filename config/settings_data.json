@@ -4572,6 +4572,7 @@
           "1550cd89-c9df-4a46-baec-bfd2e58b7d0a": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Sustainable_organic_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -4586,6 +4587,7 @@
           "1e0595ec-18b1-4ae9-a67d-e4181dacbac5": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
