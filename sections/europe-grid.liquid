@@ -32,7 +32,7 @@
         {% when 4 %}
           {% assign column_stacked = "true" %}
         {% when 5 %}
-          {% capture column_stacked %}{% cycle false, true, true, true, true %}{% endcapture %}
+          {% capture column_stacked %}{% cycle false, true, false, false, false %}{% endcapture %}
       {% endcase %}
 
       {% capture openRow %}
