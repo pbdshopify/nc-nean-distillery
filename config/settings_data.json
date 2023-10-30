@@ -4602,6 +4602,7 @@
           "49d6761c-f507-45e1-99cd-6e7a788a574e": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Organic_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -4629,6 +4630,7 @@
           "34d331b6-5b54-48b1-98bf-8494a5ddf19d": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -4643,6 +4645,7 @@
           "9b39c411-8661-40a3-8d98-40e396460265": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Sustainable_organic_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -4657,6 +4660,7 @@
           "71ba159a-513c-4e60-a973-6e9a74ba727b": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -4684,6 +4688,7 @@
           "31f59437-f6c5-4707-80ef-e391a16e6e57": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Organic_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -4698,6 +4703,7 @@
           "55410e09-6c6f-407d-8a15-d5b5f3d67ecf": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -4712,6 +4718,7 @@
           "49be7fef-ee72-4b5b-95ec-b6a3877f1d3e": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Sustainable_organic_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
