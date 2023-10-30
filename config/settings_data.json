@@ -4529,6 +4529,7 @@
           "f699ddf1-0dd8-46f7-9ad8-b3407f7f3cfd": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/comp9_ed31f8a9-cd66-4f54-b8fe-fcd024ddad04.png",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
