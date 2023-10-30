@@ -4655,12 +4655,12 @@
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
+              "heading": "SWEDEN",
+              "subheading": "<p>Click here to shop online.<\/p>",
+              "link": "https:\/\/webshop.spirit-brothers.ch\/20-whisky?page=3",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           }
         },
