@@ -4755,12 +4755,12 @@
           "a9a181cb-7d9c-452f-83d6-9ea0c8c5a4db": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/NewHotToddy5.jpg",
-              "overlayOpacity": "0.5",
+              "image": "shopify:\/\/shop_images\/Batch_01.jpg",
+              "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "UK",
-              "subheading": "<p>Click here to shop directly from our UK website.<\/p>",
+              "subheading": "",
               "videoText": "",
               "link": "shopify:\/\/collections\/all-spirits",
               "linkText": "",
@@ -4771,31 +4771,33 @@
           "8f6c9ddc-a480-4338-bf92-466968467282": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Batch_01.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
+              "heading": "EUROPE",
               "subheading": "",
               "videoText": "",
-              "link": "",
+              "link": "shopify:\/\/pages\/europe",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           },
           "48615d4a-e823-4569-9b00-e287117163e2": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Batch_01.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
+              "heading": "USA AND CANADA",
               "subheading": "",
               "videoText": "",
-              "link": "",
+              "link": "shopify:\/\/pages\/north-america",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           }
         },
