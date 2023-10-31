@@ -4580,9 +4580,10 @@
         ],
         "custom_css": [
           ".index-grid-wrapper .image-gutters--2 {margin-top: 0px; padding: 0px;}",
-          ".index-grid-wrapper .image-gutters--stacked-column--2 .index-grid-item:first-child {padding-bottom: 0;}",
-          ".index-grid-wrapper .image-gutters--stacked-column--2 .index-grid-item:last-child {padding-top: 0;}",
-          ".index-grid-wrapper .image-gutters--2 .index-grid-column {padding: 0;}"
+          ".image-gutters--stacked-column--2 .index-grid-item:first-child {padding-bottom: 0;}",
+          ".image-gutters--stacked-column--2 .index-grid-item:last-child {padding-top: 0;}",
+          ".image-gutters--2 .index-grid-column {padding: 0;}",
+          ".image-gutters--stacked-column--2 .index-grid-item:last-child {padding-top: 0px;}"
         ],
         "settings": {
           "enable_animation": false
