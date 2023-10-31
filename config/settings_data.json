@@ -4559,15 +4559,16 @@
           "638d4591-9ef2-4257-9db2-6a004291df8f": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
+              "heading": "THE NETHERLANDS",
+              "subheading": "<p>Ask your local retailer or click here to shop online.<\/p>",
+              "link": "https:\/\/drankdozijn.nl\/zoeken?zoekterm=nc%27nea",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           }
         },
@@ -4584,21 +4585,6 @@
       "europe-grid-2": {
         "type": "europe-grid-2",
         "blocks": {
-          "1550cd89-c9df-4a46-baec-bfd2e58b7d0a": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Sustainable_organic_whisky.jpg",
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "THE NETHERLANDS",
-              "subheading": "<p>Ask your local retailer or click here to shop online.<\/p>",
-              "link": "https:\/\/drankdozijn.nl\/zoeken?zoekterm=nc%27nea",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "center"
-            }
-          },
           "1e0595ec-18b1-4ae9-a67d-e4181dacbac5": {
             "type": "grid-item",
             "settings": {
@@ -4632,23 +4618,39 @@
           "2b95783c-967a-4c07-b9a4-9aa1f231a5dc": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
+              "heading": "BELGIUM",
+              "subheading": "<p>Ask your local retailer or click here to shop online.<\/p>",
+              "link": "https:\/\/www.dekellecigars.be\/brand\/ncnean\/",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
+            }
+          },
+          "1550cd89-c9df-4a46-baec-bfd2e58b7d0a": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Sustainable_organic_whisky.jpg",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "SWITZERLAND",
+              "subheading": "<p>Ask your local retailer or click here to shop online.<\/p>",
+              "link": "https:\/\/webshop.spirit-brothers.ch\/20-whisky?page=3",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
             }
           }
         },
         "block_order": [
-          "1550cd89-c9df-4a46-baec-bfd2e58b7d0a",
           "1e0595ec-18b1-4ae9-a67d-e4181dacbac5",
           "49d6761c-f507-45e1-99cd-6e7a788a574e",
-          "2b95783c-967a-4c07-b9a4-9aa1f231a5dc"
+          "2b95783c-967a-4c07-b9a4-9aa1f231a5dc",
+          "1550cd89-c9df-4a46-baec-bfd2e58b7d0a"
         ],
         "settings": {
           "enable_animation": false
@@ -4657,16 +4659,16 @@
       "europe-grid-3": {
         "type": "europe-grid-3",
         "blocks": {
-          "34d331b6-5b54-48b1-98bf-8494a5ddf19d": {
+          "71ba159a-513c-4e60-a973-6e9a74ba727b": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
+              "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "BELGIUM",
-              "subheading": "<p>Ask your local retailer or click here to shop online<\/p>",
-              "link": "https:\/\/www.dekellecigars.be\/brand\/ncnean\/",
+              "heading": "SWEDEN",
+              "subheading": "<p>Click here to shop online.<\/p>",
+              "link": "https:\/\/www.systembolaget.se\/produkt\/sprit\/nc-nean-5647101\/",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
@@ -4687,16 +4689,16 @@
               "textAlignment": "center"
             }
           },
-          "71ba159a-513c-4e60-a973-6e9a74ba727b": {
+          "34d331b6-5b54-48b1-98bf-8494a5ddf19d": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
+              "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "SWEDEN",
-              "subheading": "<p>Click here to shop online.<\/p>",
-              "link": "https:\/\/www.systembolaget.se\/produkt\/sprit\/nc-nean-5647101\/",
+              "heading": "",
+              "subheading": "",
+              "link": "",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
@@ -4718,9 +4720,9 @@
           }
         },
         "block_order": [
-          "34d331b6-5b54-48b1-98bf-8494a5ddf19d",
-          "9b39c411-8661-40a3-8d98-40e396460265",
           "71ba159a-513c-4e60-a973-6e9a74ba727b",
+          "9b39c411-8661-40a3-8d98-40e396460265",
+          "34d331b6-5b54-48b1-98bf-8494a5ddf19d",
           "ec3df00a-9f25-434b-a5ac-d8f9e0765534"
         ],
         "settings": {
