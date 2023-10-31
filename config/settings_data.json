@@ -4707,15 +4707,16 @@
           "ec3df00a-9f25-434b-a5ac-d8f9e0765534": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
+              "heading": "POLAND",
+              "subheading": "<p>Ask your local retailer or click here to shop online.<\/p>",
+              "link": "https:\/\/sklep-domwhisky.pl\/firm-pol-1669901697-Ncnean-Distillery.html",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           }
         },
