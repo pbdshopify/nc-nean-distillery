@@ -4579,7 +4579,8 @@
           "638d4591-9ef2-4257-9db2-6a004291df8f"
         ],
         "custom_css": [
-
+          ".index-grid-wrapper .image-gutters--2 {margin-top: 0px; padding: 0px;}",
+          ".image-gutters--stacked-column--2 .index-grid-item:first-child,.image-gutters--stacked-column--2 .index-grid-item:last-child {padding-top: 0; padding-bottom: 0;}"
         ],
         "settings": {
           "enable_animation": false
