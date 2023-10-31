@@ -4578,6 +4578,9 @@
           "8371faad-2111-4d4d-83c4-52efc5d57e4f",
           "638d4591-9ef2-4257-9db2-6a004291df8f"
         ],
+        "custom_css": [
+          ".image-gutters--2 {margin-top: 0px; padding: 0px;}"
+        ],
         "settings": {
           "enable_animation": false
         }
