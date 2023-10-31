@@ -4696,9 +4696,9 @@
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
+              "heading": "LUXEMBOURG",
+              "subheading": "<p>Ask your local retailer or click here to shop online.<\/p>",
+              "link": "https:\/\/www.whisky.lu\/?s=nc%27nean&post_type=product&lang=en",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
