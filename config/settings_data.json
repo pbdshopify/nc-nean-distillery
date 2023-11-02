@@ -4596,8 +4596,8 @@
               "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "AUSTRIA",
-              "subheading": "<p>Ask your local retailer or click here to shop online here with Weisshaus.<\/p>",
-              "link": "https:\/\/www.weisshaus.at\/search?sSearch=nc%27nean&sc=shopware",
+              "subheading": "<p>Ask your local retailer or shop online with <a href=\"https:\/\/www.weisshaus.at\/search?sSearch=nc%27nean&sc=shopware\" target=\"_blank\" title=\"https:\/\/www.weisshaus.at\/search?sSearch=nc%27nean&sc=shopware\">Weisshaus here<\/a>.<\/p>",
+              "link": "",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
