@@ -4666,8 +4666,8 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
+              "overlayOpacity": "0.7",
+              "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "SWEDEN",
               "subheading": "<p>We are available online for nationwide delivery, click here to shop online with Systembolaget.<\/p>",
@@ -4681,8 +4681,8 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Sustainable_organic_whisky.jpg",
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
+              "overlayOpacity": "0.7",
+              "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "NORWAY",
               "subheading": "<p>Find us in Vinmonopolet stores or click here to shop online.<\/p>",
@@ -4696,8 +4696,8 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
+              "overlayOpacity": "0.7",
+              "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "LUXEMBOURG",
               "subheading": "<p>Ask your local retailer or click here to shop online with Whisky.lu.<\/p>",
@@ -4711,8 +4711,8 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
+              "overlayOpacity": "0.7",
+              "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "POLAND",
               "subheading": "<p>Ask your local retailer or click here to shop online with Dom Whisky.<\/p>",
@@ -4740,8 +4740,8 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Organic_whisky.jpg",
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
+              "overlayOpacity": "0.7",
+              "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "UKRAINE",
               "subheading": "<p>Contact your local spirits retailer to find out if we are stocked near you.<\/p>",
@@ -4756,7 +4756,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
               "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
+              "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "",
               "subheading": "",
@@ -4771,7 +4771,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Sustainable_organic_whisky.jpg",
               "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
+              "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "",
               "subheading": "",
@@ -4786,7 +4786,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
               "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
+              "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "",
               "subheading": "",
