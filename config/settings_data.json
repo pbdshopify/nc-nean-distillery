@@ -4515,7 +4515,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
-              "overlayOpacity": "0.5",
+              "overlayOpacity": "0.4",
               "overlayColor": "#0a091b",
               "textColor": "#ffffff",
               "heading": "GERMANY",
@@ -4786,7 +4786,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
               "overlayOpacity": "0.5",
-              "overlayColor": "#0a091b",
+              "overlayColor": "#ffffff",
               "textColor": "#ffffff",
               "heading": "",
               "subheading": "",
