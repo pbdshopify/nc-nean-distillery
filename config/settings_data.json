@@ -4670,8 +4670,8 @@
               "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "SWEDEN",
-              "subheading": "<p>We are available online for nationwide delivery, click here to shop online with Systembolaget.<\/p>",
-              "link": "https:\/\/www.systembolaget.se\/produkt\/sprit\/nc-nean-5647101\/",
+              "subheading": "<p>We are available online for nationwide delivery, shop online with <a href=\"https:\/\/www.systembolaget.se\/produkt\/sprit\/nc-nean-5647101\/\" target=\"_blank\" title=\"https:\/\/www.systembolaget.se\/produkt\/sprit\/nc-nean-5647101\/\">Systembolaget here<\/a>.<\/p>",
+              "link": "",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
