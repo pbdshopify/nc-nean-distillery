@@ -4515,7 +4515,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
-              "overlayOpacity": "0.6",
+              "overlayOpacity": "0.7",
               "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "GERMANY",
@@ -4530,7 +4530,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Organic_whisky.jpg",
-              "overlayOpacity": "0.6",
+              "overlayOpacity": "0.7",
               "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "FRANCE",
@@ -4545,7 +4545,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
-              "overlayOpacity": "0.6",
+              "overlayOpacity": "0.7",
               "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "ITALY",
