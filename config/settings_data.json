@@ -4515,12 +4515,12 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "GERMANY",
-              "subheading": "<p>Ask your local retailer or click here to shop online.<\/p>",
-              "link": "https:\/\/whic.de\/ncnean",
+              "subheading": "<p>Ask your local retailer or shop here with <a href=\"https:\/\/whic.de\/search?search=nc%27nean\" target=\"_blank\" title=\"https:\/\/whic.de\/search?search=nc%27nean\">whic.de<\/a> or here with <a href=\"https:\/\/www.whisky.de\/shop\/index.php?lang=0&cl=search&searchparam=nc%27nean&searchorigin=1&searchparam=nc%27nean&preisMaxOverride=419&pgNr=0\" target=\"_blank\" title=\"https:\/\/www.whisky.de\/shop\/index.php?lang=0&cl=search&searchparam=nc%27nean&searchorigin=1&searchparam=nc%27nean&preisMaxOverride=419&pgNr=0\">whisky.de.<\/a><\/p>",
+              "link": "",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
