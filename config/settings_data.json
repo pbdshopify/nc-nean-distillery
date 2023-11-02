@@ -4685,8 +4685,8 @@
               "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "NORWAY",
-              "subheading": "<p>Find us in Vinmonopolet stores or click here to shop online.<\/p>",
-              "link": "https:\/\/www.vinmonopolet.no\/search?q=nc%27nean:relevance&searchType=product&currentPage=0",
+              "subheading": "<p>Find us in Vinmonopolet stores or <a href=\"https:\/\/www.vinmonopolet.no\/search?q=nc%27nean:relevance&searchType=product&currentPage=0\" target=\"_blank\" title=\"https:\/\/www.vinmonopolet.no\/search?q=nc%27nean:relevance&searchType=product&currentPage=0\">shop online here<\/a>.<\/p>",
+              "link": "",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
