@@ -4641,8 +4641,8 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "SWITZERLAND",
-              "subheading": "<p>Ask your local retailer or click here to shop online here with Drinks.ch.<\/p>",
-              "link": "https:\/\/webshop.spirit-brothers.ch\/20-whisky?page=3",
+              "subheading": "<p>Ask your local retailer or click here to shop online here with <a href=\"https:\/\/www.drinks.ch\/de\/marken\/nc-nean.html\" target=\"_blank\" title=\"https:\/\/www.drinks.ch\/de\/marken\/nc-nean.html\">Drinks.ch<\/a> or here with <a href=\"https:\/\/webshop.spirit-brothers.ch\/20-whisky?page=3\" target=\"_blank\" title=\"https:\/\/webshop.spirit-brothers.ch\/20-whisky?page=3\">Spirit Brothers<\/a>.<\/p>",
+              "link": "",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
