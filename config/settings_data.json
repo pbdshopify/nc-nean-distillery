@@ -4277,12 +4277,12 @@
           "6ea391d7-8216-49a1-be61-0102ccc147c2": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Whisky_cask_sale.jpg",
+              "image": "shopify:\/\/shop_images\/Aon_TWE_23.jpg",
               "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "AON 17-408",
+              "subheading": "<p>Bottled exclusively for The Whisky Exchange<\/p>",
               "link": "shopify:\/\/pages\/aon-17-176",
               "linkText": "",
               "buttonStyle": "2",
