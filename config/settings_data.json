@@ -4626,8 +4626,8 @@
               "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "BELGIUM",
-              "subheading": "<p>Ask your local retailer or click here to shop online here with Dekelle Cigars.<\/p>",
-              "link": "https:\/\/www.dekellecigars.be\/brand\/ncnean\/",
+              "subheading": "<p>Ask your local retailer or shop online with <a href=\"https:\/\/www.dekellecigars.be\/brand\/ncnean\/\" target=\"_blank\" title=\"https:\/\/www.dekellecigars.be\/brand\/ncnean\/\">Dekelle Cigars here<\/a>.<\/p>",
+              "link": "",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
