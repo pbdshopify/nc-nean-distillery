@@ -4897,7 +4897,58 @@
       },
       "team-grid-7": {
         "type": "team-grid-7",
+        "blocks": {
+          "e7a93196-6e44-4d57-8d69-881160b908c9": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/James_Portrait_low_res.jpg",
+              "overlayOpacity": "0.4",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "JAMES WORTHINGTON",
+              "subheading": "<p>Head of Finance<\/p><p>Proud Yorkshireman from the beer industry. Loves nothing more than crunching numbers. Also spends his time attempting to play sport, reading, and running around after his young family.<\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "bottom left"
+            }
+          },
+          "8802dcbb-595c-408d-9338-9da4a43c5fda": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "64a8be01-fe88-412f-8c1f-6def01150687": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "e7a93196-6e44-4d57-8d69-881160b908c9",
+          "8802dcbb-595c-408d-9338-9da4a43c5fda",
+          "64a8be01-fe88-412f-8c1f-6def01150687"
+        ],
         "settings": {
+          "enable_animation": false
         }
       }
     },
