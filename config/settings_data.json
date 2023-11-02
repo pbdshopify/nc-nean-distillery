@@ -4544,10 +4544,10 @@
           "8371faad-2111-4d4d-83c4-52efc5d57e4f": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
-              "overlayOpacity": "0.5",
-              "overlayColor": "#0a091b",
-              "textColor": "#ffffff",
+              "image": "shopify:\/\/shop_images\/Nc_nean_green.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#859894",
+              "textColor": "#27372c",
               "heading": "ITALY",
               "subheading": "<p>Ask your local retailer or shop online with <a href=\"https:\/\/www.tannico.it\/catalogsearch\/result\/?q=nc%27nean&_gl=1*1nkcu5v*_up*MQ..&gclid=CjwKCAjw44mlBhAQEiwAqP3eVr0MA0v1HoK0MbS6kNw_1E-O9EwldeqyTmOkfelCyC_OJuOhA5OwaRoCNPUQAvD_BwE\" target=\"_blank\" title=\"https:\/\/www.tannico.it\/catalogsearch\/result\/?q=nc%27nean&_gl=1*1nkcu5v*_up*MQ..&gclid=CjwKCAjw44mlBhAQEiwAqP3eVr0MA0v1HoK0MbS6kNw_1E-O9EwldeqyTmOkfelCyC_OJuOhA5OwaRoCNPUQAvD_BwE\">Tannico here<\/a>.<\/p>",
               "link": "",
