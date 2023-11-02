@@ -4685,8 +4685,8 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "NORWAY",
-              "subheading": "<p>Find us in most Vinmonopolet stores or click here to shop online.<\/p>",
-              "link": "https:\/\/webshop.spirit-brothers.ch\/20-whisky?page=3",
+              "subheading": "<p>Find us in Vinmonopolet stores or click here to shop online.<\/p>",
+              "link": "https:\/\/www.vinmonopolet.no\/search?q=nc%27nean:relevance&searchType=product&currentPage=0",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
