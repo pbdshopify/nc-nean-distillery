@@ -4515,7 +4515,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Nc_nean_green.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.1",
               "overlayColor": "#859894",
               "textColor": "#0a091b",
               "heading": "GERMANY",
