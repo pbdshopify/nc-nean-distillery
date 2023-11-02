@@ -4700,8 +4700,8 @@
               "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "LUXEMBOURG",
-              "subheading": "<p>Ask your local retailer or click here to shop online with Whisky.lu.<\/p>",
-              "link": "https:\/\/www.whisky.lu\/?s=nc%27nean&post_type=product&lang=en",
+              "subheading": "<p>Ask your local retailer or shop online with <a href=\"https:\/\/www.whisky.lu\/?s=nc%27nean&post_type=product&lang=en\" target=\"_blank\" title=\"https:\/\/www.whisky.lu\/?s=nc%27nean&post_type=product&lang=en\">Whisky.lu here<\/a>.<\/p>",
+              "link": "",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
