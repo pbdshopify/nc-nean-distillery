@@ -4611,8 +4611,8 @@
               "overlayColor": "#859894",
               "textColor": "#ffffff",
               "heading": "DENMARK",
-              "subheading": "<p>Ask your local retailer or click here to shop online here with Whisky.dk.<\/p>",
-              "link": "https:\/\/www.whisky.dk\/shop\/frontpage.html#%7B%22e806f5799b3b%22%3A%7B%22search_term%22%3A%22nc'nean%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A12%2C%22blog_post%22%3A12%2C%22product%22%3A42%7D%2C%22y_pos%22%3A0%7D%7D",
+              "subheading": "<p>Ask your local retailer or shop online with <a href=\"https:\/\/www.whisky.dk\/shop\/frontpage.html#%7B%22e806f5799b3b%22%3A%7B%22search_term%22%3A%22nc'nean%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A12%2C%22blog_post%22%3A12%2C%22product%22%3A42%7D%2C%22y_pos%22%3A0%7D%7D\" target=\"_blank\" title=\"https:\/\/www.whisky.dk\/shop\/frontpage.html#%7B%22e806f5799b3b%22%3A%7B%22search_term%22%3A%22nc'nean%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A12%2C%22blog_post%22%3A12%2C%22product%22%3A42%7D%2C%22y_pos%22%3A0%7D%7D\">Whisky.dk here<\/a>.<\/p>",
+              "link": "",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
