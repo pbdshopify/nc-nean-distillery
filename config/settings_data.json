@@ -4292,13 +4292,13 @@
           "2c9e0985-90fe-4f29-a22c-6b891cc6b09d": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Whisky_cask_sale.jpg",
+              "image": "shopify:\/\/shop_images\/Aon_17-229_Whisky.de.jpg",
               "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
+              "heading": "AON 17-299",
+              "subheading": "<p>Bottled exclusively for Whisky.de<\/p>",
+              "link": "shopify:\/\/pages\/aon-17-229",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
