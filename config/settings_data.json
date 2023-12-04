@@ -4989,7 +4989,8 @@
           "94047818-6eaa-497c-a49f-9072fb9a4e90": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/Whisky_cask_sale.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "",
