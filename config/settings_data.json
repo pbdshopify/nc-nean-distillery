@@ -251,6 +251,7 @@
       },
       "1587396917680": {
         "type": "video",
+        "disabled": true,
         "settings": {
           "video_url": "https:\/\/www.dropbox.com\/s\/qdaajwmhhvoa4ul\/221123%20Website%20Banner.mp4?dl=0",
           "enable_animation": false,
