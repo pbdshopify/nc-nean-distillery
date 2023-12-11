@@ -68,7 +68,7 @@
           "notification_bar_enable_currency": false,
           "notification_bar_enable_social": false,
           "notification_bar_text": "ORDER BEFORE 12PM ON 21ST DEC FOR CHRISTMAS DELIVERY",
-          "notification_bar_link": ""
+          "notification_bar_link": "shopify:\/\/collections\/all-spirits"
         }
       },
       "footer": {
