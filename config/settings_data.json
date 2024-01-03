@@ -4891,9 +4891,9 @@
         "type": "stockists-richtext-2",
         "settings": {
           "title": "REST OF WORLD",
-          "text": "<p>Aside from the above, our whisky and our Botanical Spirit are both available in New Zealand - click below to shop now.<\/p>",
-          "link": "https:\/\/www.whiskygalore.co.nz\/search?q=Nc%27nean",
-          "linkText": "SHOP NOW IN NZ"
+          "text": "<p>Aside from the above, our whisky and our Botanical Spirit are both available in New Zealand - <a href=\"https:\/\/www.whiskygalore.co.nz\/search?q=Nc%27nean\" target=\"_blank\" title=\"https:\/\/www.whiskygalore.co.nz\/search?q=Nc%27nean\">click here to shop now<\/a>.<\/p><p>And also in Dubai International Airport.<\/p>",
+          "link": "",
+          "linkText": ""
         }
       },
       "team-grid-7": {
