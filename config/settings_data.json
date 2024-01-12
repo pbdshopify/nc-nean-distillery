@@ -4366,15 +4366,16 @@
           "grid_item_NX3iU3": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "top left"
+              "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
+              "overlayOpacity": "0.8",
+              "overlayColor": "#ffffff",
+              "textColor": "#0a091b",
+              "heading": "SUSTAINABILITY TOUR",
+              "subheading": "<p>Adult distillery tour: £35 per person (drivers drams available)<br\/>-<br\/>Children under 16: £12 per person<\/p>",
+              "link": "https:\/\/fareharbor.com\/embeds\/book\/ncneandistillery\/items\/?flow=816347&full-items=yes",
+              "linkText": "BOOK NOW",
+              "buttonStyle": "1",
+              "textAlignment": "center"
             }
           }
         },
