@@ -5264,7 +5264,7 @@ body:not(.js-drawer-open) .drawer__content {
 /*============================================================================
   #Grid */
 
-$ig-gap: 0px;
+$ig-gap: 2px;
 
 .index-grid {
   @include clearfix();
@@ -5282,10 +5282,10 @@ $ig-gap: 0px;
 .index-grid-column {
   display: flex;
   flex-direction: column;
-  /*
+  
   padding-right: $ig-gap/2;
   padding-left: $ig-gap/2;
-  */
+  
 }
 
 .index-grid-item {
@@ -5293,12 +5293,12 @@ $ig-gap: 0px;
   background-size: cover;
   background-position: center;
   width: 100%;
-  margin: 1px;
-  /*
+
+
   margin-right: $ig-gap/2;
   margin-bottom: $ig-gap;
   margin-left: $ig-gap/2;
-  */
+  
   overflow: hidden;
 
   .count-1 &.height-css { height: 66.666vw; }
@@ -5535,7 +5535,7 @@ $ig-gap: 0px;
 
 @for $n from 1 through 40 {
   .image-gutters--#{$n} {
-  /*
+  
     margin-top: -$n + px;
     padding-right: $n + px;
     padding-bottom: $n + px;
@@ -5549,18 +5549,18 @@ $ig-gap: 0px;
       padding-top: $n + px;
       padding-left: $n + px !important;
     }
-  */
+  
   }
 
   .image-gutters--stacked-column--#{$n} {
-                                      /*  
+                                      
     .index-grid-item:first-child {
       padding-bottom: ($n / 2) + px;
     }
     .index-grid-item:last-child {
       padding-top: ($n / 2) + px;
     }
-                         */               
+                                      
   }
 
                      
@@ -5574,7 +5574,7 @@ $ig-gap: 0px;
 @media (max-width: 842px) {
 @for $n from 1 through 40 {
   .image-gutters--#{$n} {
-  /*
+  
     margin-top: -$n + px;
     padding-right: 0px;
     padding-bottom: $n + px;
@@ -5583,26 +5583,26 @@ $ig-gap: 0px;
       padding-top: $n + px;
       padding-left: 0px;
     }
-*/
- /*   .grid__item {
+
+    .grid__item {
       padding-top: $n + px;
       padding-left: 0px !important;
       padding-right: 0px !important;
     }
   
-*/
+
   .image-gutters--stacked-column--#{$n} {
-  /*
+  
     .index-grid-item:first-child {
       padding-bottom: ($n / 2) + px;
     }
-  */
+  
   }
-  /*
+  
     .index-grid-item:last-child {
       padding-top: ($n / 2) + px;
     }
-  */
+  
   }
 }
 }
