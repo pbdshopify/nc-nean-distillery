@@ -4362,12 +4362,28 @@
               "buttonStyle": "1",
               "textAlignment": "center"
             }
+          },
+          "grid_item_c8QKwV": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Sustainable_organic_whisky.jpg",
+              "overlayOpacity": "0.8",
+              "overlayColor": "#ffffff",
+              "textColor": "#0a091b",
+              "heading": "NC'NEAN",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "1",
+              "textAlignment": "center"
+            }
           }
         },
         "block_order": [
           "d6bc85d8-9014-427a-b841-4568cb3c7608",
           "6627e607-e7bf-4b9f-b565-49c2ff1a1925",
-          "39f82b7d-8ed4-4998-8745-671f0517571d"
+          "39f82b7d-8ed4-4998-8745-671f0517571d",
+          "grid_item_c8QKwV"
         ],
         "settings": {
           "enable_animation": false
