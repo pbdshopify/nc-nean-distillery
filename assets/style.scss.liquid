@@ -5531,9 +5531,10 @@ $ig-gap: 0px;
 .index-grid-item-overlay {
   transition: opacity 0.38s ease;
 }
-/*
+
 @for $n from 1 through 40 {
   .image-gutters--#{$n} {
+  /*
     margin-top: -$n + px;
     padding-right: $n + px;
     padding-bottom: $n + px;
@@ -5547,18 +5548,21 @@ $ig-gap: 0px;
       padding-top: $n + px;
       padding-left: $n + px !important;
     }
+  */
   }
 
   .image-gutters--stacked-column--#{$n} {
+                                      /*  
     .index-grid-item:first-child {
       padding-bottom: ($n / 2) + px;
     }
     .index-grid-item:last-child {
       padding-top: ($n / 2) + px;
     }
+                         */               
   }
 
-                     */
+                     
 }
 
 .image-gutters--no-offset-top {
