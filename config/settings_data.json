@@ -8,7 +8,7 @@
     "color_button_text": "#ffffff",
     "color_image_cta_background": "#ffffff",
     "color_image_cta_text": "#0a091b",
-    "image_gutter": 0,
+    "image_gutter": 2,
     "enable_max_width_container": false,
     "max_width_container_background_color": "#ffffff",
     "type_logo": "tinos_n4",
