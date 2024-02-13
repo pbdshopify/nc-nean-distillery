@@ -5033,42 +5033,6 @@
       },
       "visitor-book-grid": {
         "type": "visitor-book-grid",
-        "blocks": {
-          "grid_item_KFaRHw": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Sustainable_whisky.jpg",
-              "overlayOpacity": "0.8",
-              "overlayColor": "#ffffff",
-              "textColor": "#0a091b",
-              "heading": "PRIVATE TOURS",
-              "subheading": "<p>Private tours £50 pp (min £100 booking)<br\/>November 1st - April 30th<br\/>-<br\/>Private tours £50pp (min £200 booking)<br\/>May 1st - October 31st<\/p>",
-              "link": "https:\/\/fareharbor.com\/embeds\/book\/ncneandistillery\/items\/?flow=816347&full-items=yes",
-              "linkText": "BOOK NOW",
-              "buttonStyle": "1",
-              "textAlignment": "center"
-            }
-          },
-          "grid_item_aWK67w": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Sustainable_organic_whisky.jpg",
-              "overlayOpacity": "0.8",
-              "overlayColor": "#ffffff",
-              "textColor": "#0a091b",
-              "heading": "SUSTAINABILITY TOUR",
-              "subheading": "<p>Adult distillery tour: £35 per person (drivers drams available)<br\/>-<br\/>Children under 16: £12 per person<\/p>",
-              "link": "https:\/\/fareharbor.com\/embeds\/book\/ncneandistillery\/items\/?flow=816347&full-items=yes",
-              "linkText": "BOOK NOW",
-              "buttonStyle": "1",
-              "textAlignment": "center"
-            }
-          }
-        },
-        "block_order": [
-          "grid_item_KFaRHw",
-          "grid_item_aWK67w"
-        ],
         "settings": {
           "enable_animation": false
         }
