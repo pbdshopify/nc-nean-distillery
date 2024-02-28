@@ -5043,11 +5043,12 @@
           "grid_item_myUpgB": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/Aon_18-642_Impex.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "AON 18-642",
+              "subheading": "<p>Bottled exclusively for ImpEx Beverages in the USA<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
