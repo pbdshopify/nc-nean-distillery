@@ -5043,13 +5043,13 @@
           "grid_item_myUpgB": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Aon_18-642_Impex.jpg",
+              "image": "shopify:\/\/shop_images\/Aon_17-234_Gill_Meller.jpg",
               "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "AON 18-642",
-              "subheading": "<p>Bottled exclusively for ImpEx Beverages in the USA. Launching April 2024.<\/p>",
-              "link": "https:\/\/ncnean.com\/pages\/aon-18-642",
+              "heading": "AON 17-234",
+              "subheading": "<p>Released in partnership with Gill Meller, bottled exclusively for our own website. Launching 21st March.<\/p>",
+              "link": "shopify:\/\/pages\/aon-17-234",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
