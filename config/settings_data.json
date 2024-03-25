@@ -4936,16 +4936,16 @@
           "8802dcbb-595c-408d-9338-9da4a43c5fda": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/BW_Beth_2_low_res.jpg",
+              "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "BETH STEPHEN",
+              "subheading": "<p>Digital and Creative Executive<\/p><p>Perthshire born and raised. Big lover of photography, Tunnock's Teacakes and being near water. Life goal is to see a blue whale. Started to enjoy whisky after trying a Whisky Six.<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "bottom left"
             }
           },
           "64a8be01-fe88-412f-8c1f-6def01150687": {
