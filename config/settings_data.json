@@ -4951,16 +4951,16 @@
           "64a8be01-fe88-412f-8c1f-6def01150687": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/BW_Suzanne_4.jpg",
+              "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "SUZANNE RIVIERE",
+              "subheading": "<p>European Brand Ambassador<\/p><p>Normandie born and raised, now based in Paris. Degree in wine and spirits but of all the drinks out there, whisky has her heart. Metal-head and proper foodie. Big lover of ducks and dogs.<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "bottom left"
             }
           }
         },
