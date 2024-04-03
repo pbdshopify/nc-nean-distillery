@@ -230,7 +230,7 @@
           "collection_style": "grid__image--caption",
           "collection_layout_style": "fourByThree",
           "show_collection_header": false,
-          "show_collection_description": true,
+          "show_collection_description": false,
           "enable_dropshadow": false,
           "image_alignment": "center",
           "color_overlay_opacity": "0",
