@@ -5094,6 +5094,64 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "aon-grid-6": {
+        "type": "aon-grid-6",
+        "blocks": {
+          "grid_item_NNcj3W": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Whisky_cask_sale.jpg",
+              "overlayOpacity": "0.2",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_W3zNnj": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Whisky_cask_sale.jpg",
+              "overlayOpacity": "0.2",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_8a4NgP": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Aon_18-642_Impex.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "AON 18-642",
+              "subheading": "<p>Bottled exclusively for ImpEx Beverages in the US<\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_NNcj3W",
+          "grid_item_W3zNnj",
+          "grid_item_8a4NgP"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
