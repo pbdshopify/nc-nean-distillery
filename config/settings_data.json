@@ -2169,6 +2169,7 @@
           "1592237739361-0",
           "1592237739361-1"
         ],
+        "disabled": true,
         "settings": {
           "enable_animation": true
         }
@@ -5291,12 +5292,71 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "product_range_grid_WNG7Di": {
+        "type": "product-range-grid",
+        "blocks": {
+          "grid_item_nXp9nU": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Huntress_OC_Rework.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_4CxEyV": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Aon_17-234_Gill_Meller.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_7FHRgn": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Nc_nean_CS.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_nXp9nU",
+          "grid_item_4CxEyV",
+          "grid_item_7FHRgn"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
       "eed0827b-db9f-4f13-8542-b488fcb7e9e3",
       "d327603b-f3a7-48e3-a6e8-951ddba60fe7",
       "product_range_grid_4GLxUM",
+      "product_range_grid_WNG7Di",
       "1592237739361",
       "1592237980075",
       "grid-2",
