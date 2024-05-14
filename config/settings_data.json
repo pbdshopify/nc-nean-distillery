@@ -5233,11 +5233,83 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "product_range_grid_4GLxUM": {
+        "type": "product-range-grid",
+        "blocks": {
+          "grid_item_TMyVkJ": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_iWpiAQ": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_NX9Kzg": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_QtLmVE": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_TMyVkJ",
+          "grid_item_iWpiAQ",
+          "grid_item_NX9Kzg",
+          "grid_item_QtLmVE"
+        ],
+        "disabled": true,
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
       "eed0827b-db9f-4f13-8542-b488fcb7e9e3",
       "d327603b-f3a7-48e3-a6e8-951ddba60fe7",
+      "product_range_grid_4GLxUM",
       "1592237739361",
       "1592237980075",
       "grid-2",
