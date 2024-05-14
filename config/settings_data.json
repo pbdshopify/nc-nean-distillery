@@ -2169,7 +2169,6 @@
           "1592237739361-0",
           "1592237739361-1"
         ],
-        "disabled": true,
         "settings": {
           "enable_animation": true
         }
@@ -5289,6 +5288,7 @@
           "grid_item_iWpiAQ",
           "grid_item_NX9Kzg"
         ],
+        "disabled": true,
         "settings": {
           "enable_animation": false
         }
@@ -5347,6 +5347,7 @@
           "grid_item_4CxEyV",
           "grid_item_7FHRgn"
         ],
+        "disabled": true,
         "settings": {
           "enable_animation": false
         }
