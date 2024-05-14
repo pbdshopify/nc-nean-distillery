@@ -5240,7 +5240,8 @@
           "grid_item_TMyVkJ": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/Nc_nean_Organic_Single_Malt_f0549861-71bf-44ed-8281-160b144e2a6a.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "",
@@ -5254,7 +5255,8 @@
           "grid_item_iWpiAQ": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/Botanical_Spirit.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "",
@@ -5268,21 +5270,8 @@
           "grid_item_NX9Kzg": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "top left"
-            }
-          },
-          "grid_item_QtLmVE": {
-            "type": "grid-item",
-            "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/Quiet_Rebels_Gordon.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "",
@@ -5297,10 +5286,8 @@
         "block_order": [
           "grid_item_TMyVkJ",
           "grid_item_iWpiAQ",
-          "grid_item_NX9Kzg",
-          "grid_item_QtLmVE"
+          "grid_item_NX9Kzg"
         ],
-        "disabled": true,
         "settings": {
           "enable_animation": false
         }
