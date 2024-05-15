@@ -2869,21 +2869,6 @@
               "textAlignment": "bottom left"
             }
           },
-          "bda78c7a-4954-4588-ac64-2e365477b98c": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Jessye_bw.jpg",
-              "overlayOpacity": "0.2",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "JESSYE FAULKNER",
-              "subheading": "<p>Operations Executive<\/p><p>An Irish girl who can always be found with a cup of tea in her hands. Loves being outside and wild swimming. Grew up in the Middle East, and always excited by trying new foods.<\/p>",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "bottom left"
-            }
-          },
           "fa3336af-61a9-4110-9d48-4287e52a727a": {
             "type": "grid-item",
             "settings": {
@@ -2898,12 +2883,27 @@
               "buttonStyle": "2",
               "textAlignment": "bottom left"
             }
+          },
+          "bda78c7a-4954-4588-ac64-2e365477b98c": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Jessye_bw.jpg",
+              "overlayOpacity": "0.2",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "ASHLEY HOWKINS",
+              "subheading": "<p>Tour Guide and Bottling Operator<\/p><p>Canadian with strong Scottish roots. A love of animals, enjoys taking her dog Haggis for hill walks and snuggles with her cats Neeps and Tatties. Idea of heaven? A picnic on a wild Scottish beach.<\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "bottom left"
+            }
           }
         },
         "block_order": [
           "ce910242-da88-42c2-9d1b-73b9fb866775",
-          "bda78c7a-4954-4588-ac64-2e365477b98c",
-          "fa3336af-61a9-4110-9d48-4287e52a727a"
+          "fa3336af-61a9-4110-9d48-4287e52a727a",
+          "bda78c7a-4954-4588-ac64-2e365477b98c"
         ],
         "settings": {
           "enable_animation": false
