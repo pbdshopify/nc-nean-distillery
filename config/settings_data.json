@@ -5351,6 +5351,62 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "team-grid-8": {
+        "type": "team-grid-8",
+        "blocks": {
+          "grid_item_igUDdB": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Jess_BW-6_low_res.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "JESS DELANEY",
+              "subheading": "<p>South African and Irish blood, but with family connections to Drimnin. House plant enthusiast and a big lover of animals, with six cats and two bunnies. Loves cooking, knitting, reading, drawing, and going for a good old yomp.<\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "bottom left"
+            }
+          },
+          "grid_item_DHAUAN": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_4BApgQ": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_igUDdB",
+          "grid_item_DHAUAN",
+          "grid_item_4BApgQ"
+        ],
+        "settings": {
+          "enable_animation": true
+        }
       }
     },
     "content_for_index": [
