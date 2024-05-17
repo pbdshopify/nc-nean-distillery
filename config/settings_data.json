@@ -5373,7 +5373,8 @@
           "grid_item_DHAUAN": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/Craft_whisky.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "",
@@ -5387,7 +5388,8 @@
           "grid_item_4BApgQ": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/Organic_whisky.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "",
