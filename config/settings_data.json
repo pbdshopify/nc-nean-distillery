@@ -64,11 +64,11 @@
           "logo_image": "shopify:\/\/shop_images\/Nc_nean_brandmark.png",
           "logo_max_width": "250",
           "logo_transparent_image": "shopify:\/\/shop_images\/Nc_nean_logo_white.png",
-          "show_announcement_bar": false,
+          "show_announcement_bar": true,
           "notification_bar_enable_currency": false,
           "notification_bar_enable_social": false,
-          "notification_bar_text": "FREE GLASS WHEN YOU SPEND OVER £75: USE CODE 'FREEGLASS'",
-          "notification_bar_link": "shopify:\/\/products\/recycled-glass-ncnean-whisky-tumbler"
+          "notification_bar_text": "SHOP BEFORE 13TH JUNE FOR FATHER'S DAY DELIVERY",
+          "notification_bar_link": "shopify:\/\/collections\/all-spirits"
         }
       },
       "footer": {
