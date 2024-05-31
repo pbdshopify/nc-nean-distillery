@@ -21,11 +21,7 @@
     {% endif %}
   </div>
 
-  <div style="text-align: center;">
-    <video controls="true" autoplay="true" width="100%">
-        <source src="" type="video/mp4" />
-    </video>
-</div>
+  
 
   {% if section.settings.title != blank or section.settings.page_text != blank or section.settings.button_cta != blank %}
     <div class="feature-video-slide-text align-{{ section.settings.text_position }} {% if section.settings.enable_animation %}can-animate{% endif %}">
