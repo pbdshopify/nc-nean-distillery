@@ -67,7 +67,7 @@
           "show_announcement_bar": true,
           "notification_bar_enable_currency": false,
           "notification_bar_enable_social": false,
-          "notification_bar_text": "FREE UK DELIVERY OVER £75. SHOP NOW FOR FATHER'S DAY",
+          "notification_bar_text": "FREE UK DELIVERY OVER £75. SHOP NOW FOR FATHER'S DAY.",
           "notification_bar_link": "shopify:\/\/collections\/all-spirits"
         }
       },
