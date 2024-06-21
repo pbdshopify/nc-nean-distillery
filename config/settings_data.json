@@ -5126,12 +5126,12 @@
           "grid_item_NNcj3W": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Whisky_cask_sale.jpg",
-              "overlayOpacity": "0.2",
+              "image": "shopify:\/\/shop_images\/Aon_17-311_West_Highland.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "AON 17-311",
+              "subheading": "<p>Bottled for the West Highlands<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
