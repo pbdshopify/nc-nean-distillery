@@ -3133,6 +3133,69 @@ $headerTransition : "height #{$condenseTransitionTime}, background-color 0.5s, t
   }
 }
 
+.template-index .site-header {
+  background-color: #E3EDE7;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto;
+  height: $headerSize;
+  max-height: $headerSize;
+  min-height: $headerSize;
+  max-width: $siteMaxWidth;
+  @include transition($headerTransition);
+  z-index: 29;
+
+  @include at-query($min, $medium + 1) {
+    box-shadow: 0 1px 1px -1px rgba(0,0,0,0.3);
+
+    &.has-breadcrumbs.offset-by-announcement-bar:not(.transparent-header) {
+      border-bottom: 1px solid #eee;
+      box-shadow: none;
+    }
+  }
+
+  @include at-query($max, $large) {
+    height: $headerSize - 10px;
+    max-height: $headerSize - 10px;
+    min-height: $headerSize - 10px;
+  }
+
+  .grid--table {
+    width: 100%;
+
+    > .grid__item {
+      vertical-align: middle;
+    }
+  }
+
+  div {
+    text-align: center;
+  }
+
+  .icon {
+    font-size: $headerFontSize;
+    position: absolute;
+  }
+
+  @include at-query($max, $medium){
+    .controls-container {
+      position: absolute;
+      top: $headerSize - 10px;
+      max-height: $headerSize - 10px;
+    }
+    .js-drawer-open & {box-shadow: none;}
+  }
+
+  @include at-query($min, $large){
+    z-index: 27;
+    .controls-container {
+      float: right;
+    }
+  }
+}
+
 @media screen and (min-width: 840px) {
   .sticky-header {
     position: fixed;
@@ -3161,6 +3224,34 @@ body:not(.js-drawer-open).template-collection .transparent-header:not(.js-search
     @include transparentHeader();
   }
 }
+
+
+.template-index .squished-header {
+  .site-header-controls {
+    background-color: #9bb5a5;
+    border-left: none;
+    @include at-query($min, $large){
+      width: 14em;
+      margin-right: 0.8em;
+      float: right;
+    }
+
+    .header-control:not(.active):hover {
+      background-color: #9bb5a5;
+    }
+
+    > div+div {
+      border-left: none;
+    }
+  }
+
+  &.has-breadcrumbs.offset-by-announcement-bar:not(.transparent-header) .site-header-controls {
+    @include at-query($min, $medium + 1) {
+      border-bottom: 1px solid #eee;
+    }
+  }
+}
+
 
 .squished-header {
   .site-header-controls {
