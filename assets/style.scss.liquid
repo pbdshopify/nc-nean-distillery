@@ -3732,6 +3732,31 @@ body:not(.js-drawer-open).template-collection .transparent-header:not(.js-search
   width: calc(100% - 110px);
 }
 
+.template-index .main-content {
+  position: relative;
+  margin-top: 160px;
+
+  .respond-to-announcement-bar & {
+    margin-top: 0;
+  }
+
+  @include at-query($min, $medium + 1) {
+    margin-top: 90px;
+
+    .respond-to-announcement-bar & {
+      margin-top: 130px;
+    }
+
+    .respond-to-transparent-header & {
+      margin-top: 0 !important;
+    }
+
+    .respond-to-announcement-bar.respond-to-transparent-header & {
+      margin-top: 40px !important;
+    }
+  }
+}
+
 .main-content {
   position: relative;
   margin-top: 160px;
