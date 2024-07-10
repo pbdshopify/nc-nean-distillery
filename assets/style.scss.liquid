@@ -3658,6 +3658,42 @@ body:not(.js-drawer-open).template-collection .transparent-header:not(.js-search
       top: 0;
       left: 50%;
       transform: translateX(-50%);
+      opacity:0;
+    }
+
+    @include at-query($min, $medium + 1) {
+      .transparent-header & { opacity: 1; }
+    }
+  }
+
+  img {
+    max-height: $headerSize - 10px;
+    padding: 0.5rem 0;
+    opacity: 1;
+    transition: opacity 0.2s ease;
+
+    @include at-query($min, $large){
+      float: left;
+    }
+
+    @include at-query($min, $medium + 1) {
+      .transparent-header &.has-transparent-logo { opacity: 0; }
+    }
+  }
+
+}
+
+.template-index .logo-link {
+  margin: 0 auto;
+
+  .logo-alt-image {
+    position: absolute;
+    opacity: 0;
+
+    @include at-query($max, $medium) {
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
       opacity:1;
     }
 
