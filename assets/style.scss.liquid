@@ -3283,6 +3283,116 @@ body:not(.js-drawer-open).template-collection .transparent-header:not(.js-search
 
     svg {
       display: block;
+      color: #0e1c40;
+
+      &:hover { color: darken($colorNavText, 15%); }
+    }
+
+    .icon-close { display: none; }
+  }
+
+  .hamburger-svg {
+    margin-top: -9px;
+    margin-left: -11px;
+
+    svg {
+      width: 23px;
+      height: 16px;
+    }
+  }
+
+  .account-svg {
+    margin-top: -11px;
+    margin-left: -12px;
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+
+  .cart-svg {
+    margin-top: -12px;
+    margin-left: -17px;
+
+    svg {
+      width: 28px;
+      height: 23px;
+    }
+  }
+
+  @include at-query($max, $medium){
+    .icon {
+      &:before, &:after, svg {
+        position: absolute;
+        left: 0;
+      }
+
+      &:before, svg {
+        opacity: 1;
+        top: 0px;
+        @include transition(0s);
+      }
+
+      .icon-close {
+        top: 3px !important;
+        display: block;
+        width: 20px;
+        height: 20px;
+        opacity: 0;
+      }
+
+      &.cart-svg .icon-close { left: 10px !important; }
+    }
+
+    &.active, &.active:hover {
+      color: darken(white, 50%);//to make the transition less jarring
+      path {fill: darken(white, 50%);} //handle the svg too.
+
+      .icon {
+        svg {
+          top: 15px;
+          left: 0;
+          opacity: 0;
+          color: #0e1c40;
+          @include transition(0s);
+        }
+
+        .icon-close { opacity: 1; }
+
+        // &:after {
+        //   opacity: 1;
+        //   top: -7px;
+        //   left: 3px;
+        //   @include transition(0s);
+        // }
+      }
+
+
+      a {
+        color: #0e1c40;
+      }
+
+    }
+  }
+}
+
+.template-index  .header-control {
+  $headerIconTransition: 'top 0.4s ease 0s, opacity 0.2s ease 0s';
+  $headerIconTransitonDelay: 'top 0.4s ease  0.2s, opacity 0.2s ease  0.2s';
+
+  {% comment %} &.js-account-icon { margin-right: 5px !important; } {% endcomment %}
+
+  .hamburger-svg,
+  .account-svg,
+  .cart-svg {
+    display: block;
+    top: 50%;
+    left: 50%;
+
+    svg {
+      display: block;
       color: white;
 
       &:hover { color: darken($colorNavText, 15%); }
