@@ -3757,12 +3757,14 @@ body:not(.js-drawer-open).template-collection .transparent-header:not(.js-search
   }
 }
 
-.template-index .main-content {
+
+
+.main-content {
   position: relative;
   margin-top: 160px;
 
-  .template-index .respond-to-announcement-bar & {
-    margin-top: 0!important;
+  .respond-to-announcement-bar & {
+    margin-top: 200px;
   }
 
   @include at-query($min, $medium + 1) {
@@ -3782,12 +3784,12 @@ body:not(.js-drawer-open).template-collection .transparent-header:not(.js-search
   }
 }
 
-.main-content {
+.template-index .main-content {
   position: relative;
   margin-top: 160px;
 
-  .respond-to-announcement-bar & {
-    margin-top: 200px;
+  .template-index .respond-to-announcement-bar & {
+    margin-top: 0!important;
   }
 
   @include at-query($min, $medium + 1) {
