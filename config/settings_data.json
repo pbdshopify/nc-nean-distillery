@@ -3562,21 +3562,6 @@
       "quiet-rebels-grid": {
         "type": "quiet-rebels-grid",
         "blocks": {
-          "8f75f6df-37cc-490e-9f8f-f21a1b4c2f71": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Quiet_Rebels_Annabel_3.jpg",
-              "overlayOpacity": "0.1",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "ANNABEL",
-              "subheading": "",
-              "link": "shopify:\/\/pages\/quiet-rebels-annabel-batch-info",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "top left"
-            }
-          },
           "01f2ded0-0599-4912-ba98-0f75918a9c64": {
             "type": "grid-item",
             "settings": {
@@ -3592,16 +3577,16 @@
               "textAlignment": "top left"
             }
           },
-          "ea14d53d-551b-4e98-a64e-3de7753a013a": {
+          "8f75f6df-37cc-490e-9f8f-f21a1b4c2f71": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Quiet_Rebels_Gordon.jpg",
+              "image": "shopify:\/\/shop_images\/Quiet_Rebels_Annabel_3.jpg",
               "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "GORDON",
+              "heading": "ANNABEL",
               "subheading": "",
-              "link": "https:\/\/ncnean.com\/pages\/quiet-rebels-gordon",
+              "link": "shopify:\/\/pages\/quiet-rebels-annabel-batch-info",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
@@ -3609,9 +3594,8 @@
           }
         },
         "block_order": [
-          "8f75f6df-37cc-490e-9f8f-f21a1b4c2f71",
           "01f2ded0-0599-4912-ba98-0f75918a9c64",
-          "ea14d53d-551b-4e98-a64e-3de7753a013a"
+          "8f75f6df-37cc-490e-9f8f-f21a1b4c2f71"
         ],
         "settings": {
           "enable_animation": true
@@ -5469,6 +5453,48 @@
           "grid_item_EkFLYk",
           "grid_item_rCqF4W",
           "grid_item_3bgcin"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
+      },
+      "quiet-rebels-grid-2": {
+        "type": "quiet-rebels-grid-2",
+        "blocks": {
+          "grid_item_Paxk8g": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Quiet_Rebels_Amy.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "AMY",
+              "subheading": "<p>Launching October 2024<\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_rzkcCF": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Quiet_Rebels_Gordon.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "GORDON",
+              "subheading": "",
+              "link": "shopify:\/\/pages\/quiet-rebels-gordon",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_Paxk8g",
+          "grid_item_rzkcCF"
         ],
         "settings": {
           "enable_animation": false
