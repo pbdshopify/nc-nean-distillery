@@ -5424,7 +5424,8 @@
           "grid_item_rCqF4W": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/Aon_19-179_The_Whisky_Shop.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON 17-232",
@@ -5438,7 +5439,8 @@
           "grid_item_3bgcin": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/Aon_19-179_The_Whisky_Shop.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON 18-393",
