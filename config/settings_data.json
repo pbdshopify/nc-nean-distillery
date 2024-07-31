@@ -5235,12 +5235,28 @@
               "buttonStyle": "2",
               "textAlignment": "center"
             }
+          },
+          "grid_item_37cWkq": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Organic_whisky.jpg",
+              "overlayOpacity": "0.5",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "NEW ZEALAND",
+              "subheading": "<p>Ask your local retailer or <a href=\"https:\/\/www.whiskygalore.co.nz\/search?q=Nc%27nean\" target=\"_blank\" title=\"https:\/\/www.whiskygalore.co.nz\/search?q=Nc%27nean\">shop online here<\/a>.<\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
           }
         },
         "block_order": [
           "grid_item_RaQgyd",
           "grid_item_L6TUdp",
-          "grid_item_4VJBLQ"
+          "grid_item_4VJBLQ",
+          "grid_item_37cWkq"
         ],
         "settings": {
           "enable_animation": false
