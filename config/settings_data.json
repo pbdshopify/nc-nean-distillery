@@ -4856,7 +4856,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "UK",
-              "subheading": "",
+              "subheading": "<p>Shop online now<\/p>",
               "videoText": "",
               "link": "shopify:\/\/collections\/all-spirits",
               "linkText": "",
@@ -4872,7 +4872,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "EUROPE",
-              "subheading": "",
+              "subheading": "<p>Find us online or in stores<\/p>",
               "videoText": "",
               "link": "shopify:\/\/pages\/europe",
               "linkText": "",
@@ -4888,9 +4888,25 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "USA AND CANADA",
-              "subheading": "",
+              "subheading": "<p>Find us online or in stores<\/p>",
               "videoText": "",
               "link": "shopify:\/\/pages\/north-america",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "grid_item_AcFbhR": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Nc_nean_Organic_Single_Malt_f0549861-71bf-44ed-8281-160b144e2a6a.jpg",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "REST OF WORLD",
+              "subheading": "<p>Find us online or in stores<\/p>",
+              "videoText": "",
+              "link": "",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
@@ -4900,7 +4916,8 @@
         "block_order": [
           "a9a181cb-7d9c-452f-83d6-9ea0c8c5a4db",
           "8f6c9ddc-a480-4338-bf92-466968467282",
-          "48615d4a-e823-4569-9b00-e287117163e2"
+          "48615d4a-e823-4569-9b00-e287117163e2",
+          "grid_item_AcFbhR"
         ],
         "settings": {
           "enable_animation": false
