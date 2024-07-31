@@ -5199,7 +5199,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "JAPAN",
-              "subheading": "<p>Ask your local retailer or shop online via xxxx<\/p>",
+              "subheading": "<p>Ask your local retailer<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -5209,29 +5209,31 @@
           "grid_item_L6TUdp": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/hearts_tongue.png",
+              "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "MEXICO",
+              "subheading": "<p>Ask your local retailer<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           },
           "grid_item_4VJBLQ": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/heather.png",
+              "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "DUBAI",
+              "subheading": "<p>Available in Dubai in the Le Clos airport stores, and on <a href=\"https:\/\/www.leclos.net\/\" title=\"https:\/\/www.leclos.net\/\">Le Clos online for pickup at Dubai International Airport<\/a>.<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           }
         },
@@ -5518,6 +5520,15 @@
         ],
         "settings": {
           "enable_animation": false
+        }
+      },
+      "richtext-restofworld": {
+        "type": "richtext-restofworld",
+        "settings": {
+          "title": "",
+          "text": "",
+          "link": "",
+          "linkText": ""
         }
       }
     },
