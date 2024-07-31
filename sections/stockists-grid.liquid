@@ -89,11 +89,6 @@
         {% assign hasSubheading = true %}
       {% endif %}
 
-      {% assign hasvideoText = false %}
-
-      {% if block.settings.videoText != blank %}
-        {% assign hasvideoText = true %}
-      {% endif %}
 
       {% assign hasButton = false %}
 
@@ -162,8 +157,7 @@
               {% endif %}
               {% if hasSubheading %}
                 <div class="index-grid-item-text" style="color: {{ block.settings.textColor }}">
-                  <div>{{ block.settings.subheading }} {% if hasvideoText %}
-                  <a class="video--link p" data-toggle="modal" data-target="#videoModal"><span>{{ block.settings.videoText }}</span></a>{% endif %}</div>
+                  <div>{{ block.settings.subheading }}</div>
                 </div>
               {% endif %}
               {% if hasButton %}
@@ -174,8 +168,6 @@
             </figcaption>
           {% endif %}
 
-         
-          
           {% if block.settings.link %}
             <a class="index-grid-item-link-overlay" href="{{ block.settings.link }}"></a>
           {% endif %}
@@ -200,11 +192,9 @@
   </div>
 </div>
 
- 
-  
 {% schema %}
   {
-    "name": "Stockists grid",
+    "name": "stockists grid",
     "class": "index-grid-wrapper",
     "max_blocks": 5,
     "settings": [
@@ -299,11 +289,6 @@
             "label": "Subheading"
           },
           {
-            "type": "richtext",
-            "id": "videoText",
-            "label": "Video Text"
-          },
-          {
             "id": "link",
             "type": "url",
             "label": "Link"
@@ -373,7 +358,7 @@
     ],
     "presets": [
       {
-        "name": "Stockists grid",
+        "name": "stockists grid",
         "category": "Image",
         "blocks": [
           {
@@ -396,3 +381,4 @@
     ]
   }
 {% endschema %}
+
