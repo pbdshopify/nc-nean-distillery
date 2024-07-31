@@ -4863,21 +4863,6 @@
               "textAlignment": "center"
             }
           },
-          "8f6c9ddc-a480-4338-bf92-466968467282": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Batch_01.jpg",
-              "overlayOpacity": "0.5",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "EUROPE",
-              "subheading": "<p>Find us online or in stores<\/p>",
-              "link": "shopify:\/\/pages\/europe",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "center"
-            }
-          },
           "48615d4a-e823-4569-9b00-e287117163e2": {
             "type": "grid-item",
             "settings": {
@@ -4892,28 +4877,11 @@
               "buttonStyle": "2",
               "textAlignment": "center"
             }
-          },
-          "grid_item_AcFbhR": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Nc_nean_Organic_Single_Malt_f0549861-71bf-44ed-8281-160b144e2a6a.jpg",
-              "overlayOpacity": "0.5",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "REST OF WORLD",
-              "subheading": "<p>Find us online or in stores<\/p>",
-              "link": "shopify:\/\/pages\/rest-of-world",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "center"
-            }
           }
         },
         "block_order": [
           "a9a181cb-7d9c-452f-83d6-9ea0c8c5a4db",
-          "8f6c9ddc-a480-4338-bf92-466968467282",
-          "48615d4a-e823-4569-9b00-e287117163e2",
-          "grid_item_AcFbhR"
+          "48615d4a-e823-4569-9b00-e287117163e2"
         ],
         "settings": {
           "enable_animation": false
@@ -5541,6 +5509,48 @@
           "text": "",
           "link": "",
           "linkText": ""
+        }
+      },
+      "stockists-grid-2": {
+        "type": "stockists-grid-2",
+        "blocks": {
+          "grid_item_7xGy86": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Nc_nean_Organic_Single_Malt_f0549861-71bf-44ed-8281-160b144e2a6a.jpg",
+              "overlayOpacity": "0.5",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "EUROPE",
+              "subheading": "<p>Find us in stores or online<\/p>",
+              "link": "shopify:\/\/pages\/europe",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "grid_item_3JicL9": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Nc_nean_Organic_Single_Malt_f0549861-71bf-44ed-8281-160b144e2a6a.jpg",
+              "overlayOpacity": "0.5",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "REST OF WORLD",
+              "subheading": "<p>Find us online or in stores<\/p>",
+              "link": "shopify:\/\/pages\/rest-of-world",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_7xGy86",
+          "grid_item_3JicL9"
+        ],
+        "settings": {
+          "enable_animation": false
         }
       }
     },
