@@ -4890,8 +4890,8 @@
       "stockists-richtext": {
         "type": "stockists-richtext",
         "settings": {
-          "title": "WHERE TO FIND US",
-          "text": "<p>We’re now available in over 18 countries globally. Click below to find out if we’re available to buy near you.<\/p>",
+          "title": "WHERE TO BUY US",
+          "text": "<p>We’re now available to buy across the UK, Europe, North America and beyond. Scroll below to find us in your country.<\/p>",
           "link": "",
           "linkText": ""
         }
