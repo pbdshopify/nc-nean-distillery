@@ -4852,7 +4852,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Batch_01.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "UK",
@@ -4867,7 +4867,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Batch_01.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "EUROPE",
@@ -4882,7 +4882,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Batch_01.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "USA AND CANADA",
@@ -4897,7 +4897,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Nc_nean_Organic_Single_Malt_f0549861-71bf-44ed-8281-160b144e2a6a.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "REST OF WORLD",
