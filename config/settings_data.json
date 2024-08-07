@@ -5590,7 +5590,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/2.1_Aon_Rye_Bottle_copy.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON 19-216",
