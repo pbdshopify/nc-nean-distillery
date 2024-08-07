@@ -5594,9 +5594,9 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON 19-216",
-              "subheading": "<p>Bottled exclusively for L'Explorateur du Goût<\/p>",
+              "subheading": "<p>Bottled exclusively for L'Explorateur du Goût<\/p><p>Coming soon...<\/p>",
               "link": "",
-              "linkText": "Coming soon...",
+              "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
             }
