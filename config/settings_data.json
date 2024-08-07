@@ -5579,9 +5579,9 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON 18-605",
-              "subheading": "<p>  Bottled exclusively for SAQ Canada<\/p>",
+              "subheading": "<p>  Bottled exclusively for SAQ Canada<\/p><p>Coming soon...<\/p>",
               "link": "",
-              "linkText": "Coming soon...",
+              "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
             }
