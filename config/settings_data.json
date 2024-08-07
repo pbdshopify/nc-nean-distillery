@@ -5552,6 +5552,64 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "aon-grid-8": {
+        "type": "aon-grid-8",
+        "blocks": {
+          "grid_item_naLhqp": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bog_myrtle.png",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_tinTQ8": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/hearts_tongue.png",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_RRGAfh": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/heather.png",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_naLhqp",
+          "grid_item_tinTQ8",
+          "grid_item_RRGAfh"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
