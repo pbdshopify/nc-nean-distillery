@@ -5574,14 +5574,14 @@
           "grid_item_tinTQ8": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/hearts_tongue.png",
-              "overlayOpacity": "0.3",
+              "image": "shopify:\/\/shop_images\/Aon_18-605_Canada_SAQ.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "AON 18-605",
+              "subheading": "<p>  Bottled exclusively for SAQ Canada<\/p>",
               "link": "",
-              "linkText": "",
+              "linkText": "Coming soon...",
               "buttonStyle": "2",
               "textAlignment": "top left"
             }
