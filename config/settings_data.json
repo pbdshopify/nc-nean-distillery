@@ -5575,7 +5575,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/Aon_18-605_Canada_SAQ.jpg",
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON 18-605",
