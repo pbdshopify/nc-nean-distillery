@@ -26,6 +26,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "n6a0glfo60");
 </script>
+  
 
 
   <!-- Basic page needs ================================================== -->
@@ -169,6 +170,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   {{ 'handlebars.min.js' | asset_url | script_tag }}
   {% include 'ajax-cart-template' %}
   {{ 'ajax-cart.js' | asset_url | script_tag }}
+
+  <script src="{{ 'slideshow.js' | asset_url }}"></script>
 
   <script>
     jQuery(function($) {
