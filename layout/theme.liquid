@@ -245,6 +245,20 @@ document.getElementsByTagName('head')[0].appendChild(script);
   }
   });
 </script>
+
+<script>
+  if (window.location.pathname === '/') {
+    const style = document.createElement('style');
+    style.textContent = `
+        .site-nav a {
+            color: white !important;
+        }
+    `;
+    document.head.appendChild(style);
+}
+</script>
+
+
   
 
 </body>
