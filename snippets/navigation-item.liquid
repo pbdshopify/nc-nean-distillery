@@ -1,5 +1,8 @@
 <li {% if link.links != blank %}aria-haspopup="true"{% endif %} class="{% if link.links != blank %}has-dropdown{% endif %}">
-  <a href="{{ link.url }}" {% if topLevel == true %}data-navigation-top-level{% endif %}>
+  <a href="{{ link.url }}" 
+     {% if topLevel == true %}data-navigation-top-level{% endif %}
+     target="_blank" 
+     rel="noopener noreferrer">
     {{ link.title }}
   </a>
 
@@ -28,7 +31,9 @@
           {% assign dropdown = link.links | default: false %}
 
           <li class="animation-sequence-{{ count }}" data-index="{{ forloop.index0 }}">
-            <a href="{{ link.url }}">
+            <a href="{{ link.url }}" 
+               target="_blank" 
+               rel="noopener noreferrer">
               {{ link.title }}
             </a>
 
@@ -36,7 +41,9 @@
               <ul class="dropdown-third-level">
                 {% for link in link.links %}
                   <li>
-                    <a href="{{ link.url }}">
+                    <a href="{{ link.url }}" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
                       {{ link.title }}
                     </a>
                   </li>
