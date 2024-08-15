@@ -247,15 +247,18 @@ document.getElementsByTagName('head')[0].appendChild(script);
 </script>
 
 <script>
-  if (window.location.pathname === 'ncnean.com') {
+  
+  if (window.location.pathname === '/' || window.location.pathname === '') {
     const style = document.createElement('style');
     style.textContent = `
         .main-navigation a {
             color: white !important;
-        } 
+        }
     `;
     document.head.appendChild(style);
-}
+  }
+
+
 </script>
 
 
