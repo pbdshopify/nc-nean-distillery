@@ -5614,9 +5614,49 @@
       },
       "packaging-features": {
         "type": "packaging-features",
+        "blocks": {
+          "feature_R7FNLC": {
+            "type": "feature",
+            "settings": {
+              "feature-icon": "shopify:\/\/shop_images\/comp9_ed31f8a9-cd66-4f54-b8fe-fcd024ddad04.png",
+              "title": "PACKAGING",
+              "feature-subheading": "<p>From our 100% post-consumer recycled glass bottles, to our natural cork stoppers and our wood-pulp tamper seals, we take upmost care in sourcing every element of our packaging. Our aim is to source as much packaging material as we can from natural, recycled sources, with as lower carbon footprint as possible, whilst retaining their ability to be recycled. See below for detail on each element of our bottles and gift tubes.<\/p>",
+              "feature-buttonText": "Read more",
+              "feature-url": "",
+              "video": false
+            }
+          },
+          "feature_j4DzYm": {
+            "type": "feature",
+            "settings": {
+              "feature-icon": "shopify:\/\/shop_images\/comp3.png",
+              "title": "REFILLS",
+              "feature-subheading": "<p>Text columns are great for displaying key features of a product or the steps that are performed after a purchase (ie. packaging, shipping, tracking).<\/p>",
+              "feature-buttonText": "Read more",
+              "feature-url": "",
+              "video": false
+            }
+          },
+          "feature_L3jaqD": {
+            "type": "feature",
+            "settings": {
+              "feature-icon": "shopify:\/\/shop_images\/comp8.png",
+              "title": "UPCYCLING",
+              "feature-subheading": "<p>Text columns are great for displaying key features of a product or the steps that are performed after a purchase (ie. packaging, shipping, tracking).<\/p>",
+              "feature-buttonText": "Read more",
+              "feature-url": "",
+              "video": false
+            }
+          }
+        },
+        "block_order": [
+          "feature_R7FNLC",
+          "feature_j4DzYm",
+          "feature_L3jaqD"
+        ],
         "settings": {
-          "title": "PACKAGING, REFILLS AND UPCYCLING",
-          "subheading": "<p>From our 100% post-consumer recycled glass bottles to our distillery shop refill scheme, find out everything you need to know about our low impact packaging materials below. Plus, find inspiration for how to give our bottles another life.<\/p>",
+          "title": "",
+          "subheading": "",
           "enable_animation": false
         }
       }
