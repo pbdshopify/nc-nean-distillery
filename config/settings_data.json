@@ -2148,13 +2148,13 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify:\/\/shop_images\/CaskStrength.jpg",
-              "overlayOpacity": "0.2",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "CASK STRENGTH IS COMING",
               "subheading": "<p>Our flagship expression in its most natural form, just packing a little more punch. Fresh and complex with flavours of juicy peaches, spiced rye bread and tangy lemons. Launching September 4th.<\/p>",
               "link": "shopify:\/\/pages\/cask-strength",
-              "linkText": "FIND OUT MORE",
+              "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
             }
