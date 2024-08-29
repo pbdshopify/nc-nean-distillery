@@ -5611,6 +5611,14 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "packaging-features": {
+        "type": "packaging-features",
+        "settings": {
+          "title": "PACKAGING, REFILLS AND UPCYCLING",
+          "subheading": "<p>From our 100% post-consumer recycled glass bottles to our distillery shop refill scheme, find out everything you need to know about our low impact packaging materials below. Plus, find inspiration for how to give our bottles another life.<\/p>",
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
