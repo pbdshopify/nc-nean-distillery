@@ -2055,21 +2055,85 @@
           "5541aa05-e453-4a9b-9009-5f9df353f993": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Packaging_a5a52ab9-294f-4886-8cb8-01ecf21a09f6.jpg",
-              "overlayOpacity": "0",
+              "image": "shopify:\/\/shop_images\/C2.jpg",
+              "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "RECYCLED GLASS",
+              "subheading": "<p>100% post-consumer recycled glass, reducing the carbon footprint of each bottle by 40% compared with virgin glass. Recyclable in household recycling.<\/p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "bottom left"
+            }
+          },
+          "grid_item_jy64rY": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Bottle_Stopper_f61f5c08-d5db-4b6c-8642-9b0fa73abc5f.png",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "NATURAL CORK",
+              "subheading": "<p>Natural cork stopper with a wooden top. Cork is an amazing resource as the thick bark can be stripped every decade to extract the cork without damaging the trees. Both the cork and the wooden top will degrade in your home compost.<\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "bottom left"
+            }
+          },
+          "grid_item_ymM9Jb": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ImpEx_credit_whiskyanddonuts_bottle_design._jpg.jpg",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "NON TOXIC INKS",
+              "subheading": "<p>We print directly onto the bottle using water based inks which are non-toxic and considered much better for the environment.<\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "bottom left"
+            }
+          },
+          "grid_item_an863n": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC3389_copy.jpg",
+              "overlayOpacity": "0",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "RECUDING EXCESS",
+              "subheading": "<p>33% of our bottles were sold without the gift tube between 2022 and 2023, compared with 11% the year before. We offer all consumers and customers the option to buy without, and we are working with key retailers to improve this going forward. The tube itself is made from 90% recycled cardboard and can be recycled in household recycling.<\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "bottom left"
+            }
+          },
+          "grid_item_w4wGcz": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ImpEx_credit_whiskyanddonuts_bottle_neck._jpg.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "BIO TAMPER",
+              "subheading": "<p>As opposed to plastic, we’ve opted for a biodegradable alternative made from renewably sourced wood pulp. You can compost this in your home compost with your stopper. <\/p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "bottom left"
             }
           }
         },
         "block_order": [
-          "5541aa05-e453-4a9b-9009-5f9df353f993"
+          "5541aa05-e453-4a9b-9009-5f9df353f993",
+          "grid_item_jy64rY",
+          "grid_item_ymM9Jb",
+          "grid_item_an863n",
+          "grid_item_w4wGcz"
         ],
         "settings": {
           "enable_animation": true
