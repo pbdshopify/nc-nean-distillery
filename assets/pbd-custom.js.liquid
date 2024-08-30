@@ -1,31 +1,24 @@
   $(document).ready(function(){
 
-
-$(function(){
-  $(".product-description h6").nextUntil("h6").hide();
-  $(".product-description h6").click(function() {
-    console.log("Clicked:", $(this).text());  // Log the clicked heading
-    $(this).toggleClass("opened");
-    $(this).nextUntil("h6").slideToggle();
-  });
-});
-
-$('.custom-cocktail-filter li').click(function(){
-    console.log("Filter item clicked");  // Log the click event
-    $('.active').removeClass('active');
-    $(this).addClass('active'); 
-});
-
-$('.js-batch-info').click(function(event){
-    event.preventDefault();
-    console.log("Batch info clicked");  // Log the click event
-    $('.batch-information').toggleClass('active');
-});
-
-
-
     
-   
+      //product description custom tabs
+      $(function(){
+        $(".product-description h6").nextUntil("h6").hide();
+        $(".product-description h6").click(function() {
+        $(this).toggleClass("opened");
+        $(this).nextUntil("h6").slideToggle();
+        });
+      });
+      
+      //add active class
+      $('.custom-cocktail-filter li').click(function(){
+          $('.active').removeClass('active');
+          $(this).addClass('active');
+      });
+      $('.js-batch-info').click(function(event){
+          event.preventDefault();
+          $('.batch-information').toggleClass('active');
+      });
 
       //accordion
       $('.accordion__header').click(function() {
