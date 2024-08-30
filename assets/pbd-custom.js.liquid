@@ -1,6 +1,6 @@
   $(document).ready(function(){
 
-      // Product description custom tabs
+    // Product description custom tabs
     $(".product-description h6").nextUntil("h6").hide();  // Initially hide content
 
     $(".product-description h6").click(function() {
@@ -9,40 +9,38 @@
         // Optional: Ensure the next 'p' tag is shown
         $(this).next('p').show();
     });
-      
-      //add active class
-      $('.custom-cocktail-filter li').click(function(){
-          $('.active').removeClass('active');
-          $(this).addClass('active');
-      });
-      $('.js-batch-info').click(function(event){
-          event.preventDefault();
-          $('.batch-information').toggleClass('active');
-      });
 
-      //accordion
-      $('.accordion__header').click(function() {
-          $(".accordion__body").not($(this).next()).slideUp(400);
-          $(this).next().slideToggle(400);
-          
-          $(".accordion__item").not($(this).closest(".accordion__item")).removeClass("open-accordion");
-          $(this).closest(".accordion__item").toggleClass("open-accordion");
-      });
+    // Add active class
+    $('.custom-cocktail-filter li').click(function(){
+        $('.active').removeClass('active');
+        $(this).addClass('active');
+    });
 
-      // init Isotope
-      var $grid = $('.custom-cocktailz').isotope({
+    // Batch info toggle
+    $('.js-batch-info').click(function(event){
+        event.preventDefault();
+        $('.batch-information').toggleClass('active');
+    });
+
+    // Accordion functionality
+    $('.accordion__header').click(function() {
+        var $this = $(this);
+        $(".accordion__body").not($this.next()).slideUp(400);
+        $this.next().slideToggle(400);
+        
+        $(".accordion__item").not($this.closest(".accordion__item")).removeClass("open-accordion");
+        $this.closest(".accordion__item").toggleClass("open-accordion");
+    });
+
+    // Initialize Isotope
+    var $grid = $('.custom-cocktailz').isotope({
         // options
-      });
-      // filter items on button click
-      $('.filter-button-group').on( 'click', 'button', function() {
+    });
+
+    // Filter items on button click
+    $('.filter-button-group').on('click', 'button', function() {
         var filterValue = $(this).attr('data-filter');
         $grid.isotope({ filter: filterValue });
-      });
-
-    <body class="{{ template == 'index' ? 'home-page' : '' }}">
-
-
-     
-
+    });
 
 });
