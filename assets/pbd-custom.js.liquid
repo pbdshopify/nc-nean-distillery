@@ -1,8 +1,25 @@
   $(document).ready(function(){
 
+      //product description custom tabs
+      $(function(){
+            $(".product-description h6").on( "click", function() {
+          $(this).toggleClass("opened")
+          $(this).nextUntil("h6").slideToggle()
+          $(this).next('p').show();
+        });
+      });
 
+    
       
-      
+      //add active class
+      $('.custom-cocktail-filter li').click(function(){
+          $('.active').removeClass('active');
+          $(this).addClass('active');
+      });
+      $('.js-batch-info').click(function(event){
+          event.preventDefault();
+          $('.batch-information').toggleClass('active');
+      });
 
       //accordion
       $('.accordion__header').click(function() {
