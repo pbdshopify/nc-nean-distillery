@@ -5683,8 +5683,8 @@
             "type": "feature",
             "settings": {
               "feature-icon": "shopify:\/\/shop_images\/comp9_ed31f8a9-cd66-4f54-b8fe-fcd024ddad04.png",
-              "title": "PACKAGING",
-              "feature-subheading": "<p>From our 100% post-consumer recycled glass bottles, to our natural cork stoppers and our wood-pulp tamper seals, we take upmost care in sourcing every element of our packaging. Our aim is to source as much packaging material as we can from natural, recycled sources, with as lower carbon footprint as possible, whilst retaining their ability to be recycled. See below for detail on each element of our bottles and gift tubes.<\/p>",
+              "title": "RETURN",
+              "feature-subheading": "<p>We are planning to offer our UK customers, who buy directly from our <a href=\"\/collections\/all-spirits\" title=\"OUR SPIRITS\">website<\/a>, the opportunity to send their used bottles back to us free of charge, so that we can put them back out into the whisky world. For each bottle returned, this will save 270g of carbon compared to putting the bottle in the recycling. Watch this space.<\/p>",
               "feature-buttonText": "Read more",
               "feature-url": "",
               "video": false
@@ -5695,7 +5695,7 @@
             "settings": {
               "feature-icon": "shopify:\/\/shop_images\/comp3.png",
               "title": "REFILL",
-              "feature-subheading": "<p>We have a refill station in our distillery bar which is a handy option for locals and returning visitors, plus they can save a few pounds at the same time.<\/p><p>If you are coming to us anyway, or if you live locally you can bring your empty bottles back and we will refill them for you so you can take them home again. Each bottle we refill saves 470g of carbon per year.<\/p>",
+              "feature-subheading": "<p>We have a refill station in our distillery bar which is a handy option for locals and returning visitors, plus they can save a few pounds at the same time.<\/p><p>If you are coming to us anyway, or if you live locally you can bring your empty bottles back and we will refill them for you so you can take them home again. Each bottle we refill saves 470g.<\/p>",
               "feature-buttonText": "Read more",
               "feature-url": "",
               "video": false
