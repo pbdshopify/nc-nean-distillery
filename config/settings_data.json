@@ -3459,7 +3459,7 @@
               "slide_image": "shopify://shop_images/NcNean_0064_low-res.jpg",
               "text_position": "align-center-middle",
               "heading_text": "PRIVATE CASKS",
-              "page_text": "Thanks for your interest in our private cask programme. We are sold out of casks and the waiting list has been closed.",
+              "page_text": "Thank you for your interest in our private cask programme. Our 2024 filling dates are sold out and our waiting list for 2025 fillings is now open. Please email Rebecca at casks@ncnean.com for more information and leave your contact details with us, so we can add you to the waiting list and you can be first to hear when we open filling dates for the coming year!",
               "button_cta": "",
               "button_link": ""
             }
@@ -3474,8 +3474,8 @@
           "enable_dropshadow": false,
           "color_overlay_opacity": "0.4",
           "color_overlay_color": "#031207",
-          "progress_bar_color": "#FFFFFF",
-          "controls_color": "#FFFFFF"
+          "progress_bar_color": "#ffffff",
+          "controls_color": "#ffffff"
         }
       },
       "product-range-grid": {
