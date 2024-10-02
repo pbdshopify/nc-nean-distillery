@@ -2211,13 +2211,13 @@
           "1592237739361-0": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/CaskStrength.jpg",
+              "image": "shopify://shop_images/Quiet_Rebels_Amy_a04690ef-b3eb-4358-ba4a-63ea6435847b.jpg",
               "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "CASK STRENGTH IS HERE",
-              "subheading": "<p>Our flagship expression in its most natural form, just packing a little more punch. Fresh and complex with flavours of juicy peaches, spiced rye bread and tangy lemons. </p>",
-              "link": "shopify://products/cask-strength",
+              "heading": "QUIET REBELS AMY IS HERE",
+              "subheading": "<p>Our Head of Sustainability Amy's release. </p>",
+              "link": "shopify://products/quiet-rebels-amy",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
