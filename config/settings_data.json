@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_primary": "#9bb5a5",
@@ -5644,7 +5644,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON 18-605",
-              "subheading": "<p>Bottled exclusively for SAQ Canada</p><p>Coming soon...</p>",
+              "subheading": "<p>Bottled exclusively for SAQ Canada</p>",
               "link": "https://ncnean.com/pages/aon-18-605",
               "linkText": "",
               "buttonStyle": "2",
