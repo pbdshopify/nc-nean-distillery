@@ -3491,7 +3491,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "QUIET REBELS",
-              "subheading": "<p>Autumn limited releases</p>",
+              "subheading": "<p>Limited edition people series</p>",
               "link": "shopify://pages/quiet-rebels",
               "linkText": "",
               "buttonStyle": "2",
@@ -3506,7 +3506,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "HUNTRESS",
-              "subheading": "<p>Spring limited releases</p>",
+              "subheading": "<p>Limited edition experimental series</p>",
               "link": "shopify://pages/huntress",
               "linkText": "",
               "buttonStyle": "2",
@@ -3567,26 +3567,11 @@
       "product-range-grid-3": {
         "type": "product-range-grid-3",
         "blocks": {
-          "b95b053a-b097-4996-8319-f2ecde232de5": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0",
-              "overlayColor": "#000000",
-              "textColor": "#0a091b",
-              "heading": "EXPERIMENTAL IN NATURE",
-              "subheading": "<p>Hunting for delicious flavours, a dedication to organic barley, unusual cask varieties and yeast experiments. It’s what makes us tick. Here you can find out everything about every batch of whisky we produce. Whether that’s exactly when we bottled Batch .08 of our core expression, or which yeasts we used for our first Huntress bottling. Please note that some information on cask filling dates has been redacted as a result of legal restrictions.</p><p>Click on one of the pictures to find out more about that specific series.</p>",
-              "link": "",
-              "linkText": "SHOP NOW",
-              "buttonStyle": "2",
-              "textAlignment": "center"
-            }
-          },
           "d3b6f369-b74a-4e83-a6cf-a6e5e0ad7fa2": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Nc_nean_Organic_Single_Malt.jpg",
-              "overlayOpacity": "0.1",
+              "image": "shopify://shop_images/Flagship.jpg",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "ORGANIC SINGLE MALT",
@@ -3596,11 +3581,26 @@
               "buttonStyle": "2",
               "textAlignment": "top left"
             }
+          },
+          "b95b053a-b097-4996-8319-f2ecde232de5": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/Cask_Strength.jpg",
+              "overlayOpacity": "0",
+              "overlayColor": "#000000",
+              "textColor": "#0a091b",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "SHOP NOW",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
           }
         },
         "block_order": [
-          "b95b053a-b097-4996-8319-f2ecde232de5",
-          "d3b6f369-b74a-4e83-a6cf-a6e5e0ad7fa2"
+          "d3b6f369-b74a-4e83-a6cf-a6e5e0ad7fa2",
+          "b95b053a-b097-4996-8319-f2ecde232de5"
         ],
         "settings": {
           "enable_animation": false
