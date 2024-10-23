@@ -3575,7 +3575,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "ORGANIC SINGLE MALT",
-              "subheading": "<p>Always available to buy from our website and always delicious. </p>",
+              "subheading": "<p>Our flagship expression, always available to buy from our website. </p>",
               "link": "shopify://pages/organic-single-malt-scotch",
               "linkText": "",
               "buttonStyle": "2",
@@ -3588,13 +3588,13 @@
               "image": "shopify://shop_images/Cask_Strength.jpg",
               "overlayOpacity": "0",
               "overlayColor": "#000000",
-              "textColor": "#0a091b",
-              "heading": "",
-              "subheading": "",
+              "textColor": "#ffffff",
+              "heading": "CASK STRENGTH ORGANIC SINGLE MALT",
+              "subheading": "<p>The cask strength expression of our signature recipe, always available to buy from our website. </p>",
               "link": "",
               "linkText": "SHOP NOW",
               "buttonStyle": "2",
-              "textAlignment": "center"
+              "textAlignment": "top left"
             }
           }
         },
