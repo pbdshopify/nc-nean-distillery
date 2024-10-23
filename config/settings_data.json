@@ -5757,11 +5757,45 @@
           "title": "CASK STRENGTH ORGANIC SINGLE MALT",
           "text": "<p>Fresh and complex, this is the cask strength expression of our flagship whisky. Our signature recipe just packing a little more punch. Those lovely citrus and peach flavours come from our spirit, the spice from our STR casks and the signature body and texture comes from our 100% organic barley. Find out more about what casks we’ve used for which batch, the source of the barley, the yeast used or the date it was bottled using the dropdown menu below. You’ll find the batch number or code on the back of the neck label.</p>",
           "link": "",
-          "linkText": "SELECT A BATCH"
+          "linkText": ""
         }
       },
       "cask-strength-grid": {
         "type": "cask-strength-grid",
+        "blocks": {
+          "grid_item_QJNC7c": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_LHa4yp": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_QJNC7c",
+          "grid_item_LHa4yp"
+        ],
         "settings": {
           "enable_animation": false
         }
