@@ -5403,8 +5403,8 @@
           "grid_item_4CxEyV": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/3_Aon_Sauternes.jpg",
-              "overlayOpacity": "0",
+              "image": "shopify://shop_images/4_Aon_Rivesaltes.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON SINGLE CASK BOTTLINGS",
