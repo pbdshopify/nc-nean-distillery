@@ -3591,8 +3591,8 @@
               "textColor": "#ffffff",
               "heading": "CASK STRENGTH ORGANIC SINGLE MALT",
               "subheading": "<p>The cask strength expression of our signature recipe, always available to buy from our website. </p>",
-              "link": "",
-              "linkText": "SHOP NOW",
+              "link": "shopify://pages/cask-strength-organic-single-malt-scotch",
+              "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
             }
