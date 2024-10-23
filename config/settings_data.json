@@ -3486,8 +3486,8 @@
           "9588254d-c16b-48b4-a19a-68e13247ec21": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Quiet_Rebels_Annabel_3.jpg",
-              "overlayOpacity": "0.1",
+              "image": "shopify://shop_images/Quiet_Rebels_041d10bc-94e4-4c7d-90cf-d31f8c63058d.jpg",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "QUIET REBELS",
@@ -3501,8 +3501,8 @@
           "a287e225-4944-47b7-9a58-01c1c046c24f": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Huntress_2023_7133f7d1-b445-40d1-b17e-e9ea687df9ac.jpg",
-              "overlayOpacity": "0.1",
+              "image": "shopify://shop_images/Huntress_b81fb3eb-cd12-4d0f-bf07-22f453779821.jpg",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "HUNTRESS",
@@ -3528,8 +3528,8 @@
           "b666a479-7e0d-47e6-aee5-ec26ccc08732": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Aon_Selfridges.jpg",
-              "overlayOpacity": "0.1",
+              "image": "shopify://shop_images/4_Aon_Rivesaltes.jpg",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON",
