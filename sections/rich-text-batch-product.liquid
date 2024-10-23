@@ -27,7 +27,7 @@
 
 <div class="grid--full index-featured-text">
   {% if heading %}
-    <h5>{{ section.settings.title | escape }}</h5>
+    <h3>{{ section.settings.title | escape }}</h3>
   {% endif %}
 
   {% if text %}
@@ -39,15 +39,9 @@
   {% endif %}
 </div>
 
-<style>
-    .featured-text {
-  height: 200px;
-}
-</style>
-
 {% schema %}
   {
-    "name": "Rich text batch product",
+    "name": "Rich text batch",
     "class": "featured-text",
     "settings": [
       {
@@ -73,7 +67,7 @@
     ],
     "presets": [
       {
-        "name": "Rich text batch product",
+        "name": "Rich text batch",
         "category": "Text",
         "settings": {
           "title": "Welcome to our store!",
@@ -84,3 +78,4 @@
     ]
   }
 {% endschema %}
+
