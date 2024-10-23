@@ -5388,8 +5388,8 @@
           "grid_item_nXp9nU": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Huntress_OC_Rework.jpg",
-              "overlayOpacity": "0.1",
+              "image": "shopify://shop_images/Huntress_copy.jpg",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "HUNTRESS ORCHARD COBBLER",
