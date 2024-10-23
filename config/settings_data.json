@@ -5298,7 +5298,7 @@
           "grid_item_TMyVkJ": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Flagship_copy.jpg",
+              "image": "shopify://shop_images/Flagship.jpg",
               "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -5313,7 +5313,7 @@
           "grid_item_iWpiAQ": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Botanical_Spirit_b0c1cb42-92c6-42c3-9c84-63edafcefbe8.jpg",
+              "image": "shopify://shop_images/Botanical_Spirit_2ffeffea-4d04-44a7-b67c-0b4dc986ffc4.jpg",
               "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -5328,7 +5328,7 @@
           "grid_item_NX9Kzg": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Cask_Strength_copy_44b8b71e-1067-44a2-b51b-36a6bcdd2dac.jpg",
+              "image": "shopify://shop_images/Cask_Strength.jpg",
               "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -5373,7 +5373,7 @@
           "grid_item_7FHRgn": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/QuietRebelscopy.jpg",
+              "image": "shopify://shop_images/Quiet_Rebels_041d10bc-94e4-4c7d-90cf-d31f8c63058d.jpg",
               "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -5388,7 +5388,7 @@
           "grid_item_nXp9nU": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Huntress_copy.jpg",
+              "image": "shopify://shop_images/Huntress_b81fb3eb-cd12-4d0f-bf07-22f453779821.jpg",
               "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -5403,7 +5403,7 @@
           "grid_item_4CxEyV": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/3_Aon_Sauternes_copy.jpg",
+              "image": "shopify://shop_images/3_Aon_Sauternes.jpg",
               "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
