@@ -5807,7 +5807,7 @@
         "type": "rich-text-batch-product",
         "settings": {
           "title": "EXPERIMENTAL IN NATURE",
-          "text": "<p>Hunting for delicious flavours, a dedication to organic barley, unusual cask varieties and yeast experiments. It’s what makes us tick. Here you can find out everything about every batch of whisky we produce. Whether that’s exactly when we bottled Batch .08 of our core expression, or which yeasts we used for our first Huntress limited edition. Please note that some information on cask filling dates has been redacted as a result of legal restrictions.</p><p>Scroll to discover more about all of our expressions and series.</p>",
+          "text": "<p>Hunting for delicious flavours, a dedication to organic barley, unusual cask varieties and yeast experiments. It’s what makes us tick. </p>",
           "link": "",
           "linkText": ""
         }
