@@ -2304,6 +2304,7 @@
           "96f7974b-04de-4185-9e7a-4c17328bfd9a",
           "1592237980075-2"
         ],
+        "disabled": true,
         "settings": {
           "enable_animation": true
         }
