@@ -3,6 +3,7 @@
 {% assign text = false %}
 {% assign url = false %}
 {% assign buttonText = false %}
+{% assign buttonTextlvl3 = false %}
 
 {% if section.settings.title != blank %}
   {% assign heading = section.settings.title | escape %}
@@ -21,33 +22,57 @@
   {% assign url = "/collections/all" %}
 {% endif %}
 
+{% comment %} {% if section.settings.linklvl3 != blank %}
+  {% assign url = section.settings.linklvl3 %}
+{% elsif isDefault %}
+  {% assign url = "/collections/all" %}
+{% endif %} {% endcomment %}
+
 {% if section.settings.linkText != blank %}
   {% assign buttonText = section.settings.linkText | escape %}
 {% endif %}
 
 <div class="grid--full index-featured-text">
   {% if heading %}
-    <h5>{{ section.settings.title | escape }}</h5>
+    <h3>{{ section.settings.title | escape }}</h3>
   {% endif %}
 
   {% if text %}
     <div>{{ section.settings.text }}</div>
   {% endif %}
 
-  {% if buttonText and url %}
-    <a class="btn" href="{{ url }}">{{ section.settings.linkText | escape }}</a>
-  {% endif %}
-</div>
+  <div class="batch-search-container">
+    <div class="batch-search">
+      <select class="btn batch-nav" onchange="location = this.value;">
+        {% assign subpages = page.metafields.custom.sub_pages.value %}
+        {% assign subpageText = page.metafields.custom.subpage_text.value %}
+        <option value="">{{ subpageText }}</option>
+        {%- for subpage in subpages -%}
+        <option value="{{ subpage.url }}">{{ subpage.title | remove: "ORGANIC SINGLE MALT" }}</option>
+        {%- endfor -%}  
+      </select>
+      <script type="text/javascript">
+        $(".batch-na").change(function() {
+          window.location.href = $(".batch-na").value;
+          window.location = $(".batch-na").val;
+        });
+      </script>
+    </div>
+  </div>
 
-<style>
-    .featured-text {
-  height: 200px;
-}
-</style>
+  {% comment %} {% if buttonText and url %}
+    <a class="btn" href="{{ url }}">{{ section.settings.linkText | escape }}</a>
+  {% endif %} {% endcomment %}   
+
+  {% comment %} {% if section.settings.linklvl3 %}
+    <a class="btn uppercase" href="{{ section.settings.linklvl3 }}">{{ section.settings.linkTextlvl3 | escape }}</a>
+  {% endif %} {% endcomment %}
+
+</div>
 
 {% schema %}
   {
-    "name": "Rich text cask",
+    "name": "Rich text core expression",
     "class": "featured-text",
     "settings": [
       {
@@ -69,11 +94,20 @@
         "id": "linkText",
         "type": "text",
         "label": "Button text"
-      }
+      },{
+        "id": "linklvl3",
+        "type": "url",
+        "label": "Link Lvl3"
+      },
+      {
+        "id": "linkTextlvl3",
+        "type": "text",
+        "label": "Button text"
+      }      
     ],
     "presets": [
       {
-        "name": "Rich text cask",
+        "name": "Rich text core expression",
         "category": "Text",
         "settings": {
           "title": "Welcome to our store!",
@@ -84,3 +118,4 @@
     ]
   }
 {% endschema %}
+
