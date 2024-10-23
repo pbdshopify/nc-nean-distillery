@@ -2315,7 +2315,7 @@
           "1592303258389-2": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Organic_whisky.jpg",
+              "image": "shopify://shop_images/Sustainable_organic_whisky.jpg",
               "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -2346,7 +2346,7 @@
           "1592303258389-4": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Sustainable_whisky.jpg",
+              "image": "shopify://shop_images/Organic_whisky.jpg",
               "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
