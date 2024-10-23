@@ -3584,6 +3584,7 @@
           },
           "b95b053a-b097-4996-8319-f2ecde232de5": {
             "type": "grid-item",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Cask_Strength.jpg",
               "overlayOpacity": "0",
@@ -3609,8 +3610,8 @@
       "rich-text-core-expression": {
         "type": "rich-text-core-expression",
         "settings": {
-          "title": "CASK STRENGTH SINGLE MALT SCOTCH WHISKY",
-          "text": "<p></p><p>Fresh and complex, this is the cask strength expression of our flagship whisky. Our signature recipe just packing a little more punch. Those lovely citrus and peach flavours come from our spirit, the spice from our STR casks and the signature body and texture comes from our 100% organic barley. Find out more about what casks we’ve used for which batch, the source of the barley, the yeast used or the date it was bottled using the dropdown menu below. You’ll find the batch number or code on the back of the neck label. </p>",
+          "title": "ORGANIC SINGLE MALT SCOTCH WHISKY",
+          "text": "<p></p><p>Smooth and elegant, this is our flagship whisky. Light and fruity with flavours of citrus, peach, apricot and spice. Those lovely citrus and peach flavours come from our spirit, the spice from our STR casks and the signature body and texture comes from our 100% organic barley. Find out more about what casks we’ve used for which batch, the source of the barley, the yeast used or the date it was bottled using the dropdown menu below. You’ll find the batch number or code on the back of the neck label. </p>",
           "link": "shopify://pages/batches",
           "linkText": "SEARCH HERE",
           "linklvl3": "shopify://pages/organic-single-malt-scotch-batch-01",
