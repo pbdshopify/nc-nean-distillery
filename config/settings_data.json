@@ -5510,7 +5510,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON 17-232",
-              "subheading": "<p>Bottled exclusively for Kirsch Import</p><p>Coming soon...</p>",
+              "subheading": "<p>Bottled exclusively for Kirsch Import</p>",
               "link": "https://ncnean.com/pages/aon-17-232",
               "linkText": "",
               "buttonStyle": "2",
@@ -5525,7 +5525,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON 18-393",
-              "subheading": "<p>Bottled exclusively for Kirsch Import</p><p>Coming soon...</p>",
+              "subheading": "<p>Bottled exclusively for Kirsch Import</p>",
               "link": "https://ncnean.com/pages/aon-18-393",
               "linkText": "",
               "buttonStyle": "2",
@@ -5641,12 +5641,12 @@
           "grid_item_naLhqp": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/bog_myrtle.png",
-              "overlayOpacity": "0.3",
+              "image": "shopify://shop_images/7_Aon_STR_copy.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "AON 17-268",
+              "subheading": "<p>In partnership with Le Clos, Dubai<br/><br/>Coming soon...</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -5810,6 +5810,18 @@
           "text": "<p>Hunting for delicious flavours, a dedication to organic barley, unusual cask varieties and yeast experiments. It’s what makes us tick. Here you can find out everything about every batch of whisky we produce. Whether that’s exactly when we bottled Batch .08 of our core expression, or which yeasts we used for our first Huntress limited edition. Please note that some information on cask filling dates has been redacted as a result of legal restrictions.</p><p>Scroll to discover more about all of our expressions and series.</p>",
           "link": "",
           "linkText": ""
+        }
+      },
+      "aon-grid-10": {
+        "type": "aon-grid-10",
+        "settings": {
+          "enable_animation": false
+        }
+      },
+      "aon-grid-9": {
+        "type": "aon-grid-9",
+        "settings": {
+          "enable_animation": false
         }
       }
     },
