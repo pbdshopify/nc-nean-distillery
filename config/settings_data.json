@@ -5921,7 +5921,7 @@
       },
       "12849171927700757258": {
         "type": "shopify://apps/feefo-product-reviews/blocks/slide-out-reviews-tab/b69c206e-8df3-4642-a8bf-d681d74dfe91",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       }
