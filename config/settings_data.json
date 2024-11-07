@@ -91,8 +91,7 @@
           },
           "1588154423157": {
             "type": "social_media",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1781,8 +1780,7 @@
       },
       "contact-form": {
         "type": "contact-form",
-        "settings": {
-        }
+        "settings": {}
       },
       "team-grid-2": {
         "type": "team-grid-2",
@@ -2160,8 +2158,7 @@
       },
       "google-map": {
         "type": "google-map",
-        "settings": {
-        }
+        "settings": {}
       },
       "1592234630216": {
         "type": "grid",
@@ -2924,8 +2921,7 @@
       },
       "refer-embed": {
         "type": "refer-embed",
-        "settings": {
-        }
+        "settings": {}
       },
       "team-grid-5": {
         "type": "team-grid-5",
@@ -4674,9 +4670,7 @@
           "8371faad-2111-4d4d-83c4-52efc5d57e4f",
           "638d4591-9ef2-4257-9db2-6a004291df8f"
         ],
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "enable_animation": false
         }
@@ -4967,7 +4961,7 @@
         "type": "stockists-richtext-2",
         "settings": {
           "title": "WHERE TO TRY US",
-          "text": "<p>Whiskies of the World / Washington, D. C. / August 03rd: <a href=\"https://www.whiskiesoftheworld.com/tour/washington-dc\" title=\"https://www.whiskiesoftheworld.com/tour/washington-dc\">Buy Tickets</a></p><p>Wonders of Whisky Tasting Experience / New York / August 10th: <a href=\"https://www.eventbrite.com/o/wonders-of-whisky-53055536103\" title=\"https://www.eventbrite.com/o/wonders-of-whisky-53055536103\">Buy Tickets</a></p><p>Whiskies of the World / Boston / August 23rd: <a href=\"https://www.whiskiesoftheworld.com/tour/boston\" title=\"https://www.whiskiesoftheworld.com/tour/boston\">Buy Tickets</a></p><p>Whiskies of the World / Denver/ September 07th: <a href=\"https://www.whiskiesoftheworld.com/tour/denver\" title=\"https://www.whiskiesoftheworld.com/tour/denver\">Buy Tickets</a></p><p>Whiskies of the World / San Francisco / September 20th: <a href=\"https://www.whiskiesoftheworld.com/tour/san-francisco\" title=\"https://www.whiskiesoftheworld.com/tour/san-francisco\">Buy Tickets</a></p><p>Whiskies of the World / San Jose / September 22nd: <a href=\"https://www.whiskiesoftheworld.com/tour/san-jose\" title=\"https://www.whiskiesoftheworld.com/tour/san-jose\">Buy Tickets</a></p><p>Whiskies of the World / Atlanta / October 12th: <a href=\"https://www.whiskiesoftheworld.com/tour/atlanta\" title=\"https://www.whiskiesoftheworld.com/tour/atlanta\">Buy Tickets</a></p><p>Whiskies of the World / Seattle / November 09th: <a href=\"https://www.whiskiesoftheworld.com/tour/seattle\" title=\"https://www.whiskiesoftheworld.com/tour/seattle\">Buy Tickets</a></p><p>Hokkaido Whisky and Spirits FEST (Sapporo) / Hokkaido, Japan / August 4th: <a href=\"https://www.hokkaidowsf.com/%E6%A6%82%E8%A6%81%E3%81%A8%E5%85%A5%E5%A0%B4%E5%88%B8%E3%81%AE%E3%81%94%E6%A1%88%E5%86%85/\" target=\"_blank\" title=\"https://www.hokkaidowsf.com/%E6%A6%82%E8%A6%81%E3%81%A8%E5%85%A5%E5%A0%B4%E5%88%B8%E3%81%AE%E3%81%94%E6%A1%88%E5%86%85/\">Buy Tickets</a></p><p>Fukushima Frontier Spirits / Japan / September 8th</p><p>Whisky Messe Kyoto /  Japan / September 29th </p><p>Okinawa Whisky & Spirits Fes / Okinawa, Japan/ November 10th: <a href=\"https://okinawa-ws-fes.jp/about/\" target=\"_blank\" title=\"https://okinawa-ws-fes.jp/about/\">Buy Tickets</a></p>",
+          "text": "<p></p><p>Whiskies of the World / Seattle / November 09th: <a href=\"https://www.whiskiesoftheworld.com/tour/seattle\" title=\"https://www.whiskiesoftheworld.com/tour/seattle\">Buy Tickets</a></p><p>Hokkaido Whisky and Spirits FEST (Sapporo) / Hokkaido, Japan / August 4th: <a href=\"https://www.hokkaidowsf.com/%E6%A6%82%E8%A6%81%E3%81%A8%E5%85%A5%E5%A0%B4%E5%88%B8%E3%81%AE%E3%81%94%E6%A1%88%E5%86%85/\" target=\"_blank\" title=\"https://www.hokkaidowsf.com/%E6%A6%82%E8%A6%81%E3%81%A8%E5%85%A5%E5%A0%B4%E5%88%B8%E3%81%AE%E3%81%94%E6%A1%88%E5%86%85/\">Buy Tickets</a></p><p>Fukushima Frontier Spirits / Japan / September 8th</p><p>Whisky Messe Kyoto /  Japan / September 29th </p><p>Okinawa Whisky & Spirits Fes / Okinawa, Japan/ November 10th: <a href=\"https://okinawa-ws-fes.jp/about/\" target=\"_blank\" title=\"https://okinawa-ws-fes.jp/about/\">Buy Tickets</a></p><p>Whisky Fest / New York / November 20th: <a href=\"https://www.whiskyfest.com/\" title=\"https://www.whiskyfest.com/\">Buy Tickets</a></p>",
           "link": "",
           "linkText": ""
         }
@@ -5897,20 +5891,17 @@
       "2153490007123654574": {
         "type": "shopify://apps/consentmo-gdpr/blocks/gdpr_cookie_consent/4fbe573f-a377-4fea-9801-3ee0858cae41",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "3acfba32-89f3-4377-ae20-cbb9abc48475": {
         "type": "shopify://apps/order-limits-minmaxify/blocks/app-embed-block/3acfba32-89f3-4377-ae20-cbb9abc48475",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "8572689033581323084": {
         "type": "shopify://apps/feefo-product-reviews/blocks/feefo-core/b69c206e-8df3-4642-a8bf-d681d74dfe91",
@@ -5922,8 +5913,7 @@
       "12849171927700757258": {
         "type": "shopify://apps/feefo-product-reviews/blocks/slide-out-reviews-tab/b69c206e-8df3-4642-a8bf-d681d74dfe91",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -5981,8 +5971,7 @@
             },
             "footer-2": {
               "type": "social_media",
-              "settings": {
-              }
+              "settings": {}
             },
             "footer-3": {
               "type": "newsletter",
@@ -6150,8 +6139,7 @@
         },
         "featured-blog": {
           "type": "blog-posts",
-          "settings": {
-          }
+          "settings": {}
         },
         "rich-text": {
           "type": "rich-text",
@@ -6229,8 +6217,7 @@
             "grid2-3",
             "grid2-4"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "grid-2": {
           "type": "grid",
@@ -6283,8 +6270,7 @@
             "grid3-2",
             "grid3-3"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "newsletter": {
           "type": "newsletter",
@@ -6304,8 +6290,7 @@
         },
         "product-template": {
           "type": "product-template",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "content_for_index": [
@@ -6387,8 +6372,7 @@
             },
             "footer-3": {
               "type": "social_media",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -6541,8 +6525,7 @@
             "grid-3",
             "grid-4"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "newsletter": {
           "type": "newsletter",
