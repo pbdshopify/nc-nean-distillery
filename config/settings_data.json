@@ -5219,7 +5219,7 @@
           "grid_item_L6TUdp": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/hearts_tongue.png",
+              "image": "shopify://shop_images/Sustainable_whisky.jpg",
               "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -5234,7 +5234,7 @@
           "grid_item_4VJBLQ": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/heather.png",
+              "image": "shopify://shop_images/Sustainable_organic_whisky.jpg",
               "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -5264,7 +5264,7 @@
           "grid_item_RaQgyd": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/bog_myrtle.png",
+              "image": "shopify://shop_images/Craft_whisky.jpg",
               "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
