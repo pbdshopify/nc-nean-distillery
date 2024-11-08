@@ -4972,12 +4972,12 @@
           "e7a93196-6e44-4d57-8d69-881160b908c9": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/James_Portrait_low_res.jpg",
-              "overlayOpacity": "0.4",
+              "image": "shopify://shop_images/Jon-lowres.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "JAMES WORTHINGTON",
-              "subheading": "<p>Head of Finance</p><p>Proud Yorkshireman from the beer industry. Loves nothing more than crunching numbers. Also spends his time attempting to play sport, reading, and running around after his young family.</p>",
+              "heading": "JON FEW",
+              "subheading": "<p>Head of Finance</p><p>Based near the New Forest and enjoys an outdoors adventure on land or sea. Loves a country walk involving a pub with a roaring fire. </p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
