@@ -3426,12 +3426,12 @@
           "23b122d8-7283-4c07-babf-064e9f8819cd": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/IMG_9055-5_46a20696-5745-4542-a629-b7a7436b6788.jpg",
-              "overlayOpacity": "0.3",
+              "image": "shopify://shop_images/Jess_BW-6_low_res.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "QUINTEN FYFE",
-              "subheading": "<p>Visitor Guide</p><p>Retired Scottish fire fighter. Spent two years travelling around Scotland in an old horse box, stopped in nearby Lochaline for a month and still here a year later. Lives off grid, loves growing vegetables and playing the banjo.</p>",
+              "heading": "JESS DELANEY",
+              "subheading": "<p>Operations Executive</p><p>South African and Irish blood, but with family connections to Drimnin. House plant enthusiast and a big lover of animals, with six cats and two bunnies. Loves cooking, knitting, reading, drawing, and going for a good old yomp.</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
