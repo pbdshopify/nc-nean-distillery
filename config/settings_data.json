@@ -5425,13 +5425,13 @@
         "blocks": {
           "grid_item_igUDdB": {
             "type": "grid-item",
+            "disabled": true,
             "settings": {
-              "image": "shopify://shop_images/Jess_BW-6_low_res.jpg",
               "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "JESS DELANEY",
-              "subheading": "<p>Operations Executive</p><p>South African and Irish blood, but with family connections to Drimnin. House plant enthusiast and a big lover of animals, with six cats and two bunnies. Loves cooking, knitting, reading, drawing, and going for a good old yomp.</p>",
+              "heading": "",
+              "subheading": "",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -5440,6 +5440,7 @@
           },
           "grid_item_DHAUAN": {
             "type": "grid-item",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Craft_whisky.jpg",
               "overlayOpacity": "0.1",
@@ -5455,6 +5456,7 @@
           },
           "grid_item_4BApgQ": {
             "type": "grid-item",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Organic_whisky.jpg",
               "overlayOpacity": "0.1",
