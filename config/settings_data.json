@@ -236,7 +236,7 @@
           "enable_collection_filtering": false,
           "enable_collection_sorting": false,
           "collection_style": "grid__image--caption",
-          "collection_layout_style": "fiveByThree",
+          "collection_layout_style": "fourByThree",
           "show_collection_header": false,
           "show_collection_description": false,
           "enable_dropshadow": false,
