@@ -3094,6 +3094,9 @@
       },
       "rich-text-collection": {
         "type": "rich-text-collection",
+        "custom_css": [
+          ".section-content.py-section-vertical-spacing.px-section {padding: 0px;}"
+        ],
         "settings": {
           "title": "WELCOME TO OUR UK ONLINE SHOP",
           "text": "<p>FREE UK SHIPPING WHEN YOU SPEND £75 - RETURN EVERY EMPTY BOTTLE TO US FOR FREE<br/>Every time you return your empty bottle to us to be refilled, we save 280g of carbon.</p><p>As well as shopping online below, you can also find our flagship whisky in almost 200 <a href=\"https://www.waitrose.com/ecom/products/ncnean-organic-single-malt-whisky/632627-818698-818699\" target=\"_blank\" title=\"https://www.waitrose.com/ecom/products/ncnean-organic-single-malt-whisky/632627-818698-818699\">Waitrose stores</a>, plus our other whiskies and spirits in most good independent spirits shops across the UK. To find us outside of the UK, <a href=\"https://ncnean.com/pages/where-to-find-us\" title=\"https://ncnean.com/pages/where-to-find-us\">click here</a>.</p>",
