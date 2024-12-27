@@ -76,7 +76,7 @@
           "show_announcement_bar": true,
           "notification_bar_enable_currency": false,
           "notification_bar_enable_social": false,
-          "notification_bar_text": "SHOP BEFORE 12 NOON ON 19/12/24 FOR CHRISTMAS DELIVERY. FREE UK SHIPPING WHEN YOU SPEND OVER £75",
+          "notification_bar_text": "FREE UK SHIPPING WHEN YOU SPEND OVER £75",
           "notification_bar_link": "shopify://collections/all-spirits"
         }
       },
