@@ -2564,8 +2564,8 @@
           "357e1518-d174-4f55-aa1c-31c47d6bd79e": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Phil_1.jpg",
-              "overlayOpacity": "0",
+              "image": "shopify://shop_images/Chris_2.jpg",
+              "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "CHRIS MAYBIN",
