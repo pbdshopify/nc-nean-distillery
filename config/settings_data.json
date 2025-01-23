@@ -5829,6 +5829,7 @@
           "grid_item_LG838r": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify://shop_images/2AonRyecopy.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -5843,11 +5844,12 @@
           "grid_item_hb7cEY": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify://shop_images/7_Aon_STR_copy_197f8c68-9d84-4222-8913-32e8c55abb84.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON 18-460",
-              "subheading": "<p>Distillery exclusive</p>",
+              "subheading": "<p>Bottled exclusively for our own distillery shop</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
