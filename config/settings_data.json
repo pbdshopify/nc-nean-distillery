@@ -4028,34 +4028,6 @@
           "fallback_image": "shopify://shop_images/Pattern_wolf_WEBSITE.jpg"
         }
       },
-      "eed0827b-db9f-4f13-8542-b488fcb7e9e3": {
-        "type": "sustainability-slideshow",
-        "blocks": {
-          "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0": {
-            "type": "slide",
-            "settings": {
-              "slide_image": "shopify://shop_images/C2_53e02cfc-6ed7-40d0-9b41-04bce418b07c.jpg",
-              "text_position": "align-center-middle",
-              "heading_text": "MADE BY NATURE NOT BY RULES",
-              "page_text": "",
-              "button_cta": "SHOP NOW",
-              "button_link": "shopify://collections/all"
-            }
-          }
-        },
-        "block_order": [
-          "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0"
-        ],
-        "settings": {
-          "enable_ken_burns": true,
-          "enable_progress_bar": false,
-          "enable_dropshadow": false,
-          "color_overlay_opacity": "0.4",
-          "color_overlay_color": "#031207",
-          "progress_bar_color": "#ffffff",
-          "controls_color": "#ffffff"
-        }
-      },
       "aon-grid-2": {
         "type": "aon-grid-2",
         "blocks": {
@@ -5924,10 +5896,36 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "grid_qpYjxw": {
+        "type": "grid",
+        "blocks": {
+          "grid_item_dnqAYb": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/C2_53e02cfc-6ed7-40d0-9b41-04bce418b07c.jpg",
+              "overlayOpacity": "0.5",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "WHISKY FOR VALENTINES",
+              "subheading": "<p>Spend £30 and get a free pair of beeswax candles by using the code WHISKYFORVALENTINES at the checkout. </p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_dnqAYb"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
-      "eed0827b-db9f-4f13-8542-b488fcb7e9e3",
+      "grid_qpYjxw",
       "d327603b-f3a7-48e3-a6e8-951ddba60fe7",
       "1592237980075",
       "rich_text_zyaCYU",
