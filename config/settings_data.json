@@ -5908,7 +5908,7 @@
               "textColor": "#ffffff",
               "heading": "WHISKY FOR VALENTINES",
               "subheading": "<p>Spend £30 and get a free pair of beeswax candles by using the code WHISKYFORVALENTINES at the checkout. </p>",
-              "link": "https://ncnean.com/discount/WHISKYFORVALENTINES",
+              "link": "shopify://collections/all-spirits",
               "linkText": "SHOP NOW",
               "buttonStyle": "2",
               "textAlignment": "center"
