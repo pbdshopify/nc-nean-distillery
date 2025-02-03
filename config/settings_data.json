@@ -4012,6 +4012,7 @@
       },
       "d327603b-f3a7-48e3-a6e8-951ddba60fe7": {
         "type": "homepage-banner-video",
+        "disabled": true,
         "settings": {
           "video_url": "https://www.dropbox.com/scl/fi/a5yi5twjdbq1t8myzhxpn/231112-Website-homepage-video.mp4?rlkey=xd2w55baxel96x9q2nqkoy0iv&dl=0",
           "enable_animation": false,
@@ -4032,9 +4033,8 @@
         "blocks": {
           "eed0827b-db9f-4f13-8542-b488fcb7e9e3-1675876961b2b6a8f9-0": {
             "type": "slide",
-            "disabled": true,
             "settings": {
-              "slide_image": "shopify://shop_images/DSC7542_copy.jpg",
+              "slide_image": "shopify://shop_images/B1_low-res_8f198881-9c6a-43f8-9e0e-0ef742ddf0ad.jpg",
               "text_position": "align-center-middle",
               "heading_text": "MADE BY NATURE NOT BY RULES",
               "page_text": "",
