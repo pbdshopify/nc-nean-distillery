@@ -76,7 +76,7 @@
           "show_announcement_bar": true,
           "notification_bar_enable_currency": false,
           "notification_bar_enable_social": false,
-          "notification_bar_text": "FREE UK SHIPPING WHEN YOU SPEND OVER £75",
+          "notification_bar_text": "FREE BEESWAX CANDLES WHEN YOU SPEND £30 WITH CODE WHISKYFORVALENTINES",
           "notification_bar_link": "shopify://collections/all-spirits"
         }
       },
@@ -4918,7 +4918,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "UK",
-              "subheading": "<p>Shop online now</p>",
+              "subheading": "<p>Shop online now. Free beeswax candles when you spend over £30 with code WHISKYFORVALENTINES</p>",
               "link": "shopify://collections/all-spirits",
               "linkText": "",
               "buttonStyle": "2",
