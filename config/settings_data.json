@@ -5921,6 +5921,61 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "restofworld-grid-2": {
+        "type": "restofworld-grid-2",
+        "blocks": {
+          "grid_item_mcL8YV": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "JAPAN",
+              "subheading": "<p>Ask your local retailer or shop online here.</p>",
+              "link": "",
+              "linkText": "Ask your local retailer or shop online here.",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "grid_item_xUfmaH": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "TAIWAN",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "grid_item_6XKzJL": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "AUSTRALIA",
+              "subheading": "<p>Coming soon</p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_mcL8YV",
+          "grid_item_xUfmaH",
+          "grid_item_6XKzJL"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
