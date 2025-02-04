@@ -5942,7 +5942,7 @@
           "grid_item_6XKzJL": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AUSTRALIA",
