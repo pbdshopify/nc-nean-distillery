@@ -5232,28 +5232,12 @@
               "buttonStyle": "2",
               "textAlignment": "center"
             }
-          },
-          "grid_item_RaQgyd": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify://shop_images/Craft_whisky.jpg",
-              "overlayOpacity": "0.5",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "JAPAN",
-              "subheading": "<p>Ask your local retailer or <a href=\"https://scytheshuhan.stores.jp/?category_id=664db273e47f10003936211c\" target=\"_blank\" title=\"https://scytheshuhan.stores.jp/?category_id=664db273e47f10003936211c\">shop online here</a>.</p>",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "center"
-            }
           }
         },
         "block_order": [
           "grid_item_L6TUdp",
           "grid_item_4VJBLQ",
-          "grid_item_37cWkq",
-          "grid_item_RaQgyd"
+          "grid_item_37cWkq"
         ],
         "settings": {
           "enable_animation": false
@@ -5928,13 +5912,14 @@
           "grid_item_mcL8YV": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify://shop_images/Craft_whisky.jpg",
+              "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "JAPAN",
-              "subheading": "<p>Ask your local retailer or shop online here.</p>",
+              "subheading": "<p>Ask your local retailer or <a href=\"https://scytheshuhan.stores.jp/?category_id=664db273e47f10003936211c\" target=\"_blank\" title=\"https://scytheshuhan.stores.jp/?category_id=664db273e47f10003936211c\">shop online here</a>.</p>",
               "link": "",
-              "linkText": "Ask your local retailer or shop online here.",
+              "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
             }
@@ -5942,11 +5927,12 @@
           "grid_item_xUfmaH": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify://shop_images/Sustainable_whisky.jpg",
+              "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "TAIWAN",
-              "subheading": "",
+              "subheading": "<p>Ask your local spirits retailer.</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
