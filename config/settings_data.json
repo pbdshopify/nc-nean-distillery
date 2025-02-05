@@ -5785,7 +5785,7 @@
           "grid_item_LG838r": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/2AonRyecopy.jpg",
+              "image": "shopify://shop_images/2_Aon_Rye_low-res_a05540ee-237a-4b5a-b85d-55bcbf954581.jpg",
               "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -5800,7 +5800,7 @@
           "grid_item_hb7cEY": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/7_Aon_STR_copy_197f8c68-9d84-4222-8913-32e8c55abb84.jpg",
+              "image": "shopify://shop_images/7_Aon_STR_low-res.jpg",
               "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -5843,7 +5843,7 @@
           "grid_item_ehAAAy": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/7_Aon_STR_copy.jpg",
+              "image": "shopify://shop_images/7_Aon_STR_low-res.jpg",
               "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
