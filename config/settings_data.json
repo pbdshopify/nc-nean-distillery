@@ -5767,34 +5767,6 @@
       "aon-grid-10": {
         "type": "aon-grid-10",
         "blocks": {
-          "grid_item_yAMCbQ": {
-            "type": "grid-item",
-            "settings": {
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "top left"
-            }
-          },
-          "grid_item_XrtBg4": {
-            "type": "grid-item",
-            "settings": {
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "top left"
-            }
-          },
           "grid_item_D9w3zC": {
             "type": "grid-item",
             "settings": {
@@ -5842,8 +5814,6 @@
           }
         },
         "block_order": [
-          "grid_item_yAMCbQ",
-          "grid_item_XrtBg4",
           "grid_item_D9w3zC",
           "grid_item_LG838r",
           "grid_item_hb7cEY"
