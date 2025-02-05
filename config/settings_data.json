@@ -5457,7 +5457,7 @@
           "grid_item_rCqF4W": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/1_Aon_FBN_copy.jpg",
+              "image": "shopify://shop_images/1_Aon_FBN_low-res_c90f7e4a-6f63-47d1-b99b-3e5af600c3ac.jpg",
               "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -5593,7 +5593,7 @@
           "grid_item_naLhqp": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/7_Aon_STR_copy.jpg",
+              "image": "shopify://shop_images/7_Aon_STR_low-res.jpg",
               "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
