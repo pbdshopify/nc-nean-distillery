@@ -5983,11 +5983,12 @@
           "grid_item_Nhp4fL": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify://shop_images/7_Aon_STR_low-res_a59e090f-0544-46c6-8dd5-52d6fccdc06c.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "AON 18-405",
+              "subheading": "<p>Bottled exclusively for ImpEx Beverages</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
