@@ -5970,7 +5970,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Craft_whisky.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "",
@@ -5985,7 +5985,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/7_Aon_STR_low-res_a59e090f-0544-46c6-8dd5-52d6fccdc06c.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON 18-405",
