@@ -5997,11 +5997,12 @@
           "grid_item_6nRkdE": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify://shop_images/12_Aon_Calvados_low-res_1fafce63-0d9c-4720-a182-e819b460d5e7.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "AON 17-518",
+              "subheading": "<p>\"The Big Apple\" bottled exclusively for Skurnik Wines and Spirits</p><p>Coming soon...</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
