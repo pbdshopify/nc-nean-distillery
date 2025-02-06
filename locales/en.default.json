@@ -395,7 +395,7 @@
         "sold_out_label": "Sold out - click for other stockists"
       },
       "order_summary": {
-        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">{{ code }}</strong> discount code isn’t valid for the items in your basket. If trying to redeem your FREEBEANIE70 code, please add add the beanie to your basket to activate discount code."
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">{{ code }}</strong> discount code isn’t valid for the items in your basket. If trying to redeem your WHISKYFORVALENTINES code, please add add the candles to your basket to activate discount code."
       }
     }
   }
