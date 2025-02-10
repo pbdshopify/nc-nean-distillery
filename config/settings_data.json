@@ -4944,12 +4944,12 @@
           "e7a93196-6e44-4d57-8d69-881160b908c9": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Jon-lowres.jpg",
+              "image": "shopify://shop_images/BW_Suzanne_4.jpg",
               "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "JON FEW",
-              "subheading": "<p>Head of Finance</p><p>Spent most his career working for purpose led, consumer focused drinks brands. Enjoys an outdoor adventure on land or sea. Based near the New Forest and loves a country walk involving a pub with a roaring fire.</p>",
+              "heading": "SUZANNE RIVIERE",
+              "subheading": "<p>European Brand Ambassador</p><p>Normandy born and raised, now based in Paris. Degree in wine and spirits but of all the drinks out there, whisky has her heart. Metal-head and proper foodie. Big lover of ducks and dogs.</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -4971,26 +4971,25 @@
               "textAlignment": "bottom left"
             }
           },
-          "64a8be01-fe88-412f-8c1f-6def01150687": {
+          "grid_item_ByNemP": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/BW_Suzanne_4.jpg",
-              "overlayOpacity": "0.2",
+              "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "SUZANNE RIVIERE",
-              "subheading": "<p>European Brand Ambassador</p><p>Normandy born and raised, now based in Paris. Degree in wine and spirits but of all the drinks out there, whisky has her heart. Metal-head and proper foodie. Big lover of ducks and dogs.</p>",
+              "heading": "",
+              "subheading": "",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "bottom left"
+              "textAlignment": "top left"
             }
           }
         },
         "block_order": [
           "e7a93196-6e44-4d57-8d69-881160b908c9",
           "8802dcbb-595c-408d-9338-9da4a43c5fda",
-          "64a8be01-fe88-412f-8c1f-6def01150687"
+          "grid_item_ByNemP"
         ],
         "settings": {
           "enable_animation": false
