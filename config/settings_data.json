@@ -4959,7 +4959,7 @@
           "8802dcbb-595c-408d-9338-9da4a43c5fda": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/BW_Beth_2_low_res.jpg",
+              "image": "shopify://shop_images/DSC5664-2.jpg",
               "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -4974,7 +4974,8 @@
           "grid_item_ByNemP": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify://shop_images/bog_myrtle.png",
+              "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "",
