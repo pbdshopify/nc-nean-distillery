@@ -5885,6 +5885,7 @@
         "blocks": {
           "grid_item_dnqAYb": {
             "type": "grid-item",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/B1_low-res_baa051ea-3fea-4a15-b560-d1a34322b060.jpg",
               "overlayOpacity": "0.5",
