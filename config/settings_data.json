@@ -73,11 +73,11 @@
           "logo_image": "shopify://shop_images/Nc_nean_brandmark.png",
           "logo_max_width": "250",
           "logo_transparent_image": "shopify://shop_images/Nc_nean_logo_white.png",
-          "show_announcement_bar": true,
+          "show_announcement_bar": false,
           "notification_bar_enable_currency": false,
           "notification_bar_enable_social": false,
-          "notification_bar_text": "UK: FREE BEESWAX CANDLES WHEN YOU SPEND £30 WITH CODE WHISKYFORVALENTINES",
-          "notification_bar_link": "shopify://collections/all-spirits"
+          "notification_bar_text": "",
+          "notification_bar_link": ""
         }
       },
       "footer": {
