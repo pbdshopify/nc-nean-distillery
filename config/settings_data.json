@@ -6058,7 +6058,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0.5",
+              "overlayOpacity": "0.4",
               "overlayColor": "#ffffff",
               "textColor": "#434868",
               "heading": "THE COMPETITION",
@@ -6073,8 +6073,8 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/DSC6629_copy.jpg",
-              "overlayOpacity": "0.4",
-              "overlayColor": "#000000",
+              "overlayOpacity": "0",
+              "overlayColor": "#ffffff",
               "textColor": "#ffffff",
               "heading": "",
               "subheading": "",
@@ -6100,7 +6100,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0.5",
+              "overlayOpacity": "0.4",
               "overlayColor": "#ffffff",
               "textColor": "#434868",
               "heading": "THE BENEFITS",
@@ -6142,7 +6142,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0.5",
+              "overlayOpacity": "0.4",
               "overlayColor": "#ffffff",
               "textColor": "#434868",
               "heading": "THE GRAND PRIZE",
