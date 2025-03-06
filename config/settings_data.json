@@ -6185,6 +6185,32 @@
           "link": "",
           "linkText": ""
         }
+      },
+      "cocktail-comp-grid-4": {
+        "type": "cocktail-comp-grid-4",
+        "blocks": {
+          "grid_item_XRWEcX": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/F_H_Battersea_1_19.jpg",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "NC'NEAN CREATIONS 2025",
+              "subheading": "<p>Our annual bartender cocktail competition is back.<br/>The theme is ”To Open”<br/><br/>Create the perfect Aperitif with Nc’nean.<br/>All the rules, details, and online entry form can be found here.<br/>All entries must be in by the end of April 2025.<br/>Heats in June & July, The Grand Final taking place in September. </p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_XRWEcX"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
