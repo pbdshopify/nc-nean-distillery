@@ -6027,6 +6027,7 @@
         "blocks": {
           "slide_JV3wUK": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "slide_image": "shopify://shop_images/F_H_Battersea_1_19.jpg",
               "text_position": "align-center-middle",
@@ -6048,16 +6049,6 @@
           "color_overlay_color": "#031207",
           "progress_bar_color": "#ffffff",
           "controls_color": "#ffffff"
-        }
-      },
-      "cocktail-comp-rich-text": {
-        "type": "cocktail-comp-rich-text",
-        "disabled": true,
-        "settings": {
-          "title": "NC'NEAN CREATIONS",
-          "text": "<p>Annual bartender cocktail competition</p>",
-          "link": "",
-          "linkText": ""
         }
       },
       "cocktail-comp-grid": {
@@ -6186,6 +6177,15 @@
         ],
         "settings": {
           "enable_animation": false
+        }
+      },
+      "cocktail-comp-rich-text-2": {
+        "type": "cocktail-comp-rich-text-2",
+        "settings": {
+          "title": "NC'NEAN CREATIONS",
+          "text": "<p>Annual bartender cocktail competition</p>",
+          "link": "",
+          "linkText": ""
         }
       }
     },
