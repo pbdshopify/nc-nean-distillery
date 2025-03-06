@@ -6170,7 +6170,8 @@
           "grid_item_8VfEAx": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify://shop_images/DSC05481-2-L.jpg",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "",
@@ -6184,15 +6185,16 @@
           "grid_item_efxfnt": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
-              "linkText": "",
+              "textColor": "#434868",
+              "heading": "THIS YEAR'S COMPETITION",
+              "subheading": "<p>The theme is ”To Open”<br/>Create the perfect Aperitif with Nc’nean</p><p>All the rules, details, and online entry form can be found here.</p><p>All entries must be in by the end of April 2025.</p><p>Heats in June & July, The Grand Final taking place in September. </p>",
+              "link": "shopify://pages/aon-17-170",
+              "linkText": "FIND OUT MORE & ENTER",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           }
         },
