@@ -6027,7 +6027,6 @@
         "blocks": {
           "slide_JV3wUK": {
             "type": "slide",
-            "disabled": true,
             "settings": {
               "slide_image": "shopify://shop_images/Whisky_Spritz.jpg",
               "text_position": "align-center-middle",
@@ -6053,6 +6052,7 @@
       },
       "cocktail-comp-rich-text": {
         "type": "cocktail-comp-rich-text",
+        "disabled": true,
         "settings": {
           "title": "NC'NEAN CREATIONS",
           "text": "<p>Annual bartender cocktail competition</p>",
@@ -6067,9 +6067,9 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
-              "textColor": "#ffffff",
+              "textColor": "#434868",
               "heading": "THE COMPETITION",
               "subheading": "<p>Every year, we challenge top bartenders to create and present a unique Nc’nean cocktail.</p><p>A new challenging brief every year</p><p>Heats held across Europe to find and try the very best.</p><p>An unforgettable trip to our distillery on the wild west coast of Scotland for all heat winners.</p>",
               "link": "",
@@ -6084,7 +6084,7 @@
               "image": "shopify://shop_images/DSC6629_copy.jpg",
               "overlayOpacity": "0",
               "overlayColor": "#000000",
-              "textColor": "#ffffff",
+              "textColor": "#859894",
               "heading": "",
               "subheading": "",
               "link": "",
@@ -6124,9 +6124,9 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
-              "textColor": "#ffffff",
+              "textColor": "#434868",
               "heading": "THE BENEFITS",
               "subheading": "<p>Our competitors get:</p><p>To showcase their talent whilst making<br/>lifelong industry connections</p><p>World class cocktail competition experience, including expert performance feedback and advice</p><p>The chance to compete for the trip of a<br/>lifetime, plus a very special grand prize…</p>",
               "link": "",
@@ -6151,9 +6151,9 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
-              "textColor": "#ffffff",
+              "textColor": "#434868",
               "heading": "THE GRAND PRIZE",
               "subheading": "<p>Make your very own whisky, and<br/>profit from its sale!</p><p>Select and release a single cask of Nc’nean Single Malt Scotch Whisky.</p><p>A full case of the release to<br/>share and enjoy.</p><p>10% of the profit from the cask’s bottle sales.</p>",
               "link": "",
