@@ -6022,35 +6022,6 @@
           "enable_animation": false
         }
       },
-      "cocktail-comp-slideshow": {
-        "type": "cocktail-comp-slideshow",
-        "blocks": {
-          "slide_JV3wUK": {
-            "type": "slide",
-            "disabled": true,
-            "settings": {
-              "slide_image": "shopify://shop_images/F_H_Battersea_1_19.jpg",
-              "text_position": "align-center-middle",
-              "heading_text": "NC'NEAN CREATIONS",
-              "page_text": "Bartender cocktail competition",
-              "button_cta": "Setup your store",
-              "button_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "slide_JV3wUK"
-        ],
-        "settings": {
-          "enable_ken_burns": true,
-          "enable_progress_bar": true,
-          "enable_dropshadow": false,
-          "color_overlay_opacity": "0.2",
-          "color_overlay_color": "#031207",
-          "progress_bar_color": "#ffffff",
-          "controls_color": "#ffffff"
-        }
-      },
       "cocktail-comp-grid": {
         "type": "cocktail-comp-grid",
         "blocks": {
@@ -6210,6 +6181,15 @@
         ],
         "settings": {
           "enable_animation": false
+        }
+      },
+      "cocktail-comp-rich-text-3": {
+        "type": "cocktail-comp-rich-text-3",
+        "settings": {
+          "title": "THE HALL OF FAME",
+          "text": "<p>We've had an incredible calibre of winners since the competitions inception four years ago. Find out more about their serves and the whisky they all released below.</p>",
+          "link": "",
+          "linkText": ""
         }
       }
     },
