@@ -60,7 +60,7 @@
           {% cycle openRow, open %}
         {% when 3 %}
           {% cycle openRow, open, "" %}
-          {% capture itemHeight %}{% cycle "portrait", "portrait", "portrait" %}{% endcapture %}
+          {% capture itemHeight %}{% cycle "portrait", "landscape", "landscape" %}{% endcapture %}
         {% when 4 %}
           {% cycle openRow, "", open, "" %}
           {% capture itemHeight %}{% cycle "portrait", "landscape", "landscape", "portrait" %}{% endcapture %}
