@@ -6172,7 +6172,7 @@
           "grid_item_qXin6w": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
+              "image": "shopify://shop_images/DSC05481-2-L.jpg",
               "overlayOpacity": "0.4",
               "overlayColor": "#ffffff",
               "textColor": "#434868",
@@ -6184,11 +6184,10 @@
               "textAlignment": "center"
             }
           },
-          "grid_item_GWyaKF": {
+          "grid_item_9TC7xH": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Elena_with_Bottle_3.jpg",
-              "overlayOpacity": "0",
+              "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "",
@@ -6202,7 +6201,7 @@
         },
         "block_order": [
           "grid_item_qXin6w",
-          "grid_item_GWyaKF"
+          "grid_item_9TC7xH"
         ],
         "settings": {
           "enable_animation": false
@@ -6212,7 +6211,7 @@
         "type": "cocktail-comp-rich-text-2",
         "settings": {
           "title": "NC'NEAN CREATIONS",
-          "text": "<p>Our annual bartender cocktail competition</p>",
+          "text": "<p>Our annual bartender cocktail competition, where the winner gets to choose and release their own cask of Nc'nean whisky, plus take away 10% of the profits.</p>",
           "link": "",
           "linkText": ""
         }
