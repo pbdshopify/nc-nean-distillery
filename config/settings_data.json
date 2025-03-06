@@ -6080,29 +6080,31 @@
           "grid_item_xWeERL": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify://shop_images/DSC5245.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "THE BENEFITS",
-              "subheading": "",
+              "subheading": "<p>Our competitors get:</p><p>To showcase their talent whilst making<br/>lifelong industry connections</p><p>World class cocktail competition experience, including expert performance feedback and advice</p><p>The chance to compete for the trip of a<br/>lifetime, plus a very special grand prize…</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           },
           "grid_item_KHCnHf": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify://shop_images/Elena_with_Bottle_3.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "THE GRAND PRIZE",
-              "subheading": "",
+              "subheading": "<p>Make your very own whisky, and<br/>profit from its sale!</p><p>Select and release a single cask of Nc’nean Single Malt Scotch Whisky.</p><p>A full case of the release to<br/>share and enjoy.</p><p>10% of the profit from the cask’s bottle sales.</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           }
         },
