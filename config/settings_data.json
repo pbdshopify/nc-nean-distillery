@@ -6272,6 +6272,7 @@
           "grid_item_rkUH6T": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify://shop_images/F_H_Battersea_1_19.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -6286,6 +6287,7 @@
           "grid_item_yhdNnY": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify://shop_images/Whisky_Spritz.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -6300,6 +6302,7 @@
           "grid_item_NWqnGd": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify://shop_images/DSC05421-L.jpg",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
