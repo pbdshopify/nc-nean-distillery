@@ -6029,8 +6029,8 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0.4",
-              "overlayColor": "#ffffff",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#0a091b",
               "textColor": "#434868",
               "heading": "NC'NEAN CREATIONS COCKTAIL COMPETITION",
               "subheading": "<p>Every year, we challenge top bartenders to create and present a unique Nc’nean cocktail.</p><p>A new challenging brief every year</p><p>Heats held across Europe to find and try the very best.</p><p>An unforgettable trip to our distillery on the wild west coast of Scotland for all heat winners.</p>",
