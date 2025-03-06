@@ -6176,8 +6176,8 @@
               "overlayOpacity": "0.4",
               "overlayColor": "#ffffff",
               "textColor": "#434868",
-              "heading": "THE GRAND PRIZE",
-              "subheading": "<p>Make your very own whisky, and<br/>profit from its sale!</p><p>Select and release a single cask of Nc’nean Single Malt Scotch Whisky.</p><p>A full case of the release to<br/>share and enjoy.</p><p>10% of the profit from the cask’s bottle sales.</p>",
+              "heading": "THIS YEAR'S COMPETITION",
+              "subheading": "<p>Our annual bartender cocktail competition is back.<br/>The theme is ”To Open”<br/><br/>Create the perfect Aperitif with Nc’nean.<br/></p><p>All the rules, details, and online entry form can be found here.<br/></p><p>All entries must be in by the end of April 2025. Heats in June & July, The Grand Final taking place in September. </p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -6222,7 +6222,6 @@
         "blocks": {
           "grid_item_XRWEcX": {
             "type": "grid-item",
-            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/F_H_Battersea_1_19.jpg",
               "overlayOpacity": "0.3",
