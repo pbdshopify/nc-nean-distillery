@@ -6029,7 +6029,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0",
+              "overlayOpacity": "0.1",
               "overlayColor": "#0a091b",
               "textColor": "#434868",
               "heading": "NC'NEAN CREATIONS COCKTAIL COMPETITION",
@@ -6113,8 +6113,8 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0",
-              "overlayColor": "#ffffff",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#0a091b",
               "textColor": "#434868",
               "heading": "THE GRAND PRIZE",
               "subheading": "<p>Make your very own whisky, and<br/>profit from its sale!</p><p>Select and release a single cask of Nc’nean Single Malt Scotch Whisky and get a full case of the release to<br/>share and enjoy.</p><p>10% of the profit from the cask’s bottle sales.</p>",
