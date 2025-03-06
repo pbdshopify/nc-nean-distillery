@@ -6223,7 +6223,7 @@
               "link": "shopify://pages/aon-20-189",
               "linkText": "AON 20-189",
               "buttonStyle": "2",
-              "textAlignment": "center"
+              "textAlignment": "bottom left"
             }
           },
           "grid_item_VmipQB": {
@@ -6238,7 +6238,7 @@
               "link": "shopify://pages/aon-17-193",
               "linkText": "AON 17-183",
               "buttonStyle": "2",
-              "textAlignment": "center"
+              "textAlignment": "bottom left"
             }
           },
           "grid_item_nEUFT6": {
@@ -6248,12 +6248,12 @@
               "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "ELENA WRIGHT",
+              "heading": "ELENA WRIGHT 2022",
               "subheading": "<p>Bartender at: xxxxxxx</p><p>Wining drink: xxxxxxxx</p><p>Cask released: AON 17-342 / ex-Rivesaltes finish</p>",
-              "link": "",
-              "linkText": "",
+              "link": "shopify://pages/aon-17-342",
+              "linkText": "AON 17-342",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "bottom left"
             }
           }
         },
