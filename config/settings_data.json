@@ -6140,7 +6140,6 @@
         "blocks": {
           "grid_item_qXin6w": {
             "type": "grid-item",
-            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
               "overlayOpacity": "0",
@@ -6156,7 +6155,6 @@
           },
           "grid_item_GWyaKF": {
             "type": "grid-item",
-            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Elena_with_Bottle_3.jpg",
               "overlayOpacity": "0",
