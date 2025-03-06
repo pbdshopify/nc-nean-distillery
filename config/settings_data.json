@@ -6029,7 +6029,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0",
               "overlayColor": "#0a091b",
               "textColor": "#434868",
               "heading": "NC'NEAN CREATIONS COCKTAIL COMPETITION",
@@ -6071,7 +6071,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0.4",
+              "overlayOpacity": "0",
               "overlayColor": "#ffffff",
               "textColor": "#434868",
               "heading": "THE BENEFITS",
@@ -6113,7 +6113,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0.4",
+              "overlayOpacity": "0",
               "overlayColor": "#ffffff",
               "textColor": "#434868",
               "heading": "THE GRAND PRIZE",
