@@ -1,7 +1,7 @@
 <div class="index-grid image-gutters--{{ settings.image_gutter }}">
   {% assign count = section.blocks.size %}
 
-  <div class="index-grid-items count-{{ count }}">
+  <div class="i{% section 'aon-grid' %}ndex-grid-items count-{{ count }}">
     {% assign index = 0 %}
 
     {% for block in section.blocks %}
@@ -151,9 +151,9 @@
           {% if hasHeading or hasSubheading or hasButton %}
             <figcaption class="{{ block.settings.textAlignment }} animation-sequence-{{ index }} {% if section.settings.enable_animation %}can-animate{% endif %}">
               {% if hasHeading %}
-                <h6 style="color: {{ block.settings.textColor }}">
+                <h3 style="color: {{ block.settings.textColor }}">
                   <span>{{ block.settings.heading | escape }}</span>
-                </h6>
+                </h3>
               {% endif %}
               {% if hasSubheading %}
                 <div class="index-grid-item-text" style="color: {{ block.settings.textColor }}">
@@ -194,7 +194,7 @@
 
 {% schema %}
   {
-    "name": "comp grid",
+    "name": "cocktail comp grid",
     "class": "index-grid-wrapper",
     "max_blocks": 5,
     "settings": [
@@ -358,7 +358,7 @@
     ],
     "presets": [
       {
-        "name": "comp Grid",
+        "name": "cocktail comp grid",
         "category": "Image",
         "blocks": [
           {
@@ -381,3 +381,4 @@
     ]
   }
 {% endschema %}
+
