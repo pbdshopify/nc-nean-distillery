@@ -6163,21 +6163,37 @@
           "grid_item_XRWEcX": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Cosmo_low_res.jpg",
-              "overlayOpacity": "0.4",
+              "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
-              "textColor": "#ffffff",
+              "textColor": "#434868",
               "heading": "NC'NEAN CREATIONS 2025",
               "subheading": "<p>Our annual bartender cocktail competition is back.<br/>The theme is ”To Open”<br/><br/>Create the perfect Aperitif with Nc’nean.<br/>All the rules, details, and online entry form can be found here.<br/>All entries must be in by the end of April 2025.<br/>Heats in June & July, The Grand Final taking place in September. </p>",
               "link": "shopify://pages/aon-17-115",
               "linkText": "MORE INFO / ENTER NOW",
-              "buttonStyle": "2",
+              "buttonStyle": "1",
               "textAlignment": "center"
+            }
+          },
+          "grid_item_y6D4ap": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/Cosmo_low_res.jpg",
+              "overlayOpacity": "0",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
             }
           }
         },
         "block_order": [
-          "grid_item_XRWEcX"
+          "grid_item_XRWEcX",
+          "grid_item_y6D4ap"
         ],
         "settings": {
           "enable_animation": false
