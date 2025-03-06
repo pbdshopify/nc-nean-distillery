@@ -6151,7 +6151,7 @@
       "cocktail-comp-rich-text-2": {
         "type": "cocktail-comp-rich-text-2",
         "settings": {
-          "title": "NC'NEAN CREATIONS",
+          "title": "NC'NEAN CREATIONS 2025",
           "text": "<p>Our annual bartender cocktail competition, where the winner gets to choose and release their own cask of Nc'nean whisky, plus take away 10% of the profits.</p>",
           "link": "",
           "linkText": ""
@@ -6206,6 +6206,64 @@
           "text": "<p>We've had an incredible calibre of winners since the competitions inception four years ago. Find out more about their serves and the whisky they all released below.</p>",
           "link": "",
           "linkText": ""
+        }
+      },
+      "cocktail-comp-grid-5": {
+        "type": "cocktail-comp-grid-5",
+        "blocks": {
+          "grid_item_WYdrd9": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/BUN1057_f8e5520b-7cb9-472e-8a4b-38a3eaf04be5.jpg",
+              "overlayOpacity": "0.2",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "NORBERT DROZDOWSKI 2024",
+              "subheading": "<p>Bartender at: Rick Sten's The Seafood Restaurant in Padstow.</p><p>Wining drink: Triple Bananas</p><p>Cask released: AON 20-189 / Ex-white port finish</p>",
+              "link": "shopify://pages/aon-20-189",
+              "linkText": "AON 20-189",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "grid_item_VmipQB": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/IMG_1535.jpg",
+              "overlayOpacity": "0.2",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "MATT MORRISON 2023",
+              "subheading": "<p>Bartender at: The Fife Arms in Braemar</p><p>Wining drink: Triple Bananas</p><p>Cask released: AON 17-183 / First fill ex-Bourbon</p>",
+              "link": "shopify://pages/aon-17-193",
+              "linkText": "AON 17-183",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "grid_item_nEUFT6": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/Elena_with_Bottle_2.jpg",
+              "overlayOpacity": "0",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_WYdrd9",
+          "grid_item_VmipQB",
+          "grid_item_nEUFT6"
+        ],
+        "settings": {
+          "enable_animation": false
         }
       }
     },
