@@ -6065,7 +6065,7 @@
           "grid_item_Nftw3n": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/BUN1168.jpg",
+              "image": "shopify://shop_images/DSC5667.jpg",
               "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -6081,7 +6081,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/DSC5245.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "THE BENEFITS",
@@ -6096,7 +6096,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Elena_with_Bottle_3.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "THE GRAND PRIZE",
