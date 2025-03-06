@@ -6029,7 +6029,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0",
               "overlayColor": "#0a091b",
               "textColor": "#434868",
               "heading": "NC'NEAN CREATIONS COCKTAIL COMPETITION",
@@ -6071,8 +6071,8 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0",
-              "overlayColor": "#ffffff",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#0a091b",
               "textColor": "#434868",
               "heading": "THE BENEFITS",
               "subheading": "<p>Our competitors get:</p><p>To showcase their talent whilst making<br/>lifelong industry connections</p><p>World class cocktail competition experience, including expert performance feedback and advice</p><p>The chance to compete for the trip of a<br/>lifetime, plus a very special grand prize…</p>",
@@ -6113,7 +6113,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0",
               "overlayColor": "#0a091b",
               "textColor": "#434868",
               "heading": "THE GRAND PRIZE",
@@ -6164,7 +6164,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#434868",
               "heading": "NC'NEAN CREATIONS 2025",
