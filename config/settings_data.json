@@ -6029,8 +6029,8 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0",
-              "overlayColor": "#0a091b",
+              "overlayOpacity": "0.2",
+              "overlayColor": "#ffffff",
               "textColor": "#434868",
               "heading": "NC'NEAN CREATIONS COCKTAIL COMPETITION",
               "subheading": "<p>Every year, we challenge top bartenders to create and present a unique Nc’nean cocktail.</p><p>A new challenging brief every year</p><p>Heats held across Europe to find and try the very best.</p><p>An unforgettable trip to our distillery on the wild west coast of Scotland for all heat winners.</p>",
@@ -6113,8 +6113,8 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0",
-              "overlayColor": "#0a091b",
+              "overlayOpacity": "0.2",
+              "overlayColor": "#ffffff",
               "textColor": "#434868",
               "heading": "THE GRAND PRIZE",
               "subheading": "<p>Make your very own whisky, and<br/>profit from its sale!</p><p>Select and release a single cask of Nc’nean Single Malt Scotch Whisky and get a full case of the release to<br/>share and enjoy.</p><p>10% of the profit from the cask’s bottle sales.</p>",
