@@ -6111,21 +6111,6 @@
       "cocktail-comp-grid-2": {
         "type": "cocktail-comp-grid-2",
         "blocks": {
-          "grid_item_E6jcHN": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
-              "overlayOpacity": "0.4",
-              "overlayColor": "#ffffff",
-              "textColor": "#434868",
-              "heading": "THE BENEFITS",
-              "subheading": "<p>Our competitors get:</p><p>To showcase their talent whilst making<br/>lifelong industry connections</p><p>World class cocktail competition experience, including expert performance feedback and advice</p><p>The chance to compete for the trip of a<br/>lifetime, plus a very special grand prize…</p>",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "center"
-            }
-          },
           "grid_item_efxfnt": {
             "type": "grid-item",
             "settings": {
@@ -6135,6 +6120,21 @@
               "textColor": "#ffffff",
               "heading": "",
               "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "grid_item_E6jcHN": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
+              "overlayOpacity": "0.4",
+              "overlayColor": "#ffffff",
+              "textColor": "#434868",
+              "heading": "THE BENEFITS",
+              "subheading": "<p>Our competitors get:</p><p>To showcase their talent whilst making<br/>lifelong industry connections</p><p>World class cocktail competition experience, including expert performance feedback and advice</p><p>The chance to compete for the trip of a<br/>lifetime, plus a very special grand prize…</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -6157,8 +6157,8 @@
           }
         },
         "block_order": [
-          "grid_item_E6jcHN",
           "grid_item_efxfnt",
+          "grid_item_E6jcHN",
           "grid_item_DitBtf"
         ],
         "settings": {
