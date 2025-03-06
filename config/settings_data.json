@@ -6275,12 +6275,12 @@
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "ROUND ONE",
+              "subheading": "<p>Digital entries open: 1st April - 30th April 2025</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           },
           "grid_item_yhdNnY": {
@@ -6289,12 +6289,12 @@
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "THE HEATS",
+              "subheading": "<p>Heats in Scotland, London and Paris: June and July 2025 (exact dates TBC)</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           },
           "grid_item_NWqnGd": {
@@ -6303,12 +6303,12 @@
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "THE FINAL",
+              "subheading": "<p>Held in Glasgow and at Nc'nean: 23rd - 26th September 2025</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           }
         },
