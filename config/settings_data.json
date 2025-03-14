@@ -6348,7 +6348,7 @@
           "slide_RVc6Yp": {
             "type": "slide",
             "settings": {
-              "slide_image": "shopify://shop_images/DSC6121_copy.jpg",
+              "slide_image": "shopify://shop_images/Flagship_and_Botanical_-_Hamburg.jpg",
               "text_position": "align-center-middle",
               "heading_text": "NC'NEAN CREATIONS 2025",
               "page_text": "Our annual bartender cocktail competition, where the winner gets to choose and release their own cask of Nc’nean whisky, plus take away 10% of the profits.",
@@ -6364,7 +6364,7 @@
           "enable_ken_burns": false,
           "enable_progress_bar": true,
           "enable_dropshadow": false,
-          "color_overlay_opacity": "0.3",
+          "color_overlay_opacity": "0.4",
           "color_overlay_color": "#031207",
           "progress_bar_color": "#ffffff",
           "controls_color": "#ffffff"
