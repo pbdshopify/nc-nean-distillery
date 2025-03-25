@@ -1274,9 +1274,9 @@
           "1588856326148"
         ],
         "settings": {
-          "header_color": "#d1e0d7",
-          "text_color": "#27372c",
-          "background_color": "#d1e0d7"
+          "header_color": "#000000",
+          "text_color": "#000000",
+          "background_color": "#e3ede7"
         }
       },
       "visitor-story-grid": {
