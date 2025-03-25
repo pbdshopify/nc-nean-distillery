@@ -1275,8 +1275,8 @@
         ],
         "settings": {
           "header_color": "#d1e0d7",
-          "text_color": "#ffffff",
-          "background_color": "#0a091b"
+          "text_color": "#27372c",
+          "background_color": "#d1e0d7"
         }
       },
       "visitor-story-grid": {
@@ -6368,6 +6368,58 @@
           "color_overlay_color": "#031207",
           "progress_bar_color": "#ffffff",
           "controls_color": "#ffffff"
+        }
+      },
+      "whisky-production-slideshow": {
+        "type": "whisky-production-slideshow",
+        "blocks": {
+          "slide_7tMDhF": {
+            "type": "slide",
+            "settings": {
+              "slide_image": "shopify://shop_images/Nc_nean_distillery_MiakAhlers_29.jpg",
+              "text_position": "align-center-middle",
+              "heading_text": "SPIRIT NUTS",
+              "page_text": "",
+              "button_cta": "",
+              "button_link": ""
+            }
+          },
+          "slide_8TbdyT": {
+            "type": "slide",
+            "settings": {
+              "slide_image": "shopify://shop_images/Credit_Bairds_not_for_advertising__10_cf73dd8d-807c-445a-b1b3-0b246093b1c5.jpg",
+              "text_position": "align-center-middle",
+              "heading_text": "ORGANIC PIONEERS",
+              "page_text": "",
+              "button_cta": "",
+              "button_link": ""
+            }
+          },
+          "slide_VaTKed": {
+            "type": "slide",
+            "settings": {
+              "slide_image": "shopify://shop_images/NcNean_KirschImport_MaikAhlers-160_38ef8efa-52dc-496b-ba54-2b62f8b3b552.jpg",
+              "text_position": "align-center-middle",
+              "heading_text": "CASK EXPLORERS",
+              "page_text": "",
+              "button_cta": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slide_7tMDhF",
+          "slide_8TbdyT",
+          "slide_VaTKed"
+        ],
+        "settings": {
+          "enable_ken_burns": true,
+          "enable_progress_bar": false,
+          "enable_dropshadow": false,
+          "color_overlay_opacity": "0.2",
+          "color_overlay_color": "#031207",
+          "progress_bar_color": "#FFFFFF",
+          "controls_color": "#FFFFFF"
         }
       }
     },
