@@ -6471,7 +6471,20 @@
               "image_position": "right",
               "text_alignment": "center",
               "text_header": "CUT POINTS",
-              "text_body": "<p>We collect only the purest, fruitiest part of our spirit distillation by taking narrow cut points. Unlike many other whisky distilleries we also run different spirit recipes at different times of year, depending on what we envisage bottling at the end of maturation. </p>",
+              "text_body": "<p>We collect only the purest, fruitiest part of our distillation by taking narrow cut points to get our \"new make\" spirit (the unaged whisky which comes straight off the still). </p><p>Unlike many other whisky distilleries we also run different spirit recipes at different times of year, depending on what we envisage bottling at the end of maturation. </p>",
+              "button_cta": "",
+              "button_link": "",
+              "border_override": false
+            }
+          },
+          "content_block_dK7Wjx": {
+            "type": "content_block",
+            "settings": {
+              "layout": "half-half",
+              "image_position": "right",
+              "text_alignment": "center",
+              "text_header": "CASK MATURATION",
+              "text_body": "<p>We have a huge variety of casks maturing in our warehouse, from Tequila, to British Rum, to White Bordeaux to Rivesaltes casks.</p><p>Our house style casks are ex-Bourbon, STR red wine and ex-Oloroso Sherry - we use these in our core range of whiskies as they develop delicious depth and sweetness.</p>",
               "button_cta": "",
               "button_link": "",
               "border_override": false
@@ -6482,7 +6495,8 @@
           "content_block_aeJ8qE",
           "content_block_67Udtb",
           "content_block_PTgJRa",
-          "content_block_DPtJaG"
+          "content_block_DPtJaG",
+          "content_block_dK7Wjx"
         ],
         "settings": {
           "header_color": "#434867",
