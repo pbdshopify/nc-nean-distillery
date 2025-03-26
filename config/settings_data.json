@@ -6428,6 +6428,7 @@
           "content_block_aeJ8qE": {
             "type": "content_block",
             "settings": {
+              "block_image": "shopify://shop_images/Nc_nean_distillery_MiakAhlers_12.jpg",
               "layout": "half-half",
               "image_position": "right",
               "text_alignment": "center",
