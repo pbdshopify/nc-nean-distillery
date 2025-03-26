@@ -6467,11 +6467,11 @@
           "content_block_DPtJaG": {
             "type": "content_block",
             "settings": {
-              "layout": "one-two",
-              "image_position": "left",
-              "text_alignment": "left",
-              "text_header": "",
-              "text_body": "",
+              "layout": "half-half",
+              "image_position": "right",
+              "text_alignment": "center",
+              "text_header": "CUT POINTS",
+              "text_body": "<p>We collect only the purest, fruitiest part of our spirit distillation by taking narrow cut points. Unlike many other whisky distilleries we also run different spirit recipes at different times of year, depending on what we envisage bottling at the end of maturation. </p>",
               "button_cta": "",
               "button_link": "",
               "border_override": false
