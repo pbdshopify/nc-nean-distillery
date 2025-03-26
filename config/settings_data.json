@@ -6379,7 +6379,7 @@
               "slide_image": "shopify://shop_images/Nc_nean_distillery_MiakAhlers_29.jpg",
               "text_position": "align-center-middle",
               "heading_text": "SPIRIT NUTS",
-              "page_text": "",
+              "page_text": "Experimental spirits for the modern whisky drinker",
               "button_cta": "",
               "button_link": ""
             }
@@ -6390,7 +6390,7 @@
               "slide_image": "shopify://shop_images/Credit_Bairds_not_for_advertising__10_cf73dd8d-807c-445a-b1b3-0b246093b1c5.jpg",
               "text_position": "align-center-middle",
               "heading_text": "ORGANIC PIONEERS",
-              "page_text": "",
+              "page_text": "A focus on high quality, organic Scottish ingredients",
               "button_cta": "",
               "button_link": ""
             }
@@ -6401,7 +6401,7 @@
               "slide_image": "shopify://shop_images/NcNean_KirschImport_MaikAhlers-160_38ef8efa-52dc-496b-ba54-2b62f8b3b552.jpg",
               "text_position": "align-center-middle",
               "heading_text": "CASK EXPLORERS",
-              "page_text": "",
+              "page_text": "Unique and interesting maturations",
               "button_cta": "",
               "button_link": ""
             }
@@ -6418,8 +6418,76 @@
           "enable_dropshadow": false,
           "color_overlay_opacity": "0.2",
           "color_overlay_color": "#031207",
-          "progress_bar_color": "#FFFFFF",
-          "controls_color": "#FFFFFF"
+          "progress_bar_color": "#ffffff",
+          "controls_color": "#ffffff"
+        }
+      },
+      "production-grid": {
+        "type": "production-grid",
+        "blocks": {
+          "content_block_aeJ8qE": {
+            "type": "content_block",
+            "settings": {
+              "layout": "half-half",
+              "image_position": "right",
+              "text_alignment": "center",
+              "text_header": "SPIRIT NUTS",
+              "text_body": "<p>We are spirit nuts. When Annabel started Nc'nean, she wanted experimentation to be at the forefront. To innovative within spirit production as well as cask maturation. Yes, maturation is critical, but our passion is really for the spirit that comes straight off the still.</p><p>All of our whiskies follow this ethos, but it's our Huntress series which is specificially dedicated to spirit experiments. From rum and wine yeasts, to cut point explorations, we aren't afraid to play with the liquid before it goes into a cask.</p>",
+              "button_cta": "",
+              "button_link": "",
+              "border_override": false
+            }
+          },
+          "content_block_67Udtb": {
+            "type": "content_block",
+            "settings": {
+              "layout": "half-half",
+              "image_position": "right",
+              "text_alignment": "center",
+              "text_header": "ORGANIC BARLEY",
+              "text_body": "<p>Our whisky is made from 100% organic Scottish barley, whose natural yields and rich soils result in concentrated depth of flavour and whose farming practices encourage biodiversity and soil health.</p><p>Mashing. We then use longer mashing times - our organic malted barley spends an hour resting for flavour development and another 20 minutes being filtered through the husks for purity. </p>",
+              "button_cta": "",
+              "button_link": "",
+              "border_override": false
+            }
+          },
+          "content_block_PTgJRa": {
+            "type": "content_block",
+            "settings": {
+              "layout": "half-half",
+              "image_position": "right",
+              "text_alignment": "center",
+              "text_header": "FERMENTATION",
+              "text_body": "<p>Yeast is magical. It's responsible for creating many of the flavours in our whisky. We ferment for up to 114 hours and we use two different yeasts varieties for our house style: one creates fruity flavours, the other is a more traditional distilling yeast.</p><p>But it's in our Huntress series where we really shine a light on our yeast experiments, releasing whiskies made with rum, wine and champagne yeasts. </p>",
+              "button_cta": "",
+              "button_link": "",
+              "border_override": false
+            }
+          },
+          "content_block_DPtJaG": {
+            "type": "content_block",
+            "settings": {
+              "layout": "one-two",
+              "image_position": "left",
+              "text_alignment": "left",
+              "text_header": "",
+              "text_body": "",
+              "button_cta": "",
+              "button_link": "",
+              "border_override": false
+            }
+          }
+        },
+        "block_order": [
+          "content_block_aeJ8qE",
+          "content_block_67Udtb",
+          "content_block_PTgJRa",
+          "content_block_DPtJaG"
+        ],
+        "settings": {
+          "header_color": "#434867",
+          "text_color": "#434867",
+          "background_color": "#e3ede7"
         }
       }
     },
