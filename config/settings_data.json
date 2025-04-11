@@ -6499,7 +6499,8 @@
           "grid_item_ctFLwk": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify://shop_images/Huntress_LM.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "HUNTRESS",
@@ -6513,7 +6514,8 @@
           "grid_item_W6kNiJ": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify://shop_images/OC_hi_res_c0003560-3203-4a06-82e0-15310d2c0b9d.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "HUNTRESS",
