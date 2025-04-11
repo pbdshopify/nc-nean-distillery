@@ -3744,21 +3744,6 @@
       "huntress-grid": {
         "type": "huntress-grid",
         "blocks": {
-          "grid_item_Gkbw7h": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify://shop_images/Huntress_Orchard_Cobbler.jpg",
-              "overlayOpacity": "0.1",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "HUNTRESS",
-              "subheading": "<p>Lemon Meadow</p>",
-              "link": "shopify://pages/huntress-orchard-cobbler-2024",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "top left"
-            }
-          },
           "4d70faa7-fa11-4455-b228-0fedc8d29c66": {
             "type": "grid-item",
             "settings": {
@@ -3791,7 +3776,6 @@
           }
         },
         "block_order": [
-          "grid_item_Gkbw7h",
           "4d70faa7-fa11-4455-b228-0fedc8d29c66",
           "b87ca82c-a21f-4833-8812-2c7fef836bc5"
         ],
@@ -6518,8 +6502,8 @@
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "HUNTRESS",
+              "subheading": "<p>Lemon Meadow</p><p>Coming soon...</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
