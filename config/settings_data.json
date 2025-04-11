@@ -6508,6 +6508,46 @@
           "text_color": "#434867",
           "background_color": "#e3ede7"
         }
+      },
+      "huntress-grid-2": {
+        "type": "huntress-grid-2",
+        "blocks": {
+          "grid_item_ctFLwk": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_W6kNiJ": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "HUNTRESS",
+              "subheading": "<p>Orchard Cobber</p>",
+              "link": "https://ncnean.com/pages/huntress-orchard-cobbler-2024",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_ctFLwk",
+          "grid_item_W6kNiJ"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
