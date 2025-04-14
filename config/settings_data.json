@@ -694,10 +694,10 @@
       "mission-video": {
         "type": "mission-video",
         "settings": {
-          "video_url": "https://cdn.shopify.com/s/files/1/0268/4089/1435/files/Method.mp4?v=1588689801",
+          "video_url": "https://cdn.shopify.com/videos/c/o/v/4dfea075a92a42d5997181bb4e14e7e4.mp4",
           "enable_animation": false,
           "enable_dropshadow": false,
-          "color_overlay_opacity": "0.5",
+          "color_overlay_opacity": "0.3",
           "color_overlay_color": "#000000",
           "controls_color": "#ffffff",
           "text_position": "center-middle",
@@ -705,7 +705,7 @@
           "page_text": "We are an independent, organic whisky distillery that exists to create experimental spirits and pioneer sustainable production",
           "button_cta": "",
           "button_link": "",
-          "fallback_image": "shopify://shop_images/Organic_whisky_barley_field.jpg"
+          "fallback_image": "shopify://shop_images/IMG_5357.jpg"
         }
       },
       "story-features": {
