@@ -639,12 +639,12 @@
           "1588087561436": {
             "type": "content_block",
             "settings": {
-              "block_image": "shopify://shop_images/Distillery_towards_the_sea.jpg",
+              "block_image": "shopify://shop_images/Nc_nean_distillery_from_above_e8ec9d88-5772-4aeb-a99c-fd1c7187b690.jpg",
               "layout": "half-half",
               "image_position": "right",
               "text_alignment": "center",
               "text_header": "PIONEERING SUSTAINABLE PRODUCTION",
-              "text_body": "<p>Sustainability runs in our veins. We believe it is our responsibility to constantly improve our impact on this earth in terms of carbon footprint, pollution and biodiversity. </p><p>B Corp certified, we use only unpeated <a href=\"/pages/organic\" title=\"Organic\">organic Scottish barley</a> in our distillery powered only by <a href=\"/pages/renewable-energy\" title=\"Renewable Energy\">renewable energy</a>. We bottle our whiskies in a 100% recycled glass bottles (a first in Scotch whisky, we think), and we divert 99.96% of our waste from landfill. And as of 2021 we became the first whisky distillery in the UK to be verified as net zero carbon emissions for scopes 1 and 2. <a href=\"/pages/sustainability\" title=\"Sustainability\">Find out more about our sustainability missions here.</a></p>",
+              "text_body": "<p>Sustainability runs in our veins. We believe it is our responsibility to constantly improve our impact on this earth in terms of carbon footprint, pollution and biodiversity. </p><p>B Corp certified, we use only unpeated 100% <a href=\"/pages/organic\" title=\"Organic\">organic Scottish barley</a> in our distillery powered only by <a href=\"/pages/renewable-energy\" title=\"Renewable Energy\">renewable energy</a>. We bottle our whiskies in a 100% recycled glass bottles (a first in Scotch whisky, we think), and we divert 99.96% of our waste from landfill. And as of 2021 we became the first whisky distillery in the UK to be verified as net zero carbon emissions for scopes 1 and 2. <a href=\"/pages/sustainability\" title=\"Sustainability\">Find out more about our sustainability missions here.</a></p>",
               "button_cta": "",
               "button_link": "",
               "border_override": false
