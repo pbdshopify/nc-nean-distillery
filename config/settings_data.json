@@ -669,10 +669,10 @@
             "settings": {
               "block_image": "shopify://shop_images/MG_2992.jpg",
               "layout": "half-half",
-              "image_position": "left",
-              "text_alignment": "left",
+              "image_position": "right",
+              "text_alignment": "center",
               "text_header": "WALK YOUR OWN PATH",
-              "text_body": "<p>The inspiration for our name, Neachneohain, was an ancient Gaelic goddess. She was known as the Queen of Spirits and a fierce protector of nature. Strong and independent, she was never afraid to walk her own path. We try to follow her ethos in everything we do.</p>",
+              "text_body": "<p>The inspiration for our name, Neachneohain, was an ancient Gaelic goddess. Known as the Queen of Spirits, was a huntress and a fierce protector of nature. Strong and independent, she was never afraid to walk her own path. We try to follow her ethos in everything we do.</p>",
               "button_cta": "",
               "button_link": "",
               "border_override": false
