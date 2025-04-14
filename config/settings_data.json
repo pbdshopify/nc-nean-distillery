@@ -628,9 +628,9 @@
               "block_image": "shopify://shop_images/NcNean_KirschImport_MaikAhlers-126.jpg",
               "layout": "half-half",
               "image_position": "right",
-              "text_alignment": "left",
+              "text_alignment": "center",
               "text_header": "UNINHIBITED BY TRADITION",
-              "text_body": "<p>Annabel started Nc’nean to change the way the world thinks about whisky from Scotland. Her mission was to create a whisky which could exist in harmony with this planet we call home. After leaving her job in London in 2013, she spent four years raising funds and building the distillery from the ground up on the west coast of Scotland. </p><p>In 2017, we started distilling our very own organic whisky, and in 2020 our first bottle was born. An unpeated, organic single malt Scotch whisky making a big impression with the smallest footprint. We now have four different series of whiskies, a Botanical Spirit, some wonderful gift sets, and a growing team of 22 quiet rebels.</p>",
+              "text_body": "<p>Annabel started Nc’nean to change the way the world thinks about whisky from Scotland. Her mission was to create a whisky which could exist in harmony with this planet we call home. After leaving her job in London in 2013, she spent four years raising funds and building the distillery from the ground up on the west coast of Scotland. </p><p>In 2017, we started distilling our very own organic whisky, and in 2020 our first bottle was born. An unpeated, elegant and fruity organic single malt Scotch making a big impression with the smallest footprint. We now have four different series of whiskies, a Botanical Spirit, some wonderful gift sets, and a growing team of 22 quiet rebels.</p>",
               "button_cta": "",
               "button_link": "",
               "border_override": false
@@ -686,9 +686,9 @@
           "1588258866062"
         ],
         "settings": {
-          "header_color": "#d1e0d7",
-          "text_color": "#e3ede7",
-          "background_color": "#0a091b"
+          "header_color": "#27372c",
+          "text_color": "#0a091b",
+          "background_color": "#e3ede7"
         }
       },
       "mission-video": {
@@ -2804,7 +2804,7 @@
         "type": "rich-text-jobs",
         "settings": {
           "title": "CAREERS",
-          "text": "<p>Our small team is growing quickly, so we are always on the lookout for new talent. We will post any formal job vacancies that we have here and on social media, so please follow us on<a href=\"https://www.facebook.com/ncnean\"><span style=\"text-decoration:underline\"> facebook</span></a> or<a href=\"https://www.instagram.com/ncnean/?hl=en\"><span style=\"text-decoration:underline\"> Instagram</span></a> and<a href=\"https://www.linkedin.com/company/ncnean-distillery/\"><span style=\"text-decoration:underline\"> Linkedin</span></a> to stay up to date.</p><p><em>Nc’nean Distillery Limited is committed to creating a diverse work environment and is proud to be an equal opportunity employer. We believe that a diverse team helps us succeed and take active steps to help us recruit and nurture this diversity. For example, we ‘blind’ screen all job applicants, run an internship for women who are interested in working in the whisky industry (who are typically under-represented) and run training and team building events to help the team understand each other. </em></p><h6>TRADE MARKETING EXECUTIVE</h6><p>We are looking for a highly organised and personable Trade Marketing Executive to support the global marketing and sales teams, and to help us get Nc’nean into the hands of more people by working with our trade partners and retailers across with globe. Click the button below to read the full job spec and for info on how to apply.</p>",
+          "text": "<p>Our small team is growing quickly, so we are always on the lookout for new talent. We will post any formal job vacancies that we have here and on social media, so please follow us on<a href=\"https://www.facebook.com/ncnean\"><span style=\"text-decoration:underline\"> facebook</span></a> or<a href=\"https://www.instagram.com/ncnean/?hl=en\"><span style=\"text-decoration:underline\"> Instagram</span></a> and<a href=\"https://www.linkedin.com/company/ncnean-distillery/\"><span style=\"text-decoration:underline\"> Linkedin</span></a> to stay up to date.</p><p><em>Nc’nean Distillery Limited is committed to creating a diverse work environment and is proud to be an equal opportunity employer. We believe that a diverse team helps us succeed and take active steps to help us recruit and nurture this diversity. For example, we ‘blind’ screen all job applicants, run an internship for women who are interested in working in the whisky industry (who are typically under-represented) and run training and team building events to help the team understand each other. </em></p><p><em>- </em></p><h6>TRADE MARKETING EXECUTIVE</h6><p>We are looking for a highly organised and personable Trade Marketing Executive to support the global marketing and sales teams, and to help us get Nc’nean into the hands of more people by working with our trade partners and retailers across with globe. Click the button below to read the full job spec and for info on how to apply.</p>",
           "link": "https://cdn.shopify.com/s/files/1/0268/4089/1435/files/Nc_nean_Trade_Marketing_Exec_role.pdf?v=1744622340",
           "linkText": "MORE INFO / APPLY"
         }
