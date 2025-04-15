@@ -5216,12 +5216,28 @@
               "buttonStyle": "2",
               "textAlignment": "center"
             }
+          },
+          "grid_item_q49Xby": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/Craft_whisky.jpg",
+              "overlayOpacity": "0.5",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "JAPAN",
+              "subheading": "<p>Ask your local retailer or <a href=\"https://scytheshuhan.stores.jp/?category_id=664db273e47f10003936211c\" target=\"_blank\" title=\"https://scytheshuhan.stores.jp/?category_id=664db273e47f10003936211c\">shop online here</a>.</p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
           }
         },
         "block_order": [
           "grid_item_L6TUdp",
           "grid_item_4VJBLQ",
-          "grid_item_37cWkq"
+          "grid_item_37cWkq",
+          "grid_item_q49Xby"
         ],
         "settings": {
           "enable_animation": false
@@ -5901,8 +5917,8 @@
               "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "JAPAN",
-              "subheading": "<p>Ask your local retailer or <a href=\"https://scytheshuhan.stores.jp/?category_id=664db273e47f10003936211c\" target=\"_blank\" title=\"https://scytheshuhan.stores.jp/?category_id=664db273e47f10003936211c\">shop online here</a>.</p>",
+              "heading": "TAIWAN",
+              "subheading": "<p>Ask your local spirits retailer.</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -5912,21 +5928,7 @@
           "grid_item_xUfmaH": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Sustainable_whisky.jpg",
-              "overlayOpacity": "0.5",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "TAIWAN",
-              "subheading": "<p>Ask your local spirits retailer.</p>",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "center"
-            }
-          },
-          "grid_item_6XKzJL": {
-            "type": "grid-item",
-            "settings": {
+              "image": "shopify://shop_images/Sustainable_organic_whisky.jpg",
               "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -5937,12 +5939,43 @@
               "buttonStyle": "2",
               "textAlignment": "center"
             }
+          },
+          "grid_item_6XKzJL": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/Sustainable_whisky.jpg",
+              "overlayOpacity": "0.5",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "grid_item_b9PJQw": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/Craft_whisky.jpg",
+              "overlayOpacity": "0.5",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
           }
         },
         "block_order": [
           "grid_item_mcL8YV",
           "grid_item_xUfmaH",
-          "grid_item_6XKzJL"
+          "grid_item_6XKzJL",
+          "grid_item_b9PJQw"
         ],
         "settings": {
           "enable_animation": false
