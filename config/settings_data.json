@@ -5339,13 +5339,13 @@
           "grid_item_nXp9nU": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Huntress_b81fb3eb-cd12-4d0f-bf07-22f453779821.jpg",
+              "image": "shopify://shop_images/Huntress_LM.jpg",
               "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "HUNTRESS ORCHARD COBBLER",
+              "heading": "HUNTRESS LEMON MEADOW",
               "subheading": "<p>Limited edition experimental series. Citrusy and biscuity with flavours of lemon sorbet, fresh chamomile and all butter shortbread.</p>",
-              "link": "shopify://products/huntress-orchard-cobbler",
+              "link": "shopify://products/huntress-lemon-meadow",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
