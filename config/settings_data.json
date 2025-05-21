@@ -2959,12 +2959,12 @@
           "bda78c7a-4954-4588-ac64-2e365477b98c": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Ashley_Nc_nean_003-3.jpg",
+              "image": "shopify://shop_images/DSC5664-2.jpg",
               "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "ASHLEY HOWKINS",
-              "subheading": "<p>Tour Guide and Bottling Operator</p><p>Canadian with strong Scottish roots. A love of animals, enjoys taking her dog Haggis for hill walks and snuggles with her cats Neeps and Tatties. Idea of heaven? A picnic on a wild Scottish beach.</p>",
+              "heading": "BETH STEPHEN",
+              "subheading": "<p>Digital and Creative Executive</p><p>Perthshire born and raised. Big lover of photography, Tunnock<em>'</em>s Teacakes and being near water. Life goal is to see a blue whale. Started to enjoy whisky after trying a Whisky Six.</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -4943,12 +4943,12 @@
           "8802dcbb-595c-408d-9338-9da4a43c5fda": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/DSC5664-2.jpg",
-              "overlayOpacity": "0.2",
+              "image": "shopify://shop_images/Organic_whisky.jpg",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "BETH STEPHEN",
-              "subheading": "<p>Digital and Creative Executive</p><p>Perthshire born and raised. Big lover of photography, Tunnock<em>'</em>s Teacakes and being near water. Life goal is to see a blue whale. Started to enjoy whisky after trying a Whisky Six.</p>",
+              "heading": "",
+              "subheading": "",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -4959,7 +4959,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Craft_whisky.jpg",
-              "overlayOpacity": "0.5",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "",
