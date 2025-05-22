@@ -4836,7 +4836,7 @@
               "textColor": "#ffffff",
               "heading": "TURKEY",
               "subheading": "<p>Ask your local retailer or contact <a href=\"mailto:info@kaspirits.com\">info@kaspirits.com</a> to find your nearest stockist.</p>",
-              "link": "",
+              "link": "mailto:info@kaspirits.com",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "center"
