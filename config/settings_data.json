@@ -4834,12 +4834,12 @@
               "overlayOpacity": "0.5",
               "overlayColor": "#0a091b",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "TURKEY",
+              "subheading": "<p>Ask your local retailer or contact <a href=\"mailto:info@kaspirits.com\">info@kaspirits.com</a> to find your nearest stockist.</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           }
         },
