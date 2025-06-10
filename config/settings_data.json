@@ -73,11 +73,11 @@
           "logo_image": "shopify://shop_images/Nc_nean_brandmark.png",
           "logo_max_width": "250",
           "logo_transparent_image": "shopify://shop_images/Nc_nean_logo_white.png",
-          "show_announcement_bar": false,
+          "show_announcement_bar": true,
           "notification_bar_enable_currency": false,
           "notification_bar_enable_social": false,
-          "notification_bar_text": "",
-          "notification_bar_link": ""
+          "notification_bar_text": "SHOP NOW FOR DELIVERY BEFORE FATHER'S DAY",
+          "notification_bar_link": "shopify://collections/all-spirits"
         }
       },
       "footer": {
