@@ -1660,8 +1660,8 @@
             "type": "feature",
             "settings": {
               "feature-icon": "shopify://shop_images/comp2.png",
-              "title": "CHEMICAL FREE",
-              "feature-subheading": "<p>Natural waste is one thing, but chemical waste is a whole different matter. If used, it can very easily end up causing damage to the surrounding environment, so&nbsp;we focus on sourcing natural cleaning products for our bar, office and loos.&nbsp;</p>",
+              "title": "LESS CHEMICALS THE BETTER",
+              "feature-subheading": "<p>Natural waste is one thing, but chemical waste is a whole different matter. If used, it can very easily end up causing damage to the surrounding environment, so we focus on sourcing natural cleaning products for our bar, office and loos. </p>",
               "feature-buttonText": "Read more",
               "feature-url": ""
             }
