@@ -6574,11 +6574,12 @@
           "grid_item_dttNkA": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify://shop_images/10_Aon_PX_low-res.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "AON 17-288",
+              "subheading": "<p>Bottled exclusively for Kirsch Import</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -6588,12 +6589,13 @@
           "grid_item_fNYRKm": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify://shop_images/15_Aon_Rum_e83818fb-f9b2-4a64-9ba2-dd391fb86d0e.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
+              "heading": "AON 18-227",
+              "subheading": "<p>Bottled exclusively for Craft Spirits</p>",
+              "link": "https://ncnean.com/pages/aon-18-227",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
@@ -6602,7 +6604,8 @@
           "grid_item_yCFpNM": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify://shop_images/1_Aon_FBN_low-res_1cbf4925-6b3d-40e8-a692-212bc8f4740a.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON 17-245",
