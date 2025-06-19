@@ -1018,7 +1018,7 @@
             "settings": {
               "feature-icon": "shopify://shop_images/oak.png",
               "title": "ENERGY",
-              "feature-subheading": "<p>Our distillery production footprint is naturally very low due to our use of 100% renewable energy. Our two copper pot stills are powered solely by our biomass boiler using wood chip from the local forest for its power; all the trees that are harvested are replanted. We source a very small amount of low carbon electricity from our green energy partners, <a href=\"https://www.engie.co.uk/\" target=\"_blank\" title=\"https://www.engie.co.uk/\">Engie</a>. Engie are a global supplier of low-carbon energy who are committed to accelerate the transition towards a carbon-neutral world.</p>",
+              "feature-subheading": "<p>Our two copper pot stills are powered solely by our biomass boiler. Biomass is a renewable energy source where we use wood chip from the local forest for its power; all the trees that are harvested are replanted. Additionally, for the remainder of power we need, we source renewable electricity from our energy partners, <a href=\"https://www.engie.co.uk/\" target=\"_blank\" title=\"https://www.engie.co.uk/\">Engie</a>. Engie are a global supplier electricity supplier who are committed to accelerate the transition towards a low-carbon world.</p>",
               "feature-buttonText": "Read more",
               "feature-url": "",
               "video": false
