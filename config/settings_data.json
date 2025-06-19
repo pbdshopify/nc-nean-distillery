@@ -1029,7 +1029,7 @@
             "settings": {
               "feature-icon": "shopify://shop_images/comp8.png",
               "title": "FOOTPRINT",
-              "feature-subheading": "<p>The combination of this green electricity and our biomass energy means that our footprint for distillery production alone for the 2022-23 year was a minute 18.5 tonnes of CO2 per annum. Together with all the emissions associated with our supply chain, our total carbon footprint for the whole year was 2037 tonnes. This might seem quite large, due to our scope 3 footprint being a lot bigger than most years due to emissions associated with our warehouse and bottling building project.</p>",
+              "feature-subheading": "<p>The combination of this renewable electricity and our biomass energy means that our footprint for distillery production alone (scopes 1 and 2) for the 2023-24 year was 10.6 tonnes of CO2 per annum. </p><p>Together with all the emissions associated with our supply chain (scope 3), our total carbon footprint for the whole year was 315.5 tonnes.</p>",
               "feature-buttonText": "",
               "feature-url": "",
               "video": true
