@@ -980,7 +980,7 @@
         ],
         "settings": {
           "title": "ORGANIC CERTIFIED",
-          "subheading": "<p></p><p></p><p>By drinking one bottle of our organic spirit you are securing two square metres of biodiversity and soil health. </p>",
+          "subheading": "<p></p><p></p><p>By drinking one bottle of our organic spirit you are securing one square metre of biodiversity and soil health. </p>",
           "enable_animation": true
         }
       },
@@ -1906,7 +1906,7 @@
             "settings": {
               "feature-icon": "shopify://shop_images/bog_myrtle.png",
               "title": "LOCAL BOTANICALS",
-              "feature-subheading": "<p>We are very lucky to be located in an area where nature&rsquo;s bounty is plentiful, so naturally, we use this as inspiration for our recipes. Our <a href=\"/products/botanical-spirit\" title=\"BOTANICAL SPIRIT\">Botanical Spirit</a>&nbsp;includes bog myrtle, wild thyme, sorrel and heather, all found locally to the distillery</p>",
+              "feature-subheading": "<p>We are very lucky to be located in an area where nature’s bounty is plentiful, so naturally, we use this as inspiration for our recipes. Our <a href=\"/products/botanical-spirit\" title=\"BOTANICAL SPIRIT\">Botanical Spirit</a> includes bog myrtle, wild thyme, sorrel and heather, all found locally to the distillery</p>",
               "feature-buttonText": "Read more",
               "feature-url": ""
             }
