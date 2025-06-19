@@ -6632,8 +6632,9 @@
           "grid_item_TpYjHN": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
+              "image": "shopify://shop_images/Organic_whisky.jpg",
+              "overlayOpacity": "0.2",
+              "overlayColor": "#e3ede7",
               "textColor": "#ffffff",
               "heading": "",
               "subheading": "",
@@ -6646,8 +6647,8 @@
           "grid_item_WXEEc3": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/bog_myrtle.png",
-              "overlayOpacity": "0.4",
+              "image": "shopify://shop_images/Craft_whisky.jpg",
+              "overlayOpacity": "0.2",
               "overlayColor": "#e3ede7",
               "textColor": "#ffffff",
               "heading": "",
