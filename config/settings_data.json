@@ -1915,8 +1915,8 @@
             "type": "feature",
             "settings": {
               "feature-icon": "shopify://shop_images/hearts_tongue.png",
-              "title": "CERTIFIED WILD",
-              "feature-subheading": "<p>For our&nbsp;botanical spirit to be certified organic, we have to use botanicals that are also organic. For&nbsp;those that are handpicked by us, we ensure&nbsp;that they are picked in areas where there is no application of fertilisers&nbsp;or chemicals.&nbsp;</p>",
+              "title": "WILD FLORA",
+              "feature-subheading": "<p>For our botanical spirit to be certified organic, we have to use botanicals that are also organic. For those that are handpicked by us, we ensure that they are picked in areas where there is no application of fertilisers or chemicals. </p>",
               "feature-buttonText": "Read more",
               "feature-url": ""
             }
@@ -1939,7 +1939,7 @@
         ],
         "settings": {
           "title": "FORAGING SUSTAINABLY",
-          "subheading": "<p></p>\n<p></p>",
+          "subheading": "<p></p><p></p>",
           "enable_animation": true
         }
       },
