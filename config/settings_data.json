@@ -5987,12 +5987,12 @@
           "grid_item_me3gee": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Craft_whisky.jpg",
+              "image": "shopify://shop_images/Aon_Calvados.jpg",
               "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "AON 17-519",
+              "subheading": "<p>Bottled exclusively for The Whisky Exchange.</p><p>Coming soon..,</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -6564,6 +6564,12 @@
           "grid_item_ctFLwk",
           "grid_item_W6kNiJ"
         ],
+        "settings": {
+          "enable_animation": false
+        }
+      },
+      "aon-grid-12": {
+        "type": "aon-grid-12",
         "settings": {
           "enable_animation": false
         }
