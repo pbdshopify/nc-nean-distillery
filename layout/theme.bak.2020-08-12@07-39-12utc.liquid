@@ -81,7 +81,7 @@
   Add the page template as a class for easy page or template specific styling.
 {% endcomment %}
 <body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
-  {% render 'age-check' %} 
+{% render 'age-check' %}
   {% include 'icons.svg' %}
   <div class="fadeout-overlay"></div>
   {% section 'header' %}
