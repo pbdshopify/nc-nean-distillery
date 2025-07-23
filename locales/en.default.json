@@ -395,7 +395,7 @@
         "sold_out_label": "Sold out - click for other stockists"
       },
       "order_summary": {
-        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">{{ code }}</strong> discount code isn’t valid for the items in your basket."
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">{{ code }}</strong> discount code isn’t valid for the items in your basket. If you are using a free item code, item must be added to the basket before checkout."
       }
     }
   }
