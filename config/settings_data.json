@@ -759,7 +759,7 @@
           "98a83a4e-4163-42d0-8292-74628dc3a46a": {
             "type": "slide",
             "settings": {
-              "slide_image": "shopify://shop_images/Nc_nean_distillery_MiakAhlers_29_ff1ecfed-d7c8-474d-add4-eb596ee4877c.jpg",
+              "slide_image": "shopify://shop_images/MG_2512.jpg",
               "text_position": "align-center-middle",
               "heading_text": "NET ZERO CARBON EMISSIONS",
               "page_text": "From our own operations (scope 1 and 2).",
@@ -811,7 +811,7 @@
           "enable_ken_burns": true,
           "enable_progress_bar": false,
           "enable_dropshadow": false,
-          "color_overlay_opacity": "0.1",
+          "color_overlay_opacity": "0.2",
           "color_overlay_color": "#000000",
           "progress_bar_color": "#ffffff",
           "controls_color": "#ffffff"
