@@ -151,9 +151,9 @@
           {% if hasHeading or hasSubheading or hasButton %}
             <figcaption class="{{ block.settings.textAlignment }} animation-sequence-{{ index }} {% if section.settings.enable_animation %}can-animate{% endif %}">
               {% if hasHeading %}
-                <h6 style="color: {{ block.settings.textColor }}">
+                <h4 style="color: {{ block.settings.textColor }}">
                   <span>{{ block.settings.heading | escape }}</span>
-                </h6>
+                </h4>
               {% endif %}
               {% if hasSubheading %}
                 <div class="index-grid-item-text" style="color: {{ block.settings.textColor }}">
