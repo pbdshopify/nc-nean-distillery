@@ -6774,7 +6774,7 @@
           "slide_8RWrit": {
             "type": "slide",
             "settings": {
-              "slide_image": "shopify://shop_images/Pattern_wolf.jpg",
+              "slide_image": "shopify://shop_images/Pattern_wolf_WEBSITE.jpg",
               "text_position": "align-center-middle",
               "heading_text": "SUSTAINABILTY AND IMPACT REPORT",
               "page_text": "The information in this report refers to data from April 2023-March 2024.",
@@ -6790,7 +6790,7 @@
           "enable_ken_burns": false,
           "enable_progress_bar": true,
           "enable_dropshadow": false,
-          "color_overlay_opacity": "0.8",
+          "color_overlay_opacity": "0",
           "color_overlay_color": "#031207",
           "progress_bar_color": "#ffffff",
           "controls_color": "#ffffff"
