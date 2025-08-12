@@ -1,380 +1,360 @@
-<div class="index-grid image-gutters--{{ settings.image_gutter }}">
-  {% assign count = section.blocks.size %}
+{% comment %}Should this be a setting?{% endcomment %}
+{% assign slide_timeout = 5 %}
+{% assign slide_timeout_ms = slide_timeout | times: 1000 %}
 
-  <div class="index-grid-items count-{{ count }}">
-    {% assign index = 0 %}
+<div class="carousel-container" id="carousel-{{ section.id }}" data-ken-burns="{{ section.settings.enable_ken_burns }}" data-slide-timeout="{{ slide_timeout_ms }}">
+  <div class="carousel-slides image-placeholder {% if section.settings.color_overlay_opacity != '0' %}with-overlay{% endif %}">
+    {% if section.blocks.size > 0 %}
+      {% for slide in section.blocks limit: section.blocks.size %}
 
-    {% for block in section.blocks %}
+        {% include "filter-rias-img-url" input: slide.settings.slide_image %}
+        {% assign image_url = output %}
 
-      {% case count %}
-        {% when 1 %}
-          {% assign columnWidth = "large--one-whole medium-down--one-whole" %}
-        {% when 5 %}
-          {% capture columnWidth %}
-            {% cycle
-              "large--two-thirds medium--two-thirds small--one-whole",
-              "large--one-third medium--one-third small--one-whole",
-              "",
-              "large--two-thirds medium--two-thirds small--one-whole",
-              "large--one-third medium--one-third small--one-whole" %}
-          {% endcapture %}
-        {% else %}
-          {% assign columnWidth = "large--one-half medium--one-half small--one-whole" %}
-      {% endcase %}
+        <div class="carousel-slide" data-index="{{ forloop.index }}" {{ slide.shopify_attributes }}>
+          {% if slide.settings.slide_image != blank %}
+            <div
+              class="carousel-slide-image lazyload lazyload-fade"
+              data-bgset="{{ image_url }}"
+              data-sizes="auto"
+              data-parent-fit="width">
 
-      {% case count %}
-        {% when 1 %}
-          {% assign column_stacked = false %}
-        {% when 2 %}
-          {% assign column_stacked = false %}
-        {% when 3 %}
-          {% capture column_stacked %}{% cycle false, true, true %}{% endcapture %}
-        {% when 4 %}
-          {% assign column_stacked = "true" %}
-        {% when 5 %}
-          {% capture column_stacked %}{% cycle false, true, false, false, false %}{% endcapture %}
-      {% endcase %}
-
-      {% capture openRow %}
-        <div class="index-grid-row">
-        <div class="index-grid-column {{ columnWidth }} {% if column_stacked == 'true' %}image-gutters--stacked-column--{{ settings.image_gutter }}{% endif %}">
-      {% endcapture %}
-
-      {% capture open %}
-        <div class="index-grid-column {{ columnWidth }} {% if column_stacked == 'true' %}image-gutters--stacked-column--{{ settings.image_gutter }}{% endif %}">
-      {% endcapture %}
-
-      {% capture closeRow %}
-        </div>
-        </div>
-      {% endcapture %}
-
-      {% capture close %}
-        </div>
-      {% endcapture %}
-
-      {% case count %}
-        {% when 1 %}
-          {% cycle openRow %}
-        {% when 2 %}
-          {% cycle openRow, open %}
-        {% when 3 %}
-          {% cycle openRow, open, "" %}
-          {% capture itemHeight %}{% cycle "portrait", "landscape", "landscape" %}{% endcapture %}
-        {% when 4 %}
-          {% cycle openRow, "", open, "" %}
-          {% capture itemHeight %}{% cycle "portrait", "landscape", "landscape", "portrait" %}{% endcapture %}
-        {% when 5 %}
-          {% cycle openRow, open, "", openRow, open %}
-          {% capture itemHeight %}{% cycle "square", "portrait", "landscape", "landscape tall", "portrait" %}{% endcapture %}
-      {% endcase %}
-
-
-      {% assign image = block.settings.image %}
-
-      {% include "filter-rias-img-url-with-height" input: image %}
-      {% assign image_url = output %}
-
-
-      {% assign hasHeading = false %}
-
-      {% if block.settings.heading != blank %}
-        {% assign hasHeading = true %}
-      {% endif %}
-
-
-      {% assign hasSubheading = false %}
-
-      {% if block.settings.subheading != blank %}
-        {% assign hasSubheading = true %}
-      {% endif %}
-
-
-      {% assign hasButton = false %}
-
-      {% if block.settings.buttonStyle != "0" and block.settings.linkText != blank and block.settings.link %}
-        {% assign hasButton = true %}
-      {% endif %}
-
-
-      {% assign isDefault = false %}
-
-      {% unless hasHeading or hasSubheading or hasButton or image %}
-        {% assign isDefault = true %}
-      {% endunless %}
-
-
-      {% assign isTranslucent = false %}
-
-      {% if block.settings.overlayOpacity != 0 and block.settings.overlayOpacity != 1 %}
-        {% assign isTranslucent = true %}
-      {% endif %}
-
-
-      {% assign hover = false %}
-
-      {% if block.settings.link and image and isTranslucent %}
-        {% assign hover = true %}
-      {% endif %}
-
-      <article class="index-grid-item height-css {{ itemHeight }} small--one-whole {% unless image %}no-image{% endunless %} {% if hover %}has-hover{% endif %}" data-grid-item {{ block.shopify_attributes }}>
-        <div class="index-grid-item-content">
-          <div class="image-wrapper">
-            {% if image %}
-              <img
-                data-src="{{ image_url }}"
-                data-ratio="{{ image.aspect_ratio }}"
-                data-parent-fit="cover"
-                data-sizes="auto"
-                class="image-cover lazyload lazyload-fade"
-                alt="{{ block.settings.heading | escape }}">
-
-              <noscript class="image-cover">
-                <img src="{{ block.settings.image | img_url: '800x' }}" />
+              <noscript>
+                <img src="{{ slide.settings.slide_image | img_url: '1200x' }}" />
               </noscript>
-            {% elsif isDefault %}
-              {% capture index %}{% cycle '1', '2', '3', '4', '5' %}{% endcapture %}
-              {{ 'collection-' | append: index | placeholder_svg_tag }}
-            {% endif %}
-          </div>
-
-          {% if block.settings.overlayOpacity != "0" %}
-            <span class="index-grid-item-overlay"
-                  style="
-                    background-color: {{ block.settings.overlayColor }};
-                    opacity: {{ block.settings.overlayOpacity }};"
-                    data-opacity="{{ block.settings.overlayOpacity }}"
-                    data-hover-opacity="{{ block.settings.overlayOpacity | plus: 0.15 }}">
-            </span>
+            </div>
+          {% else %}
+            <div class="carousel-slide-image placeholder">
+              {{ 'lifestyle-1' | placeholder_svg_tag }}
+            </div>
           {% endif %}
 
-          {% if hasHeading or hasSubheading or hasButton %}
-            <figcaption class="{{ block.settings.textAlignment }} animation-sequence-{{ index }} {% if section.settings.enable_animation %}can-animate{% endif %}">
-              {% if hasHeading %}
-                <h4 style="color: {{ block.settings.textColor }}">
-                  <span>{{ block.settings.heading | escape }}</span>
-                </h4>
-              {% endif %}
-              {% if hasSubheading %}
-                <div class="index-grid-item-text" style="color: {{ block.settings.textColor }}">
-                  <div>{{ block.settings.subheading }}</div>
-                </div>
-              {% endif %}
-              {% if hasButton %}
-                <a class="btn {% if block.settings.buttonStyle == '1' %}btn-normal{% else %}btn-alt{% endif %}" href="{{ block.settings.link }}" style="color: {{ block.settings.textColor }}; border-color: {{ block.settings.textColor }}">
-                  <span>{{ block.settings.linkText | escape }}</span>
-                </a>
-              {% endif %}
-            </figcaption>
+          {% assign buttonText = false %}
+          {% assign buttonUrl = false %}
+          {% assign button = false %}
+          {% assign heading = false %}
+          {% assign text = false %}
+          {% assign isDefault = false %}
+
+          {% if slide.settings.button_cta != blank %}
+            {% assign buttonText = slide.settings.button_cta | escape %}
           {% endif %}
 
-          {% if block.settings.link %}
-            <a class="index-grid-item-link-overlay" href="{{ block.settings.link }}"></a>
+          {% if slide.settings.button_link != blank %}
+            {% assign buttonUrl = slide.settings.button_link %}
+          {% endif %}
+
+          {% if buttonText and buttonUrl %}
+            {% assign button = true %}
+          {% endif %}
+
+          {% if slide.settings.heading_text != blank %}
+            {% assign heading = slide.settings.heading_text | escape %}
+          {% endif %}
+
+          {% if slide.settings.page_text != blank %}
+            {% assign text = slide.settings.page_text | escape %}
+          {% endif %}
+
+          {% if slide.settings.heading_text == "Welcome to your new store!" %}
+            {% assign isDefault = true %}
+          {% endif %}
+
+          {% if heading or text or button %}
+            <div class="carousel-slide-text {{ slide.settings.text_position }}">
+              <div class="carousel-slide-text-inner">
+                {% if slide.settings.button_cta == blank and slide.settings.button_link != blank %}
+                  <a href='{{ slide.settings.button_link }}' tabindex='0'>
+                {% endif %}
+
+                {% if slide.settings.heading_text == blank and slide.settings.page_text == blank %}
+                  <h4 class="bigHeader placeholder-text"></h4>
+                {% else %}
+                  {% if slide.settings.page_text == blank %}
+                    <h4 class="bigHeader {% if section.settings.enable_dropshadow %}drop-shadow{% endif %}">
+                      {{ slide.settings.heading_text }}
+                    </h4>
+                  {% elsif slide.settings.heading_text == blank %}
+                    <p class="{% if section.settings.enable_dropshadow %}drop-shadow{% endif %}">
+                      {{ slide.settings.page_text }}
+                    </p>
+                  {% else %}
+                    {% if slide.settings.page_text == blank %}
+                      <h4 class="bigHeader {% if section.settings.enable_dropshadow %}drop-shadow{% endif %}">
+                        {{ slide.settings.heading_text | escape }}
+                      </h4>
+                    {% elsif slide.settings.heading_text == blank %}
+                      <p class="{% if section.settings.enable_dropshadow %}drop-shadow{% endif %}">
+                        {{ slide.settings.page_text | escape }}
+                      </p>
+                    {% else %}
+                      <h4 class="{% if section.settings.enable_dropshadow %}drop-shadow{% endif %}">
+                        {{ slide.settings.heading_text | escape }}
+                      </h4>
+                      <p class="{% if section.settings.enable_dropshadow %}drop-shadow{% endif %}">
+                        {{ slide.settings.page_text | escape }}
+                      </p>
+                    {% endif %}
+                  {% endif %}
+                {% endif %}
+
+                {% if slide.settings.button_cta == blank and slide.settings.button_link != blank %}
+                  </a>
+                {% endif %}
+
+                {% if slide.settings.button_cta != blank %}
+                  {% if slide.settings.button_link != blank %}
+                    <a href="{{ slide.settings.button_link }}" class='block button-container' tabindex='0'>
+                      <button class="btn btn--large {% if section.settings.enable_dropshadow %}drop-shadow{% endif %}">
+                        {{ slide.settings.button_cta | escape }}
+                      </button>
+                    </a>
+                  {% elsif isDefault %}
+                    <a href="/admin/themes/{{ theme.id }}/editor" class='block button-container' tabindex='0'>
+                      <button class="btn btn--large {% if section.settings.enable_dropshadow %}drop-shadow{% endif %}">
+                        {{ slide.settings.button_cta | escape }}
+                      </button>
+                    </a>
+                  {% endif %}
+                {% endif %}
+              </div>
+            </div>
+          {% elsif slide.settings.button_link != blank %}
+            <a class="full-slide-link" href='{{ slide.settings.button_link }}' tabindex='0'></a>
+          {% endif %}
+
+          {% if section.blocks.size > 1 and section.settings.enable_progress_bar %}
+            <div class="carousel-slide-progress">
+              <span class="carousel-slide-progress-bar"></span>
+            </div>
           {% endif %}
         </div>
-      </article>
-
-      {% case count %}
-        {% when 1 %}
-          {% cycle closeRow %}
-        {% when 2 %}
-          {% cycle close, closeRow %}
-        {% when 3 %}
-          {% cycle close, "", closeRow %}
-        {% when 4 %}
-          {% cycle "", close, "", closeRow %}
-        {% when 5 %}
-          {% cycle close, "", closeRow, close, closeRow %}
-      {% endcase %}
-
-      {% assign index = index | plus: 1 %}
-    {% endfor %}
+      {% endfor %}
+    {% endif %}
   </div>
 </div>
 
+<style>
+  @media screen and (max-width: 699px) {
+    #carousel-{{ section.id }} .carousel-slides {
+      background-color: {{ settings.color_primary }};
+    }
+
+    #carousel-{{ section.id }} .carousel-slide-text .btn {
+      background-color: {{ section.settings.controls_color }};
+      color: {{ settings.color_primary }};
+    }
+  }
+
+  #carousel-{{ section.id }} .carousel-slide-image:before {
+    background-color: {{ section.settings.color_overlay_color }};
+    opacity: {{ section.settings.color_overlay_opacity }};
+  }
+
+  #carousel-{{ section.id }} .carousel-slide-text,
+  #carousel-{{ section.id }} .carousel-slide-text h1,
+  #carousel-{{ section.id }} .carousel-slide-text p {
+    color: {{ section.settings.controls_color }};
+  }
+
+  #carousel-{{ section.id }} .carousel-slide-progress-bar {
+    background-color: {{ section.settings.progress_bar_color }};
+  }
+
+  #carousel-{{ section.id }} .slick-active .carousel-slide-progress-bar {
+    -webkit-animation: progress-expand {{ slide_timeout_ms }}ms linear;
+    -moz-animation: progress-expand {{ slide_timeout_ms }}ms linear;
+    -o-animation: progress-expand {{ slide_timeout_ms }}ms linear;
+    animation: progress-expand {{ slide_timeout_ms }}ms linear;
+  }
+
+  #carousel-{{ section.id }} .slick-dots button:before {
+    color: {{ section.settings.controls_color }};
+  }
+  
+      .carousel-slide {
+  height: 1000px;
+}
+  
+  
+
+</style>
+  
+
 {% schema %}
   {
-    "name": "sust report grid",
-    "class": "index-grid-wrapper",
-    "max_blocks": 5,
+    "name": "Sustainability Slideshow",
+    "class": "carousel",
+    "max_blocks": 9,
     "settings": [
       {
         "type": "checkbox",
-        "id": "enable_animation",
-        "label": "Enable fade-in animation"
+        "id": "enable_ken_burns",
+        "label": "Enable zoom animation",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_progress_bar",
+        "default": true,
+        "label": "Show progress bar"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_dropshadow",
+        "default": false,
+        "label": "Show dropshadow",
+        "info": "Adds a shadow effect to your slideshow text and buttons."
+      },
+      {
+        "type": "select",
+        "id": "color_overlay_opacity",
+        "default": "0.8",
+        "label": "Overlay opacity",
+        "options": [
+          {
+            "value": "0",
+            "label": "Off"
+          },
+          {
+            "value": "0.1",
+            "label": "10%"
+          },
+          {
+            "value": "0.2",
+            "label": "20%"
+          },
+          {
+            "value": "0.3",
+            "label": "30%"
+          },
+          {
+            "value": "0.4",
+            "label": "40%"
+          },
+          {
+            "value": "0.5",
+            "label": "50%"
+          },
+          {
+            "value": "0.6",
+            "label": "60%"
+          },
+          {
+            "value": "0.7",
+            "label": "70%"
+          },
+          {
+            "value": "0.8",
+            "label": "80%"
+          },
+          {
+            "value": "0.9",
+            "label": "90%"
+          },
+          {
+            "value": "1",
+            "label": "100%"
+          }
+        ]
+      },
+      {
+        "type": "color",
+        "id": "color_overlay_color",
+        "default": "#031207",
+        "label": "Overlay color"
+      },
+      {
+        "type": "color",
+        "id": "progress_bar_color",
+        "default": "#FFFFFF",
+        "label": "Progress bar color"
+      },
+      {
+        "type": "color",
+        "id": "controls_color",
+        "default": "#FFFFFF",
+        "label": "Text color"
       }
     ],
     "blocks": [
       {
-        "type": "grid-item",
-        "name": "Grid item",
+        "type": "slide",
+        "name": "Slide",
         "settings": [
           {
             "type": "image_picker",
-            "id": "image",
-            "label": "Image"
+            "id": "slide_image",
+            "label": "Image",
+            "info": "Landscape orientation (3:2 w:h). 1440 x 960px minimum recommended"
           },
           {
-            "id": "overlayOpacity",
             "type": "select",
-            "label": "Overlay opacity",
-            "default": "0.3",
-            "options": [
-              {
-                "value": "0",
-                "label": "No overlay"
-              },
-              {
-                "value": "0.1",
-                "label": "10%"
-              },
-              {
-                "value": "0.2",
-                "label": "20%"
-              },
-              {
-                "value": "0.3",
-                "label": "30%"
-              },
-              {
-                "value": "0.4",
-                "label": "40%"
-              },
-              {
-                "value": "0.5",
-                "label": "50%"
-              },
-              {
-                "value": "0.6",
-                "label": "60%"
-              },
-              {
-                "value": "0.7",
-                "label": "70%"
-              },
-              {
-                "value": "0.8",
-                "label": "80%"
-              },
-              {
-                "value": "0.9",
-                "label": "90%"
-              },
-              {
-                "value": "1",
-                "label": "100%"
-              }
-            ]
-          },
-          {
-            "type": "color",
-            "id": "overlayColor",
-            "label": "Overlay color",
-            "default": "#000000"
-          },
-          {
-            "type": "color",
-            "id": "textColor",
-            "label": "Text color",
-            "default": "#ffffff"
-          },
-          {
-            "type": "text",
-            "id": "heading",
-            "label": "Heading"
-          },
-          {
-            "type": "richtext",
-            "id": "subheading",
-            "label": "Subheading"
-          },
-          {
-            "id": "link",
-            "type": "url",
-            "label": "Link"
-          },
-          {
-            "id": "linkText",
-            "type": "text",
-            "label": "Button text"
-          },
-          {
-            "id": "buttonStyle",
-            "type": "select",
-            "label": "Choose button style",
-            "default": "2",
-            "options": [
-              {
-                "value": "0",
-                "label": "No button"
-              },
-              {
-                "value": "1",
-                "label": "Standard button"
-              },
-              {
-                "value": "2",
-                "label": "Transparent button"
-              }
-            ]
-          },
-          {
-            "id": "textAlignment",
-            "type": "select",
+            "id": "text_position",
             "label": "Text alignment",
             "options": [
               {
-                "value": "top left",
-                "label": "Top left"
+                "value": "align-center-bottom",
+                "label": "Bottom"
               },
               {
-                "value": "top right",
-                "label": "Top right"
+                "value": "align-center-middle",
+                "label": "Middle"
               },
               {
-                "value": "center left",
-                "label": "Center left"
-              },
-              {
-                "value": "center",
-                "label": "Center"
-              },
-              {
-                "value": "center right",
-                "label": "Center right"
-              },
-              {
-                "value": "bottom left",
-                "label": "Bottom left"
-              },
-              {
-                "value": "bottom right",
-                "label": "Bottom right"
+                "value": "align-center-top",
+                "label": "Top"
               }
-            ]
+            ],
+            "default": "align-center-middle"
+          },
+          {
+            "type": "text",
+            "id": "heading_text",
+            "label": "Heading",
+            "default": "Welcome to your new store!"
+          },
+          {
+            "type": "text",
+            "id": "page_text",
+            "label": "Subheading",
+            "default": "This is your new slideshow. There are many like it, but this one is yours. It's perfect for product promotions or announcements."
+          },
+          {
+            "type": "text",
+            "id": "button_cta",
+            "label": "Button text",
+            "default": "Setup your store"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Slide link"
           }
         ]
       }
     ],
     "presets": [
       {
-        "name": "sust report Grid",
+        "name": "Sustainability Slideshow",
         "category": "Image",
         "blocks": [
           {
-            "type": "grid-item"
+            "type": "slide",
+            "settings": {
+              "text_position": "align-center-bottom",
+              "heading_text": "Welcome to your new store!",
+              "page_text": "This is your new slideshow. There are many like it, but this one is yours. It's perfect for product promotions or announcements.",
+              "button_cta": "Setup your store"
+            }
           },
           {
-            "type": "grid-item"
-          },
-          {
-            "type": "grid-item"
-          },
-          {
-            "type": "grid-item"
-          },
-          {
-            "type": "grid-item"
+            "type": "slide",
+            "settings": {
+              "text_position": "align-center-bottom",
+              "heading_text": "Welcome to your new store!",
+              "page_text": "This is your new slideshow. There are many like it, but this one is yours. It's perfect for product promotions or announcements.",
+              "button_cta": "Setup your store"
+            }
           }
         ]
       }
