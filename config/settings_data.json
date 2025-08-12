@@ -6741,6 +6741,32 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "sust-report-grid": {
+        "type": "sust-report-grid",
+        "blocks": {
+          "grid_item_AQFz7L": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/Pattern_wolf_WEBSITE.jpg",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "SUSTAINABILITY AND IMPACT REPORT",
+              "subheading": "",
+              "link": "https://cdn.shopify.com/s/files/1/0268/4089/1435/files/Nc_nean_Distillery_Sustainability_and_Impact_Report_23-24.pdf?v=1754942731",
+              "linkText": "",
+              "buttonStyle": "1",
+              "textAlignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_AQFz7L"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
