@@ -6786,6 +6786,7 @@
         "block_order": [
           "slide_8RWrit"
         ],
+        "custom_css": [],
         "settings": {
           "enable_ken_burns": false,
           "enable_progress_bar": true,
