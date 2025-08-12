@@ -6791,10 +6791,10 @@
           "enable_ken_burns": false,
           "enable_progress_bar": true,
           "enable_dropshadow": false,
-          "color_overlay_opacity": "0.8",
-          "color_overlay_color": "#031207",
+          "color_overlay_opacity": "0.6",
+          "color_overlay_color": "#ffffff",
           "progress_bar_color": "#ffffff",
-          "controls_color": "#ffffff"
+          "controls_color": "#0a091b"
         }
       }
     },
