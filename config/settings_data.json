@@ -6771,28 +6771,30 @@
       "sust-report-slideshow": {
         "type": "sust-report-slideshow",
         "blocks": {
-          "grid_item_Rwct9i": {
-            "type": "grid-item",
+          "slide_mzU8hV": {
+            "type": "slide",
             "settings": {
-              "image": "shopify://shop_images/Pattern_wolf.jpg",
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "SUSTAINABILITY AND IMPACT REPORT",
-              "subheading": "<p>The information in this report refers to data from April 2023-March 2024. (Sustainability reporting and carbon footprinting requires a full year of data collection, plus many months of analytics and certification processes).</p>",
-              "link": "https://cdn.shopify.com/s/files/1/0268/4089/1435/files/Nc_nean_Distillery_Sustainability_and_Impact_Report_23-24.pdf?v=1754942731",
-              "linkText": "READ THE FULL REPORT HERE",
-              "buttonStyle": "1",
-              "textAlignment": "center"
+              "slide_image": "shopify://shop_images/Pattern_wolf_WEBSITE.jpg",
+              "text_position": "align-center-middle",
+              "heading_text": "SUSTAINABILITY AND IMPACT REPORT",
+              "page_text": "The information in this report refers to data from April 2023-March 2024. (Sustainability reporting and carbon footprinting requires a full year of data collection, plus many months of analytics and certification processes).",
+              "button_cta": "CLICK HERE FOR FULL REPORT",
+              "button_link": "https://cdn.shopify.com/s/files/1/0268/4089/1435/files/Nc_nean_Distillery_Sustainability_and_Impact_Report_23-24.pdf?v=1754942731"
             }
           }
         },
         "block_order": [
-          "grid_item_Rwct9i"
+          "slide_mzU8hV"
         ],
         "custom_css": [],
         "settings": {
-          "enable_animation": false
+          "enable_ken_burns": false,
+          "enable_progress_bar": true,
+          "enable_dropshadow": false,
+          "color_overlay_opacity": "0.8",
+          "color_overlay_color": "#031207",
+          "progress_bar_color": "#ffffff",
+          "controls_color": "#ffffff"
         }
       }
     },
