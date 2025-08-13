@@ -1808,8 +1808,8 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AMY STAMMERS",
-              "subheading": "<p>Visitor Manager & Head of Sustainability</p><p>Free spirited Norfolk girl with a passion for all things environmental. Made a beeline to work with us. Likes walking, trying to get lost, and finding her way to a local pub for refuge. </p>",
-              "link": "",
+              "subheading": "<p>Visitor Manager & Head of Sustainability</p><p>Free spirited Norfolk girl with a passion for all things environmental. Made a beeline to work with us. Likes walking, trying to get lost, and finding her way to a local pub for refuge. Shop Quiet Rebels Amy here.</p>",
+              "link": "https://ncnean.com/products/quiet-rebels-amy",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "bottom left"
@@ -6766,35 +6766,6 @@
         ],
         "settings": {
           "enable_animation": false
-        }
-      },
-      "sust-report-slideshow": {
-        "type": "sust-report-slideshow",
-        "blocks": {
-          "slide_mzU8hV": {
-            "type": "slide",
-            "settings": {
-              "slide_image": "shopify://shop_images/Pattern_wolf_WEBSITE.jpg",
-              "text_position": "align-center-middle",
-              "heading_text": "SUSTAINABILITY AND IMPACT REPORT",
-              "page_text": "",
-              "button_cta": "CLICK HERE FOR 23-24 REPORT",
-              "button_link": "https://cdn.shopify.com/s/files/1/0268/4089/1435/files/Nc_nean_Distillery_Sustainability_and_Impact_Report_23-24.pdf?v=1754942731"
-            }
-          }
-        },
-        "block_order": [
-          "slide_mzU8hV"
-        ],
-        "custom_css": [],
-        "settings": {
-          "enable_ken_burns": false,
-          "enable_progress_bar": true,
-          "enable_dropshadow": false,
-          "color_overlay_opacity": "0.6",
-          "color_overlay_color": "#ffffff",
-          "progress_bar_color": "#ffffff",
-          "controls_color": "#0a091b"
         }
       }
     },
