@@ -4857,7 +4857,7 @@
         "type": "europe-richtext-3",
         "settings": {
           "title": "WHAT'S ON / WHERE TO TRY US",
-          "text": "<p></p><p>Whisky Live Germany  /  Hamburg  /  10th - 11th October 2025</p><p>Art of Drinks  /  Netherlands  /  18th October 2025</p><p>Bottle Market Bremen  /  Germany   /   18th - 19th  October 2025</p><p>Whisky Festival  /  The Hague,  Netherlands  /  14th - 16th November 2025</p><p>Zurich Whisky & Music Festival  /   Switzerland  /  28th - 29th November 2025</p><p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p><p></p><p></p>",
+          "text": "<p></p><p>Whisky Live Germany  /  Hamburg  /  10th - 11th October 2025</p><p>Art of Drinks  /  Netherlands  /  18th October 2025</p><p>Bottle Market Bremen  /  Germany   /   18th - 19th  October 2025</p><p>Helsinki Drinks Festival / Finland / 7th - 8th November 2025</p><p>Whisky Festival  /  The Hague,  Netherlands  /  14th - 16th November 2025</p><p>Zurich Whisky & Music Festival  /   Switzerland  /  28th - 29th November 2025</p><p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p><p></p><p></p>",
           "link": "",
           "linkText": ""
         }
@@ -5164,7 +5164,7 @@
         "type": "restofworld-richtext",
         "settings": {
           "title": "HELLO WORLD",
-          "text": "<p>Where to find us beyond the UK, Europe and USA</p><p></p><p>Tokyo Whisky Festival  /  Japan  /  7th - 8th December 2025</p><p>Sydney Spirits Festival  /  Australia  /  11th - 13th July 2025</p><p>Seoul International Spirits and Bar Show  /  South Korea  /  25th-27th July 2025</p>",
+          "text": "<p>Where to find us beyond the UK, Europe and USA</p><p></p><p>Tokyo Whisky Festival  /  Japan  /  7th - 8th December 2025</p>",
           "link": "",
           "linkText": ""
         }
@@ -6667,7 +6667,7 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "AON 18-459",
-              "subheading": "<p>Bottled exclusively for Whisky.De</p><p>Coming soon...</p>",
+              "subheading": "<p>Bottled exclusively for Whisky.De</p>",
               "link": "https://ncnean.com/pages/aon-18-459",
               "linkText": "",
               "buttonStyle": "2",
