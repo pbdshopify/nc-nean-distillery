@@ -9,30 +9,14 @@
  */
 {
   "sections": {
-    "collection_list_qMrqLJ": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_NDry8r": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "quiet-rebels-simon-and-sarah-and-pin-badge",
-            "overlayOpacity": "0.3",
-            "overlayColor": "#000000",
-            "textColor": "#ffffff",
-            "subheading": "",
-            "buttonStyle": "2",
-            "textAlignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_NDry8r"
-      ],
-      "name": "Collection list",
+    "rich_text_qYKFa7": {
+      "type": "rich-text",
+      "name": "Rich text",
       "settings": {
-        "collectionlist_title": "",
-        "homepage_collection_block_perrow": "3",
-        "enable_animation": false
+        "title": "QUIET REBELS SARAH AND SIMON",
+        "text": "<p>FREE PIN BADGE WHEN YOU BUY BOTTLE BOTTILNGS</p><p>Introducing our limited edition enamel Nc'nean bottle pin. Only a few hundred have been made worldwide, and you can get one free now whilst stocks last by buying a bottle of Quiet Rebels Sarah and a bottle of Quiet Rebels Simon on the same order. First 150 orders only, just use code FREEPINBADGE at the checkout. <br/><br/></p>",
+        "link": "",
+        "linkText": "Read more"
       }
     },
     "featured_products_96GFU7": {
@@ -48,7 +32,7 @@
     }
   },
   "order": [
-    "collection_list_qMrqLJ",
+    "rich_text_qYKFa7",
     "featured_products_96GFU7"
   ]
 }
