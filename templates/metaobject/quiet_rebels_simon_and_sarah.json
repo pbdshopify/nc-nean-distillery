@@ -8,6 +8,47 @@
  * ------------------------------------------------------------
  */
 {
-  "sections": {},
-  "order": []
+  "sections": {
+    "collection_list_qMrqLJ": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_NDry8r": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "quiet-rebels-simon-and-sarah-and-pin-badge",
+            "overlayOpacity": "0.3",
+            "overlayColor": "#000000",
+            "textColor": "#ffffff",
+            "subheading": "",
+            "buttonStyle": "2",
+            "textAlignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_NDry8r"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "collectionlist_title": "",
+        "homepage_collection_block_perrow": "3",
+        "enable_animation": false
+      }
+    },
+    "featured_products_96GFU7": {
+      "type": "featured-products",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "quiet-rebels-simon-and-sarah-and-pin-badge",
+        "collection_title": false,
+        "collection_style": "grid__image--caption",
+        "featured_products_per_row": "3",
+        "featured_rows": "2"
+      }
+    }
+  },
+  "order": [
+    "collection_list_qMrqLJ",
+    "featured_products_96GFU7"
+  ]
 }
