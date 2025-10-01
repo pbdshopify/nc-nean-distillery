@@ -5497,6 +5497,21 @@
       "quiet-rebels-grid-2": {
         "type": "quiet-rebels-grid-2",
         "blocks": {
+          "grid_item_UCTUNw": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/QR_Simon_1f218fee-ccbd-4d98-a750-f3863a43ef9e.jpg",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "SIMON",
+              "subheading": "<p>Coming soon</p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
           "grid_item_Paxk8g": {
             "type": "grid-item",
             "settings": {
@@ -5529,6 +5544,7 @@
           }
         },
         "block_order": [
+          "grid_item_UCTUNw",
           "grid_item_Paxk8g",
           "grid_item_rzkcCF"
         ],
