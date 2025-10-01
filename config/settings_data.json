@@ -5501,7 +5501,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/QR_Simon_1f218fee-ccbd-4d98-a750-f3863a43ef9e.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "SIMON",
