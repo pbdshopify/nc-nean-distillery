@@ -6787,14 +6787,63 @@
       "rich-text-corporate-gifting": {
         "type": "rich-text-corporate-gifting",
         "settings": {
-          "title": "CORPORATE GFITING WITH NC'NEAN",
-          "text": "<p>Unique, sustainable and delicious gifts that are simple to order, impress your clients<br/>and reflect your company’s values. </p><p>Customisation, direct individual shipping and gift packaging all available. </p>",
+          "title": "CORPORATE GIFTING WITH NC'NEAN",
+          "text": "<p>Unique, sustainable and delicious gifts that are simple to order, impress your clients<br/>and reflect your company’s values. Customisation, direct individual shipping and gift packaging all available. </p>",
           "link": "",
           "linkText": ""
         }
       },
       "corporate-gifting-grid": {
         "type": "corporate-gifting-grid",
+        "blocks": {
+          "grid_item_eKmChM": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "AWARD WINNING",
+              "subheading": "<p>Delicious spirits perfect for the modern drinker and seasoned whisky connoisseur alike.</p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "grid_item_T6ecBh": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "ORGANIC AND B CORP CERTIFIED",
+              "subheading": "<p>Putting our planet, and all of us who call it home, on equal terms with profit. Our organic spirits are distilled using 100% renewable energy in our organic certified distillery. </p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "grid_item_hjPygN": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "BEAUTIFUL RECYCLED GLASS BOTTLES",
+              "subheading": "<p>To wow your recipients.  </p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_eKmChM",
+          "grid_item_T6ecBh",
+          "grid_item_hjPygN"
+        ],
         "settings": {
           "enable_animation": false
         }
