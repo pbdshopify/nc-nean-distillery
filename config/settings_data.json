@@ -6788,7 +6788,7 @@
         "type": "rich-text-corporate-gifting",
         "settings": {
           "title": "CORPORATE GIFTING WITH NC'NEAN",
-          "text": "<p>Unique, sustainable and delicious gifts that are simple to order, impress your clients<br/>and reflect your company’s values. Customisation, direct individual shipping and gift packaging all available. </p><h3>-</h3><h6>WHY GIVE THE GIFT OF NC'NEAN?</h6><p>By choosing Nc’nean for your corporate gifting, you are supporting an independent business, and gifting a beautiful bottle with impeccable environmental credentials. </p>",
+          "text": "<p>Unique, sustainable and delicious gifts that are simple to order, impress your clients<br/>and reflect your company’s values. Customisation, direct individual shipping and gift packaging all available. </p>",
           "link": "",
           "linkText": ""
         }
@@ -7067,8 +7067,8 @@
           "feature_yH79kk"
         ],
         "settings": {
-          "title": "",
-          "subheading": "",
+          "title": "WHY GIVE THE GIFT OF NC'NEAN?",
+          "subheading": "<p>By choosing Nc’nean for your corporate gifting, you are supporting an independent business, and gifting a beautiful bottle with impeccable environmental credentials. </p>",
           "enable_animation": false
         }
       }
