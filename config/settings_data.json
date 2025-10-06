@@ -6783,6 +6783,45 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "rich-text-corporate-gifting": {
+        "type": "rich-text-corporate-gifting",
+        "settings": {
+          "title": "CORPORATE GFITING WITH NC'NEAN",
+          "text": "<p>Unique, sustainable and delicious gifts that are simple to order, impress your clients<br/>and reflect your company’s values. </p><p>Customisation, direct individual shipping and gift packaging all available. </p>",
+          "link": "",
+          "linkText": ""
+        }
+      },
+      "corporate-gifting-grid": {
+        "type": "corporate-gifting-grid",
+        "settings": {
+          "enable_animation": false
+        }
+      },
+      "corporate-gifting-grid-2": {
+        "type": "corporate-gifting-grid-2",
+        "settings": {
+          "enable_animation": false
+        }
+      },
+      "corporate-gifting-grid-3": {
+        "type": "corporate-gifting-grid-3",
+        "settings": {
+          "enable_animation": false
+        }
+      },
+      "corporate-gifting-grid-4": {
+        "type": "corporate-gifting-grid-4",
+        "settings": {
+          "enable_animation": false
+        }
+      },
+      "corporate-gifting-grid-5": {
+        "type": "corporate-gifting-grid-5",
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
