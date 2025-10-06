@@ -6813,6 +6813,7 @@
           "grid_item_T6ecBh": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify://shop_images/B_Corp_Nc_nean_score_2025.png",
               "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
@@ -6827,7 +6828,8 @@
           "grid_item_hjPygN": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "image": "shopify://shop_images/C2.jpg",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "BEAUTIFUL RECYCLED GLASS BOTTLES",
