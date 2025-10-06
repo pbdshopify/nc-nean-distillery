@@ -6875,15 +6875,15 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Core_Range_Minis_for_corporate_gifting.jpg",
-              "overlayOpacity": "0",
+              "overlayOpacity": "0.5",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
+              "heading": "UPDATE IMAGE",
               "subheading": "",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           }
         },
