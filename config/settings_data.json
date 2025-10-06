@@ -6853,6 +6853,41 @@
       },
       "corporate-gifting-grid-2": {
         "type": "corporate-gifting-grid-2",
+        "blocks": {
+          "grid_item_qtaBdi": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#27372c",
+              "heading": "NC'NEAN ORGANIC MINI TASTING SET",
+              "subheading": "<p><strong>Perfect for</strong>: gin and whisky drinkers, newbies to Nc’nean <br/><br/><strong>Overview</strong>: 3 x miniature tasting set: 1 x Botanical Spirit, 1 x Nc’nean organic whisky, 1 x limited edition whisky<br/>·      <br/><strong>Packaging and customisation</strong>: beautiful tasting set box, with option of customisable sleeve. Packaged individually in recycled cardboard shipping box for home delivery.</p><p><strong>Price range</strong>: XXXXXX</p>",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "center"
+            }
+          },
+          "grid_item_gkzYXz": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/Core_Range_Minis_for_corporate_gifting.jpg",
+              "overlayOpacity": "0",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_qtaBdi",
+          "grid_item_gkzYXz"
+        ],
         "settings": {
           "enable_animation": false
         }
@@ -6879,7 +6914,7 @@
         "type": "rich-text-corporate-2",
         "settings": {
           "title": "GIFTING NC'NEAN - HOW IT WORKS",
-          "text": "<p>1. Fill out our short form to let us know that you’re interested.</p><p>2. Check your inbox for an email with gift options and pricing.</p><p>3. Tell us what you would like by replying to the email and our team will be in touch to discuss:</p><p>a) which gift you would like to send   <br/>b) quantities <br/>c) any customisation requirements<br/>d) desired delivery dates</p><p>And then you can place your order, it is as simple as that!</p>",
+          "text": "<p>1. Fill out our short form to let us know that you’re interested.</p><p>2. Check your inbox for an email with gift options and pricing.</p><p>3. Tell us what you would like by replying to the email and our team will be in touch to discuss:</p><p>a) which gift you would like to send   <br/>b) quantities <br/>c) any customisation requirements<br/>d) desired delivery dates</p><p>And then you can place your order, it is as simple as that!</p><h6>-</h6><h6>CHOOSING YOUR GIFT</h6><p>Choose from one of the four gifting options for your recipients: </p>",
           "link": "",
           "linkText": ""
         }
