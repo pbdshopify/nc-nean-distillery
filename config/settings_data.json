@@ -6874,6 +6874,15 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "rich-text-corporate-2": {
+        "type": "rich-text-corporate-2",
+        "settings": {
+          "title": "GIFTING NC'NEAN - HOW IT WORKS",
+          "text": "<p>1. Fill out our short form to let us know that you’re interested.</p><p>2. Check your inbox for an email with gift options and pricing.</p><p>3. Tell us what you would like by replying to the email and our team will be in touch to discuss:</p><p>a) which gift you would like to send   <br/>b) quantities <br/>c) any customisation requirements<br/>d) desired delivery dates</p><p>And then you can place your order, it is as simple as that!</p>",
+          "link": "",
+          "linkText": ""
+        }
       }
     },
     "content_for_index": [
