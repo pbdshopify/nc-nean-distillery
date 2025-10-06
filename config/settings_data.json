@@ -7071,6 +7071,34 @@
           "subheading": "<p></p><p></p>",
           "enable_animation": false
         }
+      },
+      "corporate-slideshow": {
+        "type": "corporate-slideshow",
+        "blocks": {
+          "slide_U686tA": {
+            "type": "slide",
+            "settings": {
+              "slide_image": "shopify://shop_images/NcNeanBatchRA08-5.jpg",
+              "text_position": "align-center-middle",
+              "heading_text": "CORPORATE GIFTING WITH NC'NEAN",
+              "page_text": "Unique, sustainable and delicious gifts that are simple to order, impress your clientsand reflect your company’s values. Customisation, direct individual shipping and gift packaging all available. By choosing Nc’nean for your corporate gifting, you are supporting an independent business, and gifting a beautiful bottle with impeccable environmental credentials.",
+              "button_cta": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slide_U686tA"
+        ],
+        "settings": {
+          "enable_ken_burns": false,
+          "enable_progress_bar": true,
+          "enable_dropshadow": false,
+          "color_overlay_opacity": "0.2",
+          "color_overlay_color": "#031207",
+          "progress_bar_color": "#ffffff",
+          "controls_color": "#ffffff"
+        }
       }
     },
     "content_for_index": [
