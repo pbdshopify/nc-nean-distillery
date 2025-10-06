@@ -6798,6 +6798,7 @@
         "blocks": {
           "grid_item_eKmChM": {
             "type": "grid-item",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Flagship_with_all_awards.jpg",
               "overlayOpacity": "0.2",
@@ -6813,6 +6814,7 @@
           },
           "grid_item_T6ecBh": {
             "type": "grid-item",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/bcorp_ncnean.jpg",
               "overlayOpacity": "0.1",
@@ -6828,6 +6830,7 @@
           },
           "grid_item_hjPygN": {
             "type": "grid-item",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Christmas_ncnean.png",
               "overlayOpacity": "0.2",
@@ -7022,6 +7025,51 @@
           "text": "<p>1. Fill out our short form to let us know that you’re interested.</p><p>2. Check your inbox for an email with gift options and pricing.</p><p>3. Tell us what you would like by replying to the email and our team will be in touch to discuss:</p><p>a) which gift you would like to send   <br/>b) quantities <br/>c) any customisation requirements<br/>d) desired delivery dates</p><p>And then you can place your order, it is as simple as that!</p><h6>-</h6><h6>CHOOSING YOUR GIFT</h6><p>Choose from one of the four gifting options for your recipients: </p>",
           "link": "",
           "linkText": ""
+        }
+      },
+      "corporate-features": {
+        "type": "corporate-features",
+        "blocks": {
+          "feature_qGwwiJ": {
+            "type": "feature",
+            "settings": {
+              "feature-icon": "shopify://shop_images/2023_SFWSC_Double_Gold_Med._Artwork_240d7c0c-357d-4bcd-ae6c-26301809c23a.png",
+              "title": "AWARD WINNING",
+              "feature-subheading": "<p>Delicious spirits perfect for the modern drinker and seasoned whisky connoisseur alike.</p>",
+              "feature-buttonText": "Read more",
+              "feature-url": ""
+            }
+          },
+          "feature_GphDVm": {
+            "type": "feature",
+            "settings": {
+              "feature-icon": "shopify://shop_images/2018-B-Corp-Logo-green_1.png",
+              "title": "ORGANIC AND B CORP CERTIFIED",
+              "feature-subheading": "<p>Putting our planet, and all of us who call it home, on equal terms with profit. Distilled using 100% renewable energy in our organic certified distillery.</p>",
+              "feature-buttonText": "Read more",
+              "feature-url": ""
+            }
+          },
+          "feature_yH79kk": {
+            "type": "feature",
+            "settings": {
+              "feature-icon": "shopify://shop_images/NC_NEA_2.png",
+              "title": "BEAUTIFUL RECYCLED GLASS BOTTLES",
+              "feature-subheading": "<p>To wow your recipiants.</p>",
+              "feature-buttonText": "Read more",
+              "feature-url": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature_qGwwiJ",
+          "feature_GphDVm",
+          "feature_yH79kk"
+        ],
+        "settings": {
+          "title": "",
+          "subheading": "",
+          "enable_animation": false
         }
       }
     },
