@@ -4567,7 +4567,7 @@
               "overlayColor": "#0a091b",
               "textColor": "#ffffff",
               "heading": "GERMANY",
-              "subheading": "<p>Ask your local retailer or our distributor here.</p>",
+              "subheading": "<p>Ask your local retailer or <a href=\"https://kirschwhisky.de/\" target=\"_blank\" title=\"https://kirschwhisky.de/\">our distributor here</a>.</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
