@@ -6788,9 +6788,9 @@
         "type": "rich-text-corporate-gifting",
         "settings": {
           "title": "ENQUIRE NOW",
-          "text": "<p>For more info, please fill in the form by clicking the button below, and we will<br/>send you more information including costs based on quantities and customisation. If you have more questions you can speak with a member of our team directly - please contact <a href=\"mailto:hello@ncnean.com\">hello@ncnean.com</a> or call 01967421698.</p>",
-          "link": "",
-          "linkText": ""
+          "text": "<p>For more info, please fill in the form by clicking the button below, and we will send you more information including costs based on quantities and customisation. If you have more questions you can speak with a member of our team directly - please contact <a href=\"mailto:hello@ncnean.com\">hello@ncnean.com</a> or call 01967421698.</p>",
+          "link": "shopify://collections/all",
+          "linkText": "ENQUIRE HERE"
         }
       },
       "corporate-gifting-grid": {
