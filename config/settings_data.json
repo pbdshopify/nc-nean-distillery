@@ -7162,6 +7162,7 @@
           "grid_item_jtcFDj": {
             "type": "grid-item",
             "settings": {
+              "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
               "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
