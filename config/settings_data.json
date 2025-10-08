@@ -7186,8 +7186,8 @@
       "rich-text-artist": {
         "type": "rich-text-artist",
         "settings": {
-          "title": "",
-          "text": "",
+          "title": "ARTIST BOTTLINGS",
+          "text": "<p>An ultra limited edition series where we partner with unique, nature inspired artists to bring to life their creativity on our bottles. Our artist bottlings are often created in collaboration with partners or retailers who share our core values of innovation, sustainability and respecting nature. Find a bottling below.</p>",
           "link": "",
           "linkText": ""
         }
