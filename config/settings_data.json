@@ -7140,6 +7140,46 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "product-range-grid-4": {
+        "type": "product-range-grid-4",
+        "blocks": {
+          "grid_item_izQ9KP": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_jtcFDj": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_izQ9KP",
+          "grid_item_jtcFDj"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
