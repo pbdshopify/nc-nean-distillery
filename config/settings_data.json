@@ -7182,6 +7182,57 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "rich-text-artist": {
+        "type": "rich-text-artist",
+        "settings": {
+          "title": "",
+          "text": "",
+          "link": "",
+          "linkText": ""
+        }
+      },
+      "artist-series-grid": {
+        "type": "artist-series-grid",
+        "blocks": {
+          "grid_item_ArWKCR": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/Artist_series.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "ARTIST BOTTLING .01",
+              "subheading": "<p>In collaboration with Emily Bunn</p>",
+              "link": "shopify://pages/artist-bottling-01",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_zjhEkA": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/Cask_background_Nc_nean.jpg",
+              "overlayOpacity": "0.1",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_ArWKCR",
+          "grid_item_zjhEkA"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
