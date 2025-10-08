@@ -6787,8 +6787,8 @@
       "rich-text-corporate-gifting": {
         "type": "rich-text-corporate-gifting",
         "settings": {
-          "title": "CORPORATE GIFTING WITH NC'NEAN",
-          "text": "<p>Unique, sustainable and delicious gifts that are simple to order, impress your clients<br/>and reflect your company’s values. Customisation, direct individual shipping and gift packaging all available.</p><p>By choosing Nc’nean for your corporate gifting, you are supporting an independent business, and gifting a beautiful bottle with impeccable environmental credentials. </p>",
+          "title": "ENQUIRE NOW",
+          "text": "<p>For more info, please fill in the form by clicking the button below, and we will<br/>send you more information including costs based on quantities and customisation. If you have more questions you can speak with a member of our team directly - please contact <a href=\"mailto:hello@ncnean.com\">hello@ncnean.com</a> or call 01967421698.</p>",
           "link": "",
           "linkText": ""
         }
@@ -6860,7 +6860,7 @@
           "grid_item_qtaBdi": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#27372c",
               "heading": "NC'NEAN ORGANIC MINI TASTING SET",
@@ -6901,7 +6901,7 @@
           "grid_item_wqgLC9": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#27372c",
               "heading": "NC'NEAN ORGANIC SINGLE MALT SCOTCH WHISKY",
@@ -6942,7 +6942,7 @@
           "grid_item_6Rhd9G": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.1",
+              "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#27372c",
               "heading": "NC’NEAN ORGANIC BOTANICAL SPIRIT",
@@ -6983,7 +6983,7 @@
           "grid_item_zXzjJd": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#27372c",
               "heading": "NC’NEAN ORGANIC WHISKY AND GLASSWARE SET (LIMITED EDITION)",
@@ -7106,7 +7106,7 @@
           "grid_item_h6Ymwr": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "HOW IT WORKS",
