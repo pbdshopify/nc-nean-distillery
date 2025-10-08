@@ -6860,7 +6860,7 @@
           "grid_item_qtaBdi": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.2",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#27372c",
               "heading": "NC'NEAN ORGANIC MINI TASTING SET",
@@ -6942,7 +6942,7 @@
           "grid_item_6Rhd9G": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.2",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#27372c",
               "heading": "NC’NEAN ORGANIC BOTANICAL SPIRIT",
@@ -7106,9 +7106,9 @@
           "grid_item_h6Ymwr": {
             "type": "grid-item",
             "settings": {
-              "overlayOpacity": "0.4",
+              "overlayOpacity": "0.1",
               "overlayColor": "#000000",
-              "textColor": "#ffffff",
+              "textColor": "#27372c",
               "heading": "HOW IT WORKS",
               "subheading": "<p>1. Fill out our short form to let us know that you’re interested.<br/>2. Check your inbox for an email with gift options and pricing.<br/>3. Tell us what you would like by replying to the email and our team will be in touch to discuss:<br/>a) which gift you would like to send   <br/>b) quantities <br/>c) any customisation requirements<br/>d) desired delivery dates</p><p>And then you can place your order, it is as simple as that!<br/>-<br/>Choose from one of the four gifting options for your recipients: </p>",
               "link": "",
