@@ -7153,7 +7153,7 @@
               "textColor": "#ffffff",
               "heading": "ARTIST BOTTLINGS",
               "subheading": "<p>Limited edition artist collaboration series</p>",
-              "link": "",
+              "link": "shopify://pages/artist-bottlings",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
