@@ -1397,7 +1397,7 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/IMG_2100_with_traveller_choice_award_7203232a-c205-4825-bb50-632183f6d180.jpg",
-              "overlayOpacity": "0.4",
+              "overlayOpacity": "0.3",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "",
