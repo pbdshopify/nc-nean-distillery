@@ -6788,8 +6788,8 @@
         "type": "rich-text-corporate-gifting",
         "settings": {
           "title": "DELIVERY TIMES",
-          "text": "<p>For order with heavy customisation (Mini tasting set orders with customised sleeve), please allow around 6 weeks from placing your order to home delivery. For orders with light customisation (an A6 custom card), please allow around 4 weeks from placing your order to home delivery.</p><h4>ENQUIRE NOW</h4><p>For more info, please fill in the form by clicking the button below, and we will send you more information including costs based on quantities and customisation. If you have more questions you can speak with a member of our team directly - please contact <a href=\"mailto:hello@ncnean.com\">hello@ncnean.com</a> or call 01967421698.</p>",
-          "link": "shopify://collections/all",
+          "text": "<p>For order with heavy customisation (Mini tasting set orders with customised sleeve), please allow around 6 weeks from placing your order to home delivery. For orders with light customisation (an A6 custom card), please allow around 4 weeks from placing your order to home delivery.</p><h4>ENQUIRE NOW</h4><p>For more info, please fill in the short form by <a href=\"https://0750rsjl6i8.typeform.com/to/wBYTEKRE\" target=\"_blank\" title=\"https://0750rsjl6i8.typeform.com/to/wBYTEKRE\">clicking the button below</a>, and we will send you more information including costs based on quantities and customisation. If you have more questions you can speak with a member of our team directly - please contact <a href=\"mailto:hello@ncnean.com\">hello@ncnean.com</a> or call 01967421698.</p>",
+          "link": "https://0750rsjl6i8.typeform.com/to/wBYTEKRE",
           "linkText": "ENQUIRE HERE"
         }
       },
@@ -7082,8 +7082,8 @@
               "text_position": "align-center-middle",
               "heading_text": "CORPORATE GIFTING WITH NC'NEAN",
               "page_text": "Unique, sustainable and delicious gifts that are simple to order, impress your clientsand reflect your company’s values. Customisation, direct individual shipping and gift packaging all available. By choosing Nc’nean for your corporate gifting, you are supporting an independent business, and gifting a beautiful bottle with impeccable environmental credentials.",
-              "button_cta": "",
-              "button_link": ""
+              "button_cta": "ENQUIRE NOW",
+              "button_link": "https://0750rsjl6i8.typeform.com/to/wBYTEKRE"
             }
           }
         },
