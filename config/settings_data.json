@@ -7233,6 +7233,48 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "corporate-features-2": {
+        "type": "corporate-features-2",
+        "blocks": {
+          "feature_96QXNk": {
+            "type": "feature",
+            "settings": {
+              "title": "FREE DELIVERY TO INDIVIDUAL ADDRESSES",
+              "feature-subheading": "",
+              "feature-buttonText": "Read more",
+              "feature-url": ""
+            }
+          },
+          "feature_zkVemJ": {
+            "type": "feature",
+            "settings": {
+              "title": "BEAUTIFULLY PACKAGED IN RECYCLED MATERIALS",
+              "feature-subheading": "",
+              "feature-buttonText": "Read more",
+              "feature-url": ""
+            }
+          },
+          "feature_VLym99": {
+            "type": "feature",
+            "settings": {
+              "title": "CUSTOMISABLE OPTIONS TO HERO YOUR COMPANY",
+              "feature-subheading": "",
+              "feature-buttonText": "Read more",
+              "feature-url": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature_96QXNk",
+          "feature_zkVemJ",
+          "feature_VLym99"
+        ],
+        "settings": {
+          "title": "",
+          "subheading": "",
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
