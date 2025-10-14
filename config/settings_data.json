@@ -7035,7 +7035,7 @@
             "settings": {
               "feature-icon": "shopify://shop_images/2023_SFWSC_Double_Gold_Med._Artwork_240d7c0c-357d-4bcd-ae6c-26301809c23a.png",
               "title": "AWARD WINNING",
-              "feature-subheading": "<p>Delicious spirits perfect for the modern drinker and seasoned whisky connoisseur alike.</p>",
+              "feature-subheading": "<p>Multi award winning, delicious spirits perfect for the modern drinker and seasoned whisky connoisseur alike.</p>",
               "feature-buttonText": "Read more",
               "feature-url": ""
             }
@@ -7240,6 +7240,7 @@
           "feature_96QXNk": {
             "type": "feature",
             "settings": {
+              "feature-icon": "shopify://shop_images/FREE_DELIVERY.png",
               "title": "FREE DELIVERY TO INDIVIDUAL ADDRESSES",
               "feature-subheading": "",
               "feature-buttonText": "Read more",
