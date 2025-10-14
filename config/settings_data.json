@@ -6915,12 +6915,12 @@
           "grid_item_UMtb4d": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Flagship.jpg",
+              "image": "shopify://shop_images/Flagship_Gift.jpg",
               "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "",
-              "subheading": "",
+              "subheading": "<p>*Blue gift tube optional add on</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
