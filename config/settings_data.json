@@ -7250,6 +7250,7 @@
           "feature_zkVemJ": {
             "type": "feature",
             "settings": {
+              "feature-icon": "shopify://shop_images/box2.png",
               "title": "BEAUTIFULLY PACKAGED IN RECYCLED MATERIALS",
               "feature-subheading": "",
               "feature-buttonText": "Read more",
