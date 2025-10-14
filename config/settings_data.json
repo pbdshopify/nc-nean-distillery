@@ -7260,7 +7260,8 @@
           "feature_VLym99": {
             "type": "feature",
             "settings": {
-              "title": "CUSTOMISABLE OPTIONS TO HERO YOUR COMPANY",
+              "feature-icon": "shopify://shop_images/envelope.png",
+              "title": "COMPLIMENTARY GIFT NOTES",
               "feature-subheading": "",
               "feature-buttonText": "Read more",
               "feature-url": ""
