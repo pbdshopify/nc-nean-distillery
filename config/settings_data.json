@@ -5354,13 +5354,13 @@
           "grid_item_4CxEyV": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/4_Aon_Rivesaltes.jpg",
-              "overlayOpacity": "0.1",
+              "image": "shopify://shop_images/Quiet_Rebels_Sarah_f45bb677-e9d5-4c22-b6d1-402f95986c10.jpg",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "AON SINGLE CASK BOTTLINGS",
-              "subheading": "<p>Our unique and diverse range of single cask releases. You can currently shop our ex-White Bordeux cask in the UK by clicking here.</p>",
-              "link": "shopify://products/aon-17-156-ex-white-bordeaux",
+              "heading": "QUIET REBELS SARAH",
+              "subheading": "<p>Our rich and creamy whisky liqueur. From our limited edition people series, Sarah’s release has flavours of Crème brûlée. spiced honeycomb and chocolate mousse.</p>",
+              "link": "shopify://products/quiet-rebels-sarah-limited-edition",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
