@@ -5324,13 +5324,13 @@
           "grid_item_7FHRgn": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Quiet_Rebels_041d10bc-94e4-4c7d-90cf-d31f8c63058d.jpg",
+              "image": "shopify://shop_images/QR_Simon_da20ba86-8573-41bd-a63a-4b5f46601b8b.jpg",
               "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "QUIET REBELS AMY",
-              "subheading": "<p>Fruity and creamy. From our limited edition people series, Amy’s release has flavours of lemon custard, damson jam and brown butter muffins.</p>",
-              "link": "shopify://products/quiet-rebels-amy",
+              "heading": "QUIET REBELS SIMON",
+              "subheading": "<p>Buttery and chocolatey. From our limited edition people series, Simon’s release has flavours of chocolate brioche, coffee fudge cake and cherry jam.</p>",
+              "link": "shopify://products/quiet-rebels-simon-limited-edition",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
