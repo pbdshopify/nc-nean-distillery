@@ -1803,12 +1803,12 @@
           "1589886643595": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Amy_bw_34326dee-28ff-445a-981c-ac3a0ab1a582.jpg",
+              "image": "shopify://shop_images/BW_Suzanne_4_93950c1a-d8ef-47a2-8938-0ae31dd9f963.jpg",
               "overlayOpacity": "0.4",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "AMY STAMMERS",
-              "subheading": "<p>Visitor Manager & Head of Sustainability</p><p>Free spirited Norfolk girl with a passion for all things environmental. Made a beeline to work with us. Likes walking, trying to get lost, and finding her way to a local pub for refuge. <a href=\"https://ncnean.com/products/quiet-rebels-amy\" title=\"https://ncnean.com/products/quiet-rebels-amy\">Shop Quiet Rebels Amy here.</a></p>",
+              "heading": "SUZANNE RIVIERE",
+              "subheading": "<p>European Brand Ambassador</p><p>Normandy born and raised, now based in Paris. Degree in wine and spirits but of all the drinks out there, whisky has her heart. Metal-head and proper foodie. Big lover<br/>of ducks and dogs.</p>",
               "link": "https://ncnean.com/products/quiet-rebels-amy",
               "linkText": "",
               "buttonStyle": "2",
@@ -4925,21 +4925,6 @@
       "team-grid-7": {
         "type": "team-grid-7",
         "blocks": {
-          "e7a93196-6e44-4d57-8d69-881160b908c9": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify://shop_images/BW_Suzanne_4.jpg",
-              "overlayOpacity": "0.1",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "SUZANNE RIVIERE",
-              "subheading": "<p>European Brand Ambassador</p><p>Normandy born and raised, now based in Paris. Degree in wine and spirits but of all the drinks out there, whisky has her heart. Metal-head and proper foodie. Big lover of ducks and dogs.</p>",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "bottom left"
-            }
-          },
           "8802dcbb-595c-408d-9338-9da4a43c5fda": {
             "type": "grid-item",
             "settings": {
@@ -4972,7 +4957,6 @@
           }
         },
         "block_order": [
-          "e7a93196-6e44-4d57-8d69-881160b908c9",
           "8802dcbb-595c-408d-9338-9da4a43c5fda",
           "grid_item_ByNemP"
         ],
