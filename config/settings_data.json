@@ -6647,16 +6647,16 @@
           "grid_item_WXEEc3": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Craft_whisky.jpg",
+              "image": "shopify://shop_images/7_Aon_STR_low-res_a59e090f-0544-46c6-8dd5-52d6fccdc06c.jpg",
               "overlayOpacity": "0.2",
               "overlayColor": "#e3ede7",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "AON 18-356",
+              "subheading": "<p>Bottled exclusively for The Whisky Den and The Pier Cafe Mull</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "center right"
+              "textAlignment": "top left"
             }
           },
           "grid_item_6by3J9": {
