@@ -7262,7 +7262,7 @@
               "link": "https://ncnean.com/pages/aon-17-193",
               "linkText": "AON 17-193",
               "buttonStyle": "2",
-              "textAlignment": "center left"
+              "textAlignment": "bottom left"
             }
           },
           "grid_item_qzWrph": {
@@ -7277,7 +7277,7 @@
               "link": "https://ncnean.com/pages/aon-17-342",
               "linkText": "AON 17-342",
               "buttonStyle": "2",
-              "textAlignment": "center left"
+              "textAlignment": "bottom left"
             }
           }
         },
