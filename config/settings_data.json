@@ -6231,15 +6231,15 @@
           "grid_item_WYdrd9": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Norbert_for_web.jpg",
+              "image": "shopify://shop_images/BUN7026.jpg",
               "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "CARRIE SMITH",
-              "subheading": "<p>2025 Champion<br/>Hometown: Edinburgh, Scotland<br/>Winning serve: “Triple Bananas”<br/>Ingredients: Nc’nean Organic, Banana three ways (juice, shrub, & Syrup)<br/>Single cask selection: coming early 2026</p>",
-              "link": "shopify://pages/aon-20-189",
-              "linkText": "",
-              "buttonStyle": "0",
+              "subheading": "<p>2025 Champion<br/>Hometown: Edinburgh, Scotland<br/>Winning serve: “Heather Ale”<br/>Ingredients: Nc’nean Organic, heather liqueur, and a blackberry<br/>& hop kombucha<br/>Single cask selection: coming early 2026</p>",
+              "link": "https://ncnean.com/pages/aon",
+              "linkText": "COMING SOON",
+              "buttonStyle": "2",
               "textAlignment": "bottom left"
             }
           },
