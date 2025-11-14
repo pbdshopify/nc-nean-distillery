@@ -6184,11 +6184,11 @@
               "overlayOpacity": "0.1",
               "overlayColor": "#000000",
               "textColor": "#434868",
-              "heading": "NC'NEAN CREATIONS 2025",
-              "subheading": "<p>Our annual bartender cocktail competition is back.<br/>The theme is ”To Open”<br/><br/>Create the perfect Aperitif with Nc’nean.<br/>All the rules, details, and online entry form can be found here.<br/>All entries must be in by the end of April 2025.<br/>Heats in June & July, The Grand Final taking place in September. </p>",
+              "heading": "NC'NEAN CREATIONS 2026",
+              "subheading": "<p>Entry details and brief coming soon....</p><p>Keep an eye on this page for updates. </p>",
               "link": "shopify://pages/nc-nean-creations-entries-2025",
-              "linkText": "MORE INFO",
-              "buttonStyle": "1",
+              "linkText": "",
+              "buttonStyle": "0",
               "textAlignment": "center"
             }
           },
@@ -7260,6 +7260,12 @@
         "settings": {
           "title": "",
           "subheading": "",
+          "enable_animation": false
+        }
+      },
+      "cocktail-comp-grid-6": {
+        "type": "cocktail-comp-grid-6",
+        "settings": {
           "enable_animation": false
         }
       }
