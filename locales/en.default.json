@@ -350,7 +350,7 @@
       "sold_out": "Sold Out",
       "on_sale": "WHOLESALE PRICE",
       "on_sale_from_html": "<strong>Wholesale price</strong> from {{ price }}",
-      "unavailable": "PRE ORDER",
+      "unavailable": "ADD TO BASKET",
       "compare_at": "Compare at",
       "quantity": "QUANTITY",
       "add_to_cart": "ADD TO BASKET",
