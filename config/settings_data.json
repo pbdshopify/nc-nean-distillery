@@ -6235,6 +6235,21 @@
               "overlayOpacity": "0.2",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
+              "heading": "CARRIE SMITH",
+              "subheading": "<p>2025 Champion<br/>Hometown: Edinburgh, Scotland<br/>Winning serve: “Triple Bananas”<br/>Ingredients: Nc’nean Organic, Banana three ways (juice, shrub, & Syrup)<br/>Single cask selection: coming early 2026</p>",
+              "link": "shopify://pages/aon-20-189",
+              "linkText": "",
+              "buttonStyle": "0",
+              "textAlignment": "bottom left"
+            }
+          },
+          "grid_item_Cfjn4J": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/Norbert_for_web.jpg",
+              "overlayOpacity": "0.2",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
               "heading": "NORBERT DROZDOWSKI",
               "subheading": "<p>2024 Champion<br/>Hometown: Padstow, England<br/>Winning serve: “Triple Bananas”<br/>Ingredients: Nc’nean Organic, Banana three ways (juice, shrub, & Syrup)<br/>Single cask selection: Aon 20-189 / ex-White Port finish</p>",
               "link": "shopify://pages/aon-20-189",
@@ -6242,42 +6257,11 @@
               "buttonStyle": "2",
               "textAlignment": "bottom left"
             }
-          },
-          "grid_item_VmipQB": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify://shop_images/IMG_1535.jpg",
-              "overlayOpacity": "0.2",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "MATT MORRISON",
-              "subheading": "<p>2023 Champion<br/>Hometown: Braemar, Scotland<br/>Winning serve: “Danu’s Espresso”<br/>Ingredients: Nc’nean based Spent Coffee Liqueur, Penny Bun Mushroom Water, Foamer<br/>Single cask selection: Aon 17-193 / First fill ex-Bourbon</p>",
-              "link": "shopify://pages/aon-17-193",
-              "linkText": "AON 17-193",
-              "buttonStyle": "2",
-              "textAlignment": "bottom left"
-            }
-          },
-          "grid_item_nEUFT6": {
-            "type": "grid-item",
-            "settings": {
-              "image": "shopify://shop_images/Elena_with_Bottle_2.jpg",
-              "overlayOpacity": "0.2",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "ELENA WRIGHT",
-              "subheading": "<p>2022 Champion<br/>Hometown: Manchester, England<br/>Winning serve: “Airmed”<br/>Ingredients: Nc’nean Organic, Dry Vermouth, Milk Thistle & Heather infused Sherry<br/>Single cask selection: Aon 17-342 / ex-Rivesaltes finish</p>",
-              "link": "shopify://pages/aon-17-342",
-              "linkText": "AON 17-342",
-              "buttonStyle": "2",
-              "textAlignment": "bottom left"
-            }
           }
         },
         "block_order": [
           "grid_item_WYdrd9",
-          "grid_item_VmipQB",
-          "grid_item_nEUFT6"
+          "grid_item_Cfjn4J"
         ],
         "settings": {
           "enable_animation": false
@@ -7265,6 +7249,42 @@
       },
       "cocktail-comp-grid-6": {
         "type": "cocktail-comp-grid-6",
+        "blocks": {
+          "grid_item_7wEB8k": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/IMG_1535.jpg",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "MATT MORRISON",
+              "subheading": "<p>2023 Champion<br/>Hometown: Braemar, Scotland<br/>Winning serve: “Danu’s Espresso”<br/>Ingredients: Nc’nean based Spent Coffee Liqueur, Penny Bun Mushroom Water, Foamer<br/>Single cask selection: Aon 17-193 / First fill ex-Bourbon</p>",
+              "link": "https://ncnean.com/pages/aon-17-193",
+              "linkText": "AON 17-193",
+              "buttonStyle": "2",
+              "textAlignment": "center left"
+            }
+          },
+          "grid_item_qzWrph": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/Elena_with_Bottle_2.jpg",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "ELENA WRIGHT",
+              "subheading": "<p>2022 Champion<br/>Hometown: Manchester, England<br/>Winning serve: “Airmed”<br/>Ingredients: Nc’nean Organic, Dry Vermouth, Milk Thistle & Heather infused Sherry<br/>Single cask selection: Aon 17-342 / ex-Rivesaltes finish</p>",
+              "link": "https://ncnean.com/pages/aon-17-342",
+              "linkText": "AON 17-342",
+              "buttonStyle": "2",
+              "textAlignment": "center left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_7wEB8k",
+          "grid_item_qzWrph"
+        ],
         "settings": {
           "enable_animation": false
         }
