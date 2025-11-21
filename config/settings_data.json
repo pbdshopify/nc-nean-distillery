@@ -7346,6 +7346,19 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "rich-text-findbuy": {
+        "type": "rich-text-findbuy",
+        "settings": {
+          "title": "FIND A STOCKIST NEAR YOU",
+          "text": "",
+          "link": "",
+          "linkText": ""
+        }
+      },
+      "findbuy": {
+        "type": "findbuy",
+        "settings": {}
       }
     },
     "content_for_index": [
