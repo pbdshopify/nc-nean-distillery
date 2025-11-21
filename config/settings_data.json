@@ -7350,8 +7350,8 @@
       "rich-text-findbuy": {
         "type": "rich-text-findbuy",
         "settings": {
-          "title": "FIND A STOCKIST NEAR YOU",
-          "text": "",
+          "title": "FIND A UK STOCKIST NEAR YOU",
+          "text": "<p>Search for a UK stockist below! We can't guarantee all products will be in every store so please call ahead to check availability and opening hours. </p><p>If you are a store owner and want to be listed click here.</p>",
           "link": "",
           "linkText": ""
         }
