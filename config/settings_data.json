@@ -7359,6 +7359,19 @@
       "findbuy": {
         "type": "findbuy",
         "settings": {}
+      },
+      "rich-text-waitrose-comp": {
+        "type": "rich-text-waitrose-comp",
+        "settings": {
+          "title": "WIN A TWO NIGHT STAY AT THE PIG",
+          "text": "<p>Complete with Nc’nean cocktails on arrival. Choose from one of nine of The The Pig’s stunning locations across the UK</p>",
+          "link": "",
+          "linkText": ""
+        }
+      },
+      "waitrose-comp-typeform": {
+        "type": "waitrose-comp-typeform",
+        "settings": {}
       }
     },
     "content_for_index": [
