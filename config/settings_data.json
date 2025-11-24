@@ -7372,6 +7372,51 @@
       "waitrose-comp-typeform": {
         "type": "waitrose-comp-typeform",
         "settings": {}
+      },
+      "features-waitrose-comp": {
+        "type": "features-waitrose-comp",
+        "blocks": {
+          "feature_XceRaR": {
+            "type": "feature",
+            "settings": {
+              "feature-icon": "shopify://shop_images/Waitrose-logo_a6874239-08da-4aec-a566-97f8b40f5e09.png",
+              "title": "",
+              "feature-subheading": "",
+              "feature-buttonText": "",
+              "feature-url": ""
+            }
+          },
+          "feature_PfxLnt": {
+            "type": "feature",
+            "settings": {
+              "feature-icon": "shopify://shop_images/The_pig_logo.png",
+              "title": "",
+              "feature-subheading": "",
+              "feature-buttonText": "",
+              "feature-url": ""
+            }
+          },
+          "feature_xVdEP9": {
+            "type": "feature",
+            "settings": {
+              "feature-icon": "shopify://shop_images/Silver_Nc_nean_logo_2.png",
+              "title": "",
+              "feature-subheading": "",
+              "feature-buttonText": "Read more",
+              "feature-url": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature_XceRaR",
+          "feature_PfxLnt",
+          "feature_xVdEP9"
+        ],
+        "settings": {
+          "title": "",
+          "subheading": "",
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
