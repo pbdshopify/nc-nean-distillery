@@ -278,7 +278,7 @@
       "product-recommendations": {
         "type": "product-recommendations",
         "settings": {
-          "enable": false,
+          "enable": true,
           "heading": "You may also like"
         }
       },
