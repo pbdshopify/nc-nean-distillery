@@ -8,6 +8,8 @@
 
 {% endcomment %}
 
+
+
 <script>
   window.ShopifyXR=window.ShopifyXR||function(){(ShopifyXR.q=ShopifyXR.q||[]).push(arguments)}
   {% assign models = product.media | where: 'media_type', 'model' | json %}
@@ -559,4 +561,7 @@
 {% endschema %}
 
 <div id="feefo-product-review-widgetId" class="feefo-review-widget-product" data-feefo-product-id="{{ product.id }}"></div>
+<br>
+<br>
+<br>
 
