@@ -277,6 +277,7 @@
       },
       "product-recommendations": {
         "type": "product-recommendations",
+        "custom_css": [],
         "settings": {
           "enable": true,
           "heading": "YOU MAY ALSO LIKE"
