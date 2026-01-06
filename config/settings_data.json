@@ -4552,7 +4552,7 @@
         "type": "europe-richtext",
         "settings": {
           "title": "HELLO EUROPE",
-          "text": "<p>You can find our spirits in multiple countries across Europe, including in many bars, restaurants, specialist spirits shops and online. Scroll on below to find out where to buy us in your country, and also where to try us at events coming up in the next few months.</p>",
+          "text": "<p>You can find our spirits in multiple countries across Europe, including in many bars, restaurants, specialist spirits shops and online. Scroll on below to find out where to buy us in your country, and also where to try us at events coming up in the next few months.<br/><br/>Nuremberg Whisky Village – 6/7/8 Feb – Germany<br/>Hanse Spirit – 14/15 Feb – Germany<br/>Lyon Whisky Festival – 7/8 March – France</p>",
           "link": "",
           "linkText": ""
         }
