@@ -5149,7 +5149,7 @@
         "type": "restofworld-richtext",
         "settings": {
           "title": "HELLO WORLD",
-          "text": "<p>Where to find us beyond the UK, Europe and USA</p><p></p><p>Tokyo Whisky Festival  /  Japan  /  7th - 8th December 2025</p>",
+          "text": "<p>Where to find us beyond the UK, Europe and USA</p>",
           "link": "",
           "linkText": ""
         }
