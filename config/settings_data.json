@@ -5364,21 +5364,6 @@
       "team-grid-8": {
         "type": "team-grid-8",
         "blocks": {
-          "grid_item_igUDdB": {
-            "type": "grid-item",
-            "disabled": true,
-            "settings": {
-              "overlayOpacity": "0.1",
-              "overlayColor": "#000000",
-              "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
-              "linkText": "",
-              "buttonStyle": "2",
-              "textAlignment": "bottom left"
-            }
-          },
           "grid_item_DHAUAN": {
             "type": "grid-item",
             "disabled": true,
@@ -5413,7 +5398,6 @@
           }
         },
         "block_order": [
-          "grid_item_igUDdB",
           "grid_item_DHAUAN",
           "grid_item_4BApgQ"
         ],
