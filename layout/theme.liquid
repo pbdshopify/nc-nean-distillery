@@ -118,7 +118,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   Add the page template as a class for easy page or template specific styling.
 {% endcomment %}
 <body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
-
+{% render 'age-check' %}
  <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55QJQDB"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -218,7 +218,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 {{ 'ndnapps-contactform-script.js' | asset_url | script_tag }}
 {% render 'pick-an-option' %}
-{% render 'age-checked' %}
+
 <script type="text/javascript" src="https://s.skimresources.com/js/218605X1699658.skimlinks.js"></script>
 
   <!-- AgeChecked Unity -->
