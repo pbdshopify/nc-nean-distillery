@@ -7402,6 +7402,12 @@
           "subheading": "",
           "enable_animation": false
         }
+      },
+      "aon-grid-16": {
+        "type": "aon-grid-16",
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
