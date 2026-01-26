@@ -7336,7 +7336,7 @@
         "type": "rich-text-findbuy",
         "settings": {
           "title": "FIND A UK STOCKIST NEAR YOU",
-          "text": "<p>Search for a UK stockist below! We can't guarantee all products will be in every store so please call ahead to check availability and opening hours. </p><p>If you are a store owner and want to be listed click here.</p>",
+          "text": "<p>Search for a UK stockist below! We can’t guarantee all products will be in every store so please call ahead to check availability and opening hours.</p><p>If you are a store owner and want to be listed click here.<br/><br/>You can also find us in the UK through our online retailers: Ocado, The Whisky Exchange and Master of Malt</p>",
           "link": "",
           "linkText": ""
         }
