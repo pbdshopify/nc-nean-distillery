@@ -83,6 +83,14 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "newsletter_M4Dz9X": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "newsletter_text": "<p>Briefly describe your newsletter and write a quick sentence about your commitment to not spamming your subscribers.</p>",
+              "newsletter_button_text": ""
+            }
+          },
           "footer-1": {
             "type": "footer_menu",
             "settings": {
@@ -95,6 +103,7 @@
           }
         },
         "block_order": [
+          "newsletter_M4Dz9X",
           "footer-1",
           "1588154423157"
         ],
