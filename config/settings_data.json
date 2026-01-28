@@ -86,9 +86,9 @@
           "newsletter_M4Dz9X": {
             "type": "newsletter",
             "settings": {
-              "title": "Newsletter",
-              "newsletter_text": "<p>Briefly describe your newsletter and write a quick sentence about your commitment to not spamming your subscribers.</p>",
-              "newsletter_button_text": ""
+              "title": "JOIN US ON OUR JOURNEY. Sign up to our newsletter",
+              "newsletter_text": "<p>Be the first to hear about new releases, events and stories from our small distillery on the west coast of Scotland.</p>",
+              "newsletter_button_text": "SUBSCRIBE"
             }
           },
           "footer-1": {
