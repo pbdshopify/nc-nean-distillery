@@ -7289,13 +7289,13 @@
           "grid_item_QFyy6W": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/Craft_whisky.jpg",
-              "overlayOpacity": "0.4",
+              "image": "shopify://shop_images/12AonCarrieCocktailComp.jpg",
+              "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
+              "heading": "AON 17-163",
+              "subheading": "<p>Chosen by Carrie Smith of Hawksmoor Edinburgh, bottled exclusively for our own website.</p>",
+              "link": "https://ncnean.com/pages/aon-17-163-ex-madeira-single-cask",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
