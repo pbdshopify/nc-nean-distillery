@@ -7410,15 +7410,15 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Nc_nean_distillery_and_courtyard_-_credit_Andy_Bate_The_Angels_Share.jpg",
-              "overlayOpacity": "0.3",
+              "overlayOpacity": "0.7",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "WEST HIGHLAND WHISKY FESTIVAL",
+              "subheading": "<p>Join us at Nc’nean on June 18th for this year’s West Highland Whisky Festival, where we’ll be opening our doors for a full day of tours, tastings, music, local food, and exclusive festival experiences. Whisky lovers from around the world come together on our remote west coast site to celebrate flavour, whisky and community. </p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           }
         },
