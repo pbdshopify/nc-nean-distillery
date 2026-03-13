@@ -7402,6 +7402,32 @@
           "link": "",
           "linkText": ""
         }
+      },
+      "WHWF-grid": {
+        "type": "WHWF-grid",
+        "blocks": {
+          "grid_item_WUaqd4": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/Nc_nean_distillery_and_courtyard_-_credit_Andy_Bate_The_Angels_Share.jpg",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_WUaqd4"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
