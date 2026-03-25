@@ -7342,13 +7342,13 @@
           "grid_item_KKrp7a": {
             "type": "grid-item",
             "settings": {
-              "image": "shopify://shop_images/fern2_66329408-93ce-4ad1-87d4-e26dad3d04b5.png",
+              "image": "shopify://shop_images/7_Aon_STR_copy_d8933314-b351-4745-b6d2-b1157480b643.jpg",
               "overlayOpacity": "0",
               "overlayColor": "#000000",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "link": "",
+              "heading": "AON 18-251",
+              "subheading": "<p>Bottled exclusively for Whisky.de</p>",
+              "link": "shopify://pages/aon-18-251",
               "linkText": "",
               "buttonStyle": "2",
               "textAlignment": "top left"
