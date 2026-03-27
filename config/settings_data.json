@@ -7428,6 +7428,64 @@
         "settings": {
           "enable_animation": false
         }
+      },
+      "aon-grid-17": {
+        "type": "aon-grid-17",
+        "blocks": {
+          "grid_item_ktKPyx": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/fern2_66329408-93ce-4ad1-87d4-e26dad3d04b5.png",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_f4zbta": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/bog_myrtle_1337596b-6eb3-4336-9b51-d7427a9f4ae6.png",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
+          "grid_item_WD67Fz": {
+            "type": "grid-item",
+            "settings": {
+              "image": "shopify://shop_images/7_Aon_STR_copy_d8933314-b351-4745-b6d2-b1157480b643.jpg",
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "AON 19-185",
+              "subheading": "<p>Bottled exclusively for Whisky.de</p>",
+              "link": "shopify://pages/aon-19-185",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          }
+        },
+        "block_order": [
+          "grid_item_ktKPyx",
+          "grid_item_f4zbta",
+          "grid_item_WD67Fz"
+        ],
+        "settings": {
+          "enable_animation": false
+        }
       }
     },
     "content_for_index": [
