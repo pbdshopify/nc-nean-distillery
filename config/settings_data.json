@@ -7509,8 +7509,8 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Craft_whisky.jpg",
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
+              "overlayOpacity": "0.5",
+              "overlayColor": "#0a091b",
               "textColor": "#ffffff",
               "heading": "",
               "subheading": "",
@@ -7524,8 +7524,8 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Sustainable_whisky.jpg",
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
+              "overlayOpacity": "0.5",
+              "overlayColor": "#0a091b",
               "textColor": "#ffffff",
               "heading": "",
               "subheading": "",
@@ -7539,8 +7539,8 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Organic_whisky.jpg",
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
+              "overlayOpacity": "0.5",
+              "overlayColor": "#0a091b",
               "textColor": "#ffffff",
               "heading": "",
               "subheading": "",
@@ -7554,15 +7554,15 @@
             "type": "grid-item",
             "settings": {
               "image": "shopify://shop_images/Sustainable_organic_whisky.jpg",
-              "overlayOpacity": "0.3",
-              "overlayColor": "#000000",
+              "overlayOpacity": "0.5",
+              "overlayColor": "#0a091b",
               "textColor": "#ffffff",
-              "heading": "",
-              "subheading": "",
+              "heading": "LITHUANIA",
+              "subheading": "<p>Ask your local spirits retailer or shop online with <a href=\"https://bottlescouts.com/tuote/ncnean-organic-single-malt-whisky-70-cl/\" title=\"https://bottlescouts.com/tuote/ncnean-organic-single-malt-whisky-70-cl/\">BottleScouts here.</a><br/><br/><br/><br/></p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
-              "textAlignment": "top left"
+              "textAlignment": "center"
             }
           }
         },
