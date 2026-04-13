@@ -5801,6 +5801,20 @@
       "grid_qpYjxw": {
         "type": "grid",
         "blocks": {
+          "grid_item_Kz4C84": {
+            "type": "grid-item",
+            "settings": {
+              "overlayOpacity": "0.3",
+              "overlayColor": "#000000",
+              "textColor": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "link": "",
+              "linkText": "",
+              "buttonStyle": "2",
+              "textAlignment": "top left"
+            }
+          },
           "grid_item_dnqAYb": {
             "type": "grid-item",
             "disabled": true,
@@ -5819,6 +5833,7 @@
           }
         },
         "block_order": [
+          "grid_item_Kz4C84",
           "grid_item_dnqAYb"
         ],
         "settings": {
