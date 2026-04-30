@@ -6067,7 +6067,7 @@
               "overlayColor": "#ffffff",
               "textColor": "#434868",
               "heading": "THE GRAND PRIZE",
-              "subheading": "<p>Make your very own whisky, and<br/>profit from its sale!</p><p>Select and release a single cask of Nc’nean Single Malt Scotch Whisky and get a full case of the release to<br/>share and enjoy.</p><p>10% of the profit from the cask’s bottle sales.</p>",
+              "subheading": "<p></p><p>Make your very own whisky, and profit from its sale!</p><p>Select and release a single cask of Nc’nean Single Malt Scotch Whisky.</p><p>Our champion will get their name on the bottling, and <br/>full case (6 bottles) to keep, share, and enjoy for themselves. </p><p>They’ll also receive 10% of the profit from the sale of the rest of the bottles from the cask!</p>",
               "link": "",
               "linkText": "",
               "buttonStyle": "2",
@@ -6118,10 +6118,10 @@
               "overlayColor": "#000000",
               "textColor": "#434868",
               "heading": "NC'NEAN CREATIONS 2026",
-              "subheading": "<p>Entry details and brief coming soon....</p><p>Keep an eye on this page for updates. </p>",
-              "link": "shopify://pages/nc-nean-creations-entries-2025",
-              "linkText": "",
-              "buttonStyle": "0",
+              "subheading": "<p><br/>Entries are open throughout May, and <br/>this year’s theme is “Grape & Grain”.</p><p> Click here to find out more, and for the online entry form.</p>",
+              "link": "",
+              "linkText": "Find out more",
+              "buttonStyle": "1",
               "textAlignment": "center"
             }
           },
