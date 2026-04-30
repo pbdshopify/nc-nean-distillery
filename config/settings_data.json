@@ -6153,7 +6153,7 @@
         "type": "cocktail-comp-rich-text-3",
         "settings": {
           "title": "THE HALL OF FAME",
-          "text": "<p>We’ve had an incredible calibre of winners since the competitions inception four years ago. Find out more about their serves and the whisky they all released below.</p>",
+          "text": "<p>We’ve had an incredible calibre of champions since the inception of our competition five year’s ago. Find out more about their single cask releases below.</p>",
           "link": "",
           "linkText": ""
         }
@@ -6169,9 +6169,9 @@
               "overlayColor": "#000000",
               "textColor": "#ffffff",
               "heading": "CARRIE SMITH",
-              "subheading": "<p>2025 Champion<br/>Hometown: Edinburgh, Scotland<br/>Winning serve: “Heather Ale”<br/>Ingredients: Nc’nean Organic, heather liqueur, and a blackberry<br/>& hop kombucha<br/>Single cask selection: coming early 2026</p>",
-              "link": "https://ncnean.com/pages/aon",
-              "linkText": "COMING SOON",
+              "subheading": "<p>2025 Champion<br/>Hometown: Edinburgh, Scotland<br/>Winning serve: “Heather Ale”<br/>Ingredients: Nc’nean Organic, heather liqueur, and a blackberry<br/>& hop kombucha<br/>Single cask selection: Aon 17-163 Madeira Cask Finish</p>",
+              "link": "https://ncnean.com/collections/all-spirits/products/aon-17-163-madeira-single-cask",
+              "linkText": "AON 17-163",
               "buttonStyle": "2",
               "textAlignment": "bottom left"
             }
