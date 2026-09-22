@@ -49,7 +49,7 @@
             {% for item in search.results %}
 {%- comment -%} Wholesale Gorilla: do not delete unless app is uninstalled{%- endcomment -%}
 {%- assign wsgTempProd = item -%}{%- assign wsgExclude = false -%}{%- if forloop.first == true -%}{%- assign wsgActive = false -%}{%- assign wsgActiveCustomer = false -%}
-{%- include 'wsg-status' wsgStatusAction: 'init' | strip -%}{%- endif -%}{%- if wsgActive -%}{%- if wsgTempProd.object_type == 'product' -%}{%- include 'wsg-status' wsgStatusAction: 'col-item' | strip -%}{%- endif -%}{%- endif -%}{%- if wsgExclude -%} {%- continue -%} {%- endif -%}
+{%- include 'wsg-status', wsgStatusAction: 'init' -%}{%- endif -%}{%- if wsgActive -%}{%- if wsgTempProd.object_type == 'product' -%}{%- include 'wsg-status', wsgStatusAction: 'col-item' -%}{%- endif -%}{%- endif -%}{%- if wsgExclude -%} {%- continue -%} {%- endif -%}
 {%- comment -%} end WSG {%- endcomment -%}
               {% comment %}
                 Check if the product is on sale and set a variable to be used below.
@@ -187,3 +187,16 @@
         {% endif %}
       </div>
 {% endpaginate %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- include 'wsg-status' wsgStatusAction: 'init' | strip -%}"
+  to: "{%- include 'wsg-status', wsgStatusAction: 'init' -%}"
+  position: 2302..2355
+- from: "{%- include 'wsg-status' wsgStatusAction: 'col-item' | strip -%}"
+  to: "{%- include 'wsg-status', wsgStatusAction: 'col-item' -%}"
+  position: 2435..2492
+{% endcomment %}

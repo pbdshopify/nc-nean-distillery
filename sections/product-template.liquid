@@ -78,10 +78,7 @@
                     </noscript>
                   </div>
                 {% else %}
-                  {% include 'interactive-media' with
-                    media: media
-                    id_suffix: 'desktop'
-                    video_loop: section.settings.enable_video_looping %}
+                  {% include 'interactive-media' with media, media: media, id_suffix: 'desktop', video_loop: section.settings.enable_video_looping %}
                 {% endif %}
               </div>
             {% else %}
@@ -127,10 +124,7 @@
                       <img src="{{ media | img_url: '1000x' }}" alt="{{ media.alt }}" />
                     </noscript>
                   {% else %}
-                    {% include 'interactive-media' with
-                      media: media
-                      id_suffix: 'desktop'
-                      video_loop: section.settings.enable_video_looping  %}
+                    {% include 'interactive-media' with media, media: media, id_suffix: 'desktop', video_loop: section.settings.enable_video_looping %}
                   {% endif %}
                 </div>
               {% else %}
@@ -184,10 +178,7 @@
                   <img src="{{ media | img_url: '1000x' }}" alt="{{ media.alt }}" />
                 </noscript>
               {% else %}
-                {% include 'interactive-media' with
-                  media: media
-                  id_suffix: 'slideshow'
-                  video_loop: section.settings.enable_video_looping  %}
+                {% include 'interactive-media' with media, media: media, id_suffix: 'slideshow', video_loop: section.settings.enable_video_looping %}
               {% endif %}
             </div>
           {% endfor %}
@@ -564,3 +555,34 @@
 <br>
 
 
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% include 'interactive-media' with
+                        media: media
+                        id_suffix: 'desktop'
+                        video_loop: section.settings.enable_video_looping %}
+  to: "{% include 'interactive-media' with media, media: media, id_suffix: 'desktop',
+    video_loop: section.settings.enable_video_looping %}"
+  position: 3249..3380
+- from: |-
+    {% include 'interactive-media' with
+                          media: media
+                          id_suffix: 'desktop'
+                          video_loop: section.settings.enable_video_looping  %}
+  to: "{% include 'interactive-media' with media, media: media, id_suffix: 'desktop',
+    video_loop: section.settings.enable_video_looping %}"
+  position: 5590..5721
+- from: |-
+    {% include 'interactive-media' with
+                      media: media
+                      id_suffix: 'slideshow'
+                      video_loop: section.settings.enable_video_looping  %}
+  to: "{% include 'interactive-media' with media, media: media, id_suffix: 'slideshow',
+    video_loop: section.settings.enable_video_looping %}"
+  position: 7800..7933
+{% endcomment %}

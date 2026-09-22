@@ -57,9 +57,7 @@
                   <img src="{{ media | img_url: '1000x' }}" alt="{{ media.alt }}" />
                 </noscript>
               {% else %}
-                {% include 'interactive-media' with
-                  media: media
-                  video_loop: section.settings.enable_video_looping  %}
+                {% include 'interactive-media' with media, media: media, video_loop: section.settings.enable_video_looping %}
               {% endif %}
             {% else %}
               <img src="//cdn.shopify.com/s/images/themes/product-1.png">
@@ -229,3 +227,17 @@
     ]
   }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% include 'interactive-media' with
+                      media: media
+                      video_loop: section.settings.enable_video_looping  %}
+  to: "{% include 'interactive-media' with media, media: media, video_loop: section.settings.enable_video_looping
+    %}"
+  position: 2306..2415
+{% endcomment %}

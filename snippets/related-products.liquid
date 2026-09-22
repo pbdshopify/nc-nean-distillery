@@ -22,7 +22,7 @@
 {% for product in collection.products limit: number_of_related_products_to_fetch %}
 {%- comment -%} Wholesale Gorilla: do not delete unless app is uninstalled{%- endcomment -%}
 {%- assign wsgTempProd = product -%}{%- assign wsgExclude = false -%}{%- if forloop.first == true -%}{%- assign wsgActive = false -%}{%- assign wsgActiveCustomer = false -%}
-{%- include 'wsg-status' wsgStatusAction: 'init' | strip -%}{%- endif -%}{%- if wsgActive -%}{%- include 'wsg-status' wsgStatusAction: 'col-item' | strip -%}{%- endif -%}{%- if wsgExclude -%} {%- continue -%} {%- endif -%}
+{%- include 'wsg-status', wsgStatusAction: 'init' -%}{%- endif -%}{%- if wsgActive -%}{%- include 'wsg-status', wsgStatusAction: 'col-item' -%}{%- endif -%}{%- if wsgExclude -%} {%- continue -%} {%- endif -%}
 {%- comment -%} end WSG {%- endcomment -%}
   {% if product.handle == current_product.handle %}
     {% assign current_product_found = true %}
@@ -35,4 +35,16 @@
 
 </div>
 
-{% endif %}
+{% endif %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- include 'wsg-status' wsgStatusAction: 'init' | strip -%}"
+  to: "{%- include 'wsg-status', wsgStatusAction: 'init' -%}"
+  position: 1198..1251
+- from: "{%- include 'wsg-status' wsgStatusAction: 'col-item' | strip -%}"
+  to: "{%- include 'wsg-status', wsgStatusAction: 'col-item' -%}"
+  position: 1284..1341
+{%- endcomment -%}
